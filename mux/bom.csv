@@ -1,0 +1,6 @@
+Quantity,Description,Manufacturer,MPN,Supplier,SPN
+1,4-way screw terminal,Phoenix Contact,1778001,Farnell,1792834
+1,4-way receptical,Phoenix Contact,1776524,Mouser,651-1776524
+1,microcontroller,Arduino,Genuino Micro,,,
+4,i2c i/o expander,NXP,8574A,,,
+64,8xSPST switch,Maxim,MAX14662,,,

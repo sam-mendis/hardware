@@ -1,0 +1,804 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:8x1probe-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X02 P?
+U 1 1 58093212
+P 6650 1450
+F 0 "P?" H 6650 1600 50  0000 C CNN
+F 1 "DEV_1" V 6750 1450 50  0000 C CNN
+F 2 "" H 6650 1450 50  0000 C CNN
+F 3 "" H 6650 1450 50  0000 C CNN
+	1    6650 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 58093218
+P 6950 1450
+F 0 "P?" H 6950 1600 50  0000 C CNN
+F 1 "DEV_2" V 7050 1450 50  0000 C CNN
+F 2 "" H 6950 1450 50  0000 C CNN
+F 3 "" H 6950 1450 50  0000 C CNN
+	1    6950 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5809321E
+P 7250 1450
+F 0 "P?" H 7250 1600 50  0000 C CNN
+F 1 "DEV_3" V 7350 1450 50  0000 C CNN
+F 2 "" H 7250 1450 50  0000 C CNN
+F 3 "" H 7250 1450 50  0000 C CNN
+	1    7250 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 58093224
+P 6500 1150
+F 0 "P?" H 6500 1300 50  0000 C CNN
+F 1 "TC_L" V 6600 1150 50  0000 C CNN
+F 2 "" H 6500 1150 50  0000 C CNN
+F 3 "" H 6500 1150 50  0000 C CNN
+	1    6500 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5809322A
+P 6350 1450
+F 0 "P?" H 6350 1600 50  0000 C CNN
+F 1 "DEV_4" V 6450 1450 50  0000 C CNN
+F 2 "" H 6350 1450 50  0000 C CNN
+F 3 "" H 6350 1450 50  0000 C CNN
+	1    6350 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 58093230
+P 7100 1150
+F 0 "P?" H 7100 1300 50  0000 C CNN
+F 1 "TC_R" V 7200 1150 50  0000 C CNN
+F 2 "" H 7100 1150 50  0000 C CNN
+F 3 "" H 7100 1150 50  0000 C CNN
+	1    7100 1150
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	6100 1550 7450 1550
+Wire Notes Line
+	7450 1550 7450 1050
+Wire Notes Line
+	7450 1050 6100 1050
+Wire Notes Line
+	6100 1050 6100 1550
+Text Notes 6050 1550 1    60   ~ 0
+Substrate C
+$Comp
+L CONN_01X02 P?
+U 1 1 5809323B
+P 8550 1450
+F 0 "P?" H 8550 1600 50  0000 C CNN
+F 1 "DEV_1" V 8650 1450 50  0000 C CNN
+F 2 "" H 8550 1450 50  0000 C CNN
+F 3 "" H 8550 1450 50  0000 C CNN
+	1    8550 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 58093241
+P 8850 1450
+F 0 "P?" H 8850 1600 50  0000 C CNN
+F 1 "DEV_2" V 8950 1450 50  0000 C CNN
+F 2 "" H 8850 1450 50  0000 C CNN
+F 3 "" H 8850 1450 50  0000 C CNN
+	1    8850 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 58093247
+P 9150 1450
+F 0 "P?" H 9150 1600 50  0000 C CNN
+F 1 "DEV_3" V 9250 1450 50  0000 C CNN
+F 2 "" H 9150 1450 50  0000 C CNN
+F 3 "" H 9150 1450 50  0000 C CNN
+	1    9150 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5809324D
+P 8400 1150
+F 0 "P?" H 8400 1300 50  0000 C CNN
+F 1 "TC_L" V 8500 1150 50  0000 C CNN
+F 2 "" H 8400 1150 50  0000 C CNN
+F 3 "" H 8400 1150 50  0000 C CNN
+	1    8400 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 58093253
+P 8250 1450
+F 0 "P?" H 8250 1600 50  0000 C CNN
+F 1 "DEV_4" V 8350 1450 50  0000 C CNN
+F 2 "" H 8250 1450 50  0000 C CNN
+F 3 "" H 8250 1450 50  0000 C CNN
+	1    8250 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 58093259
+P 9000 1150
+F 0 "P?" H 9000 1300 50  0000 C CNN
+F 1 "TC_R" V 9100 1150 50  0000 C CNN
+F 2 "" H 9000 1150 50  0000 C CNN
+F 3 "" H 9000 1150 50  0000 C CNN
+	1    9000 1150
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	8000 1550 9350 1550
+Wire Notes Line
+	9350 1550 9350 1050
+Wire Notes Line
+	9350 1050 8000 1050
+Wire Notes Line
+	8000 1050 8000 1550
+Text Notes 7950 1550 1    60   ~ 0
+Substrate D
+$Comp
+L CONN_01X02 P?
+U 1 1 58093264
+P 2850 1450
+F 0 "P?" H 2850 1600 50  0000 C CNN
+F 1 "DEV_1" V 2950 1450 50  0000 C CNN
+F 2 "" H 2850 1450 50  0000 C CNN
+F 3 "" H 2850 1450 50  0000 C CNN
+	1    2850 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5809326A
+P 3150 1450
+F 0 "P?" H 3150 1600 50  0000 C CNN
+F 1 "DEV_2" V 3250 1450 50  0000 C CNN
+F 2 "" H 3150 1450 50  0000 C CNN
+F 3 "" H 3150 1450 50  0000 C CNN
+	1    3150 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 58093270
+P 3450 1450
+F 0 "P?" H 3450 1600 50  0000 C CNN
+F 1 "DEV_3" V 3550 1450 50  0000 C CNN
+F 2 "" H 3450 1450 50  0000 C CNN
+F 3 "" H 3450 1450 50  0000 C CNN
+	1    3450 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 58093276
+P 2700 1150
+F 0 "P?" H 2700 1300 50  0000 C CNN
+F 1 "TC_L" V 2800 1150 50  0000 C CNN
+F 2 "" H 2700 1150 50  0000 C CNN
+F 3 "" H 2700 1150 50  0000 C CNN
+	1    2700 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5809327C
+P 2550 1450
+F 0 "P?" H 2550 1600 50  0000 C CNN
+F 1 "DEV_4" V 2650 1450 50  0000 C CNN
+F 2 "" H 2550 1450 50  0000 C CNN
+F 3 "" H 2550 1450 50  0000 C CNN
+	1    2550 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 58093282
+P 3300 1150
+F 0 "P?" H 3300 1300 50  0000 C CNN
+F 1 "TC_R" V 3400 1150 50  0000 C CNN
+F 2 "" H 3300 1150 50  0000 C CNN
+F 3 "" H 3300 1150 50  0000 C CNN
+	1    3300 1150
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	2300 1550 3650 1550
+Wire Notes Line
+	3650 1550 3650 1050
+Wire Notes Line
+	3650 1050 2300 1050
+Wire Notes Line
+	2300 1050 2300 1550
+Text Notes 2250 1550 1    60   ~ 0
+Substrate A
+$Comp
+L CONN_01X02 P?
+U 1 1 5809328D
+P 4750 1450
+F 0 "P?" H 4750 1600 50  0000 C CNN
+F 1 "DEV_1" V 4850 1450 50  0000 C CNN
+F 2 "" H 4750 1450 50  0000 C CNN
+F 3 "" H 4750 1450 50  0000 C CNN
+	1    4750 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 58093293
+P 5050 1450
+F 0 "P?" H 5050 1600 50  0000 C CNN
+F 1 "DEV_2" V 5150 1450 50  0000 C CNN
+F 2 "" H 5050 1450 50  0000 C CNN
+F 3 "" H 5050 1450 50  0000 C CNN
+	1    5050 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 58093299
+P 5350 1450
+F 0 "P?" H 5350 1600 50  0000 C CNN
+F 1 "DEV_3" V 5450 1450 50  0000 C CNN
+F 2 "" H 5350 1450 50  0000 C CNN
+F 3 "" H 5350 1450 50  0000 C CNN
+	1    5350 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5809329F
+P 4600 1150
+F 0 "P?" H 4600 1300 50  0000 C CNN
+F 1 "TC_L" V 4700 1150 50  0000 C CNN
+F 2 "" H 4600 1150 50  0000 C CNN
+F 3 "" H 4600 1150 50  0000 C CNN
+	1    4600 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 580932A5
+P 4450 1450
+F 0 "P?" H 4450 1600 50  0000 C CNN
+F 1 "DEV_4" V 4550 1450 50  0000 C CNN
+F 2 "" H 4450 1450 50  0000 C CNN
+F 3 "" H 4450 1450 50  0000 C CNN
+	1    4450 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 580932AB
+P 5200 1150
+F 0 "P?" H 5200 1300 50  0000 C CNN
+F 1 "TC_R" V 5300 1150 50  0000 C CNN
+F 2 "" H 5200 1150 50  0000 C CNN
+F 3 "" H 5200 1150 50  0000 C CNN
+	1    5200 1150
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	4200 1550 5550 1550
+Wire Notes Line
+	5550 1550 5550 1050
+Wire Notes Line
+	5550 1050 4200 1050
+Wire Notes Line
+	4200 1050 4200 1550
+Text Notes 4150 1550 1    60   ~ 0
+Substrate B
+$Comp
+L CONN_01X02 P?
+U 1 1 5809C393
+P 4950 5500
+F 0 "P?" H 4950 5650 50  0000 C CNN
+F 1 "DEV_1" V 5050 5500 50  0000 C CNN
+F 2 "" H 4950 5500 50  0000 C CNN
+F 3 "" H 4950 5500 50  0000 C CNN
+	1    4950 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5809C399
+P 4650 5500
+F 0 "P?" H 4650 5650 50  0000 C CNN
+F 1 "DEV_2" V 4750 5500 50  0000 C CNN
+F 2 "" H 4650 5500 50  0000 C CNN
+F 3 "" H 4650 5500 50  0000 C CNN
+	1    4650 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5809C39F
+P 4350 5500
+F 0 "P?" H 4350 5650 50  0000 C CNN
+F 1 "DEV_3" V 4450 5500 50  0000 C CNN
+F 2 "" H 4350 5500 50  0000 C CNN
+F 3 "" H 4350 5500 50  0000 C CNN
+	1    4350 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5809C3A5
+P 5100 5800
+F 0 "P?" H 5100 5950 50  0000 C CNN
+F 1 "TC_L" V 5200 5800 50  0000 C CNN
+F 2 "" H 5100 5800 50  0000 C CNN
+F 3 "" H 5100 5800 50  0000 C CNN
+	1    5100 5800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5809C3AB
+P 5250 5500
+F 0 "P?" H 5250 5650 50  0000 C CNN
+F 1 "DEV_4" V 5350 5500 50  0000 C CNN
+F 2 "" H 5250 5500 50  0000 C CNN
+F 3 "" H 5250 5500 50  0000 C CNN
+	1    5250 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5809C3B1
+P 4500 5800
+F 0 "P?" H 4500 5950 50  0000 C CNN
+F 1 "TC_R" V 4600 5800 50  0000 C CNN
+F 2 "" H 4500 5800 50  0000 C CNN
+F 3 "" H 4500 5800 50  0000 C CNN
+	1    4500 5800
+	0    -1   -1   0   
+$EndComp
+Wire Notes Line
+	5500 5400 4150 5400
+Wire Notes Line
+	4150 5400 4150 5900
+Wire Notes Line
+	4150 5900 5500 5900
+Wire Notes Line
+	5500 5900 5500 5400
+Text Notes 5610 5400 3    60   ~ 0
+Substrate F
+$Comp
+L CONN_01X02 P?
+U 1 1 5809C3BC
+P 3050 5500
+F 0 "P?" H 3050 5650 50  0000 C CNN
+F 1 "DEV_1" V 3150 5500 50  0000 C CNN
+F 2 "" H 3050 5500 50  0000 C CNN
+F 3 "" H 3050 5500 50  0000 C CNN
+	1    3050 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5809C3C2
+P 2750 5500
+F 0 "P?" H 2750 5650 50  0000 C CNN
+F 1 "DEV_2" V 2850 5500 50  0000 C CNN
+F 2 "" H 2750 5500 50  0000 C CNN
+F 3 "" H 2750 5500 50  0000 C CNN
+	1    2750 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5809C3C8
+P 2450 5500
+F 0 "P?" H 2450 5650 50  0000 C CNN
+F 1 "DEV_3" V 2550 5500 50  0000 C CNN
+F 2 "" H 2450 5500 50  0000 C CNN
+F 3 "" H 2450 5500 50  0000 C CNN
+	1    2450 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5809C3CE
+P 3200 5800
+F 0 "P?" H 3200 5950 50  0000 C CNN
+F 1 "TC_L" V 3300 5800 50  0000 C CNN
+F 2 "" H 3200 5800 50  0000 C CNN
+F 3 "" H 3200 5800 50  0000 C CNN
+	1    3200 5800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5809C3D4
+P 3350 5500
+F 0 "P?" H 3350 5650 50  0000 C CNN
+F 1 "DEV_4" V 3450 5500 50  0000 C CNN
+F 2 "" H 3350 5500 50  0000 C CNN
+F 3 "" H 3350 5500 50  0000 C CNN
+	1    3350 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5809C3DA
+P 2600 5800
+F 0 "P?" H 2600 5950 50  0000 C CNN
+F 1 "TC_R" V 2700 5800 50  0000 C CNN
+F 2 "" H 2600 5800 50  0000 C CNN
+F 3 "" H 2600 5800 50  0000 C CNN
+	1    2600 5800
+	0    -1   -1   0   
+$EndComp
+Wire Notes Line
+	3600 5400 2250 5400
+Wire Notes Line
+	2250 5400 2250 5900
+Wire Notes Line
+	2250 5900 3600 5900
+Wire Notes Line
+	3600 5900 3600 5400
+Text Notes 3710 5400 3    60   ~ 0
+Substrate E
+$Comp
+L CONN_01X02 P?
+U 1 1 5809C3E5
+P 8750 5500
+F 0 "P?" H 8750 5650 50  0000 C CNN
+F 1 "DEV_1" V 8850 5500 50  0000 C CNN
+F 2 "" H 8750 5500 50  0000 C CNN
+F 3 "" H 8750 5500 50  0000 C CNN
+	1    8750 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5809C3EB
+P 8450 5500
+F 0 "P?" H 8450 5650 50  0000 C CNN
+F 1 "DEV_2" V 8550 5500 50  0000 C CNN
+F 2 "" H 8450 5500 50  0000 C CNN
+F 3 "" H 8450 5500 50  0000 C CNN
+	1    8450 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5809C3F1
+P 8150 5500
+F 0 "P?" H 8150 5650 50  0000 C CNN
+F 1 "DEV_3" V 8250 5500 50  0000 C CNN
+F 2 "" H 8150 5500 50  0000 C CNN
+F 3 "" H 8150 5500 50  0000 C CNN
+	1    8150 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5809C3F7
+P 8900 5800
+F 0 "P?" H 8900 5950 50  0000 C CNN
+F 1 "TC_L" V 9000 5800 50  0000 C CNN
+F 2 "" H 8900 5800 50  0000 C CNN
+F 3 "" H 8900 5800 50  0000 C CNN
+	1    8900 5800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5809C3FD
+P 9050 5500
+F 0 "P?" H 9050 5650 50  0000 C CNN
+F 1 "DEV_4" V 9150 5500 50  0000 C CNN
+F 2 "" H 9050 5500 50  0000 C CNN
+F 3 "" H 9050 5500 50  0000 C CNN
+	1    9050 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5809C403
+P 8300 5800
+F 0 "P?" H 8300 5950 50  0000 C CNN
+F 1 "TC_R" V 8400 5800 50  0000 C CNN
+F 2 "" H 8300 5800 50  0000 C CNN
+F 3 "" H 8300 5800 50  0000 C CNN
+	1    8300 5800
+	0    -1   -1   0   
+$EndComp
+Wire Notes Line
+	9300 5400 7950 5400
+Wire Notes Line
+	7950 5400 7950 5900
+Wire Notes Line
+	7950 5900 9300 5900
+Wire Notes Line
+	9300 5900 9300 5400
+Text Notes 9410 5400 3    60   ~ 0
+Substrate H
+$Comp
+L CONN_01X02 P?
+U 1 1 5809C40E
+P 6850 5500
+F 0 "P?" H 6850 5650 50  0000 C CNN
+F 1 "DEV_1" V 6950 5500 50  0000 C CNN
+F 2 "" H 6850 5500 50  0000 C CNN
+F 3 "" H 6850 5500 50  0000 C CNN
+	1    6850 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5809C414
+P 6550 5500
+F 0 "P?" H 6550 5650 50  0000 C CNN
+F 1 "DEV_2" V 6650 5500 50  0000 C CNN
+F 2 "" H 6550 5500 50  0000 C CNN
+F 3 "" H 6550 5500 50  0000 C CNN
+	1    6550 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5809C41A
+P 6250 5500
+F 0 "P?" H 6250 5650 50  0000 C CNN
+F 1 "DEV_3" V 6350 5500 50  0000 C CNN
+F 2 "" H 6250 5500 50  0000 C CNN
+F 3 "" H 6250 5500 50  0000 C CNN
+	1    6250 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5809C420
+P 7000 5800
+F 0 "P?" H 7000 5950 50  0000 C CNN
+F 1 "TC_L" V 7100 5800 50  0000 C CNN
+F 2 "" H 7000 5800 50  0000 C CNN
+F 3 "" H 7000 5800 50  0000 C CNN
+	1    7000 5800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5809C426
+P 7150 5500
+F 0 "P?" H 7150 5650 50  0000 C CNN
+F 1 "DEV_4" V 7250 5500 50  0000 C CNN
+F 2 "" H 7150 5500 50  0000 C CNN
+F 3 "" H 7150 5500 50  0000 C CNN
+	1    7150 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5809C42C
+P 6400 5800
+F 0 "P?" H 6400 5950 50  0000 C CNN
+F 1 "TC_R" V 6500 5800 50  0000 C CNN
+F 2 "" H 6400 5800 50  0000 C CNN
+F 3 "" H 6400 5800 50  0000 C CNN
+	1    6400 5800
+	0    -1   -1   0   
+$EndComp
+Wire Notes Line
+	7400 5400 6050 5400
+Wire Notes Line
+	6050 5400 6050 5900
+Wire Notes Line
+	6050 5900 7400 5900
+Wire Notes Line
+	7400 5900 7400 5400
+Text Notes 7510 5400 3    60   ~ 0
+Substrate G
+$Comp
+L CONN_02X08 P?
+U 1 1 580A45F9
+P 1150 7150
+F 0 "P?" H 1150 7600 50  0000 C CNN
+F 1 "TC_I" V 1150 7150 50  0000 C CNN
+F 2 "" H 1150 5950 50  0000 C CNN
+F 3 "" H 1150 5950 50  0000 C CNN
+	1    1150 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X08 P?
+U 1 1 580A5A21
+P 2350 7150
+F 0 "P?" H 2350 7600 50  0000 C CNN
+F 1 "TC_V" V 2350 7150 50  0000 C CNN
+F 2 "" H 2350 5950 50  0000 C CNN
+F 3 "" H 2350 5950 50  0000 C CNN
+	1    2350 7150
+	1    0    0    -1  
+$EndComp
+Text GLabel 2650 950  1    60   Input ~ 0
+AL_I
+Text GLabel 2750 950  1    60   Input ~ 0
+AL_V
+Text GLabel 3250 950  1    60   Input ~ 0
+AR_I
+Text GLabel 3350 950  1    60   Input ~ 0
+AR_V
+Text GLabel 4550 950  1    60   Input ~ 0
+BL_I
+Text GLabel 4650 950  1    60   Input ~ 0
+AR_V
+Text GLabel 5150 950  1    60   Input ~ 0
+BL_I
+Text GLabel 5250 950  1    60   Input ~ 0
+BR_V
+Text GLabel 6450 950  1    60   Input ~ 0
+CL_I
+Text GLabel 6550 950  1    60   Input ~ 0
+CR_V
+Text GLabel 7050 950  1    60   Input ~ 0
+CL_I
+Text GLabel 7150 950  1    60   Input ~ 0
+CR_V
+Text GLabel 8350 950  1    60   Input ~ 0
+DL_I
+Text GLabel 8450 950  1    60   Input ~ 0
+DR_V
+Text GLabel 8950 950  1    60   Input ~ 0
+DL_I
+Text GLabel 9050 950  1    60   Input ~ 0
+DR_V
+Text GLabel 2550 6000 3    60   Input ~ 0
+ER_V
+Text GLabel 2650 6000 3    60   Input ~ 0
+EL_I
+Text GLabel 3150 6000 3    60   Input ~ 0
+ER_V
+Text GLabel 3250 6000 3    60   Input ~ 0
+EL_I
+Text GLabel 4450 6000 3    60   Input ~ 0
+FR_V
+Text GLabel 4550 6000 3    60   Input ~ 0
+FL_I
+Text GLabel 5050 6000 3    60   Input ~ 0
+FR_V
+Text GLabel 5150 6000 3    60   Input ~ 0
+FL_I
+Text GLabel 6450 6000 3    60   Input ~ 0
+GL_I
+Text GLabel 6350 6000 3    60   Input ~ 0
+GR_V
+Text GLabel 6950 6000 3    60   Input ~ 0
+GR_V
+Text GLabel 7050 6000 3    60   Input ~ 0
+GL_I
+Text GLabel 8250 6000 3    60   Input ~ 0
+HR_V
+Text GLabel 8350 6000 3    60   Input ~ 0
+HL_I
+Text GLabel 8850 6000 3    60   Input ~ 0
+HR_V
+Text GLabel 8950 6000 3    60   Input ~ 0
+HL_I
+Text GLabel 900  6800 0    60   Input ~ 0
+AR_I
+Text GLabel 900  6900 0    60   Input ~ 0
+BR_I
+Text GLabel 900  7000 0    60   Input ~ 0
+CR_I
+Text GLabel 900  7100 0    60   Input ~ 0
+DR_I
+Text GLabel 900  7400 0    60   Input ~ 0
+GR_I
+Text GLabel 900  7500 0    60   Input ~ 0
+HR_I
+Text GLabel 900  7200 0    60   Input ~ 0
+ER_I
+Text GLabel 900  7300 0    60   Input ~ 0
+FR_I
+Text GLabel 2100 6800 0    60   Input ~ 0
+AR_V
+Text GLabel 2100 6900 0    60   Input ~ 0
+BR_V
+Text GLabel 2100 7000 0    60   Input ~ 0
+CR_V
+Text GLabel 2100 7100 0    60   Input ~ 0
+DR_V
+Text GLabel 2100 7400 0    60   Input ~ 0
+GR_V
+Text GLabel 2100 7500 0    60   Input ~ 0
+HR_V
+Text GLabel 2100 7200 0    60   Input ~ 0
+ER_V
+Text GLabel 2100 7300 0    60   Input ~ 0
+FR_V
+Text GLabel 2600 7500 2    60   Input ~ 0
+HL_V
+Text GLabel 2600 7400 2    60   Input ~ 0
+GL_V
+Text GLabel 2600 7300 2    60   Input ~ 0
+FL_V
+Text GLabel 2600 7200 2    60   Input ~ 0
+EL_V
+Text GLabel 2600 6900 2    60   Input ~ 0
+BL_V
+Text GLabel 2600 6800 2    60   Input ~ 0
+AL_V
+Text GLabel 2600 7100 2    60   Input ~ 0
+DL_V
+Text GLabel 2600 7000 2    60   Input ~ 0
+CL_V
+Text GLabel 1400 7500 2    60   Input ~ 0
+HL_I
+Text GLabel 1400 7400 2    60   Input ~ 0
+GL_I
+Text GLabel 1400 7300 2    60   Input ~ 0
+FL_I
+Text GLabel 1400 7200 2    60   Input ~ 0
+EL_I
+Text GLabel 1400 6900 2    60   Input ~ 0
+BL_I
+Text GLabel 1400 6800 2    60   Input ~ 0
+AL_I
+Text GLabel 1400 7100 2    60   Input ~ 0
+DL_I
+Text GLabel 1400 7000 2    60   Input ~ 0
+CL_I
+$EndSCHEMATC

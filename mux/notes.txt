@@ -1,0 +1,25 @@
+signal summary:
+5x5 = 25 substrates
+8 devices/substrate = 200 device pads = 400 device lines
+2 TC pads/substrate = 50 TC pads = 100 TC lines
+
+good kicad tut: https://www.youtube.com/watch?v=zK3rDhJqMu0
+
+possible mux parts:
+MAX14724
+MAX14661
+MAX4781
+ADG731 
+ADG725 <--winner?
+32:1 mux or differential 16:1.
+for the 32:1 part: would need 2*(7+1) = 16 parts for the device lines and 2*(2+1)=6 parts for the TC lines = 22 devices, cost 6.6 quids each, 145 quids 
+for the differential 16:1 part: would need 13+1=14 parts for the device lines and 4+1=5 parts for the TC lines = 19 devices, cost 6.6 quids each, 124 quids
+
+MAX14662 <--gateway to sourcemeter bus design? is super simple to code <-- chicken dinner.
+8 by spst
+needs 2*25 = 50 parts for the device lines and 2*7 = 14 parts for the TC lines = 64 devices, 32 unique gpio lines needed, 1.78 quids ea for 113.92 quids total
+
+could then control with Genuino MICRO with 4 8 port i2c i/o expanders: MXP's 8574A
+
+tim used:
+TS5A22362DRCR
