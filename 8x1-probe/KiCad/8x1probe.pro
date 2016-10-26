@@ -1,4 +1,4 @@
-update=Thu 20 Oct 2016 12:45:12 PM BST
+update=Wed 26 Oct 2016 12:43:13 AM BST
 version=1
 last_client=kicad
 [pcbnew]
@@ -56,5 +56,6 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
+LibName30=2x1_pogo_pin
 [general]
 version=1

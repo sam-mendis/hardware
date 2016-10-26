@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2x1_pogo_pin
+D Mill-Max part number 12-22-002-30, pogo-pins
+K connector
+F ../mill-max-spring-pin.pdf
+$ENDCMP
+#
+#End Doc Library
