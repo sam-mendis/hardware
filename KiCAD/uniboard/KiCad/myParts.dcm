@@ -1,0 +1,25 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2x1_pogo_pin
+D Mill-Max part number 12-22-002-30, pogo-pins
+K connector
+$ENDCMP
+#
+$CMP ARDUINO_MICRO
+D Arduino/Genuino Micro
+$ENDCMP
+#
+$CMP LM27762
+D Low-Noise Positive and Negative Output Integrated
+$ENDCMP
+#
+$CMP LTC2345-16
+D Octal, 16-Bit, 200ksps Differential SoftSpan ADC with Wide Input Common Mode Range
+$ENDCMP
+#
+$CMP MAX14662
+D Beyond-the-Rails 8 x SPST, a serially controlled 8 x SPST switch for general purpose signal switching applications
+K switch
+$ENDCMP
+#
+#End Doc Library

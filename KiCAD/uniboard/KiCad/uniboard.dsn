@@ -1,0 +1,186 @@
+(pcb "/home/grey/git/solar-sim-electronics/uniboard/KiCad/uniboard.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "4.0.4-stable")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  117500 -118000  117240 -117977  116987 -117910  116750 -117799
+            116536 -117649  116351 -117464  116201 -117250  116090 -117013
+            116023 -116760  116000 -116500  116000 -68500  116023 -68239.5
+            116090 -67987  116201 -67750  116351 -67535.8  116536 -67350.9
+            116750 -67201  116987 -67090.5  117240 -67022.8  117500 -67000
+            151500 -67000  151760 -67022.8  152013 -67090.5  152250 -67201
+            152464 -67350.9  152649 -67535.8  152799 -67750  152910 -67987
+            152977 -68239.5  153000 -68500  153000 -116500  152977 -116760
+            152910 -117013  152799 -117250  152649 -117464  152464 -117649
+            152250 -117799  152013 -117910  151760 -117977  151500 -118000
+            117500 -118000  117500 -118000)
+    )
+    (keepout "" (polygon signal 0  123750 -96000  145750 -96000  145750 -74000  123750 -74000
+            123750 -96000  123750 -96000))
+    (via "Via[0-1]_600:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Socket_Strips:Socket_Strip_Straight_2x08
+      (place P9 143400 -114000 front 180 (PN CONN_02X08))
+    )
+    (component myparts:2x1_pogo_pin
+      (place P1 120770 -86270 front 90 (PN 2x1_pogo_pin))
+      (place P2 123500 -71000 front 0 (PN 2x1_pogo_pin))
+      (place P4 133500 -71000 front 0 (PN 2x1_pogo_pin))
+      (place P6 143500 -71000 front 0 (PN 2x1_pogo_pin))
+      (place P8 148770 -86270 front 90 (PN 2x1_pogo_pin))
+      (place P7 143500 -99000 front 0 (PN 2x1_pogo_pin))
+      (place P5 133500 -99000 front 0 (PN 2x1_pogo_pin))
+      (place P3 123500 -99000 front 0 (PN 2x1_pogo_pin))
+    )
+  )
+  (library
+    (image Socket_Strips:Socket_Strip_Straight_2x08
+      (outline (path signal 50  -1750 1750  -1750 -4300))
+      (outline (path signal 50  19550 1750  19550 -4300))
+      (outline (path signal 50  -1750 1750  19550 1750))
+      (outline (path signal 50  -1750 -4300  19550 -4300))
+      (outline (path signal 150  19050 -3810  -1270 -3810))
+      (outline (path signal 150  1270 1270  19050 1270))
+      (outline (path signal 150  19050 -3810  19050 1270))
+      (outline (path signal 150  -1270 -3810  -1270 -1270))
+      (outline (path signal 150  0 1550  -1550 1550))
+      (outline (path signal 150  -1270 -1270  1270 -1270))
+      (outline (path signal 150  1270 -1270  1270 1270))
+      (outline (path signal 150  -1550 1550  -1550 0))
+      (pin Rect[A]Pad_1727.2x1727.2_um 1 0 0)
+      (pin Oval[A]Pad_1727.2x1727.2_um 2 0 -2540)
+      (pin Oval[A]Pad_1727.2x1727.2_um 3 2540 0)
+      (pin Oval[A]Pad_1727.2x1727.2_um 4 2540 -2540)
+      (pin Oval[A]Pad_1727.2x1727.2_um 5 5080 0)
+      (pin Oval[A]Pad_1727.2x1727.2_um 6 5080 -2540)
+      (pin Oval[A]Pad_1727.2x1727.2_um 7 7620 0)
+      (pin Oval[A]Pad_1727.2x1727.2_um 8 7620 -2540)
+      (pin Oval[A]Pad_1727.2x1727.2_um 9 10160 0)
+      (pin Oval[A]Pad_1727.2x1727.2_um 10 10160 -2540)
+      (pin Oval[A]Pad_1727.2x1727.2_um 11 12700 0)
+      (pin Oval[A]Pad_1727.2x1727.2_um 12 12700 -2540)
+      (pin Oval[A]Pad_1727.2x1727.2_um 13 15240 0)
+      (pin Oval[A]Pad_1727.2x1727.2_um 14 15240 -2540)
+      (pin Oval[A]Pad_1727.2x1727.2_um 15 17780 0)
+      (pin Oval[A]Pad_1727.2x1727.2_um 16 17780 -2540)
+    )
+    (image myparts:2x1_pogo_pin
+      (outline (path signal 150  -1016 1270  -1016 -1270))
+      (outline (path signal 150  1270 1270  3810 1270))
+      (outline (path signal 150  3810 1270  3810 -1270))
+      (outline (path signal 150  3810 -1270  1270 -1270))
+      (outline (path signal 150  -1270 1270  -1270 -1270))
+      (outline (path signal 150  -1270 -1270  1270 -1270))
+      (outline (path signal 150  1270 1270  -1270 1270))
+      (pin Round[T]Pad_1830_um 1 0 0)
+      (pin Round[T]Pad_1830_um 2 2540 0)
+    )
+    (padstack Round[T]Pad_1830_um
+      (shape (circle F.Cu 1830))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1727.2x1727.2_um
+      (shape (path F.Cu 1727.2  0 0  0 0))
+      (shape (path B.Cu 1727.2  0 0  0 0))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1727.2x1727.2_um
+      (shape (rect F.Cu -863.6 -863.6 863.6 863.6))
+      (shape (rect B.Cu -863.6 -863.6 863.6 863.6))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:400_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net "/CONN-A15"
+      (pins P9-15 P1-1)
+    )
+    (net "/CONN-A16"
+      (pins P9-16 P1-2)
+    )
+    (net "/CONN-A11"
+      (pins P9-11 P2-1)
+    )
+    (net "/CONN-A12"
+      (pins P9-12 P2-2)
+    )
+    (net "/CONN-A13"
+      (pins P9-13 P3-1)
+    )
+    (net "/CONN-A14"
+      (pins P9-14 P3-2)
+    )
+    (net "/CONN-A7"
+      (pins P9-7 P4-1)
+    )
+    (net "/CONN-A8"
+      (pins P9-8 P4-2)
+    )
+    (net "/CONN-A9"
+      (pins P9-9 P5-1)
+    )
+    (net "/CONN-A10"
+      (pins P9-10 P5-2)
+    )
+    (net "/CONN-A5"
+      (pins P9-5 P6-1)
+    )
+    (net "/CONN-A6"
+      (pins P9-6 P6-2)
+    )
+    (net "/CONN-A3"
+      (pins P9-3 P7-1)
+    )
+    (net "/CONN-A4"
+      (pins P9-4 P7-2)
+    )
+    (net "/CONN-A1"
+      (pins P9-1 P8-1)
+    )
+    (net "/CONN-A2"
+      (pins P9-2 P8-2)
+    )
+    (class kicad_default "" "/CONN-A1" "/CONN-A10" "/CONN-A11" "/CONN-A12"
+      "/CONN-A13" "/CONN-A14" "/CONN-A15" "/CONN-A16" "/CONN-A2" "/CONN-A3"
+      "/CONN-A4" "/CONN-A5" "/CONN-A6" "/CONN-A7" "/CONN-A8" "/CONN-A9"
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

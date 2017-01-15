@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name myparts)(type KiCad)(uri ${KIPRJMOD}/myparts.pretty)(options "")(descr "my parts"))
+  (lib (name arduino)(type KiCad)(uri ${KIPRJMOD}/Socket_Arduino_Micro.pretty)(options "")(descr arduino))
+)

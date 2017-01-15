@@ -1,1 +1,5 @@
 \#*
+*.bck
+*.bak
+*-save.pro
+*-save.kicad_pcb
