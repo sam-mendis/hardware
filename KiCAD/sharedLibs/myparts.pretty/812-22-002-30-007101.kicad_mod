@@ -1,4 +1,4 @@
-(module 2x1_pogo_pin (layer F.Cu) (tedit 5810B7D4)
+(module 812-22-002-30-007101 (layer F.Cu) (tedit 5810B7D4)
   (descr ${KIPRJMOD}/../datasheets/mill-max-spring-pin.pdf)
   (fp_text reference REF** (at 0.25 -2.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -19,7 +19,7 @@
   (fp_line (start 1.27 -1.27) (end -1.27 -1.27) (layer F.SilkS) (width 0.15))
   (pad 1 smd circle (at 0 0) (size 1.83 1.83) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd circle (at 2.54 0) (size 1.83 1.83) (layers F.Cu F.Paste F.Mask))
-  (model ${KIPRJMOD}/myparts.3dshapes/mill-max-812-22-002-30-007101.wrl
+  (model ${KIPRJMOD}/../sharedLibs/myparts.3dshapes/mill-max-812-22-002-30-007101.wrl
     (at (xyz -0.038 -0.05 0.126))
     (scale (xyz 393.7008 393.7008 393.7008))
     (rotate (xyz -90 0 0))
