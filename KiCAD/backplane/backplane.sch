@@ -1211,8 +1211,8 @@ Wire Wire Line
 	-250 1300 -250 1350
 Wire Wire Line
 	-100 1300 -100 1350
-Text Notes -550 1100 0    60   ~ 0
-power flags
+Text Notes -650 1100 0    60   ~ 0
+POWER FLAGS
 $Comp
 L CONN_01X01 P13
 U 1 1 587F240B
@@ -1950,4 +1950,102 @@ F 3 "" H 5350 3450 50  0000 C CNN
 	1    5350 3450
 	0    1    -1   0   
 $EndComp
+$Comp
+L CONN_01X01 P96
+U 1 1 587F4EA3
+P -800 2000
+F 0 "P96" H -800 2100 50  0000 C CNN
+F 1 "CONN_01X01" V -700 2000 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H -800 2000 50  0001 C CNN
+F 3 "" H -800 2000 50  0000 C CNN
+	1    -800 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 P94
+U 1 1 587F4FEE
+P -1300 2000
+F 0 "P94" H -1300 2100 50  0000 C CNN
+F 1 "CONN_01X01" V -1200 2000 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_4.3mm_M4" H -1300 2000 50  0001 C CNN
+F 3 "" H -1300 2000 50  0000 C CNN
+	1    -1300 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 P92
+U 1 1 587F506F
+P -1800 2000
+F 0 "P92" H -1800 2100 50  0000 C CNN
+F 1 "CONN_01X01" V -1700 2000 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H -1800 2000 50  0001 C CNN
+F 3 "" H -1800 2000 50  0000 C CNN
+	1    -1800 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 P97
+U 1 1 587F50F3
+P -800 2450
+F 0 "P97" H -800 2550 50  0000 C CNN
+F 1 "CONN_01X01" V -700 2450 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H -800 2450 50  0001 C CNN
+F 3 "" H -800 2450 50  0000 C CNN
+	1    -800 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 P99
+U 1 1 587F515E
+P -300 2450
+F 0 "P99" H -300 2550 50  0000 C CNN
+F 1 "CONN_01X01" V -200 2450 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H -300 2450 50  0001 C CNN
+F 3 "" H -300 2450 50  0000 C CNN
+	1    -300 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 P98
+U 1 1 587F51CE
+P -300 2000
+F 0 "P98" H -300 2100 50  0000 C CNN
+F 1 "CONN_01X01" V -200 2000 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H -300 2000 50  0001 C CNN
+F 3 "" H -300 2000 50  0000 C CNN
+	1    -300 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 P95
+U 1 1 587F55C2
+P -1300 2450
+F 0 "P95" H -1300 2550 50  0000 C CNN
+F 1 "CONN_01X01" V -1200 2450 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_6mm" H -1300 2450 50  0001 C CNN
+F 3 "" H -1300 2450 50  0000 C CNN
+	1    -1300 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X01 P93
+U 1 1 587F563E
+P -1800 2450
+F 0 "P93" H -1800 2550 50  0000 C CNN
+F 1 "CONN_01X01" V -1700 2450 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_6mm" H -1800 2450 50  0001 C CNN
+F 3 "" H -1800 2450 50  0000 C CNN
+	1    -1800 2450
+	0    -1   -1   0   
+$EndComp
+NoConn ~ -1800 2200
+NoConn ~ -1300 2200
+NoConn ~ -800 2200
+NoConn ~ -300 2200
+NoConn ~ -300 2650
+NoConn ~ -800 2650
+NoConn ~ -1300 2650
+NoConn ~ -1800 2650
+Text Notes -1350 1750 0    60   ~ 0
+MOUNTING HOLES
 $EndSCHEMATC
