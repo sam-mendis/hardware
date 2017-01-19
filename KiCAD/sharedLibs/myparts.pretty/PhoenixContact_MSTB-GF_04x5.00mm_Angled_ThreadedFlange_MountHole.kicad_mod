@@ -59,7 +59,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model /home/grey/git/solar-sim-electronics/uniboard/KiCad/myparts.3dshapes/PhoenixContact_MSTB-GF_04x5.00mm_Angled_ThreadedFlange_MountHole.wrl
+  (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/PhoenixContact_MSTB-GF_04x5.00mm_Angled_ThreadedFlange_MountHole.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

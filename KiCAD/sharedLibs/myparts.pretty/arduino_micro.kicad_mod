@@ -34,7 +34,7 @@
   (pad 1 thru_hole circle (at 0 0 180) (size 2.032 2.032) (drill 1.27) (layers *.Cu *.Mask F.SilkS))
   (pad 3 thru_hole circle (at 15.24 45.72 180) (size 2.032 2.032) (drill 1.27) (layers *.Cu *.Mask F.SilkS))
   (pad 4 thru_hole circle (at 0 45.72 180) (size 2.032 2.032) (drill 1.27) (layers *.Cu *.Mask F.SilkS))
-  (model /home/grey/git/solar-sim-electronics/KiCAD/sharedLibs/myparts.3dshapes/microBoard.wrl
+  (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/microBoard.wrl
     (at (xyz 0 -0.1 0.3))
     (scale (xyz 0.394 0.394 0.394))
     (rotate (xyz -90 0 90))
