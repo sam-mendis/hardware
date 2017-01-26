@@ -1,0 +1,1402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/grey/git/solar-sim-electronics/KiCAD/backplane/backplane.sch</source>
+    <date>Fri 20 Jan 2017 11:25:11 AM GMT</date>
+    <tool>Eeschema 4.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>backplane</title>
+        <company>grey@christoforo.net</company>
+        <rev>v0.21</rev>
+        <date>2017-01-17</date>
+        <source>backplane.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P4">
+      <value>CONN_01X04</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x04_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58768DE1</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_01X17</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x17</footprint>
+      <libsource lib="conn" part="CONN_01X17"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58768DF4</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ARDUINO_MICRO</value>
+      <footprint>myparts:arduino_micro</footprint>
+      <libsource lib="myParts" part="ARDUINO_MICRO"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58768E02</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>CONN_02X04</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_02X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58768F14</tstamp>
+    </comp>
+    <comp ref="P12">
+      <value>CONN_02X04</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_02X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58768F1F</tstamp>
+    </comp>
+    <comp ref="P20">
+      <value>CONN_01X04</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x04_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58768F36</tstamp>
+    </comp>
+    <comp ref="P18">
+      <value>CONN_02X04</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_02X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58768F42</tstamp>
+    </comp>
+    <comp ref="P9">
+      <value>CONN_02X04</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_02X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58768F51</tstamp>
+    </comp>
+    <comp ref="P10">
+      <value>CONN_02X04</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_02X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58768F58</tstamp>
+    </comp>
+    <comp ref="P16">
+      <value>CONN_02X04</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_02X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58768F5F</tstamp>
+    </comp>
+    <comp ref="P17">
+      <value>CONN_02X04</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_02X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58768F66</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_02X04</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_02X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58768F6D</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>BPW21</value>
+      <footprint>myparts:TO-5_2-PIN</footprint>
+      <libsource lib="device" part="D_Photo"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587A78D2</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1M</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587A8F42</tstamp>
+    </comp>
+    <comp ref="CON1">
+      <value>AVR-JTAG-10</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm</footprint>
+      <libsource lib="atmel" part="AVR-JTAG-10"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587A937A</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>70K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587AE3F9</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>30K</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587AE978</tstamp>
+    </comp>
+    <comp ref="P21">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587B26C2</tstamp>
+    </comp>
+    <comp ref="P23">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587B39BA</tstamp>
+    </comp>
+    <comp ref="P22">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587B3ADC</tstamp>
+    </comp>
+    <comp ref="P24">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E3DFA</tstamp>
+    </comp>
+    <comp ref="P25">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4AAD</tstamp>
+    </comp>
+    <comp ref="P26">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4B0F</tstamp>
+    </comp>
+    <comp ref="P27">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4B71</tstamp>
+    </comp>
+    <comp ref="P28">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4BD3</tstamp>
+    </comp>
+    <comp ref="P29">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4C35</tstamp>
+    </comp>
+    <comp ref="P30">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4C97</tstamp>
+    </comp>
+    <comp ref="P31">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4CF9</tstamp>
+    </comp>
+    <comp ref="P32">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E4D5B</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>CONN_01X17</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x17</footprint>
+      <libsource lib="conn" part="CONN_01X17"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58768DFB</tstamp>
+    </comp>
+    <comp ref="P13">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F240B</tstamp>
+    </comp>
+    <comp ref="P33">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F2411</tstamp>
+    </comp>
+    <comp ref="P34">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F2417</tstamp>
+    </comp>
+    <comp ref="P35">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F241D</tstamp>
+    </comp>
+    <comp ref="P36">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F2423</tstamp>
+    </comp>
+    <comp ref="P37">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F2429</tstamp>
+    </comp>
+    <comp ref="P38">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F242F</tstamp>
+    </comp>
+    <comp ref="P39">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F2435</tstamp>
+    </comp>
+    <comp ref="P40">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F243B</tstamp>
+    </comp>
+    <comp ref="P50">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F2917</tstamp>
+    </comp>
+    <comp ref="P51">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F291D</tstamp>
+    </comp>
+    <comp ref="P52">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F2923</tstamp>
+    </comp>
+    <comp ref="P53">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F2929</tstamp>
+    </comp>
+    <comp ref="P54">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F292F</tstamp>
+    </comp>
+    <comp ref="P55">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F2935</tstamp>
+    </comp>
+    <comp ref="P56">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F293B</tstamp>
+    </comp>
+    <comp ref="P57">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F2941</tstamp>
+    </comp>
+    <comp ref="P58">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F2947</tstamp>
+    </comp>
+    <comp ref="P41">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F29BD</tstamp>
+    </comp>
+    <comp ref="P42">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F29C3</tstamp>
+    </comp>
+    <comp ref="P43">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F29C9</tstamp>
+    </comp>
+    <comp ref="P44">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F29CF</tstamp>
+    </comp>
+    <comp ref="P45">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F29D5</tstamp>
+    </comp>
+    <comp ref="P46">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F29DB</tstamp>
+    </comp>
+    <comp ref="P47">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F29E1</tstamp>
+    </comp>
+    <comp ref="P48">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F29E7</tstamp>
+    </comp>
+    <comp ref="P49">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F29ED</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F4A93</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F4A99</tstamp>
+    </comp>
+    <comp ref="P14">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F4A9F</tstamp>
+    </comp>
+    <comp ref="P19">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F4AA5</tstamp>
+    </comp>
+    <comp ref="P60">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F4AAB</tstamp>
+    </comp>
+    <comp ref="P62">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F4AB1</tstamp>
+    </comp>
+    <comp ref="P64">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F4AB7</tstamp>
+    </comp>
+    <comp ref="P66">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F4ABD</tstamp>
+    </comp>
+    <comp ref="P68">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F4AC3</tstamp>
+    </comp>
+    <comp ref="P70">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F4B5F</tstamp>
+    </comp>
+    <comp ref="P72">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F4DEC</tstamp>
+    </comp>
+    <comp ref="P74">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F4DF2</tstamp>
+    </comp>
+    <comp ref="P76">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F4DF8</tstamp>
+    </comp>
+    <comp ref="P78">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F4DFE</tstamp>
+    </comp>
+    <comp ref="P80">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F4E04</tstamp>
+    </comp>
+    <comp ref="P82">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F4E0A</tstamp>
+    </comp>
+    <comp ref="P84">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F4E10</tstamp>
+    </comp>
+    <comp ref="P86">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F4E16</tstamp>
+    </comp>
+    <comp ref="P88">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F4E1C</tstamp>
+    </comp>
+    <comp ref="P90">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F4E22</tstamp>
+    </comp>
+    <comp ref="P73">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F50FD</tstamp>
+    </comp>
+    <comp ref="P75">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F5103</tstamp>
+    </comp>
+    <comp ref="P77">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F5109</tstamp>
+    </comp>
+    <comp ref="P79">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F510F</tstamp>
+    </comp>
+    <comp ref="P81">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F5115</tstamp>
+    </comp>
+    <comp ref="P83">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F511B</tstamp>
+    </comp>
+    <comp ref="P85">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F5121</tstamp>
+    </comp>
+    <comp ref="P87">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F5127</tstamp>
+    </comp>
+    <comp ref="P89">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F512D</tstamp>
+    </comp>
+    <comp ref="P91">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F5133</tstamp>
+    </comp>
+    <comp ref="P71">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F519D</tstamp>
+    </comp>
+    <comp ref="P69">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F51A3</tstamp>
+    </comp>
+    <comp ref="P67">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F51A9</tstamp>
+    </comp>
+    <comp ref="P65">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F51AF</tstamp>
+    </comp>
+    <comp ref="P63">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F51B5</tstamp>
+    </comp>
+    <comp ref="P61">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F51BB</tstamp>
+    </comp>
+    <comp ref="P59">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F51C1</tstamp>
+    </comp>
+    <comp ref="P15">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F51C7</tstamp>
+    </comp>
+    <comp ref="P11">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F51CD</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>CONN_01X01</value>
+      <footprint>myparts:4994-0-15-15-11-27-10-0</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F51D3</tstamp>
+    </comp>
+    <comp ref="P96">
+      <value>CONN_01X01</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3_Pad</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F4EA3</tstamp>
+    </comp>
+    <comp ref="P94">
+      <value>CONN_01X01</value>
+      <footprint>Mounting_Holes:MountingHole_4.3mm_M4</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F4FEE</tstamp>
+    </comp>
+    <comp ref="P92">
+      <value>CONN_01X01</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3_Pad</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F506F</tstamp>
+    </comp>
+    <comp ref="P97">
+      <value>CONN_01X01</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3_Pad</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F50F3</tstamp>
+    </comp>
+    <comp ref="P99">
+      <value>CONN_01X01</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3_Pad</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F515E</tstamp>
+    </comp>
+    <comp ref="P98">
+      <value>CONN_01X01</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3_Pad</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F51CE</tstamp>
+    </comp>
+    <comp ref="P95">
+      <value>CONN_01X01</value>
+      <footprint>Mounting_Holes:MountingHole_6mm</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F55C2</tstamp>
+    </comp>
+    <comp ref="P93">
+      <value>CONN_01X01</value>
+      <footprint>Mounting_Holes:MountingHole_6mm</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587F563E</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="myParts" part="ARDUINO_MICRO">
+      <footprints>
+        <fp>arduino_micro</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ARDUINO_MICRO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NW_MOUNT" type="NotConnected"/>
+        <pin num="2" name="NE_MOUNT" type="NotConnected"/>
+        <pin num="3" name="SE_MOUNT" type="NotConnected"/>
+        <pin num="4" name="SW_MOUNT" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="atmel" part="AVR-JTAG-10">
+      <description>Standard IDC10 Male Connector, ATMEL JTAG ICE mkI/mkII</description>
+      <footprints>
+        <fp>AVR-JTAG-10</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">AVR-JTAG-10</field>
+        <field name="Footprint">AVR-JTAG-10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="9" name="~" type="passive"/>
+        <pin num="10" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X01">
+      <description>Connector, single row, 01x01</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X01</fp>
+        <fp>Pin_Header_Angled_1X01</fp>
+        <fp>Socket_Strip_Straight_1X01</fp>
+        <fp>Socket_Strip_Angled_1X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector, single row, 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <description>Connector, single row, 01x04</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X17">
+      <description>Connector, single row, 01x17</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X17</fp>
+        <fp>Pin_Header_Angled_1X17</fp>
+        <fp>Socket_Strip_Straight_1X17</fp>
+        <fp>Socket_Strip_Angled_1X17</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X17</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X04">
+      <description>Connector, double row, 02x04</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X04</fp>
+        <fp>Pin_Header_Angled_2X04</fp>
+        <fp>Socket_Strip_Straight_2X04</fp>
+        <fp>Socket_Strip_Angled_2X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Photo">
+      <description>Photodiode</description>
+      <footprints>
+        <fp>*photodiode*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Photo</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="atmel">
+      <uri>/usr/share/kicad/library/atmel.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="myParts">
+      <uri>/home/grey/git/solar-sim-electronics/KiCAD/backplane/sharedLibs/myParts.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/9(**/A9)">
+      <node ref="P2" pin="14"/>
+    </net>
+    <net code="2" name="/AREF">
+      <node ref="P3" pin="15"/>
+    </net>
+    <net code="3" name="/A4">
+      <node ref="P3" pin="10"/>
+    </net>
+    <net code="4" name="/A5">
+      <node ref="P3" pin="9"/>
+    </net>
+    <net code="5" name="/1(Tx1)">
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="6" name="/0(Rx1)">
+      <node ref="P2" pin="4"/>
+    </net>
+    <net code="7" name="/4(A6)">
+      <node ref="P2" pin="9"/>
+    </net>
+    <net code="8" name="/5(**)">
+      <node ref="P2" pin="10"/>
+    </net>
+    <net code="9" name="/6(**/A7)">
+      <node ref="P2" pin="11"/>
+    </net>
+    <net code="10" name="/13(**)">
+      <node ref="P3" pin="17"/>
+    </net>
+    <net code="11" name="/10(A10)">
+      <node ref="P2" pin="15"/>
+    </net>
+    <net code="12" name="/11(**)">
+      <node ref="P2" pin="16"/>
+    </net>
+    <net code="13" name="/12(A11)">
+      <node ref="P2" pin="17"/>
+    </net>
+    <net code="14" name="/Vin">
+      <node ref="P3" pin="3"/>
+    </net>
+    <net code="15" name="Net-(P28-Pad1)">
+      <node ref="P28" pin="1"/>
+    </net>
+    <net code="16" name="BL_V">
+      <node ref="P16" pin="2"/>
+      <node ref="P29" pin="1"/>
+    </net>
+    <net code="17" name="Net-(P30-Pad1)">
+      <node ref="P30" pin="1"/>
+    </net>
+    <net code="18" name="/SS">
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="19" name="+5V">
+      <node ref="P50" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="P13" pin="1"/>
+      <node ref="CON1" pin="4"/>
+      <node ref="P1" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="P3" pin="6"/>
+    </net>
+    <net code="20" name="GND">
+      <node ref="R2" pin="2"/>
+      <node ref="P1" pin="6"/>
+      <node ref="P40" pin="1"/>
+      <node ref="P58" pin="1"/>
+      <node ref="P2" pin="6"/>
+      <node ref="P23" pin="1"/>
+      <node ref="CON1" pin="10"/>
+      <node ref="CON1" pin="2"/>
+      <node ref="P3" pin="4"/>
+    </net>
+    <net code="21" name="BL_I">
+      <node ref="P16" pin="1"/>
+      <node ref="P27" pin="1"/>
+    </net>
+    <net code="22" name="Net-(CON1-Pad7)">
+      <node ref="CON1" pin="7"/>
+    </net>
+    <net code="23" name="Net-(CON1-Pad8)">
+      <node ref="CON1" pin="8"/>
+    </net>
+    <net code="24" name="Net-(P1-Pad5)">
+      <node ref="P1" pin="5"/>
+    </net>
+    <net code="25" name="/ANODE">
+      <node ref="P23" pin="2"/>
+      <node ref="P21" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="26" name="/CATHODE">
+      <node ref="D1" pin="1"/>
+      <node ref="P21" pin="1"/>
+      <node ref="P22" pin="2"/>
+    </net>
+    <net code="27" name="MOSI">
+      <node ref="P2" pin="1"/>
+      <node ref="P1" pin="4"/>
+      <node ref="P41" pin="1"/>
+      <node ref="P24" pin="1"/>
+    </net>
+    <net code="28" name="MISO">
+      <node ref="P1" pin="1"/>
+      <node ref="P42" pin="1"/>
+      <node ref="P25" pin="1"/>
+      <node ref="P3" pin="2"/>
+    </net>
+    <net code="29" name="A2_I">
+      <node ref="P9" pin="7"/>
+      <node ref="P80" pin="1"/>
+    </net>
+    <net code="30" name="Net-(P64-Pad1)">
+      <node ref="P64" pin="1"/>
+    </net>
+    <net code="31" name="Net-(P66-Pad1)">
+      <node ref="P66" pin="1"/>
+    </net>
+    <net code="32" name="B4_I">
+      <node ref="P68" pin="1"/>
+      <node ref="P17" pin="3"/>
+    </net>
+    <net code="33" name="B4_V">
+      <node ref="P70" pin="1"/>
+      <node ref="P17" pin="4"/>
+    </net>
+    <net code="34" name="A0_I">
+      <node ref="P72" pin="1"/>
+      <node ref="P9" pin="3"/>
+    </net>
+    <net code="35" name="A0_V">
+      <node ref="P74" pin="1"/>
+      <node ref="P9" pin="4"/>
+    </net>
+    <net code="36" name="Net-(P76-Pad1)">
+      <node ref="P76" pin="1"/>
+    </net>
+    <net code="37" name="Net-(P78-Pad1)">
+      <node ref="P78" pin="1"/>
+    </net>
+    <net code="38" name="B2_V">
+      <node ref="P62" pin="1"/>
+      <node ref="P16" pin="8"/>
+    </net>
+    <net code="39" name="A2_V">
+      <node ref="P82" pin="1"/>
+      <node ref="P9" pin="8"/>
+    </net>
+    <net code="40" name="Net-(P84-Pad1)">
+      <node ref="P84" pin="1"/>
+    </net>
+    <net code="41" name="Net-(P86-Pad1)">
+      <node ref="P86" pin="1"/>
+    </net>
+    <net code="42" name="A4_I">
+      <node ref="P10" pin="3"/>
+      <node ref="P88" pin="1"/>
+    </net>
+    <net code="43" name="A4_V">
+      <node ref="P10" pin="4"/>
+      <node ref="P90" pin="1"/>
+    </net>
+    <net code="44" name="A1_I">
+      <node ref="P9" pin="5"/>
+      <node ref="P73" pin="1"/>
+    </net>
+    <net code="45" name="A1_V">
+      <node ref="P9" pin="6"/>
+      <node ref="P75" pin="1"/>
+    </net>
+    <net code="46" name="Net-(P47-Pad1)">
+      <node ref="P47" pin="1"/>
+    </net>
+    <net code="47" name="Net-(P57-Pad1)">
+      <node ref="P57" pin="1"/>
+    </net>
+    <net code="48" name="AL_I">
+      <node ref="P9" pin="1"/>
+      <node ref="P44" pin="1"/>
+    </net>
+    <net code="49" name="Net-(P45-Pad1)">
+      <node ref="P45" pin="1"/>
+    </net>
+    <net code="50" name="AL_V">
+      <node ref="P46" pin="1"/>
+      <node ref="P9" pin="2"/>
+    </net>
+    <net code="51" name="A_I+">
+      <node ref="P12" pin="1"/>
+      <node ref="P6" pin="2"/>
+      <node ref="P77" pin="1"/>
+    </net>
+    <net code="52" name="B0_I">
+      <node ref="P5" pin="1"/>
+      <node ref="P16" pin="3"/>
+    </net>
+    <net code="53" name="B0_V">
+      <node ref="P8" pin="1"/>
+      <node ref="P16" pin="4"/>
+    </net>
+    <net code="54" name="Net-(P14-Pad1)">
+      <node ref="P14" pin="1"/>
+    </net>
+    <net code="55" name="Net-(P19-Pad1)">
+      <node ref="P19" pin="1"/>
+    </net>
+    <net code="56" name="B2_I">
+      <node ref="P60" pin="1"/>
+      <node ref="P16" pin="7"/>
+    </net>
+    <net code="57" name="Net-(P92-Pad1)">
+      <node ref="P92" pin="1"/>
+    </net>
+    <net code="58" name="Net-(P96-Pad1)">
+      <node ref="P96" pin="1"/>
+    </net>
+    <net code="59" name="Net-(P94-Pad1)">
+      <node ref="P94" pin="1"/>
+    </net>
+    <net code="60" name="Net-(P97-Pad1)">
+      <node ref="P97" pin="1"/>
+    </net>
+    <net code="61" name="Net-(P99-Pad1)">
+      <node ref="P99" pin="1"/>
+    </net>
+    <net code="62" name="Net-(P98-Pad1)">
+      <node ref="P98" pin="1"/>
+    </net>
+    <net code="63" name="Net-(P95-Pad1)">
+      <node ref="P95" pin="1"/>
+    </net>
+    <net code="64" name="Net-(P93-Pad1)">
+      <node ref="P93" pin="1"/>
+    </net>
+    <net code="65" name="B1_I">
+      <node ref="P7" pin="1"/>
+      <node ref="P16" pin="5"/>
+    </net>
+    <net code="66" name="B5_I">
+      <node ref="P69" pin="1"/>
+      <node ref="P17" pin="5"/>
+    </net>
+    <net code="67" name="A_V+">
+      <node ref="P12" pin="3"/>
+      <node ref="P79" pin="1"/>
+      <node ref="P6" pin="4"/>
+    </net>
+    <net code="68" name="A3_I">
+      <node ref="P10" pin="1"/>
+      <node ref="P81" pin="1"/>
+    </net>
+    <net code="69" name="A3_V">
+      <node ref="P83" pin="1"/>
+      <node ref="P10" pin="2"/>
+    </net>
+    <net code="70" name="A_V-">
+      <node ref="P85" pin="1"/>
+      <node ref="P6" pin="6"/>
+      <node ref="P12" pin="5"/>
+    </net>
+    <net code="71" name="A_I-">
+      <node ref="P12" pin="7"/>
+      <node ref="P6" pin="8"/>
+      <node ref="P87" pin="1"/>
+    </net>
+    <net code="72" name="A5_I">
+      <node ref="P89" pin="1"/>
+      <node ref="P10" pin="5"/>
+    </net>
+    <net code="73" name="A5_V">
+      <node ref="P91" pin="1"/>
+      <node ref="P10" pin="6"/>
+    </net>
+    <net code="74" name="B5_V">
+      <node ref="P71" pin="1"/>
+      <node ref="P17" pin="6"/>
+    </net>
+    <net code="75" name="Net-(P56-Pad1)">
+      <node ref="P56" pin="1"/>
+    </net>
+    <net code="76" name="B3_V">
+      <node ref="P63" pin="1"/>
+      <node ref="P17" pin="2"/>
+    </net>
+    <net code="77" name="B3_I">
+      <node ref="P61" pin="1"/>
+      <node ref="P17" pin="1"/>
+    </net>
+    <net code="78" name="B1_V">
+      <node ref="P11" pin="1"/>
+      <node ref="P16" pin="6"/>
+    </net>
+    <net code="79" name="+3V3">
+      <node ref="P51" pin="1"/>
+      <node ref="P33" pin="1"/>
+      <node ref="P3" pin="16"/>
+    </net>
+    <net code="80" name="Net-(P39-Pad1)">
+      <node ref="P39" pin="1"/>
+    </net>
+    <net code="81" name="Net-(P34-Pad1)">
+      <node ref="P34" pin="1"/>
+    </net>
+    <net code="82" name="BR_I">
+      <node ref="P35" pin="1"/>
+      <node ref="P17" pin="7"/>
+    </net>
+    <net code="83" name="Net-(P36-Pad1)">
+      <node ref="P36" pin="1"/>
+    </net>
+    <net code="84" name="BR_V">
+      <node ref="P17" pin="8"/>
+      <node ref="P37" pin="1"/>
+    </net>
+    <net code="85" name="Net-(P38-Pad1)">
+      <node ref="P38" pin="1"/>
+    </net>
+    <net code="86" name="Net-(P52-Pad1)">
+      <node ref="P52" pin="1"/>
+    </net>
+    <net code="87" name="AR_I">
+      <node ref="P10" pin="7"/>
+      <node ref="P53" pin="1"/>
+    </net>
+    <net code="88" name="Net-(P54-Pad1)">
+      <node ref="P54" pin="1"/>
+    </net>
+    <net code="89" name="AR_V">
+      <node ref="P10" pin="8"/>
+      <node ref="P55" pin="1"/>
+    </net>
+    <net code="90" name="TDI">
+      <node ref="CON1" pin="9"/>
+      <node ref="P3" pin="14"/>
+    </net>
+    <net code="91" name="TDO">
+      <node ref="CON1" pin="3"/>
+      <node ref="P3" pin="13"/>
+    </net>
+    <net code="92" name="TMS">
+      <node ref="P3" pin="12"/>
+      <node ref="CON1" pin="5"/>
+    </net>
+    <net code="93" name="TCK">
+      <node ref="P3" pin="11"/>
+      <node ref="CON1" pin="1"/>
+    </net>
+    <net code="94" name="Net-(P3-Pad8)">
+      <node ref="P3" pin="8"/>
+    </net>
+    <net code="95" name="Net-(P3-Pad7)">
+      <node ref="P3" pin="7"/>
+    </net>
+    <net code="96" name="OUT_V+">
+      <node ref="P6" pin="3"/>
+      <node ref="P4" pin="3"/>
+    </net>
+    <net code="97" name="OUT_I-">
+      <node ref="P4" pin="1"/>
+      <node ref="P6" pin="7"/>
+    </net>
+    <net code="98" name="OUT_V-">
+      <node ref="P4" pin="2"/>
+      <node ref="P6" pin="5"/>
+    </net>
+    <net code="99" name="OUT_I+">
+      <node ref="P6" pin="1"/>
+      <node ref="P4" pin="4"/>
+    </net>
+    <net code="100" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="101" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="102" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="103" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="104" name="RESET">
+      <node ref="CON1" pin="6"/>
+      <node ref="P2" pin="5"/>
+      <node ref="P3" pin="5"/>
+    </net>
+    <net code="105" name="AIN0">
+      <node ref="P2" pin="12"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="106" name="ADC11">
+      <node ref="R3" pin="2"/>
+      <node ref="P2" pin="13"/>
+      <node ref="P22" pin="1"/>
+    </net>
+    <net code="107" name="AUX_OUT_I-">
+      <node ref="P20" pin="4"/>
+      <node ref="P18" pin="8"/>
+    </net>
+    <net code="108" name="B_I+">
+      <node ref="P18" pin="1"/>
+      <node ref="P15" pin="1"/>
+      <node ref="P12" pin="2"/>
+    </net>
+    <net code="109" name="AUX_OUT_I+">
+      <node ref="P18" pin="2"/>
+      <node ref="P20" pin="1"/>
+    </net>
+    <net code="110" name="B_V+">
+      <node ref="P12" pin="4"/>
+      <node ref="P59" pin="1"/>
+      <node ref="P18" pin="3"/>
+    </net>
+    <net code="111" name="AUX_OUT_V+">
+      <node ref="P18" pin="4"/>
+      <node ref="P20" pin="2"/>
+    </net>
+    <net code="112" name="B_V-">
+      <node ref="P65" pin="1"/>
+      <node ref="P18" pin="5"/>
+      <node ref="P12" pin="6"/>
+    </net>
+    <net code="113" name="AUX_OUT_V-">
+      <node ref="P20" pin="3"/>
+      <node ref="P18" pin="6"/>
+    </net>
+    <net code="114" name="B_I-">
+      <node ref="P67" pin="1"/>
+      <node ref="P12" pin="8"/>
+      <node ref="P18" pin="7"/>
+    </net>
+    <net code="115" name="SCK">
+      <node ref="P3" pin="1"/>
+      <node ref="P1" pin="3"/>
+      <node ref="P43" pin="1"/>
+      <node ref="P26" pin="1"/>
+    </net>
+    <net code="116" name="SDA">
+      <node ref="P31" pin="1"/>
+      <node ref="P48" pin="1"/>
+      <node ref="P1" pin="7"/>
+      <node ref="P2" pin="7"/>
+    </net>
+    <net code="117" name="SCL">
+      <node ref="P32" pin="1"/>
+      <node ref="P1" pin="8"/>
+      <node ref="P2" pin="8"/>
+      <node ref="P49" pin="1"/>
+    </net>
+  </nets>
+</export>

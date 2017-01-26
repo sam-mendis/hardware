@@ -1,0 +1,10 @@
+Qty,partname,description,lib
+0,"ARDUINO_MICRO","","myParts"
+0,"AVR-JTAG-10","Standard IDC10 Male Connector, ATMEL JTAG ICE mkI/mkII","atmel"
+0,"CONN_01X01","Connector, single row, 01x01","conn"
+0,"CONN_01X02","Connector, single row, 01x02","conn"
+0,"CONN_01X04","Connector, single row, 01x04","conn"
+0,"CONN_01X17","Connector, single row, 01x17","conn"
+0,"CONN_02X04","Connector, double row, 02x04","conn"
+0,"D_Photo","Photodiode","device"
+0,"R","Resistor","device"
