@@ -4,3 +4,4 @@
 *-save.pro
 *-save.kicad_pcb
 *.kicad_pcb-bak
+*_autosave*
