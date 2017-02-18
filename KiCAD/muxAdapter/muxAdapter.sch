@@ -364,16 +364,6 @@ Connection ~ 6350 4650
 Wire Wire Line
 	5100 5500 5100 5450
 Wire Wire Line
-	5900 4950 5950 4950
-Wire Wire Line
-	5950 4950 5950 5700
-Wire Wire Line
-	5950 5700 2650 5700
-Wire Wire Line
-	2650 5700 2650 4550
-Wire Wire Line
-	2650 4550 3100 4550
-Wire Wire Line
 	3000 4750 3100 4750
 Wire Wire Line
 	3100 4850 3000 4850
@@ -859,4 +849,7 @@ F 3 "" H 1050 1450 50  0000 C CNN
 	1    1050 1450
 	1    0    0    -1  
 $EndComp
+NoConn ~ 5900 4950
+Text GLabel 3100 4550 0    60   Input ~ 0
+SM_CS
 $EndSCHEMATC
