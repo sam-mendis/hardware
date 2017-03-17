@@ -157,7 +157,7 @@ F 1 "CONN_02X03" H 3050 2250 50  0000 C CNN
 F 2 "myParts:FTMH-103-03-L-DH" H 3050 1250 50  0001 C CNN
 F 3 "" H 3050 1250 50  0000 C CNN
 	1    3050 2450
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L CONN_02X03 P8
@@ -168,7 +168,7 @@ F 1 "CONN_02X03" H 4400 2250 50  0000 C CNN
 F 2 "myParts:FTMH-103-03-L-DH" H 4400 1250 50  0001 C CNN
 F 3 "" H 4400 1250 50  0000 C CNN
 	1    4400 2450
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Text GLabel 2950 2200 1    60   Input ~ 0
 BL_I
@@ -292,7 +292,7 @@ F 1 "CONN_02X03" H 950 2250 50  0000 C CNN
 F 2 "myParts:FTMH-103-03-L-DH" H 950 1250 50  0001 C CNN
 F 3 "" H 950 1250 50  0000 C CNN
 	1    950  2450
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L CONN_02X03 P4
@@ -303,7 +303,7 @@ F 1 "CONN_02X03" H 2300 2250 50  0000 C CNN
 F 2 "myParts:FTMH-103-03-L-DH" H 2300 1250 50  0001 C CNN
 F 3 "" H 2300 1250 50  0000 C CNN
 	1    2300 2450
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Text GLabel 850  2200 1    60   Input ~ 0
 AL_I
@@ -427,7 +427,7 @@ F 1 "CONN_02X03" H 7250 2250 50  0000 C CNN
 F 2 "myParts:FTMH-103-03-L-DH" H 7250 1250 50  0001 C CNN
 F 3 "" H 7250 1250 50  0000 C CNN
 	1    7250 2450
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L CONN_02X03 P16
@@ -438,7 +438,7 @@ F 1 "CONN_02X03" H 8600 2250 50  0000 C CNN
 F 2 "myParts:FTMH-103-03-L-DH" H 8600 1250 50  0001 C CNN
 F 3 "" H 8600 1250 50  0000 C CNN
 	1    8600 2450
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Text GLabel 7150 2200 1    60   Input ~ 0
 DL_I
@@ -562,7 +562,7 @@ F 1 "CONN_02X03" H 5150 2250 50  0000 C CNN
 F 2 "myParts:FTMH-103-03-L-DH" H 5150 1250 50  0001 C CNN
 F 3 "" H 5150 1250 50  0000 C CNN
 	1    5150 2450
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L CONN_02X03 P12
@@ -573,7 +573,7 @@ F 1 "CONN_02X03" H 6500 2250 50  0000 C CNN
 F 2 "myParts:FTMH-103-03-L-DH" H 6500 1250 50  0001 C CNN
 F 3 "" H 6500 1250 50  0000 C CNN
 	1    6500 2450
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Text GLabel 5050 2200 1    60   Input ~ 0
 CL_I
@@ -697,7 +697,7 @@ F 1 "CONN_02X03" H 9350 2250 50  0000 C CNN
 F 2 "myParts:FTMH-103-03-L-DH" H 9350 1250 50  0001 C CNN
 F 3 "" H 9350 1250 50  0000 C CNN
 	1    9350 2450
-	0    -1   1    0   
+	0    1    1    0   
 $EndComp
 $Comp
 L CONN_02X03 P20
@@ -708,7 +708,7 @@ F 1 "CONN_02X03" H 10700 2250 50  0000 C CNN
 F 2 "myParts:FTMH-103-03-L-DH" H 10700 1250 50  0001 C CNN
 F 3 "" H 10700 1250 50  0000 C CNN
 	1    10700 2450
-	0    -1   1    0   
+	0    1    1    0   
 $EndComp
 Text GLabel 9250 2200 1    60   Input ~ 0
 EL_I
@@ -799,7 +799,7 @@ F 1 "CONN_02X22" V 8050 5050 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Angled_2x22_Pitch2.54mm" H 8050 4150 50  0001 C CNN
 F 3 "" H 8050 4150 50  0000 C CNN
 	1    8050 5050
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L CONN_02X22 P21
