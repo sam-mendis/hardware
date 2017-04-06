@@ -1,0 +1,2 @@
+switch the 4x passthrough connectors to 
+8x of M50-3130345

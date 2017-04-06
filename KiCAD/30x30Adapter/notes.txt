@@ -1,7 +1,0 @@
-for mating adapter headers:
-Want part number HMTSW-1ZZ-06-X-S-YYY
-where X is T or G or L or F
-and
-YYY is 140, as large as 170 is acceptable here though
-and
-ZZ is either 09 for 9-pin headers or 10 for 10 pin ones
