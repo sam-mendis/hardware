@@ -1,4 +1,4 @@
-(module RSM-103-02-L-D (layer F.Cu) (tedit 58E50825)
+(module RSM-103-02-L-D (layer F.Cu) (tedit 58EFA5D6)
   (fp_text reference REF** (at -1.524 -0.47625 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -24,9 +24,9 @@
   (pad 1 smd rect (at 0 0) (size 0.635 1.8415) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 1.27 0) (size 0.635 1.8415) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd rect (at 2.54 0) (size 0.635 1.8415) (layers F.Cu F.Paste F.Mask))
-  (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/RSM-103-02-D.wrl
-    (at (xyz 0.05 -0.11125 0.012))
-    (scale (xyz 0.393701 0.393701 0.393701))
+  (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/RSM-103-02-D.step
+    (at (xyz 0.05 -0.111248031496063 0.012))
+    (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
 )
