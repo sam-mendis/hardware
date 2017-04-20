@@ -1,0 +1,13 @@
+<!DOCTYPE FilterScript>
+<FilterScript>
+ <filter name="Transform: Flip and/or swap axis">
+  <Param name="flipX" type="RichBool" value="false" description="Flip X axis" tooltip="If selected the axis will be swapped (mesh mirrored along the YZ plane"/>
+  <Param name="flipY" type="RichBool" value="false" description="Flip Y axis" tooltip="If selected the axis will be swapped (mesh mirrored along the XZ plane"/>
+  <Param name="flipZ" type="RichBool" value="true" description="Flip Z axis" tooltip="If selected the axis will be swapped (mesh mirrored along the XY plane"/>
+  <Param name="swapXY" type="RichBool" value="false" description="Swap X-Y axis" tooltip="If selected the two axis will be swapped. All the swaps are performed in this order"/>
+  <Param name="swapXZ" type="RichBool" value="false" description="Swap X-Z axis" tooltip="If selected the two axis will be swapped. All the swaps are performed in this order"/>
+  <Param name="swapYZ" type="RichBool" value="false" description="Swap Y-Z axis" tooltip="If selected the two axis will be swapped. All the swaps are performed in this order"/>
+  <Param name="Freeze" type="RichBool" value="true" description="Freeze Matrix" tooltip="The transformation is explicitly applied, and the vertex coordinates are actually changed"/>
+  <Param name="allLayers" type="RichBool" value="false" description="Apply to all visible Layers" tooltip="If selected the filter will be applied to all visible mesh layers"/>
+ </filter>
+</FilterScript>
