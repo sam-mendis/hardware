@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /home/grey/git/solar-sim-electronics/KiCAD/muxAdapter/muxAdapter.sch)
-    (date "Sat 18 Feb 2017 09:20:25 PM GMT")
-    (tool "Eeschema 4.0.5")
+    (date "Tue 25 Apr 2017 12:02:45 PM BST")
+    (tool "Eeschema (2017-04-13 revision 801e50450)-master")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title)
@@ -17,7 +17,7 @@
   (components
     (comp (ref U3)
       (value PCF8574)
-      (footprint SMD_Packages:SO-16-N)
+      (footprint SMD_Packages:SO-16-W)
       (libsource (lib philips) (part PCF8574))
       (sheetpath (names /) (tstamps /))
       (tstamp 587F731C))
@@ -273,14 +273,14 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
-    (library (logical philips)
-      (uri /usr/share/kicad/library/philips.lib))
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
     (library (logical myParts)
       (uri /home/grey/git/solar-sim-electronics/KiCAD/muxAdapter/sharedLibs/myParts.lib))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
     (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib)))
+      (uri /usr/share/kicad/library/conn.lib))
+    (library (logical philips)
+      (uri /usr/share/kicad/library/philips.lib)))
   (nets
     (net (code 1) (name "Net-(U3-Pad5)")
       (node (ref U3) (pin 5)))
