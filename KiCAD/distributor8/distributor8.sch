@@ -1013,7 +1013,7 @@ H5_I
 Text GLabel 8700 3800 1    60   Input ~ 0
 H0_V
 Text GLabel 8800 3800 1    60   Input ~ 0
-D2_V
+H2_V
 Text GLabel 10050 3800 1    60   Input ~ 0
 H4_V
 Text GLabel 8800 5550 3    60   Input ~ 0
@@ -1298,7 +1298,7 @@ SCL
 Text GLabel 11000 4400 3    60   Input ~ 0
 H0_V
 Text GLabel 10900 4400 3    60   Input ~ 0
-D2_V
+H2_V
 Text GLabel 10800 4400 3    60   Input ~ 0
 MISO
 Text GLabel 10500 4400 3    60   Input ~ 0
