@@ -16,13 +16,14 @@ pcbs = {}
 pcbName = 'distributor8'
 Gui.insert("KiCAD/"+pcbName+"/"+pcbName+".wrl","mydoc")
 item=mydoc.getObjectsByLabel(pcbName)[0]
-setattr(item,'Label','distributor8_1')
-item.Placement=App.Placement(App.Vector(0,-11.192,0),App.Rotation(App.Vector(1,0,0),90))
-
-Gui.insert("KiCAD/"+pcbName+"/"+pcbName+".wrl","mydoc")
-item=mydoc.getObjectsByLabel(pcbName)[0]
-setattr(item,'Label','distributor8_2')
+setattr(item,'Label','distributor8')
 item.Placement=App.Placement(App.Vector(0,11.192,0),App.Rotation(App.Vector(1,0,0),90))
+
+pcbName = 'distributor8R'
+Gui.insert("KiCAD/"+'distributor8'+"/"+pcbName+".wrl","mydoc")
+item=mydoc.getObjectsByLabel(pcbName)[0]
+setattr(item,'Label','distributor8R')
+item.Placement=App.Placement(App.Vector(0,-11.192,0),App.Rotation(App.Vector(1,0,0),90))
 
 pcbName = 'springPins30x30'
 Gui.insert("KiCAD/"+pcbName+"/"+pcbName+".wrl","mydoc")
