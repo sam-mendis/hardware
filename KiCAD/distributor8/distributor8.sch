@@ -740,179 +740,54 @@ Wire Wire Line
 	-700 1150 -700 1050
 Wire Wire Line
 	-400 1050 -400 1150
-Text Notes 6400 4700 0    60   ~ 0
+Text Notes 3800 4850 0    60   ~ 0
 Substrate F
-Text GLabel 6100 5550 3    60   Input ~ 0
+Text GLabel 3500 5700 3    60   Input ~ 0
 FL_V
-Text GLabel 7350 3800 1    60   Input ~ 0
+Text GLabel 4750 3950 1    60   Input ~ 0
 FR_V
-Text GLabel 7350 4300 3    60   Input ~ 0
+Text GLabel 4750 4450 3    60   Input ~ 0
 FR_I
-Text GLabel 5900 4300 3    60   Input ~ 0
+Text GLabel 3300 4450 3    60   Input ~ 0
 F0_I
-Text GLabel 6000 4300 3    60   Input ~ 0
+Text GLabel 3400 4450 3    60   Input ~ 0
 F2_I
-Text GLabel 7250 4300 3    60   Input ~ 0
+Text GLabel 4650 4450 3    60   Input ~ 0
 F4_I
-Text GLabel 6000 5050 1    60   Input ~ 0
+Text GLabel 3400 5200 1    60   Input ~ 0
 F1_I
-Text GLabel 7250 5050 1    60   Input ~ 0
+Text GLabel 4650 5200 1    60   Input ~ 0
 F3_I
-Text GLabel 7150 5050 1    60   Input ~ 0
+Text GLabel 4550 5200 1    60   Input ~ 0
 F5_I
-Text GLabel 5900 3800 1    60   Input ~ 0
+Text GLabel 3300 3950 1    60   Input ~ 0
 F0_V
-Text GLabel 6000 3800 1    60   Input ~ 0
+Text GLabel 3400 3950 1    60   Input ~ 0
 F2_V
-Text GLabel 7250 3800 1    60   Input ~ 0
+Text GLabel 4650 3950 1    60   Input ~ 0
 F4_V
-Text GLabel 6000 5550 3    60   Input ~ 0
+Text GLabel 3400 5700 3    60   Input ~ 0
 F1_V
-Text GLabel 7250 5550 3    60   Input ~ 0
+Text GLabel 4650 5700 3    60   Input ~ 0
 F3_V
-Text GLabel 7150 5550 3    60   Input ~ 0
+Text GLabel 4550 5700 3    60   Input ~ 0
 F5_V
 $Comp
 L GND #PWR022
 U 1 1 58CBF462
-P 7350 5650
-F 0 "#PWR022" H 7350 5400 50  0001 C CNN
-F 1 "GND" H 7350 5500 50  0000 C CNN
-F 2 "" H 7350 5650 50  0000 C CNN
-F 3 "" H 7350 5650 50  0000 C CNN
-	1    7350 5650
+P 4750 5800
+F 0 "#PWR022" H 4750 5550 50  0001 C CNN
+F 1 "GND" H 4750 5650 50  0000 C CNN
+F 2 "" H 4750 5800 50  0000 C CNN
+F 3 "" H 4750 5800 50  0000 C CNN
+	1    4750 5800
 	-1   0    0    -1  
 $EndComp
 $Comp
 L +3.3V #PWR023
 U 1 1 58CBF468
-P 5900 4950
-F 0 "#PWR023" H 5900 4800 50  0001 C CNN
-F 1 "+3.3V" H 5900 5090 28  0000 C CNN
-F 2 "" H 5900 4950 50  0000 C CNN
-F 3 "" H 5900 4950 50  0000 C CNN
-	1    5900 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR024
-U 1 1 58CBF46E
-P 7350 4950
-F 0 "#PWR024" H 7350 4800 50  0001 C CNN
-F 1 "+5V" H 7350 5090 28  0000 C CNN
-F 2 "" H 7350 4950 50  0000 C CNN
-F 3 "" H 7350 4950 50  0000 C CNN
-	1    7350 4950
-	-1   0    0    -1  
-$EndComp
-Text GLabel 6100 4300 3    60   Input ~ 0
-MOSI
-Text GLabel 6100 3800 1    60   Input ~ 0
-MISO
-Text GLabel 5900 5550 3    60   Input ~ 0
-SCK
-Text GLabel 7150 4300 3    60   Input ~ 0
-SDA
-Text GLabel 7150 3800 1    60   Input ~ 0
-SCL
-Wire Notes Line
-	7500 3500 7500 6050
-Wire Notes Line
-	5750 6050 5750 3500
-$Comp
-L CONN_02X03 P39
-U 1 1 58CBF47D
-P 6000 4050
-F 0 "P39" H 6000 4250 50  0000 C CNN
-F 1 "CONN_02X03" H 6000 3850 50  0000 C CNN
-F 2 "myParts:TMS-103-01-L-D-SE" H 6000 2850 50  0001 C CNN
-F 3 "" H 6000 2850 50  0000 C CNN
-	1    6000 4050
-	0    -1   1    0   
-$EndComp
-$Comp
-L CONN_02X03 P40
-U 1 1 58CBF483
-P 7250 4050
-F 0 "P40" H 7250 4250 50  0000 C CNN
-F 1 "CONN_02X03" H 7250 3850 50  0000 C CNN
-F 2 "myParts:TMS-103-01-L-D-SE" H 7250 2850 50  0001 C CNN
-F 3 "" H 7250 2850 50  0000 C CNN
-	1    7250 4050
-	0    -1   1    0   
-$EndComp
-$Comp
-L CONN_02X03 P33
-U 1 1 58CBF489
-P 6000 5300
-F 0 "P33" H 6000 5500 50  0000 C CNN
-F 1 "CONN_02X03" H 6000 5100 50  0000 C CNN
-F 2 "myParts:TMS-103-01-L-D-SE" H 6000 4100 50  0001 C CNN
-F 3 "" H 6000 4100 50  0000 C CNN
-	1    6000 5300
-	0    1    -1   0   
-$EndComp
-$Comp
-L CONN_02X03 P34
-U 1 1 58CBF48F
-P 7250 5300
-F 0 "P34" H 7250 5500 50  0000 C CNN
-F 1 "CONN_02X03" H 7250 5100 50  0000 C CNN
-F 2 "myParts:TMS-103-01-L-D-SE" H 7250 4100 50  0001 C CNN
-F 3 "" H 7250 4100 50  0000 C CNN
-	1    7250 5300
-	0    1    -1   0   
-$EndComp
-Text GLabel 6100 5050 1    60   Input ~ 0
-FL_I
-Text Notes 3800 4850 0    60   ~ 0
-Substrate G
-Text GLabel 3500 5700 3    60   Input ~ 0
-GL_V
-Text GLabel 4750 3950 1    60   Input ~ 0
-GR_V
-Text GLabel 4750 4450 3    60   Input ~ 0
-GR_I
-Text GLabel 3300 4450 3    60   Input ~ 0
-G0_I
-Text GLabel 3400 4450 3    60   Input ~ 0
-G2_I
-Text GLabel 4650 4450 3    60   Input ~ 0
-G4_I
-Text GLabel 3400 5200 1    60   Input ~ 0
-G1_I
-Text GLabel 4600 5200 1    60   Input ~ 0
-G3_I
-Text GLabel 4500 5200 1    60   Input ~ 0
-G5_I
-Text GLabel 3300 3950 1    60   Input ~ 0
-G0_V
-Text GLabel 3400 3950 1    60   Input ~ 0
-G2_V
-Text GLabel 4650 3950 1    60   Input ~ 0
-G4_V
-Text GLabel 3400 5700 3    60   Input ~ 0
-G1_V
-Text GLabel 4600 5700 3    60   Input ~ 0
-G3_V
-Text GLabel 4500 5700 3    60   Input ~ 0
-G5_V
-$Comp
-L GND #PWR025
-U 1 1 58CBF635
-P 4700 5800
-F 0 "#PWR025" H 4700 5550 50  0001 C CNN
-F 1 "GND" H 4700 5650 50  0000 C CNN
-F 2 "" H 4700 5800 50  0000 C CNN
-F 3 "" H 4700 5800 50  0000 C CNN
-	1    4700 5800
-	-1   0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR026
-U 1 1 58CBF63B
 P 3300 5100
-F 0 "#PWR026" H 3300 4950 50  0001 C CNN
+F 0 "#PWR023" H 3300 4950 50  0001 C CNN
 F 1 "+3.3V" H 3300 5240 28  0000 C CNN
 F 2 "" H 3300 5100 50  0000 C CNN
 F 3 "" H 3300 5100 50  0000 C CNN
@@ -920,14 +795,14 @@ F 3 "" H 3300 5100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR027
-U 1 1 58CBF641
-P 4700 5100
-F 0 "#PWR027" H 4700 4950 50  0001 C CNN
-F 1 "+5V" H 4700 5240 28  0000 C CNN
-F 2 "" H 4700 5100 50  0000 C CNN
-F 3 "" H 4700 5100 50  0000 C CNN
-	1    4700 5100
+L +5V #PWR024
+U 1 1 58CBF46E
+P 4750 5100
+F 0 "#PWR024" H 4750 4950 50  0001 C CNN
+F 1 "+5V" H 4750 5240 28  0000 C CNN
+F 2 "" H 4750 5100 50  0000 C CNN
+F 3 "" H 4750 5100 50  0000 C CNN
+	1    4750 5100
 	-1   0    0    -1  
 $EndComp
 Text GLabel 3500 4450 3    60   Input ~ 0
@@ -945,21 +820,21 @@ Wire Notes Line
 Wire Notes Line
 	3150 6200 3150 3650
 $Comp
-L CONN_02X03 P47
-U 1 1 58CBF650
+L CONN_02X03 P31
+U 1 1 58CBF47D
 P 3400 4200
-F 0 "P47" H 3400 4400 50  0000 C CNN
+F 0 "P31" H 3400 4400 50  0000 C CNN
 F 1 "CONN_02X03" H 3400 4000 50  0000 C CNN
-F 2 "myParts:SSW-107-02-T-D-RA" H 3400 3000 50  0001 C CNN
+F 2 "myParts:TMS-103-01-L-D-SE" H 3400 3000 50  0001 C CNN
 F 3 "" H 3400 3000 50  0000 C CNN
 	1    3400 4200
 	0    -1   1    0   
 $EndComp
 $Comp
-L CONN_02X03 P48
-U 1 1 58CBF656
+L CONN_02X03 P32
+U 1 1 58CBF483
 P 4650 4200
-F 0 "P48" H 4650 4400 50  0000 C CNN
+F 0 "P32" H 4650 4400 50  0000 C CNN
 F 1 "CONN_02X03" H 4650 4000 50  0000 C CNN
 F 2 "myParts:TMS-103-01-L-D-SE" H 4650 3000 50  0001 C CNN
 F 3 "" H 4650 3000 50  0000 C CNN
@@ -967,10 +842,10 @@ F 3 "" H 4650 3000 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L CONN_02X03 P41
-U 1 1 58CBF65C
+L CONN_02X03 P33
+U 1 1 58CBF489
 P 3400 5450
-F 0 "P41" H 3400 5650 50  0000 C CNN
+F 0 "P33" H 3400 5650 50  0000 C CNN
 F 1 "CONN_02X03" H 3400 5250 50  0000 C CNN
 F 2 "myParts:TMS-103-01-L-D-SE" H 3400 4250 50  0001 C CNN
 F 3 "" H 3400 4250 50  0000 C CNN
@@ -978,17 +853,142 @@ F 3 "" H 3400 4250 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L CONN_02X03 P42
-U 1 1 58CBF662
-P 4600 5450
-F 0 "P42" H 4600 5650 50  0000 C CNN
-F 1 "CONN_02X03" H 4600 5250 50  0000 C CNN
-F 2 "myParts:TMS-103-01-L-D-SE" H 4600 4250 50  0001 C CNN
-F 3 "" H 4600 4250 50  0000 C CNN
-	1    4600 5450
+L CONN_02X03 P34
+U 1 1 58CBF48F
+P 4650 5450
+F 0 "P34" H 4650 5650 50  0000 C CNN
+F 1 "CONN_02X03" H 4650 5250 50  0000 C CNN
+F 2 "myParts:TMS-103-01-L-D-SE" H 4650 4250 50  0001 C CNN
+F 3 "" H 4650 4250 50  0000 C CNN
+	1    4650 5450
 	0    1    -1   0   
 $EndComp
 Text GLabel 3500 5200 1    60   Input ~ 0
+FL_I
+Text Notes 6550 4850 0    60   ~ 0
+Substrate G
+Text GLabel 6250 5700 3    60   Input ~ 0
+GL_V
+Text GLabel 7500 3950 1    60   Input ~ 0
+GR_V
+Text GLabel 7500 4450 3    60   Input ~ 0
+GR_I
+Text GLabel 6050 4450 3    60   Input ~ 0
+G0_I
+Text GLabel 6150 4450 3    60   Input ~ 0
+G2_I
+Text GLabel 7400 4450 3    60   Input ~ 0
+G4_I
+Text GLabel 6150 5200 1    60   Input ~ 0
+G1_I
+Text GLabel 7350 5200 1    60   Input ~ 0
+G3_I
+Text GLabel 7250 5200 1    60   Input ~ 0
+G5_I
+Text GLabel 6050 3950 1    60   Input ~ 0
+G0_V
+Text GLabel 6150 3950 1    60   Input ~ 0
+G2_V
+Text GLabel 7400 3950 1    60   Input ~ 0
+G4_V
+Text GLabel 6150 5700 3    60   Input ~ 0
+G1_V
+Text GLabel 7350 5700 3    60   Input ~ 0
+G3_V
+Text GLabel 7250 5700 3    60   Input ~ 0
+G5_V
+$Comp
+L GND #PWR025
+U 1 1 58CBF635
+P 7450 5800
+F 0 "#PWR025" H 7450 5550 50  0001 C CNN
+F 1 "GND" H 7450 5650 50  0000 C CNN
+F 2 "" H 7450 5800 50  0000 C CNN
+F 3 "" H 7450 5800 50  0000 C CNN
+	1    7450 5800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR026
+U 1 1 58CBF63B
+P 6050 5100
+F 0 "#PWR026" H 6050 4950 50  0001 C CNN
+F 1 "+3.3V" H 6050 5240 28  0000 C CNN
+F 2 "" H 6050 5100 50  0000 C CNN
+F 3 "" H 6050 5100 50  0000 C CNN
+	1    6050 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR027
+U 1 1 58CBF641
+P 7450 5100
+F 0 "#PWR027" H 7450 4950 50  0001 C CNN
+F 1 "+5V" H 7450 5240 28  0000 C CNN
+F 2 "" H 7450 5100 50  0000 C CNN
+F 3 "" H 7450 5100 50  0000 C CNN
+	1    7450 5100
+	-1   0    0    -1  
+$EndComp
+Text GLabel 6250 4450 3    60   Input ~ 0
+MOSI
+Text GLabel 6250 3950 1    60   Input ~ 0
+MISO
+Text GLabel 6050 5700 3    60   Input ~ 0
+SCK
+Text GLabel 7300 4450 3    60   Input ~ 0
+SDA
+Text GLabel 7300 3950 1    60   Input ~ 0
+SCL
+Wire Notes Line
+	7650 3650 7650 6200
+Wire Notes Line
+	5900 6200 5900 3650
+$Comp
+L CONN_02X03 P40
+U 1 1 58CBF650
+P 6150 4200
+F 0 "P40" H 6150 4400 50  0000 C CNN
+F 1 "CONN_02X03" H 6150 4000 50  0000 C CNN
+F 2 "myParts:TMS-103-01-L-D-SE" H 6150 3000 50  0001 C CNN
+F 3 "" H 6150 3000 50  0000 C CNN
+	1    6150 4200
+	0    -1   1    0   
+$EndComp
+$Comp
+L CONN_02X03 P39
+U 1 1 58CBF656
+P 7400 4200
+F 0 "P39" H 7400 4400 50  0000 C CNN
+F 1 "CONN_02X03" H 7400 4000 50  0000 C CNN
+F 2 "myParts:TMS-103-01-L-D-SE" H 7400 3000 50  0001 C CNN
+F 3 "" H 7400 3000 50  0000 C CNN
+	1    7400 4200
+	0    -1   1    0   
+$EndComp
+$Comp
+L CONN_02X03 P41
+U 1 1 58CBF65C
+P 6150 5450
+F 0 "P41" H 6150 5650 50  0000 C CNN
+F 1 "CONN_02X03" H 6150 5250 50  0000 C CNN
+F 2 "myParts:TMS-103-01-L-D-SE" H 6150 4250 50  0001 C CNN
+F 3 "" H 6150 4250 50  0000 C CNN
+	1    6150 5450
+	0    1    -1   0   
+$EndComp
+$Comp
+L CONN_02X03 P42
+U 1 1 58CBF662
+P 7350 5450
+F 0 "P42" H 7350 5650 50  0000 C CNN
+F 1 "CONN_02X03" H 7350 5250 50  0000 C CNN
+F 2 "myParts:TMS-103-01-L-D-SE" H 7350 4250 50  0001 C CNN
+F 3 "" H 7350 4250 50  0000 C CNN
+	1    7350 5450
+	0    1    -1   0   
+$EndComp
+Text GLabel 6250 5200 1    60   Input ~ 0
 GL_I
 Text Notes 9200 4700 0    60   ~ 0
 Substrate H
@@ -1070,10 +1070,10 @@ Wire Notes Line
 Wire Notes Line
 	8550 6050 8550 3500
 $Comp
-L CONN_02X03 P31
+L CONN_02X03 P48
 U 1 1 58CBF86F
 P 8800 4050
-F 0 "P31" H 8800 4250 50  0000 C CNN
+F 0 "P48" H 8800 4250 50  0000 C CNN
 F 1 "CONN_02X03" H 8800 3850 50  0000 C CNN
 F 2 "myParts:TMS-103-01-L-D-SE" H 8800 2850 50  0001 C CNN
 F 3 "" H 8800 2850 50  0000 C CNN
@@ -1081,10 +1081,10 @@ F 3 "" H 8800 2850 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L CONN_02X03 P32
+L CONN_02X03 P47
 U 1 1 58CBF875
 P 10050 4050
-F 0 "P32" H 10050 4250 50  0000 C CNN
+F 0 "P47" H 10050 4250 50  0000 C CNN
 F 1 "CONN_02X03" H 10050 3850 50  0000 C CNN
 F 2 "myParts:TMS-103-01-L-D-SE" H 10050 2850 50  0001 C CNN
 F 3 "" H 10050 2850 50  0000 C CNN
@@ -1199,29 +1199,29 @@ Text GLabel 2600 4000 1    60   Input ~ 0
 E4_I
 Text GLabel 2700 4000 1    60   Input ~ 0
 SDA
-Text GLabel 8350 3900 1    60   Input ~ 0
+Text GLabel 5750 4050 1    60   Input ~ 0
 F0_I
-Text GLabel 8250 3900 1    60   Input ~ 0
+Text GLabel 5650 4050 1    60   Input ~ 0
 F2_I
-Text GLabel 8150 3900 1    60   Input ~ 0
+Text GLabel 5550 4050 1    60   Input ~ 0
 MOSI
-Text GLabel 7850 3900 1    60   Input ~ 0
+Text GLabel 5250 4050 1    60   Input ~ 0
 FR_I
-Text GLabel 7950 3900 1    60   Input ~ 0
+Text GLabel 5350 4050 1    60   Input ~ 0
 F4_I
-Text GLabel 8050 3900 1    60   Input ~ 0
+Text GLabel 5450 4050 1    60   Input ~ 0
 SDA
-Text GLabel 5600 4050 1    60   Input ~ 0
+Text GLabel 8350 4050 1    60   Input ~ 0
 G0_I
-Text GLabel 5500 4050 1    60   Input ~ 0
+Text GLabel 8250 4050 1    60   Input ~ 0
 G2_I
-Text GLabel 5400 4050 1    60   Input ~ 0
+Text GLabel 8150 4050 1    60   Input ~ 0
 MOSI
-Text GLabel 5100 4050 1    60   Input ~ 0
+Text GLabel 7850 4050 1    60   Input ~ 0
 GR_I
-Text GLabel 5200 4050 1    60   Input ~ 0
+Text GLabel 7950 4050 1    60   Input ~ 0
 G4_I
-Text GLabel 5300 4050 1    60   Input ~ 0
+Text GLabel 8050 4050 1    60   Input ~ 0
 SDA
 Text GLabel 11000 3900 1    60   Input ~ 0
 H0_I
@@ -1271,29 +1271,29 @@ Text GLabel 2600 4500 3    60   Input ~ 0
 E4_V
 Text GLabel 2700 4500 3    60   Input ~ 0
 SCL
-Text GLabel 8350 4400 3    60   Input ~ 0
+Text GLabel 5750 4550 3    60   Input ~ 0
 F0_V
-Text GLabel 8250 4400 3    60   Input ~ 0
+Text GLabel 5650 4550 3    60   Input ~ 0
 F2_V
-Text GLabel 8150 4400 3    60   Input ~ 0
+Text GLabel 5550 4550 3    60   Input ~ 0
 MISO
-Text GLabel 7850 4400 3    60   Input ~ 0
+Text GLabel 5250 4550 3    60   Input ~ 0
 FR_V
-Text GLabel 7950 4400 3    60   Input ~ 0
+Text GLabel 5350 4550 3    60   Input ~ 0
 F4_V
-Text GLabel 8050 4400 3    60   Input ~ 0
+Text GLabel 5450 4550 3    60   Input ~ 0
 SCL
-Text GLabel 5600 4550 3    60   Input ~ 0
+Text GLabel 8350 4550 3    60   Input ~ 0
 G0_V
-Text GLabel 5500 4550 3    60   Input ~ 0
+Text GLabel 8250 4550 3    60   Input ~ 0
 G2_V
-Text GLabel 5400 4550 3    60   Input ~ 0
+Text GLabel 8150 4550 3    60   Input ~ 0
 MISO
-Text GLabel 5100 4550 3    60   Input ~ 0
+Text GLabel 7850 4550 3    60   Input ~ 0
 GR_V
-Text GLabel 5200 4550 3    60   Input ~ 0
+Text GLabel 7950 4550 3    60   Input ~ 0
 G4_V
-Text GLabel 5300 4550 3    60   Input ~ 0
+Text GLabel 8050 4550 3    60   Input ~ 0
 SCL
 Text GLabel 11000 4400 3    60   Input ~ 0
 H0_V
@@ -1336,17 +1336,17 @@ Wire Wire Line
 Wire Wire Line
 	8700 5050 8700 4950
 Wire Wire Line
-	4700 5100 4700 5200
+	7450 5100 7450 5200
 Wire Wire Line
-	4700 5700 4700 5800
+	7450 5700 7450 5800
 Wire Wire Line
-	3300 5200 3300 5100
+	6050 5200 6050 5100
 Wire Wire Line
-	7350 4950 7350 5050
+	4750 5100 4750 5200
 Wire Wire Line
-	7350 5550 7350 5650
+	4750 5700 4750 5800
 Wire Wire Line
-	5900 4950 5900 5050
+	3300 5100 3300 5200
 Wire Wire Line
 	2150 5050 2150 5150
 Wire Wire Line
@@ -1523,47 +1523,13 @@ F 3 "" H 2750 6050 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	2750 6050 2750 5950
-Text GLabel 7750 5550 3    60   Input ~ 0
+Text GLabel 5150 5700 3    60   Input ~ 0
 F1_I
 $Comp
 L +3.3V #PWR041
 U 1 1 58DD0BCE
-P 7850 5650
-F 0 "#PWR041" H 7850 5500 50  0001 C CNN
-F 1 "+3.3V" H 7850 5790 28  0000 C CNN
-F 2 "" H 7850 5650 50  0000 C CNN
-F 3 "" H 7850 5650 50  0000 C CNN
-	1    7850 5650
-	-1   0    0    1   
-$EndComp
-Text GLabel 7650 5550 3    60   Input ~ 0
-FL_I
-Wire Wire Line
-	7850 5650 7850 5550
-Text GLabel 8050 5550 3    60   Input ~ 0
-F3_I
-Text GLabel 8150 5550 3    60   Input ~ 0
-F5_I
-$Comp
-L +5V #PWR042
-U 1 1 58DD0CA2
-P 7950 5650
-F 0 "#PWR042" H 7950 5500 50  0001 C CNN
-F 1 "+5V" H 7950 5790 28  0000 C CNN
-F 2 "" H 7950 5650 50  0000 C CNN
-F 3 "" H 7950 5650 50  0000 C CNN
-	1    7950 5650
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	7950 5650 7950 5550
-Text GLabel 5150 5700 3    60   Input ~ 0
-G1_I
-$Comp
-L +3.3V #PWR043
-U 1 1 58DD0D74
 P 5250 5800
-F 0 "#PWR043" H 5250 5650 50  0001 C CNN
+F 0 "#PWR041" H 5250 5650 50  0001 C CNN
 F 1 "+3.3V" H 5250 5940 28  0000 C CNN
 F 2 "" H 5250 5800 50  0000 C CNN
 F 3 "" H 5250 5800 50  0000 C CNN
@@ -1571,18 +1537,18 @@ F 3 "" H 5250 5800 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 5050 5700 3    60   Input ~ 0
-GL_I
+FL_I
 Wire Wire Line
-	5250 5700 5250 5800
+	5250 5800 5250 5700
 Text GLabel 5450 5700 3    60   Input ~ 0
-G3_I
+F3_I
 Text GLabel 5550 5700 3    60   Input ~ 0
-G5_I
+F5_I
 $Comp
-L +5V #PWR044
-U 1 1 58DD0E48
+L +5V #PWR042
+U 1 1 58DD0CA2
 P 5350 5800
-F 0 "#PWR044" H 5350 5650 50  0001 C CNN
+F 0 "#PWR042" H 5350 5650 50  0001 C CNN
 F 1 "+5V" H 5350 5940 28  0000 C CNN
 F 2 "" H 5350 5800 50  0000 C CNN
 F 3 "" H 5350 5800 50  0000 C CNN
@@ -1591,6 +1557,40 @@ F 3 "" H 5350 5800 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	5350 5800 5350 5700
+Text GLabel 7900 5700 3    60   Input ~ 0
+G1_I
+$Comp
+L +3.3V #PWR043
+U 1 1 58DD0D74
+P 8000 5800
+F 0 "#PWR043" H 8000 5650 50  0001 C CNN
+F 1 "+3.3V" H 8000 5940 28  0000 C CNN
+F 2 "" H 8000 5800 50  0000 C CNN
+F 3 "" H 8000 5800 50  0000 C CNN
+	1    8000 5800
+	-1   0    0    1   
+$EndComp
+Text GLabel 7800 5700 3    60   Input ~ 0
+GL_I
+Wire Wire Line
+	8000 5700 8000 5800
+Text GLabel 8200 5700 3    60   Input ~ 0
+G3_I
+Text GLabel 8300 5700 3    60   Input ~ 0
+G5_I
+$Comp
+L +5V #PWR044
+U 1 1 58DD0E48
+P 8100 5800
+F 0 "#PWR044" H 8100 5650 50  0001 C CNN
+F 1 "+5V" H 8100 5940 28  0000 C CNN
+F 2 "" H 8100 5800 50  0000 C CNN
+F 3 "" H 8100 5800 50  0000 C CNN
+	1    8100 5800
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8100 5800 8100 5700
 Text GLabel 10600 5550 3    60   Input ~ 0
 H1_I
 $Comp
@@ -1742,21 +1742,50 @@ F 3 "" H 2750 5350 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	2750 5450 2750 5350
-Text GLabel 5050 5200 1    60   Input ~ 0
+Text GLabel 7800 5200 1    60   Input ~ 0
 GL_V
-Text GLabel 5150 5200 1    60   Input ~ 0
+Text GLabel 7900 5200 1    60   Input ~ 0
 G1_V
-Text GLabel 5250 5200 1    60   Input ~ 0
+Text GLabel 8000 5200 1    60   Input ~ 0
 SCK
-Text GLabel 5450 5200 1    60   Input ~ 0
+Text GLabel 8200 5200 1    60   Input ~ 0
 G3_V
-Text GLabel 5550 5200 1    60   Input ~ 0
+Text GLabel 8300 5200 1    60   Input ~ 0
 G5_V
 $Comp
 L GND #PWR052
 U 1 1 58DD2B2B
+P 8100 5100
+F 0 "#PWR052" H 8100 4850 50  0001 C CNN
+F 1 "GND" H 8100 4950 50  0000 C CNN
+F 2 "" H 8100 5100 50  0000 C CNN
+F 3 "" H 8100 5100 50  0000 C CNN
+	1    8100 5100
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8100 5200 8100 5100
+Text GLabel 10500 5050 1    60   Input ~ 0
+HL_V
+Text GLabel 10600 5050 1    60   Input ~ 0
+H1_V
+Text GLabel 10700 5050 1    60   Input ~ 0
+SCK
+Text GLabel 5050 5200 1    60   Input ~ 0
+FL_V
+Text GLabel 5150 5200 1    60   Input ~ 0
+F1_V
+Text GLabel 5250 5200 1    60   Input ~ 0
+SCK
+Text GLabel 5450 5200 1    60   Input ~ 0
+F3_V
+Text GLabel 5550 5200 1    60   Input ~ 0
+F5_V
+$Comp
+L GND #PWR053
+U 1 1 58DD2F92
 P 5350 5100
-F 0 "#PWR052" H 5350 4850 50  0001 C CNN
+F 0 "#PWR053" H 5350 4850 50  0001 C CNN
 F 1 "GND" H 5350 4950 50  0000 C CNN
 F 2 "" H 5350 5100 50  0000 C CNN
 F 3 "" H 5350 5100 50  0000 C CNN
@@ -1765,35 +1794,6 @@ F 3 "" H 5350 5100 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	5350 5200 5350 5100
-Text GLabel 10500 5050 1    60   Input ~ 0
-HL_V
-Text GLabel 10600 5050 1    60   Input ~ 0
-H1_V
-Text GLabel 10700 5050 1    60   Input ~ 0
-SCK
-Text GLabel 7650 5050 1    60   Input ~ 0
-FL_V
-Text GLabel 7750 5050 1    60   Input ~ 0
-F1_V
-Text GLabel 7850 5050 1    60   Input ~ 0
-SCK
-Text GLabel 8050 5050 1    60   Input ~ 0
-F3_V
-Text GLabel 8150 5050 1    60   Input ~ 0
-F5_V
-$Comp
-L GND #PWR053
-U 1 1 58DD2F92
-P 7950 4950
-F 0 "#PWR053" H 7950 4700 50  0001 C CNN
-F 1 "GND" H 7950 4800 50  0000 C CNN
-F 2 "" H 7950 4950 50  0000 C CNN
-F 3 "" H 7950 4950 50  0000 C CNN
-	1    7950 4950
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	7950 5050 7950 4950
 Text GLabel 10900 5050 1    60   Input ~ 0
 H3_V
 Text GLabel 11000 5050 1    60   Input ~ 0
@@ -1933,10 +1933,10 @@ F 3 "" H 10800 4100 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L CONN_02X07 P29
+L CONN_02X07 P46
 U 1 1 58DDDEE5
 P 10700 4150
-F 0 "P29" H 10700 4550 50  0000 C CNN
+F 0 "P46" H 10700 4550 50  0000 C CNN
 F 1 "CONN_02X07" V 10700 4150 50  0000 C CNN
 F 2 "myParts:SSW-107-02-T-D-RA" H 10700 2950 50  0001 C CNN
 F 3 "" H 10700 2950 50  0000 C CNN
@@ -1946,30 +1946,8 @@ $EndComp
 $Comp
 L CONN_02X07 P36
 U 1 1 58DDDF9D
-P 7950 5300
-F 0 "P36" H 7950 5700 50  0000 C CNN
-F 1 "CONN_02X07" V 7950 5300 50  0000 C CNN
-F 2 "myParts:SSW-107-02-T-D-RA" H 7950 4100 50  0001 C CNN
-F 3 "" H 7950 4100 50  0000 C CNN
-	1    7950 5300
-	0    -1   1    0   
-$EndComp
-$Comp
-L CONN_02X07 P38
-U 1 1 58DDE060
-P 8050 4150
-F 0 "P38" H 8050 4550 50  0000 C CNN
-F 1 "CONN_02X07" V 8050 4150 50  0000 C CNN
-F 2 "myParts:SSW-107-02-T-D-RA" H 8050 2950 50  0001 C CNN
-F 3 "" H 8050 2950 50  0000 C CNN
-	1    8050 4150
-	0    1    -1   0   
-$EndComp
-$Comp
-L CONN_02X07 P44
-U 1 1 58DDE10C
 P 5350 5450
-F 0 "P44" H 5350 5850 50  0000 C CNN
+F 0 "P36" H 5350 5850 50  0000 C CNN
 F 1 "CONN_02X07" V 5350 5450 50  0000 C CNN
 F 2 "myParts:SSW-107-02-T-D-RA" H 5350 4250 50  0001 C CNN
 F 3 "" H 5350 4250 50  0000 C CNN
@@ -1977,14 +1955,36 @@ F 3 "" H 5350 4250 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L CONN_02X07 P46
+L CONN_02X07 P29
+U 1 1 58DDE060
+P 5450 4300
+F 0 "P29" H 5450 4700 50  0000 C CNN
+F 1 "CONN_02X07" V 5450 4300 50  0000 C CNN
+F 2 "myParts:SSW-107-02-T-D-RA" H 5450 3100 50  0001 C CNN
+F 3 "" H 5450 3100 50  0000 C CNN
+	1    5450 4300
+	0    1    -1   0   
+$EndComp
+$Comp
+L CONN_02X07 P44
+U 1 1 58DDE10C
+P 8100 5450
+F 0 "P44" H 8100 5850 50  0000 C CNN
+F 1 "CONN_02X07" V 8100 5450 50  0000 C CNN
+F 2 "myParts:SSW-107-02-T-D-RA" H 8100 4250 50  0001 C CNN
+F 3 "" H 8100 4250 50  0000 C CNN
+	1    8100 5450
+	0    -1   1    0   
+$EndComp
+$Comp
+L CONN_02X07 P38
 U 1 1 58DDE1CB
-P 5300 4300
-F 0 "P46" H 5300 4700 50  0000 C CNN
-F 1 "CONN_02X07" V 5300 4300 50  0000 C CNN
-F 2 "myParts:SSW-107-02-T-D-RA" H 5300 3100 50  0001 C CNN
-F 3 "" H 5300 3100 50  0000 C CNN
-	1    5300 4300
+P 8050 4300
+F 0 "P38" H 8050 4700 50  0000 C CNN
+F 1 "CONN_02X07" V 8050 4300 50  0000 C CNN
+F 2 "myParts:SSW-107-02-T-D-RA" H 8050 3100 50  0001 C CNN
+F 3 "" H 8050 3100 50  0000 C CNN
+	1    8050 4300
 	0    1    -1   0   
 $EndComp
 NoConn ~ 3050 2100
@@ -2003,14 +2003,14 @@ NoConn ~ 11100 2100
 NoConn ~ 11100 2600
 NoConn ~ 10500 1450
 NoConn ~ 10500 950 
-NoConn ~ 5000 4550
-NoConn ~ 5000 4050
+NoConn ~ 7750 4550
+NoConn ~ 7750 4050
+NoConn ~ 8400 5700
+NoConn ~ 8400 5200
+NoConn ~ 5150 4050
+NoConn ~ 5150 4550
 NoConn ~ 5650 5700
 NoConn ~ 5650 5200
-NoConn ~ 7750 3900
-NoConn ~ 7750 4400
-NoConn ~ 8250 5550
-NoConn ~ 8250 5050
 NoConn ~ 10400 3900
 NoConn ~ 10400 4400
 NoConn ~ 11100 5550
@@ -2040,13 +2040,13 @@ Wire Notes Line
 Wire Notes Line
 	2300 6150 550  6150
 Wire Notes Line
-	3150 3650 4900 3650
+	5900 3650 7650 3650
+Wire Notes Line
+	7650 6200 5900 6200
 Wire Notes Line
 	4900 6200 3150 6200
 Wire Notes Line
-	7500 6050 5750 6050
-Wire Notes Line
-	5750 3500 7500 3500
+	3150 3650 4900 3650
 Wire Notes Line
 	8550 3500 10300 3500
 Wire Notes Line
