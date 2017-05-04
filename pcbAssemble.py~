@@ -70,7 +70,7 @@ pcbName = 'plane8'
 Gui.insert("KiCAD/"+pcbName+"/"+pcbName+".wrl","mydoc")
 item=mydoc.getObjectsByLabel(pcbName)[0]
 setattr(item,'Label','plane8')
-item.Placement=App.Placement(App.Vector(275,0,-25.4),App.Rotation(App.Vector(1,0,0),0))
+item.Placement=App.Placement(App.Vector(250,0,-25.4),App.Rotation(App.Vector(1,0,0),0))
 
 outName = '/tmp/pcbSystem.FCStd'
 mydoc.saveAs(outName)
