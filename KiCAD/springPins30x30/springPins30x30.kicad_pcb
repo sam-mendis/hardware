@@ -710,7 +710,7 @@
       (xy 4.245503 0.389777) (xy 4.245503 -0.410336)) (layer F.SilkS) (width 0.001))
   )
 
-  (gr_text 17e0726 (at 24.1 -1.4) (layer F.SilkS)
+  (gr_text 2004518 (at 24.1 -1.4) (layer F.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.125)))
   )
   (gr_text R (at 26.8 -15 90) (layer F.SilkS)
