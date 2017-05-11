@@ -2465,7 +2465,7 @@
   (gr_line (start 32 10) (end 32 0) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 58E397E9))
   (gr_line (start 0 10) (end 0 0) (angle 90) (layer F.SilkS) (width 0.2) (tstamp 58E3977B))
   (gr_line (start 30 10) (end 30 0) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_text 65d6e42 (at 405.79 5.69) (layer F.SilkS)
+  (gr_text 17e0726 (at 405.79 5.69) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_line (start 419.1 0) (end 419.1 25.4) (layer Edge.Cuts) (width 0.15))
