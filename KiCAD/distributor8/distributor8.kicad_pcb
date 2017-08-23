@@ -39,7 +39,7 @@
   )
 
   (setup
-    (last_trace_width 0.56)
+    (last_trace_width 0.4)
     (user_trace_width 0.4)
     (user_trace_width 0.56)
     (user_trace_width 1.12)
@@ -290,7 +290,7 @@
     (uvia_drill 0.1)
   )
 
-  (module myParts:SSW-107-02-T-D-RA (layer B.Cu) (tedit 58FF11DA) (tstamp 58FF640F)
+  (module myParts:SSW-106-02-T-D-RA-IN14 (layer B.Cu) (tedit 59303007) (tstamp 58FF640F)
     (at 279.4 12.7 90)
     (descr "Through hole angled socket strip, 2x07, 2.54mm pitch, 8.51mm socket length, double rows")
     (tags "Through hole angled socket strip THT 2x07 2.54mm double row")
@@ -472,14 +472,14 @@
       (net 68 "Net-(P23-Pad13)"))
     (pad 14 thru_hole oval (at -2.54 -15.24 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 69 "Net-(P23-Pad14)"))
-    (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/SSW-107-02-T-D-RA.wrl
-      (at (xyz -0.1594488188976378 -0.3 0.09744094488188977))
-      (scale (xyz 0.01 0.01 0.01))
-      (rotate (xyz -90 0 90))
+    (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/SSW-106-02-T-D-RA.stp
+      (at (xyz -0.1594488188976378 -0.25 0.09744094488188977))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 90))
     )
   )
 
-  (module myParts:SSW-107-02-T-D-RA (layer B.Cu) (tedit 58FF11DA) (tstamp 58FF64AD)
+  (module myParts:SSW-106-02-T-D-RA-IN14 (layer B.Cu) (tedit 59303007) (tstamp 58FF64AD)
     (at 350.52 12.7 90)
     (descr "Through hole angled socket strip, 2x07, 2.54mm pitch, 8.51mm socket length, double rows")
     (tags "Through hole angled socket strip THT 2x07 2.54mm double row")
@@ -661,14 +661,14 @@
       (net 70 "Net-(P24-Pad13)"))
     (pad 14 thru_hole oval (at -2.54 -15.24 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 71 "Net-(P24-Pad14)"))
-    (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/SSW-107-02-T-D-RA.wrl
-      (at (xyz -0.1594488188976378 -0.3 0.09744094488188977))
-      (scale (xyz 0.01 0.01 0.01))
-      (rotate (xyz -90 0 90))
+    (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/SSW-106-02-T-D-RA.stp
+      (at (xyz -0.1594488188976378 -0.25 0.09744094488188977))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 90))
     )
   )
 
-  (module myParts:SSW-107-02-T-D-RA (layer B.Cu) (tedit 58FF11DA) (tstamp 58FF66A3)
+  (module myParts:SSW-106-02-T-D-RA-IN14 (layer B.Cu) (tedit 59303007) (tstamp 58FF66A3)
     (at 368.3 12.7 90)
     (descr "Through hole angled socket strip, 2x07, 2.54mm pitch, 8.51mm socket length, double rows")
     (tags "Through hole angled socket strip THT 2x07 2.54mm double row")
@@ -850,14 +850,14 @@
       (net 72 "Net-(P29-Pad13)"))
     (pad 14 thru_hole oval (at -2.54 -15.24 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 73 "Net-(P29-Pad14)"))
-    (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/SSW-107-02-T-D-RA.wrl
-      (at (xyz -0.1594488188976378 -0.3 0.09744094488188977))
-      (scale (xyz 0.01 0.01 0.01))
-      (rotate (xyz -90 0 90))
+    (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/SSW-106-02-T-D-RA.stp
+      (at (xyz -0.1594488188976378 -0.25 0.09744094488188977))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 90))
     )
   )
 
-  (module myParts:SSW-107-02-T-D-RA (layer B.Cu) (tedit 58FF11DA) (tstamp 58FF6741)
+  (module myParts:SSW-106-02-T-D-RA-IN14 (layer B.Cu) (tedit 59303007) (tstamp 58FF6741)
     (at 297.18 12.7 90)
     (descr "Through hole angled socket strip, 2x07, 2.54mm pitch, 8.51mm socket length, double rows")
     (tags "Through hole angled socket strip THT 2x07 2.54mm double row")
@@ -1039,14 +1039,14 @@
       (net 74 "Net-(P30-Pad13)"))
     (pad 14 thru_hole oval (at -2.54 -15.24 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 75 "Net-(P30-Pad14)"))
-    (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/SSW-107-02-T-D-RA.wrl
-      (at (xyz -0.1594488188976378 -0.3 0.09744094488188977))
-      (scale (xyz 0.01 0.01 0.01))
-      (rotate (xyz -90 0 90))
+    (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/SSW-106-02-T-D-RA.stp
+      (at (xyz -0.1594488188976378 -0.25 0.09744094488188977))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 90))
     )
   )
 
-  (module myParts:SSW-107-02-T-D-RA (layer B.Cu) (tedit 58FF11DA) (tstamp 58FF6937)
+  (module myParts:SSW-106-02-T-D-RA-IN14 (layer B.Cu) (tedit 59303007) (tstamp 58FF6937)
     (at 314.96 12.7 90)
     (descr "Through hole angled socket strip, 2x07, 2.54mm pitch, 8.51mm socket length, double rows")
     (tags "Through hole angled socket strip THT 2x07 2.54mm double row")
@@ -1228,14 +1228,14 @@
       (net 76 "Net-(P37-Pad13)"))
     (pad 14 thru_hole oval (at -2.54 -15.24 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 77 "Net-(P37-Pad14)"))
-    (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/SSW-107-02-T-D-RA.wrl
-      (at (xyz -0.1594488188976378 -0.3 0.09744094488188977))
-      (scale (xyz 0.01 0.01 0.01))
-      (rotate (xyz -90 0 90))
+    (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/SSW-106-02-T-D-RA.stp
+      (at (xyz -0.1594488188976378 -0.25 0.09744094488188977))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 90))
     )
   )
 
-  (module myParts:SSW-107-02-T-D-RA (layer B.Cu) (tedit 58FF11DA) (tstamp 58FF69D5)
+  (module myParts:SSW-106-02-T-D-RA-IN14 (layer B.Cu) (tedit 59303007) (tstamp 58FF69D5)
     (at 386.08 12.7 90)
     (descr "Through hole angled socket strip, 2x07, 2.54mm pitch, 8.51mm socket length, double rows")
     (tags "Through hole angled socket strip THT 2x07 2.54mm double row")
@@ -1417,14 +1417,14 @@
       (net 78 "Net-(P38-Pad13)"))
     (pad 14 thru_hole oval (at -2.54 -15.24 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 79 "Net-(P38-Pad14)"))
-    (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/SSW-107-02-T-D-RA.wrl
-      (at (xyz -0.1594488188976378 -0.3 0.09744094488188977))
-      (scale (xyz 0.01 0.01 0.01))
-      (rotate (xyz -90 0 90))
+    (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/SSW-106-02-T-D-RA.stp
+      (at (xyz -0.1594488188976378 -0.25 0.09744094488188977))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 90))
     )
   )
 
-  (module myParts:SSW-107-02-T-D-RA (layer B.Cu) (tedit 58FF11DA) (tstamp 58FF6BCB)
+  (module myParts:SSW-106-02-T-D-RA-IN14 (layer B.Cu) (tedit 59303007) (tstamp 58FF6BCB)
     (at 332.74 12.7 90)
     (descr "Through hole angled socket strip, 2x07, 2.54mm pitch, 8.51mm socket length, double rows")
     (tags "Through hole angled socket strip THT 2x07 2.54mm double row")
@@ -1606,14 +1606,14 @@
       (net 80 "Net-(P45-Pad13)"))
     (pad 14 thru_hole oval (at -2.54 -15.24 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 81 "Net-(P45-Pad14)"))
-    (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/SSW-107-02-T-D-RA.wrl
-      (at (xyz -0.1594488188976378 -0.3 0.09744094488188977))
-      (scale (xyz 0.01 0.01 0.01))
-      (rotate (xyz -90 0 90))
+    (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/SSW-106-02-T-D-RA.stp
+      (at (xyz -0.1594488188976378 -0.25 0.09744094488188977))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 90))
     )
   )
 
-  (module myParts:SSW-107-02-T-D-RA (layer B.Cu) (tedit 58FF11DA) (tstamp 58FF6C69)
+  (module myParts:SSW-106-02-T-D-RA-IN14 (layer B.Cu) (tedit 59303007) (tstamp 58FF6C69)
     (at 403.86 12.7 90)
     (descr "Through hole angled socket strip, 2x07, 2.54mm pitch, 8.51mm socket length, double rows")
     (tags "Through hole angled socket strip THT 2x07 2.54mm double row")
@@ -1795,10 +1795,10 @@
       (net 82 "Net-(P46-Pad13)"))
     (pad 14 thru_hole oval (at -2.54 -15.24 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 83 "Net-(P46-Pad14)"))
-    (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/SSW-107-02-T-D-RA.wrl
-      (at (xyz -0.1594488188976378 -0.3 0.09744094488188977))
-      (scale (xyz 0.01 0.01 0.01))
-      (rotate (xyz -90 0 90))
+    (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/SSW-106-02-T-D-RA.stp
+      (at (xyz -0.1594488188976378 -0.25 0.09744094488188977))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 90))
     )
   )
 

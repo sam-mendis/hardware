@@ -1,7 +1,8 @@
 #!/usr/bin/env python2
 
 import sys, os
-sys.path.append('/opt/freecad/lib')
+#sys.path.append('/opt/freecad/lib')
+sys.path.append('/usr/lib/freecad/lib')
 from PySide import QtCore, QtGui
 import FreeCADGui
 
