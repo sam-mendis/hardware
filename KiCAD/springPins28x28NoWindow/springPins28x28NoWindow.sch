@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:springPins28x28NoWindow-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -339,7 +340,7 @@ F 1 "CONN_02X06" H 4600 3550 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x06_Pitch2.54mm" H 4600 2700 50  0001 C CNN
 F 3 "" H 4600 2700 50  0001 C CNN
 	1    4600 3900
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L CONN_02X06 J2
@@ -350,7 +351,7 @@ F 1 "CONN_02X06" H 5750 3550 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x06_Pitch2.54mm" H 5750 2700 50  0001 C CNN
 F 3 "" H 5750 2700 50  0001 C CNN
 	1    5750 3900
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Text GLabel 4350 3650 0    60   Input ~ 0
 T_I
@@ -373,11 +374,11 @@ Text GLabel 4350 3950 0    60   Input ~ 0
 Text GLabel 4350 4050 0    60   Input ~ 0
 2_I
 $Comp
-L R 100k1
+L R R1
 U 1 1 599DBDE1
 P 4600 4500
-F 0 "100k1" V 4680 4500 50  0000 C CNN
-F 1 "R" V 4600 4500 50  0000 C CNN
+F 0 "R1" V 4680 4500 50  0000 C CNN
+F 1 "100k" V 4600 4500 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 4530 4500 50  0001 C CNN
 F 3 "" H 4600 4500 50  0001 C CNN
 	1    4600 4500
@@ -417,6 +418,66 @@ Text GLabel 5500 3950 0    60   Input ~ 0
 3_V
 Text GLabel 5500 4050 0    60   Input ~ 0
 1_V
-NoConn ~ 6000 3650
-NoConn ~ 5500 3650
+Text GLabel 6000 3650 2    60   Input ~ 0
+TOP_CU
+Text GLabel 5500 3650 0    60   Input ~ 0
+BOT_CU
+$Comp
+L GND #PWR01
+U 1 1 599DC5F7
+P 8450 2600
+F 0 "#PWR01" H 8450 2350 50  0001 C CNN
+F 1 "GND" H 8450 2450 50  0000 C CNN
+F 2 "" H 8450 2600 50  0001 C CNN
+F 3 "" H 8450 2600 50  0001 C CNN
+	1    8450 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR02
+U 1 1 599DCCE9
+P 8750 2600
+F 0 "#PWR02" H 8750 2350 50  0001 C CNN
+F 1 "GNDA" H 8750 2450 50  0000 C CNN
+F 2 "" H 8750 2600 50  0001 C CNN
+F 3 "" H 8750 2600 50  0001 C CNN
+	1    8750 2600
+	1    0    0    -1  
+$EndComp
+Text GLabel 8750 2500 1    60   Input ~ 0
+BOT_CU
+Text GLabel 8450 2500 1    60   Input ~ 0
+TOP_CU
+$Comp
+L PWR_FLAG #FLG03
+U 1 1 599DD196
+P 8950 2550
+F 0 "#FLG03" H 8950 2625 50  0001 C CNN
+F 1 "PWR_FLAG" H 8950 2700 50  0000 C CNN
+F 2 "" H 8950 2550 50  0001 C CNN
+F 3 "" H 8950 2550 50  0001 C CNN
+	1    8950 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L PWR_FLAG #FLG04
+U 1 1 599DD1ED
+P 8250 2550
+F 0 "#FLG04" H 8250 2625 50  0001 C CNN
+F 1 "PWR_FLAG" H 8250 2700 50  0000 C CNN
+F 2 "" H 8250 2550 50  0001 C CNN
+F 3 "" H 8250 2550 50  0001 C CNN
+	1    8250 2550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8450 2500 8450 2600
+Wire Wire Line
+	8250 2550 8450 2550
+Connection ~ 8450 2550
+Wire Wire Line
+	8950 2550 8750 2550
+Wire Wire Line
+	8750 2500 8750 2600
+Connection ~ 8750 2550
 $EndSCHEMATC
