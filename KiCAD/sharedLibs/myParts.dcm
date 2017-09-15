@@ -6,4 +6,9 @@ K MOSFET Output Photorelay 1-Form-A
 F https://www.broadcom.com/products/optocouplers/industrial-plastic/other/solid-state-relay/assr-1611-001e
 $ENDCMP
 #
+$CMP GREY@CHRISTOFORO.NET
+D Logo
+K logo
+$ENDCMP
+#
 #End Doc Library
