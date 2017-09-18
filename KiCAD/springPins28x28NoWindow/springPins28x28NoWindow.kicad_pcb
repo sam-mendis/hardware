@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.6)
+(kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
     (links 22)
     (no_connects 0)
-    (area -14.075001 -14.075001 14.075001 14.806)
+    (area -14.075001 -14.075001 14.075001 14.075001)
     (thickness 1.6)
     (drawings 76)
     (tracks 56)
@@ -148,8 +148,6 @@
     (add_net /V8)
     (add_net /VB)
     (add_net /VT)
-    (add_net BCu)
-    (add_net FCu)
   )
 
   (module myParts:logo_small (layer B.Cu) (tedit 0) (tstamp 599EC910)
@@ -657,7 +655,7 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_2x06_Pitch2.54mm (layer B.Cu) (tedit 599EC354) (tstamp 599D8D46)
+  (module Pin_Headers:Pin_Header_Straight_2x06_Pitch2.54mm (layer B.Cu) (tedit 59BFA976) (tstamp 599D8D46)
     (at 3.81 6.35)
     (descr "Through hole straight pin header, 2x06, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x06 2.54mm double row")
@@ -755,12 +753,13 @@
     )
   )
 
-  (module myParts:logo_small (layer F.Cu) (tedit 0) (tstamp 599EC8F5)
+  (module myParts:logo_small (layer F.Cu) (tedit 0) (tstamp 59BFA824)
     (at 0 0 90)
-    (fp_text reference G*** (at 0 -4 90) (layer F.SilkS) hide
+    (path /59BFAA22)
+    (fp_text reference L1 (at 0 -4 90) (layer F.SilkS) hide
       (effects (font (thickness 0.2)))
     )
-    (fp_text value value (at 0 4 90) (layer F.SilkS) hide
+    (fp_text value GREY@CHRISTOFORO.NET (at 0 4 90) (layer F.SilkS) hide
       (effects (font (thickness 0.2)))
     )
     (fp_poly (pts (xy -0.030446 -0.410336) (xy -0.128951 -0.511719) (xy -0.828528 -0.511719) (xy -0.927058 -0.410336)

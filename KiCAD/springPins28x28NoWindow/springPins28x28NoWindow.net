@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /home/grey/git/solar-sim-electronics/KiCAD/springPins28x28NoWindow/springPins28x28NoWindow.sch)
-    (date "Thu 24 Aug 2017 12:06:09 PM BST")
-    (tool "Eeschema 4.0.6")
+    (date "Mon 18 Sep 2017 12:02:35 PM BST")
+    (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title)
@@ -152,7 +152,13 @@
       (footprint myParts:S25-022+P25-4023)
       (libsource (lib device) (part TEST))
       (sheetpath (names /) (tstamps /))
-      (tstamp 58E4C3ED)))
+      (tstamp 58E4C3ED))
+    (comp (ref L1)
+      (value GREY@CHRISTOFORO.NET)
+      (footprint myParts:logo_small)
+      (libsource (lib myParts) (part GREY@CHRISTOFORO.NET))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 59BFAA22)))
   (libparts
     (libpart (lib springPins28x28NoWindow-cache) (part CONN_02X06)
       (footprints
@@ -177,6 +183,13 @@
         (pin (num 10) (name P10) (type passive))
         (pin (num 11) (name P11) (type passive))
         (pin (num 12) (name P12) (type passive))))
+    (libpart (lib myParts) (part GREY@CHRISTOFORO.NET)
+      (description Logo)
+      (footprints
+        (fp logo))
+      (fields
+        (field (name Reference) L)
+        (field (name Value) GREY@CHRISTOFORO.NET)))
     (libpart (lib device) (part R)
       (description Resistor)
       (footprints
@@ -199,7 +212,9 @@
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
     (library (logical springPins28x28NoWindow-cache)
-      (uri /home/grey/git/solar-sim-electronics/KiCAD/springPins28x28NoWindow/springPins28x28NoWindow-cache.lib)))
+      (uri /home/grey/git/solar-sim-electronics/KiCAD/springPins28x28NoWindow/springPins28x28NoWindow-cache.lib))
+    (library (logical myParts)
+      (uri /home/grey/git/solar-sim-electronics/KiCAD/springPins28x28NoWindow/sharedLibs/myParts.lib)))
   (nets
     (net (code 1) (name /I7)
       (node (ref TP14) (pin 1))

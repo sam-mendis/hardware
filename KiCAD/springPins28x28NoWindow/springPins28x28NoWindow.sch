@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:myParts
 LIBS:springPins28x28NoWindow-cache
 EELAYER 25 0
 EELAYER END
@@ -496,4 +497,15 @@ Text Label 5350 4150 0    60   ~ 0
 FCu
 Text Label 5350 4050 0    60   ~ 0
 BCu
+$Comp
+L GREY@CHRISTOFORO.NET L1
+U 1 1 59BFAA22
+P 8000 7000
+F 0 "L1" H 8000 6875 60  0001 C CNN
+F 1 "GREY@CHRISTOFORO.NET" H 8000 7000 100 0000 C CNB
+F 2 "myParts:logo_small" H 8000 7000 60  0001 C CNN
+F 3 "" H 8000 7000 60  0001 C CNN
+	1    8000 7000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
