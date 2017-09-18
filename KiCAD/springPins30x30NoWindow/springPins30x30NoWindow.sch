@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:myParts
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -424,4 +425,15 @@ NoConn ~ 4850 3650
 NoConn ~ 5500 3650
 NoConn ~ 5500 3750
 NoConn ~ 4850 3750
+$Comp
+L GREY@CHRISTOFORO.NET L1
+U 1 1 59BFB10C
+P 7950 6950
+F 0 "L1" H 7950 6825 60  0001 C CNN
+F 1 "GREY@CHRISTOFORO.NET" H 7950 6950 100 0000 C CNB
+F 2 "myParts:logo_small" H 7950 6950 60  0001 C CNN
+F 3 "" H 7950 6950 60  0001 C CNN
+	1    7950 6950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
