@@ -11,4 +11,9 @@ D Logo
 K logo
 $ENDCMP
 #
+$CMP SW_Grayhill_94H_Coded
+D Rotary switch, 4-bit encoding, grayhill 94H series
+K rotary hex
+$ENDCMP
+#
 #End Doc Library
