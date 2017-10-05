@@ -30,7 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:newMUX-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -579,23 +579,23 @@ F 3 "" H 9950 3250 50  0000 C CNN
 	1    9950 3250
 	1    0    0    -1  
 $EndComp
-Text GLabel 10700 5950 0    60   Input ~ 0
-V-
-Text GLabel 10700 5750 0    60   Input ~ 0
-I+
 Text GLabel 10700 6050 0    60   Input ~ 0
-I-
+V-
 Text GLabel 10700 5850 0    60   Input ~ 0
+I+
+Text GLabel 10700 6150 0    60   Input ~ 0
+I-
+Text GLabel 10700 5950 0    60   Input ~ 0
 V+
 $Comp
 L GND #PWR018
 U 1 1 59B1E377
-P 10650 6200
-F 0 "#PWR018" H 10650 5950 50  0001 C CNN
-F 1 "GND" H 10650 6050 50  0000 C CNN
-F 2 "" H 10650 6200 50  0000 C CNN
-F 3 "" H 10650 6200 50  0000 C CNN
-	1    10650 6200
+P 10350 5800
+F 0 "#PWR018" H 10350 5550 50  0001 C CNN
+F 1 "GND" H 10350 5650 50  0000 C CNN
+F 2 "" H 10350 5800 50  0000 C CNN
+F 3 "" H 10350 5800 50  0000 C CNN
+	1    10350 5800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -768,9 +768,9 @@ Wire Wire Line
 Wire Wire Line
 	10650 4850 10650 4800
 Wire Wire Line
-	10700 6150 10650 6150
+	10350 5750 10700 5750
 Wire Wire Line
-	10650 6150 10650 6200
+	10350 5750 10350 5800
 Wire Wire Line
 	10350 5350 10700 5350
 Wire Wire Line
@@ -990,23 +990,23 @@ Text GLabel 950  6700 2    60   Input ~ 0
 MOSI
 Text GLabel 950  6800 2    60   Input ~ 0
 SCK
-Text GLabel 950  7100 2    60   Input ~ 0
-V-
-Text GLabel 950  6900 2    60   Input ~ 0
-I+
 Text GLabel 950  7200 2    60   Input ~ 0
-I-
+V-
 Text GLabel 950  7000 2    60   Input ~ 0
+I+
+Text GLabel 950  7300 2    60   Input ~ 0
+I-
+Text GLabel 950  7100 2    60   Input ~ 0
 V+
 $Comp
 L GND #PWR022
 U 1 1 59B2F925
-P 1000 7350
-F 0 "#PWR022" H 1000 7100 50  0001 C CNN
-F 1 "GND" H 1000 7200 50  0000 C CNN
-F 2 "" H 1000 7350 50  0000 C CNN
-F 3 "" H 1000 7350 50  0000 C CNN
-	1    1000 7350
+P 1500 6950
+F 0 "#PWR022" H 1500 6700 50  0001 C CNN
+F 1 "GND" H 1500 6800 50  0000 C CNN
+F 2 "" H 1500 6950 50  0000 C CNN
+F 3 "" H 1500 6950 50  0000 C CNN
+	1    1500 6950
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -1044,9 +1044,9 @@ Wire Wire Line
 Wire Wire Line
 	1000 6000 1000 5950
 Wire Wire Line
-	950  7300 1000 7300
+	950  6900 1500 6900
 Wire Wire Line
-	1000 7300 1000 7350
+	1500 6900 1500 6950
 Wire Wire Line
 	950  6500 1300 6500
 Wire Wire Line
