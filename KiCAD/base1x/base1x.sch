@@ -188,23 +188,23 @@ Text GLabel 2000 6900 2    60   Input ~ 0
 MOSI
 Text GLabel 2000 7000 2    60   Input ~ 0
 SCK
-Text GLabel 2000 7300 2    60   Input ~ 0
-V-
-Text GLabel 2000 7100 2    60   Input ~ 0
-I+
 Text GLabel 2000 7400 2    60   Input ~ 0
-I-
+V-
 Text GLabel 2000 7200 2    60   Input ~ 0
+I+
+Text GLabel 2000 7500 2    60   Input ~ 0
+I-
+Text GLabel 2000 7300 2    60   Input ~ 0
 V+
 $Comp
-L GND #PWR08
+L GND #PWR012
 U 1 1 59B2F925
-P 2050 7550
-F 0 "#PWR08" H 2050 7300 50  0001 C CNN
-F 1 "GND" H 2050 7400 50  0000 C CNN
-F 2 "" H 2050 7550 50  0000 C CNN
-F 3 "" H 2050 7550 50  0000 C CNN
-	1    2050 7550
+P 2350 7150
+F 0 "#PWR012" H 2350 6900 50  0001 C CNN
+F 1 "GND" H 2350 7000 50  0000 C CNN
+F 2 "" H 2350 7150 50  0000 C CNN
+F 3 "" H 2350 7150 50  0000 C CNN
+	1    2350 7150
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -219,10 +219,10 @@ F 3 "" H 2050 6150 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR09
+L +3V3 #PWR08
 U 1 1 59B2F931
 P 2200 6150
-F 0 "#PWR09" H 2200 6000 50  0001 C CNN
+F 0 "#PWR08" H 2200 6000 50  0001 C CNN
 F 1 "+3V3" H 2215 6323 50  0000 C CNN
 F 2 "" H 2200 6150 50  0001 C CNN
 F 3 "" H 2200 6150 50  0001 C CNN
@@ -239,9 +239,9 @@ Text Notes 9350 4550 0    60   ~ 0
 RIGHT SIDE BUS CONNECTIONS
 Text Notes 2400 5900 2    60   ~ 0
 LEFT SIDE BUS CONNECTIONS
-Text GLabel 10950 700  1    60   Input ~ 0
+Text GLabel 10150 800  1    60   Input ~ 0
 I+
-Text GLabel 10850 700  1    60   Input ~ 0
+Text GLabel 10050 800  1    60   Input ~ 0
 V+
 $Comp
 L GREY@CHRISTOFORO.NET L1
@@ -273,30 +273,30 @@ Text GLabel 1500 6900 0    60   Input ~ 0
 MOSI
 Text GLabel 1500 7000 0    60   Input ~ 0
 SCK
-Text GLabel 900  7300 0    60   Input ~ 0
+Text GLabel 1500 7400 0    60   Input ~ 0
 V-
-Text GLabel 900  7100 0    60   Input ~ 0
+Text GLabel 1500 7200 0    60   Input ~ 0
 I+
-Text GLabel 900  7400 0    60   Input ~ 0
+Text GLabel 1500 7500 0    60   Input ~ 0
 I-
-Text GLabel 900  7200 0    60   Input ~ 0
+Text GLabel 1500 7300 0    60   Input ~ 0
 V+
 $Comp
-L GND #PWR04
+L GND #PWR02
 U 1 1 59C150C5
-P 1450 7550
-F 0 "#PWR04" H 1450 7300 50  0001 C CNN
-F 1 "GND" H 1450 7400 50  0000 C CNN
-F 2 "" H 1450 7550 50  0000 C CNN
-F 3 "" H 1450 7550 50  0000 C CNN
-	1    1450 7550
+P 1150 7150
+F 0 "#PWR02" H 1150 6900 50  0001 C CNN
+F 1 "GND" H 1150 7000 50  0000 C CNN
+F 2 "" H 1150 7150 50  0000 C CNN
+F 3 "" H 1150 7150 50  0000 C CNN
+	1    1150 7150
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR03
+L +5V #PWR04
 U 1 1 59C150CB
 P 1450 6150
-F 0 "#PWR03" H 1450 6000 50  0001 C CNN
+F 0 "#PWR04" H 1450 6000 50  0001 C CNN
 F 1 "+5V" H 1450 6290 28  0000 C CNN
 F 2 "" H 1450 6150 50  0000 C CNN
 F 3 "" H 1450 6150 50  0000 C CNN
@@ -304,10 +304,10 @@ F 3 "" H 1450 6150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR02
+L +3V3 #PWR03
 U 1 1 59C150D1
 P 1300 6150
-F 0 "#PWR02" H 1300 6000 50  0001 C CNN
+F 0 "#PWR03" H 1300 6000 50  0001 C CNN
 F 1 "+3V3" H 1315 6323 50  0000 C CNN
 F 2 "" H 1300 6150 50  0001 C CNN
 F 3 "" H 1300 6150 50  0001 C CNN
@@ -328,23 +328,23 @@ Text GLabel 10250 5550 2    60   Input ~ 0
 MOSI
 Text GLabel 10250 5650 2    60   Input ~ 0
 SCK
-Text GLabel 10850 5950 2    60   Input ~ 0
+Text GLabel 10250 6050 2    60   Input ~ 0
 V-
-Text GLabel 10850 5750 2    60   Input ~ 0
+Text GLabel 10250 5850 2    60   Input ~ 0
 I+
-Text GLabel 10850 6050 2    60   Input ~ 0
+Text GLabel 10250 6150 2    60   Input ~ 0
 I-
-Text GLabel 10850 5850 2    60   Input ~ 0
+Text GLabel 10250 5950 2    60   Input ~ 0
 V+
 $Comp
-L GND #PWR038
+L GND #PWR039
 U 1 1 59C14E5D
-P 10300 6200
-F 0 "#PWR038" H 10300 5950 50  0001 C CNN
-F 1 "GND" H 10300 6050 50  0000 C CNN
-F 2 "" H 10300 6200 50  0000 C CNN
-F 3 "" H 10300 6200 50  0000 C CNN
-	1    10300 6200
+P 10600 5800
+F 0 "#PWR039" H 10600 5550 50  0001 C CNN
+F 1 "GND" H 10600 5650 50  0000 C CNN
+F 2 "" H 10600 5800 50  0000 C CNN
+F 3 "" H 10600 5800 50  0000 C CNN
+	1    10600 5800
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -359,10 +359,10 @@ F 3 "" H 10300 4800 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR039
+L +3V3 #PWR038
 U 1 1 59C14E69
 P 10450 4800
-F 0 "#PWR039" H 10450 4650 50  0001 C CNN
+F 0 "#PWR038" H 10450 4650 50  0001 C CNN
 F 1 "+3V3" H 10465 4973 50  0000 C CNN
 F 2 "" H 10450 4800 50  0001 C CNN
 F 3 "" H 10450 4800 50  0001 C CNN
@@ -394,30 +394,30 @@ Text GLabel 9750 5550 0    60   Input ~ 0
 MOSI
 Text GLabel 9750 5650 0    60   Input ~ 0
 SCK
-Text GLabel 9750 5950 0    60   Input ~ 0
-V-
-Text GLabel 9750 5750 0    60   Input ~ 0
-I+
 Text GLabel 9750 6050 0    60   Input ~ 0
-I-
+V-
 Text GLabel 9750 5850 0    60   Input ~ 0
+I+
+Text GLabel 9750 6150 0    60   Input ~ 0
+I-
+Text GLabel 9750 5950 0    60   Input ~ 0
 V+
 $Comp
-L GND #PWR034
+L GND #PWR032
 U 1 1 59C14E87
-P 9700 6200
-F 0 "#PWR034" H 9700 5950 50  0001 C CNN
-F 1 "GND" H 9700 6050 50  0000 C CNN
-F 2 "" H 9700 6200 50  0000 C CNN
-F 3 "" H 9700 6200 50  0000 C CNN
-	1    9700 6200
+P 9400 5800
+F 0 "#PWR032" H 9400 5550 50  0001 C CNN
+F 1 "GND" H 9400 5650 50  0000 C CNN
+F 2 "" H 9400 5800 50  0000 C CNN
+F 3 "" H 9400 5800 50  0000 C CNN
+	1    9400 5800
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR033
+L +5V #PWR034
 U 1 1 59C14E8D
 P 9700 4800
-F 0 "#PWR033" H 9700 4650 50  0001 C CNN
+F 0 "#PWR034" H 9700 4650 50  0001 C CNN
 F 1 "+5V" H 9700 4940 28  0000 C CNN
 F 2 "" H 9700 4800 50  0000 C CNN
 F 3 "" H 9700 4800 50  0000 C CNN
@@ -425,10 +425,10 @@ F 3 "" H 9700 4800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR032
+L +3V3 #PWR033
 U 1 1 59C14E93
 P 9550 4800
-F 0 "#PWR032" H 9550 4650 50  0001 C CNN
+F 0 "#PWR033" H 9550 4650 50  0001 C CNN
 F 1 "+3V3" H 9565 4973 50  0000 C CNN
 F 2 "" H 9550 4800 50  0001 C CNN
 F 3 "" H 9550 4800 50  0001 C CNN
@@ -483,10 +483,10 @@ $EndComp
 Text Notes 1650 1150 0    60   ~ 0
 1
 $Comp
-L +5V #PWR011
+L +5V #PWR010
 U 1 1 59C3BD29
 P 2350 1000
-F 0 "#PWR011" H 2350 850 50  0001 C CNN
+F 0 "#PWR010" H 2350 850 50  0001 C CNN
 F 1 "+5V" H 2350 1140 28  0000 C CNN
 F 2 "" H 2350 1000 50  0000 C CNN
 F 3 "" H 2350 1000 50  0000 C CNN
@@ -612,10 +612,10 @@ Text GLabel 1300 4600 0    60   Input ~ 0
 TDI
 NoConn ~ 1600 4500
 $Comp
-L GND #PWR010
+L GND #PWR09
 U 1 1 59C3BD92
 P 2250 4700
-F 0 "#PWR010" H 2250 4450 50  0001 C CNN
+F 0 "#PWR09" H 2250 4450 50  0001 C CNN
 F 1 "GND" H 2250 4550 50  0000 C CNN
 F 2 "" H 2250 4700 50  0000 C CNN
 F 3 "" H 2250 4700 50  0000 C CNN
@@ -623,10 +623,10 @@ F 3 "" H 2250 4700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR012
+L +5V #PWR011
 U 1 1 59C3BD98
 P 2350 4200
-F 0 "#PWR012" H 2350 4050 50  0001 C CNN
+F 0 "#PWR011" H 2350 4050 50  0001 C CNN
 F 1 "+5V" H 2350 4340 28  0000 C CNN
 F 2 "" H 2350 4200 50  0000 C CNN
 F 3 "" H 2350 4200 50  0000 C CNN
@@ -716,22 +716,11 @@ F 3 "" H 1250 3250 50  0001 C CNN
 	1    1250 3250
 	1    0    0    -1  
 $EndComp
-Text GLabel 10650 700  1    60   Input ~ 0
+Text GLabel 9850 800  1    60   Input ~ 0
 I-
-Text GLabel 10750 700  1    60   Input ~ 0
+Text GLabel 9950 800  1    60   Input ~ 0
 V-
-$Comp
-L Screw_Terminal_01x04 J7
-U 1 1 59C3D0B2
-P 10850 900
-F 0 "J7" V 10769 1080 50  0000 L CNN
-F 1 "Screw_Terminal_01x04" V 10814 1080 50  0001 L CNN
-F 2 "Connectors_Phoenix:PhoenixContact_MC-GF_04x3.50mm_Angled_ThreadedFlange_MountHole" H 10850 900 50  0001 C CNN
-F 3 "" H 10850 900 50  0001 C CNN
-	1    10850 900 
-	0    1    1    0   
-$EndComp
-Text Notes 10450 1050 0    60   ~ 0
+Text Notes 9900 600  0    60   ~ 0
 To Sourcemeter
 Text Label 2150 1950 0    60   ~ 0
 ADC0(A5)
@@ -743,22 +732,11 @@ Text Label 2150 1750 0    60   ~ 0
 NC0
 Text Label 2150 1850 0    60   ~ 0
 NC1
-$Comp
-L Screw_Terminal_01x02 J5
-U 1 1 59C415CC
-P 9800 900
-F 0 "J5" V 9719 980 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" V 9764 980 50  0001 L CNN
-F 2 "Connectors_Phoenix:PhoenixContact_MC-GF_02x3.50mm_Angled_ThreadedFlange_MountHole" H 9800 900 50  0001 C CNN
-F 3 "" H 9800 900 50  0001 C CNN
-	1    9800 900 
-	0    1    1    0   
-$EndComp
-Text Label 9800 700  1    60   ~ 0
+Text Label 9750 800  1    60   ~ 0
 Vin
-Text Notes 9450 1050 0    60   ~ 0
+Text Notes 9100 600  0    60   ~ 0
 External Power
-Text Label 9700 700  1    60   ~ 0
+Text Label 9650 800  1    60   ~ 0
 GND
 Text GLabel 950  2050 0    60   Input ~ 0
 ~CS_LED_SW
@@ -776,69 +754,25 @@ Text GLabel 950  2650 0    60   Input ~ 0
 INT_SW
 $Comp
 L Mounting_Hole_PAD MK1
-U 1 1 59C915D2
-P 3300 5450
-F 0 "MK1" H 3400 5501 50  0000 L CNN
-F 1 "Mounting_Hole_PAD" H 3400 5410 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_4mm_Pad" H 3300 5450 50  0001 C CNN
-F 3 "" H 3300 5450 50  0001 C CNN
-	1    3300 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mounting_Hole_PAD MK2
-U 1 1 59C916A6
-P 3300 5750
-F 0 "MK2" H 3400 5801 50  0000 L CNN
-F 1 "Mounting_Hole_PAD" H 3400 5710 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_4mm_Pad" H 3300 5750 50  0001 C CNN
-F 3 "" H 3300 5750 50  0001 C CNN
-	1    3300 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mounting_Hole_PAD MK3
 U 1 1 59C916FE
 P 3300 6100
-F 0 "MK3" H 3400 6151 50  0000 L CNN
+F 0 "MK1" H 3400 6151 50  0000 L CNN
 F 1 "Mounting_Hole_PAD" H 3400 6060 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_4mm_Pad" H 3300 6100 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_Pad" H 3300 6100 50  0001 C CNN
 F 3 "" H 3300 6100 50  0001 C CNN
 	1    3300 6100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mounting_Hole_PAD MK4
+L Mounting_Hole_PAD MK2
 U 1 1 59C91760
 P 3300 6450
-F 0 "MK4" H 3400 6501 50  0000 L CNN
+F 0 "MK2" H 3400 6501 50  0000 L CNN
 F 1 "Mounting_Hole_PAD" H 3400 6410 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_4mm_Pad" H 3300 6450 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_Pad" H 3300 6450 50  0001 C CNN
 F 3 "" H 3300 6450 50  0001 C CNN
 	1    3300 6450
 	1    0    0    -1  
-$EndComp
-$Comp
-L SW_DIP_x04 SW1
-U 1 1 59C92194
-P 1200 7300
-F 0 "SW1" H 1200 7767 50  0000 C CNN
-F 1 "SW_DIP_x04" H 1200 7676 50  0000 C CNN
-F 2 "Buttons_Switches_THT:SW_DIP_x4_W7.62mm_Piano" H 1200 7300 50  0001 C CNN
-F 3 "" H 1200 7300 50  0001 C CNN
-	1    1200 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L SW_DIP_x04 SW5
-U 1 1 59C92248
-P 10550 5850
-F 0 "SW5" H 10550 6317 50  0000 C CNN
-F 1 "SW_DIP_x04" H 10550 6226 50  0000 C CNN
-F 2 "Buttons_Switches_THT:SW_DIP_x4_W7.62mm_Piano" H 10550 5850 50  0001 C CNN
-F 3 "" H 10550 5850 50  0001 C CNN
-	1    10550 5850
-	-1   0    0    1   
 $EndComp
 $Comp
 L GND #PWR017
@@ -860,9 +794,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 6200 2050 6150
 Wire Wire Line
-	2000 7500 2050 7500
-Wire Wire Line
-	2050 7500 2050 7550
+	2000 7100 2350 7100
 Wire Wire Line
 	2000 6700 2650 6700
 Wire Wire Line
@@ -874,9 +806,9 @@ Wire Wire Line
 Wire Wire Line
 	1450 6200 1450 6150
 Wire Wire Line
-	1500 7500 1450 7500
+	1150 7100 1500 7100
 Wire Wire Line
-	1450 7500 1450 7550
+	1150 7100 1150 7150
 Wire Wire Line
 	850  6700 1500 6700
 Wire Wire Line
@@ -888,9 +820,9 @@ Wire Wire Line
 Wire Wire Line
 	10300 4850 10300 4800
 Wire Wire Line
-	10250 6150 10300 6150
+	10250 5750 10600 5750
 Wire Wire Line
-	10300 6150 10300 6200
+	10600 5750 10600 5800
 Wire Wire Line
 	10250 5350 10900 5350
 Wire Wire Line
@@ -902,9 +834,9 @@ Wire Wire Line
 Wire Wire Line
 	9700 4850 9700 4800
 Wire Wire Line
-	9750 6150 9700 6150
+	9400 5750 9750 5750
 Wire Wire Line
-	9700 6150 9700 6200
+	9400 5750 9400 5800
 Wire Wire Line
 	9100 5350 9750 5350
 Wire Wire Line
@@ -1006,9 +938,9 @@ Wire Wire Line
 Wire Wire Line
 	2150 1850 2350 1850
 Wire Wire Line
-	9800 700  9800 550 
+	9750 800  9750 650 
 Wire Wire Line
-	9700 700  9700 550 
+	9650 800  9650 650 
 Wire Wire Line
 	1550 5250 1850 5250
 Wire Wire Line
@@ -1016,16 +948,8 @@ Wire Wire Line
 Wire Wire Line
 	3150 6600 3300 6600
 Wire Wire Line
-	3150 5550 3150 6600
-Wire Wire Line
 	3150 6200 3300 6200
 Connection ~ 3300 6600
-Wire Wire Line
-	3150 5850 3300 5850
-Connection ~ 3150 6200
-Wire Wire Line
-	3150 5550 3300 5550
-Connection ~ 3150 5850
 $Comp
 L Jumper_NO_Small JP1
 U 1 1 59C9A714
@@ -1264,10 +1188,10 @@ Wire Wire Line
 	650  1450 550  1450
 NoConn ~ 750  1250
 $Comp
-L SW_Grayhill_94H_Coded SW2
+L SW_Grayhill_94H_Coded SW1
 U 1 1 59C97DE5
 P 3650 3200
-F 0 "SW2" H 3780 3675 50  0000 C CNN
+F 0 "SW1" H 3780 3675 50  0000 C CNN
 F 1 "SW_Grayhill_94H_Coded" H 3780 3584 50  0000 C CNN
 F 2 "myParts:Grayhill_94H" H 3625 3225 50  0001 C CNN
 F 3 "" H 3625 3225 50  0001 C CNN
@@ -1320,10 +1244,10 @@ F 3 "" H 7250 3725 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_Grayhill_94H_Coded SW3
+L SW_Grayhill_94H_Coded SW2
 U 1 1 59C995A3
 P 3750 1150
-F 0 "SW3" H 3880 1625 50  0000 C CNN
+F 0 "SW2" H 3880 1625 50  0000 C CNN
 F 1 "SW_Grayhill_94H_Coded" H 3880 1534 50  0000 C CNN
 F 2 "myParts:Grayhill_94H" H 3725 1175 50  0001 C CNN
 F 3 "" H 3725 1175 50  0001 C CNN
@@ -1547,9 +1471,9 @@ F 3 "" H 6450 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5850 3750 5250 3750
+	5250 3750 5850 3750
 Wire Wire Line
-	5250 3750 5250 2650
+	5250 2650 5250 3750
 Connection ~ 6150 2650
 Wire Wire Line
 	5850 3550 5250 3550
@@ -1567,10 +1491,10 @@ NoConn ~ 7150 1700
 NoConn ~ 7050 3650
 NoConn ~ 950  2150
 $Comp
-L SW_Push SW4
+L SW_Push SW3
 U 1 1 59CA34D3
 P 3850 2250
-F 0 "SW4" H 3850 2535 50  0000 C CNN
+F 0 "SW3" H 3850 2535 50  0000 C CNN
 F 1 "SW_Push" H 3850 2444 50  0000 C CNN
 F 2 "Buttons_Switches_THT:SW_PUSH_6mm" H 3850 2450 50  0001 C CNN
 F 3 "" H 3850 2450 50  0001 C CNN
@@ -1592,4 +1516,19 @@ Text GLabel 3650 2250 0    60   Input ~ 0
 INT_BUT
 Text GLabel 950  2550 0    60   Input ~ 0
 INT_BUT
+Wire Wire Line
+	2350 7100 2350 7150
+$Comp
+L Screw_Terminal_01x06 J5
+U 1 1 59DCB366
+P 9950 1000
+F 0 "J5" V 9823 1280 50  0000 L CNN
+F 1 "Screw_Terminal_01x06" V 9914 1280 50  0000 L CNN
+F 2 "Connectors_Phoenix:PhoenixContact_MC-GF_06x3.50mm_Angled_ThreadedFlange_MountHole" H 9950 1000 50  0001 C CNN
+F 3 "" H 9950 1000 50  0001 C CNN
+	1    9950 1000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3150 6200 3150 6600
 $EndSCHEMATC
