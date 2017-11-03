@@ -7,3 +7,4 @@
 *_autosave*
 output/
 *.py~
+*.DS_Store
