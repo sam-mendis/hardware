@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 26)
+    (drawings 27)
     (tracks 204)
     (zones 0)
     (modules 34)
@@ -66,7 +66,7 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x010fc_80000001)
+      (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
       (usegerberattributes true)
       (usegerberadvancedattributes true)
@@ -1595,6 +1595,9 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 4.3 4.3) (drill 4.3) (layers *.Cu *.Mask))
   )
 
+  (gr_text c75b306 (at 14.5 43.75) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.25)))
+  )
   (gr_text GND (at -17 49.5 90) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )

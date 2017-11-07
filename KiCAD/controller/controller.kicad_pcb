@@ -66,7 +66,7 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x010fc_80000001)
+      (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
       (usegerberattributes true)
       (usegerberadvancedattributes true)
@@ -2090,7 +2090,7 @@
     (tags "test point SMD S1751-46R")
     (path /5A00A3C7)
     (attr virtual)
-    (fp_text reference TP1 (at 0 -2.8 90) (layer F.SilkS)
+    (fp_text reference TP1 (at 3.212 -0.188 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Test_Point (at 0 2.6 90) (layer F.Fab)
@@ -2116,7 +2116,7 @@
     )
   )
 
-  (gr_text deadbeef (at 19.05 -48.26) (layer F.SilkS)
+  (gr_text c75b306 (at 19.05 -48.26) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.25)))
   )
   (gr_text SUBSTRATE (at 15.875 46.355) (layer F.SilkS) (tstamp 59F6FB19)

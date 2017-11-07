@@ -1052,7 +1052,7 @@
   (gr_text T (at 0 -13) (layer F.SilkS) (tstamp 599D9DF8)
     (effects (font (size 1 1) (thickness 0.25)))
   )
-  (gr_text 1ad7c5f (at 6.5 -12.5) (layer F.SilkS)
+  (gr_text c75b306 (at 6.5 -12.5) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.175)))
   )
   (gr_text B (at 0 13) (layer F.SilkS)
