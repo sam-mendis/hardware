@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADS1115
+D 16-bit analog to digital converter, 2 or 4 inputs, sensor, I2C interface
+K adc i2c quad double
+F http://www.ti.com/lit/gpn/ads1115
+$ENDCMP
+#
 $CMP ASSR-1611
 D 1 Form A, Solid State Relay (Photo MOSFET) 60V, 2.5A, 0.1Ohm, DIP-6
 K MOSFET Output Photorelay 1-Form-A
@@ -9,6 +15,12 @@ $ENDCMP
 $CMP GREY@CHRISTOFORO.NET
 D Logo
 K logo
+$ENDCMP
+#
+$CMP R_Network15
+D 15 Resistor network, star topology, bussed resistors, small symbol
+K R Network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
 $CMP SW_Grayhill_94H_Coded

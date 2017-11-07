@@ -8,3 +8,6 @@
 output/
 *.py~
 *.DS_Store
+*.ses
+*.dsn
+*.rules
