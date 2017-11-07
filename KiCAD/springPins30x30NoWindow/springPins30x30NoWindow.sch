@@ -30,7 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:springPins30x30NoWindow-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -412,11 +412,9 @@ RL
 Text Label 4700 4350 1    60   ~ 0
 RH
 Wire Wire Line
-	5300 4150 5500 4150
+	5350 4150 5500 4150
 Wire Wire Line
 	5500 4050 5300 4050
-NoConn ~ 5300 4150
-NoConn ~ 5300 4050
 Text Label 5350 4150 0    60   ~ 0
 FCu
 Text Label 5350 4050 0    60   ~ 0
@@ -436,4 +434,27 @@ F 3 "" H 7950 6950 60  0001 C CNN
 	1    7950 6950
 	1    0    0    -1  
 $EndComp
+$Comp
+L Jumper_NO_Small JP1
+U 1 1 59F4B423
+P 5600 4550
+F 0 "JP1" H 5600 4735 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5600 4644 50  0000 C CNN
+F 2 "Connectors:GS2" H 5600 4550 50  0001 C CNN
+F 3 "" H 5600 4550 50  0001 C CNN
+	1    5600 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 4050 5300 4550
+Wire Wire Line
+	5300 4550 5500 4550
+Wire Wire Line
+	5350 4150 5350 4300
+Wire Wire Line
+	5350 4300 5800 4300
+Wire Wire Line
+	5800 4300 5800 4550
+Wire Wire Line
+	5800 4550 5700 4550
 $EndSCHEMATC
