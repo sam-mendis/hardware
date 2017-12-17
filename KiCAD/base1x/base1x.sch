@@ -127,28 +127,6 @@ F 3 "" H 3700 7400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR011
-U 1 1 58FF8E76
-P 3300 7400
-F 0 "#PWR011" H 3300 7250 50  0001 C CNN
-F 1 "+5V" H 3300 7540 28  0000 C CNN
-F 2 "" H 3300 7400 50  0000 C CNN
-F 3 "" H 3300 7400 50  0000 C CNN
-	1    3300 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG02
-U 1 1 58FF8E7C
-P 3300 7400
-F 0 "#FLG02" H 3300 7475 50  0001 C CNN
-F 1 "PWR_FLAG" H 3300 7550 50  0000 C CNN
-F 2 "" H 3300 7400 50  0000 C CNN
-F 3 "" H 3300 7400 50  0000 C CNN
-	1    3300 7400
-	-1   0    0    1   
-$EndComp
-$Comp
 L PWR_FLAG #FLG03
 U 1 1 58FF8E88
 P 3700 7400
@@ -242,9 +220,9 @@ Text Notes 9350 4550 0    60   ~ 0
 RIGHT SIDE BUS CONNECTIONS
 Text Notes 2400 5900 2    60   ~ 0
 LEFT SIDE BUS CONNECTIONS
-Text GLabel 10150 800  1    60   Input ~ 0
+Text GLabel 10550 1150 1    60   Input ~ 0
 I+
-Text GLabel 10050 800  1    60   Input ~ 0
+Text GLabel 10450 1150 1    60   Input ~ 0
 V+
 $Comp
 L GREY@CHRISTOFORO.NET L1
@@ -458,15 +436,15 @@ Text GLabel 1050 3450 0    60   Input ~ 0
 SDA
 Text GLabel 1550 3450 2    60   Input ~ 0
 SCL
-Text GLabel 9850 800  1    60   Input ~ 0
-I-
-Text GLabel 9950 800  1    60   Input ~ 0
+Text GLabel 10250 1150 1    60   Input ~ 0
+I-_EXT
+Text GLabel 10350 1150 1    60   Input ~ 0
 V-
-Text Notes 9900 600  0    60   ~ 0
+Text Notes 10300 950  0    60   ~ 0
 To Sourcemeter
-Text Label 9750 800  1    60   ~ 0
+Text Label 9950 1150 1    60   ~ 0
 Vin
-Text Notes 9100 600  0    60   ~ 0
+Text Notes 9300 950  0    60   ~ 0
 External Power
 $Comp
 L Mounting_Hole_PAD MK1
@@ -556,9 +534,9 @@ Wire Wire Line
 Wire Wire Line
 	1550 3350 1950 3350
 Wire Wire Line
-	9750 800  9750 650 
+	9950 1150 9950 1000
 Wire Wire Line
-	9650 800  9650 650 
+	9850 1150 9850 1000
 Wire Wire Line
 	3300 6550 3300 6650
 Wire Wire Line
@@ -599,13 +577,13 @@ Wire Wire Line
 $Comp
 L Screw_Terminal_01x06 J5
 U 1 1 59DCB366
-P 9950 1000
-F 0 "J5" V 9823 1280 50  0000 L CNN
-F 1 "Screw_Terminal_01x06" V 9914 1280 50  0000 L CNN
-F 2 "Connectors_Phoenix:PhoenixContact_MC-GF_06x3.50mm_Angled_ThreadedFlange_MountHole" H 9950 1000 50  0001 C CNN
-F 3 "" H 9950 1000 50  0001 C CNN
-F 4 "2776336+1793013" V 9950 1000 60  0001 C CNN "farnellCode"
-	1    9950 1000
+P 10900 1850
+F 0 "J5" V 10773 2130 50  0000 L CNN
+F 1 "Screw_Terminal_01x06" V 10864 2130 50  0000 L CNN
+F 2 "Connectors_Phoenix:PhoenixContact_MC-GF_06x3.50mm_Angled_ThreadedFlange_MountHole" H 10900 1850 50  0001 C CNN
+F 3 "" H 10900 1850 50  0001 C CNN
+F 4 "2776336+1793013" V 10900 1850 60  0001 C CNN "farnellCode"
+	1    10900 1850
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -670,18 +648,18 @@ $EndComp
 $Comp
 L GND #PWR024
 U 1 1 59F71C15
-P 9350 900
-F 0 "#PWR024" H 9350 650 50  0001 C CNN
-F 1 "GND" H 9350 750 50  0000 C CNN
-F 2 "" H 9350 900 50  0000 C CNN
-F 3 "" H 9350 900 50  0000 C CNN
-	1    9350 900 
+P 9550 1250
+F 0 "#PWR024" H 9550 1000 50  0001 C CNN
+F 1 "GND" H 9550 1100 50  0000 C CNN
+F 2 "" H 9550 1250 50  0000 C CNN
+F 3 "" H 9550 1250 50  0000 C CNN
+	1    9550 1250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9650 650  9350 650 
+	9850 1000 9550 1000
 Wire Wire Line
-	9350 650  9350 900 
+	9550 1000 9550 1250
 Wire Wire Line
 	1050 3550 700  3550
 Text Label 700  3550 2    60   ~ 0
@@ -1062,8 +1040,6 @@ Text GLabel 1200 4450 2    60   Input ~ 0
 V_D_LOC
 Text GLabel 1200 4650 2    60   Input ~ 0
 V_D_EXT
-Text GLabel 5300 2150 0    60   Input ~ 0
-V_D_LOC
 Text GLabel 1050 3350 0    60   Input ~ 0
 V_D_EXT
 $Comp
@@ -1245,4 +1221,142 @@ F 3 "" H 4700 6750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4700 6750 4700 6450
+$Comp
+L Screw_Terminal_01x08 J9
+U 1 1 5A36A6E7
+P 10250 1350
+F 0 "J9" V 10374 1296 50  0000 C CNN
+F 1 "Screw_Terminal_01x08" V 10465 1296 50  0000 C CNN
+F 2 "Connectors_Phoenix:PhoenixContact_MC-GF_08x3.50mm_Angled_ThreadedFlange_MountHole" H 10250 1350 50  0001 C CNN
+F 3 "" H 10250 1350 50  0001 C CNN
+F 4 "2776340+1793014" V 10250 1350 60  0001 C CNN "farnellCode"
+	1    10250 1350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10150 1150 10150 1000
+Text Label 10350 3350 0    60   ~ 0
+I_sense
+Text Label 10150 1150 1    60   ~ 0
+I_sense
+$Comp
+L R R5
+U 1 1 5A36BE72
+P 10350 3050
+F 0 "R5" H 10420 3096 50  0000 L CNN
+F 1 "1" H 10420 3005 50  0000 L CNN
+F 2 "Resistors_SMD:R_2512_HandSoldering" V 10280 3050 50  0001 C CNN
+F 3 "" H 10350 3050 50  0001 C CNN
+F 4 "2663692" H 10350 3050 60  0001 C CNN "farnellCode"
+	1    10350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x02 P4
+U 1 1 5A36C25C
+P 9950 3000
+F 0 "P4" H 9950 3150 50  0000 C CNN
+F 1 "CONN_01X02" V 10050 3000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 9950 3000 50  0001 C CNN
+F 3 "" H 9950 3000 50  0000 C CNN
+	1    9950 3000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 2900 10150 2900
+Wire Wire Line
+	10150 2900 10150 3000
+Wire Wire Line
+	10150 3200 10350 3200
+Wire Wire Line
+	10150 3200 10150 3100
+Text GLabel 10250 3200 3    60   Input ~ 0
+I-
+Text GLabel 10250 2900 1    60   Input ~ 0
+I-_EXT
+$Comp
+L Conn_01x02 P3
+U 1 1 5A36D44F
+P 9900 2000
+F 0 "P3" H 9900 2150 50  0000 C CNN
+F 1 "CONN_01X02" V 10000 2000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 9900 2000 50  0001 C CNN
+F 3 "" H 9900 2000 50  0000 C CNN
+	1    9900 2000
+	-1   0    0    -1  
+$EndComp
+Text GLabel 10200 2000 2    60   Input ~ 0
+I-_EXT
+Wire Wire Line
+	10100 2000 10200 2000
+$Comp
+L GND #PWR033
+U 1 1 5A36D756
+P 10200 2250
+F 0 "#PWR033" H 10200 2000 50  0001 C CNN
+F 1 "GND" H 10200 2100 50  0000 C CNN
+F 2 "" H 10200 2250 50  0000 C CNN
+F 3 "" H 10200 2250 50  0000 C CNN
+	1    10200 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 2100 10200 2100
+Wire Wire Line
+	10200 2100 10200 2250
+Wire Wire Line
+	10350 3200 10350 3350
+NoConn ~ 10050 1150
+NoConn ~ 10600 1650
+NoConn ~ 10700 1650
+NoConn ~ 10800 1650
+NoConn ~ 10900 1650
+NoConn ~ 11000 1650
+NoConn ~ 11100 1650
+$Comp
+L Test_Point TP3
+U 1 1 5A3700D5
+P 4450 2200
+F 0 "TP3" H 4508 2320 50  0000 L CNN
+F 1 "Test_Point" H 4508 2229 50  0000 L CNN
+F 2 "myParts:Test_Point_S1751-46R" H 4650 2200 50  0001 C CNN
+F 3 "" H 4650 2200 50  0001 C CNN
+	1    4450 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Test_Point TP4
+U 1 1 5A370173
+P 5000 2850
+F 0 "TP4" H 5058 2970 50  0000 L CNN
+F 1 "Test_Point" H 5058 2879 50  0000 L CNN
+F 2 "myParts:Test_Point_S1751-46R" H 5200 2850 50  0001 C CNN
+F 3 "" H 5200 2850 50  0001 C CNN
+	1    5000 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4700 1950 4150 1950
+Connection ~ 4700 1950
+Text Label 4150 1950 0    60   ~ 0
+I_sense
+Text GLabel 4650 1200 0    60   Input ~ 0
+V_D_LOC
+Wire Wire Line
+	5300 2150 5150 2150
+Wire Wire Line
+	5150 2150 5150 1200
+Wire Wire Line
+	5150 1200 4650 1200
+$Comp
+L Test_Point TP5
+U 1 1 5A371768
+P 5150 1200
+F 0 "TP5" H 5208 1320 50  0000 L CNN
+F 1 "Test_Point" H 5208 1229 50  0000 L CNN
+F 2 "myParts:Test_Point_S1751-46R" H 5350 1200 50  0001 C CNN
+F 3 "" H 5350 1200 50  0001 C CNN
+	1    5150 1200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
