@@ -2,8 +2,8 @@
 
   (general
     (links 75)
-    (no_connects 12)
-    (area 84.949999 45.449999 220.050001 155.550001)
+    (no_connects 0)
+    (area 83.823809 45.449999 221.176191 155.575)
     (thickness 1.6)
     (drawings 10)
     (tracks 255)
@@ -2306,7 +2306,7 @@
   (gr_text ALD_solenoidDriverCircuit_rev0 (at 168 77) (layer F.SilkS)
     (effects (font (size 2 2) (thickness 0.4)))
   )
-  (gr_text "Augustin Zaininger 05/02/2018" (at 115.5 77) (layer F.SilkS)
+  (gr_text "Augustin Zaininger 022ff63" (at 115.5 77) (layer F.SilkS)
     (effects (font (size 2 2) (thickness 0.4)))
   )
   (gr_arc (start 217 152.5) (end 220 152.5) (angle 90) (layer Edge.Cuts) (width 0.1))
