@@ -1,13 +1,59 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
-# ALD_solenoidDriverCircuit_rev0-rescue:Barrel_Jack-RESCUE-ALD_solenoidDriverCircuit_rev0
+# +12V
 #
-DEF ALD_solenoidDriverCircuit_rev0-rescue:Barrel_Jack-RESCUE-ALD_solenoidDriverCircuit_rev0 J 0 40 Y Y 1 F N
+DEF +12V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+12V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +12V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# +24V
+#
+DEF +24V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+24V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +24V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# +5V
+#
+DEF +5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Barrel_Jack
+#
+DEF Barrel_Jack J 0 40 Y Y 1 F N
 F0 "J" 0 210 50 H V C CNN
-F1 "ALD_solenoidDriverCircuit_rev0-rescue:Barrel_Jack-RESCUE-ALD_solenoidDriverCircuit_rev0" 0 -175 50 H V C CNN
+F1 "Barrel_Jack" 0 -175 50 H V C CNN
 F2 "" 50 -40 50 H I C CNN
 F3 "" 50 -40 50 H I C CNN
+ALIAS Jack-DC
 DRAW
 A -130 100 25 901 -901 0 1 10 F -130 125 -130 75
 A -130 100 25 901 -901 0 1 10 N -130 125 -130 75
@@ -22,11 +68,11 @@ X ~ 3 300 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ALD_solenoidDriverCircuit_rev0-rescue:Conn_01x01-RESCUE-ALD_solenoidDriverCircuit_rev0
+# Conn_01x01
 #
-DEF ALD_solenoidDriverCircuit_rev0-rescue:Conn_01x01-RESCUE-ALD_solenoidDriverCircuit_rev0 J 0 40 Y N 1 F N
+DEF Conn_01x01 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "ALD_solenoidDriverCircuit_rev0-rescue:Conn_01x01-RESCUE-ALD_solenoidDriverCircuit_rev0" 0 -100 50 H V C CNN
+F1 "Conn_01x01" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -44,11 +90,11 @@ X Pin_1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ALD_solenoidDriverCircuit_rev0-rescue:Conn_01x04-RESCUE-ALD_solenoidDriverCircuit_rev0
+# Conn_01x04
 #
-DEF ALD_solenoidDriverCircuit_rev0-rescue:Conn_01x04-RESCUE-ALD_solenoidDriverCircuit_rev0 J 0 40 Y N 1 F N
+DEF Conn_01x04 J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "ALD_solenoidDriverCircuit_rev0-rescue:Conn_01x04-RESCUE-ALD_solenoidDriverCircuit_rev0" 0 -300 50 H V C CNN
+F1 "Conn_01x04" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -72,11 +118,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ALD_solenoidDriverCircuit_rev0-rescue:Conn_01x07-RESCUE-ALD_solenoidDriverCircuit_rev0
+# Conn_01x07
 #
-DEF ALD_solenoidDriverCircuit_rev0-rescue:Conn_01x07-RESCUE-ALD_solenoidDriverCircuit_rev0 J 0 40 Y N 1 F N
+DEF Conn_01x07 J 0 40 Y N 1 F N
 F0 "J" 0 400 50 H V C CNN
-F1 "ALD_solenoidDriverCircuit_rev0-rescue:Conn_01x07-RESCUE-ALD_solenoidDriverCircuit_rev0" 0 -400 50 H V C CNN
+F1 "Conn_01x07" 0 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -106,11 +152,11 @@ X Pin_7 7 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ALD_solenoidDriverCircuit_rev0-rescue:Conn_01x17-RESCUE-ALD_solenoidDriverCircuit_rev0
+# Conn_01x17
 #
-DEF ALD_solenoidDriverCircuit_rev0-rescue:Conn_01x17-RESCUE-ALD_solenoidDriverCircuit_rev0 J 0 40 Y N 1 F N
+DEF Conn_01x17 J 0 40 Y N 1 F N
 F0 "J" 0 900 50 H V C CNN
-F1 "ALD_solenoidDriverCircuit_rev0-rescue:Conn_01x17-RESCUE-ALD_solenoidDriverCircuit_rev0" 0 -900 50 H V C CNN
+F1 "Conn_01x17" 0 -900 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -160,74 +206,11 @@ X Pin_17 17 -200 -800 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:R
+# GNDPWR
 #
-DEF device:R R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "device:R" 0 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
- R_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# power:+12V
-#
-DEF power:+12V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+12V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +12V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power:+24V
-#
-DEF power:+24V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+24V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +24V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power:+5V
-#
-DEF power:+5V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+5V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +5V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power:GNDPWR
-#
-DEF power:GNDPWR #PWR 0 0 Y Y 1 F P
+DEF GNDPWR #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -200 50 H I C CNN
-F1 "power:GNDPWR" 0 -130 50 H V C CNN
+F1 "GNDPWR" 0 -130 50 H V C CNN
 F2 "" 0 -50 50 H I C CNN
 F3 "" 0 -50 50 H I C CNN
 DRAW
@@ -242,11 +225,11 @@ X GNDPWR 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:GNDREF
+# GNDREF
 #
-DEF power:GNDREF #PWR 0 0 Y Y 1 F P
+DEF GNDREF #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GNDREF" 0 -150 50 H V C CNN
+F1 "GNDREF" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -258,16 +241,34 @@ X GNDREF 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:PWR_FLAG
+# PWR_FLAG
 #
-DEF power:PWR_FLAG #FLG 0 0 N N 1 F P
+DEF PWR_FLAG #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "power:PWR_FLAG" 0 150 50 H V C CNN
+F1 "PWR_FLAG" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 X pwr 1 0 0 0 U 50 50 0 0 w
 P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+ENDDRAW
+ENDDEF
+#
+# R
+#
+DEF R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
