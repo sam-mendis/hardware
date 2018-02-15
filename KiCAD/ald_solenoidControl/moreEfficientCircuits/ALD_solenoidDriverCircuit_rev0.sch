@@ -479,57 +479,9 @@ Text GLabel 7350 4650 0    60   Input ~ 0
 solenoid_10
 Text GLabel 8200 4650 0    60   Input ~ 0
 solenoid_11
-Text GLabel 3950 4450 0    60   Input ~ 0
-signal_GND
 Text GLabel 5500 5700 0    60   Input ~ 0
 signal_GND
 Text GLabel 5500 6100 0    60   Input ~ 0
-pwr_GND
-Text GLabel 3950 2950 0    60   Input ~ 0
-signal_GND
-Text GLabel 4800 2950 0    60   Input ~ 0
-signal_GND
-Text GLabel 5650 2950 0    60   Input ~ 0
-signal_GND
-Text GLabel 6500 2950 0    60   Input ~ 0
-signal_GND
-Text GLabel 7350 2950 0    60   Input ~ 0
-signal_GND
-Text GLabel 8200 2950 0    60   Input ~ 0
-signal_GND
-Text GLabel 4800 4450 0    60   Input ~ 0
-signal_GND
-Text GLabel 5650 4450 0    60   Input ~ 0
-signal_GND
-Text GLabel 6500 4450 0    60   Input ~ 0
-signal_GND
-Text GLabel 7350 4450 0    60   Input ~ 0
-signal_GND
-Text GLabel 8200 4450 0    60   Input ~ 0
-signal_GND
-Text GLabel 3950 3050 0    60   Input ~ 0
-pwr_GND
-Text GLabel 4800 3050 0    60   Input ~ 0
-pwr_GND
-Text GLabel 5650 3050 0    60   Input ~ 0
-pwr_GND
-Text GLabel 6500 3050 0    60   Input ~ 0
-pwr_GND
-Text GLabel 7350 3050 0    60   Input ~ 0
-pwr_GND
-Text GLabel 8200 3050 0    60   Input ~ 0
-pwr_GND
-Text GLabel 3950 4550 0    60   Input ~ 0
-pwr_GND
-Text GLabel 4800 4550 0    60   Input ~ 0
-pwr_GND
-Text GLabel 5650 4550 0    60   Input ~ 0
-pwr_GND
-Text GLabel 6500 4550 0    60   Input ~ 0
-pwr_GND
-Text GLabel 7350 4550 0    60   Input ~ 0
-pwr_GND
-Text GLabel 8200 4550 0    60   Input ~ 0
 pwr_GND
 $Comp
 L ALD_solenoidDriverCircuit_rev0-rescue:Barrel_Jack-RESCUE-ALD_solenoidDriverCircuit_rev0 barrelJack_1
@@ -1013,4 +965,52 @@ Connection ~ 7200 6050
 Connection ~ 7150 5650
 Connection ~ 8600 5650
 Connection ~ 3650 5600
+Text GLabel 3950 4550 0    60   Input ~ 0
+signal_GND
+Text GLabel 3950 4450 0    60   Input ~ 0
+pwr_GND
+Text GLabel 4800 4550 0    60   Input ~ 0
+signal_GND
+Text GLabel 4800 4450 0    60   Input ~ 0
+pwr_GND
+Text GLabel 5650 4550 0    60   Input ~ 0
+signal_GND
+Text GLabel 5650 4450 0    60   Input ~ 0
+pwr_GND
+Text GLabel 6500 4550 0    60   Input ~ 0
+signal_GND
+Text GLabel 6500 4450 0    60   Input ~ 0
+pwr_GND
+Text GLabel 7350 4550 0    60   Input ~ 0
+signal_GND
+Text GLabel 7350 4450 0    60   Input ~ 0
+pwr_GND
+Text GLabel 8200 4550 0    60   Input ~ 0
+signal_GND
+Text GLabel 8200 4450 0    60   Input ~ 0
+pwr_GND
+Text GLabel 3950 3050 0    60   Input ~ 0
+signal_GND
+Text GLabel 3950 2950 0    60   Input ~ 0
+pwr_GND
+Text GLabel 4800 3050 0    60   Input ~ 0
+signal_GND
+Text GLabel 4800 2950 0    60   Input ~ 0
+pwr_GND
+Text GLabel 5650 3050 0    60   Input ~ 0
+signal_GND
+Text GLabel 5650 2950 0    60   Input ~ 0
+pwr_GND
+Text GLabel 6500 3050 0    60   Input ~ 0
+signal_GND
+Text GLabel 6500 2950 0    60   Input ~ 0
+pwr_GND
+Text GLabel 7350 3050 0    60   Input ~ 0
+signal_GND
+Text GLabel 7350 2950 0    60   Input ~ 0
+pwr_GND
+Text GLabel 8200 3050 0    60   Input ~ 0
+signal_GND
+Text GLabel 8200 2950 0    60   Input ~ 0
+pwr_GND
 $EndSCHEMATC

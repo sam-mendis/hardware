@@ -1,37 +1,105 @@
 EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
+LIBS:ac-dc
 LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
+LIBS:Altera
+LIBS:analog_devices
 LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
 LIBS:atmel
+LIBS:audio
+LIBS:Battery_Management
+LIBS:bbd
+LIBS:Bosch
+LIBS:brooktre
+LIBS:Connector
 LIBS:contrib
-LIBS:valves
-LIBS:myParts
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:Diode
+LIBS:Display
+LIBS:driver_gate
+LIBS:dsp
+LIBS:DSP_Microchip_DSPIC33
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:Espressif
+LIBS:FPGA_Actel
+LIBS:ftdi
+LIBS:gennum
+LIBS:Graphic
+LIBS:hc11
+LIBS:infineon
+LIBS:intel
+LIBS:interface
+LIBS:intersil
+LIBS:ir
+LIBS:Lattice
+LIBS:LED
+LIBS:LEM
+LIBS:linear
+LIBS:Logic_74xgxx
+LIBS:Logic_74xx
+LIBS:Logic_CMOS_4000
+LIBS:Logic_CMOS_IEEE
+LIBS:logic_programmable
+LIBS:Logic_TTL_IEEE
+LIBS:maxim
+LIBS:MCU_Microchip_PIC10
+LIBS:MCU_Microchip_PIC12
+LIBS:MCU_Microchip_PIC16
+LIBS:MCU_Microchip_PIC18
+LIBS:MCU_Microchip_PIC24
+LIBS:MCU_Microchip_PIC32
+LIBS:MCU_NXP_Kinetis
+LIBS:MCU_NXP_LPC
+LIBS:MCU_NXP_S08
+LIBS:MCU_Parallax
+LIBS:MCU_ST_STM8
+LIBS:MCU_ST_STM32
+LIBS:MCU_Texas_MSP430
+LIBS:Mechanical
+LIBS:memory
+LIBS:microchip
+LIBS:microcontrollers
+LIBS:modules
+LIBS:Motor
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:power
+LIBS:powerint
+LIBS:Power_Management
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:Relay
+LIBS:rfcom
+LIBS:RFSolutions
+LIBS:Sensor_Current
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:supertex
+LIBS:Switch
+LIBS:texas
+LIBS:Transformer
+LIBS:Transistor
+LIBS:triac_thyristor
+LIBS:Valve
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:xilinx
+LIBS:zetex
+LIBS:Zilog
+LIBS:ALD_solenoidDriver_addInCard_rev0-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -150,11 +218,9 @@ Wire Wire Line
 Wire Wire Line
 	7600 1600 7600 3050
 Wire Wire Line
-	6800 3700 6800 3900
+	6800 3700 6800 4200
 Wire Wire Line
 	6900 3700 6900 3900
-Wire Wire Line
-	6900 3900 7250 3900
 Wire Wire Line
 	7250 3900 7250 4050
 Text GLabel 7250 4050 3    60   Input ~ 0
@@ -162,13 +228,13 @@ signal_gnd
 $Comp
 L R R_in_1
 U 1 1 5A787113
-P 6800 4050
-F 0 "R_in_1" V 6880 4050 50  0000 C CNN
-F 1 "470R" V 6800 4050 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 6730 4050 50  0001 C CNN
-F 3 "" H 6800 4050 50  0001 C CNN
-	1    6800 4050
-	1    0    0    -1  
+P 7100 3900
+F 0 "R_in_1" V 7180 3900 50  0000 C CNN
+F 1 "470R" V 7100 3900 50  0000 C CNN
+F 2 "Resistors_SMD:R_2010_HandSoldering" V 7030 3900 50  0001 C CNN
+F 3 "" H 7100 3900 50  0001 C CNN
+	1    7100 3900
+	0    1    1    0   
 $EndComp
 Text GLabel 6800 4200 3    60   Input ~ 0
 signal_in
@@ -178,7 +244,7 @@ U 1 1 5A78727C
 P 7850 2650
 F 0 "R_snub_1" V 7930 2650 50  0000 C CNN
 F 1 "100R" V 7850 2650 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 7780 2650 50  0001 C CNN
+F 2 "Resistors_SMD:R_2010_HandSoldering" V 7780 2650 50  0001 C CNN
 F 3 "" H 7850 2650 50  0001 C CNN
 	1    7850 2650
 	0    1    1    0   
@@ -196,20 +262,19 @@ F 0 "D_snub_1" H 8250 2750 50  0000 C CNN
 F 1 "D" H 8250 2550 50  0000 C CNN
 F 2 "Diodes_THT:D_A-405_P7.62mm_Horizontal" H 8250 2650 50  0001 C CNN
 F 3 "" H 8250 2650 50  0001 C CNN
+F 4 "1695714" H 8250 2650 60  0001 C CNN "farnellCode"
 	1    8250 2650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7600 2200 8000 2200
 $Comp
 L R R_led_1
 U 1 1 5A78737C
-P 8150 2200
-F 0 "R_led_1" V 8230 2200 50  0000 C CNN
-F 1 "2K" V 8150 2200 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 8080 2200 50  0001 C CNN
-F 3 "" H 8150 2200 50  0001 C CNN
-	1    8150 2200
+P 7900 2200
+F 0 "R_led_1" V 7980 2200 50  0000 C CNN
+F 1 "2K" V 7900 2200 50  0000 C CNN
+F 2 "Resistors_SMD:R_2010_HandSoldering" V 7830 2200 50  0001 C CNN
+F 3 "" H 7900 2200 50  0001 C CNN
+	1    7900 2200
 	0    1    1    0   
 $EndComp
 $Comp
@@ -276,4 +341,36 @@ Wire Wire Line
 	6900 3100 6900 2650
 Text GLabel 6900 2650 1    60   Input ~ 0
 optoIsolator_out
+Wire Wire Line
+	6900 3900 6950 3900
+Wire Wire Line
+	7600 2200 7750 2200
+Wire Wire Line
+	8050 2200 8300 2200
+$Comp
+L Conn_01x01 J1
+U 1 1 5A858811
+P 1800 1600
+F 0 "J1" H 1800 1700 50  0000 C CNN
+F 1 "Conn_01x01" H 1800 1500 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3mm_Pad" H 1800 1600 50  0001 C CNN
+F 3 "" H 1800 1600 50  0001 C CNN
+	1    1800 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J2
+U 1 1 5A8588D2
+P 2500 1600
+F 0 "J2" H 2500 1700 50  0000 C CNN
+F 1 "Conn_01x01" H 2500 1500 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3mm_Pad" H 2500 1600 50  0001 C CNN
+F 3 "" H 2500 1600 50  0001 C CNN
+	1    2500 1600
+	1    0    0    -1  
+$EndComp
+Text Notes 1900 1900 0    60   ~ 0
+mounting holes
+NoConn ~ 1600 1600
+NoConn ~ 2300 1600
 $EndSCHEMATC
