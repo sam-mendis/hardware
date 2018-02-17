@@ -1,4 +1,4 @@
-(module Socket_Strip_Arduino_2x18 (layer F.Cu) (tedit 5519A013)
+(module Socket_Strip_Arduino_2x18 (layer F.Cu) (tedit 5A887920)
   (descr "Through hole socket strip")
   (tags "socket strip")
   (fp_text reference REF** (at 0 -5.1) (layer F.SilkS)
@@ -55,8 +55,8 @@
   (pad 34 thru_hole oval (at 40.64 2.54) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad 35 thru_hole oval (at 43.18 0) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad 36 thru_hole oval (at 43.18 2.54) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-  (model ${KIPRJMOD}/Socket_Arduino_Mega.3dshapes/Socket_header_Arduino_2x18.wrl
-    (at (xyz 0.85 -0.05 0))
+  (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/Socket_header_Arduino_2x18.wrl
+    (offset (xyz 21.58999967575073 -1.269999980926514 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
   )
