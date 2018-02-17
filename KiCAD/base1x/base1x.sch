@@ -1,105 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:myParts
-LIBS:ac-dc
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:Battery_Management
-LIBS:bbd
-LIBS:Bosch
-LIBS:brooktre
-LIBS:Connector
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:Diode
-LIBS:Display
-LIBS:driver_gate
-LIBS:dsp
-LIBS:DSP_Microchip_DSPIC33
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:Espressif
-LIBS:FPGA_Actel
-LIBS:ftdi
-LIBS:gennum
-LIBS:Graphic
-LIBS:hc11
-LIBS:infineon
-LIBS:intel
-LIBS:interface
-LIBS:intersil
-LIBS:ir
-LIBS:Lattice
-LIBS:LED
-LIBS:LEM
-LIBS:linear
-LIBS:Logic_74xgxx
-LIBS:Logic_74xx
-LIBS:Logic_CMOS_4000
-LIBS:Logic_CMOS_IEEE
-LIBS:logic_programmable
-LIBS:Logic_TTL_IEEE
-LIBS:maxim
-LIBS:MCU_Microchip_PIC10
-LIBS:MCU_Microchip_PIC12
-LIBS:MCU_Microchip_PIC16
-LIBS:MCU_Microchip_PIC18
-LIBS:MCU_Microchip_PIC24
-LIBS:MCU_Microchip_PIC32
-LIBS:MCU_NXP_Kinetis
-LIBS:MCU_NXP_LPC
-LIBS:MCU_NXP_S08
-LIBS:MCU_Parallax
-LIBS:MCU_ST_STM8
-LIBS:MCU_ST_STM32
-LIBS:MCU_Texas_MSP430
-LIBS:Mechanical
-LIBS:memory
-LIBS:microchip
-LIBS:microcontrollers
-LIBS:modules
-LIBS:Motor
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:powerint
-LIBS:Power_Management
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:Relay
-LIBS:rfcom
-LIBS:RFSolutions
-LIBS:Sensor_Current
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:supertex
-LIBS:Switch
-LIBS:texas
-LIBS:Transformer
-LIBS:Transistor
-LIBS:triac_thyristor
-LIBS:Valve
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:zetex
-LIBS:Zilog
+EESchema Schematic File Version 4
 LIBS:base1x-cache
 EELAYER 26 0
 EELAYER END
@@ -116,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L GND #PWR012
+L power:GND #PWR012
 U 1 1 58FF8E6A
 P 3700 7400
 F 0 "#PWR012" H 3700 7150 50  0001 C CNN
@@ -127,7 +26,7 @@ F 3 "" H 3700 7400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG03
+L power:PWR_FLAG #FLG03
 U 1 1 58FF8E88
 P 3700 7400
 F 0 "#FLG03" H 3700 7475 50  0001 C CNN
@@ -140,7 +39,7 @@ $EndComp
 Text Notes 3100 7200 0    60   ~ 0
 POWER FLAGS
 $Comp
-L PWR_FLAG #FLG01
+L power:PWR_FLAG #FLG01
 U 1 1 5927DD86
 P 2900 7400
 F 0 "#FLG01" H 2900 7475 50  0001 C CNN
@@ -151,7 +50,7 @@ F 3 "" H 2900 7400 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +3V3 #PWR09
+L power:+3V3 #PWR09
 U 1 1 5927E199
 P 2900 7400
 F 0 "#PWR09" H 2900 7250 50  0001 C CNN
@@ -178,7 +77,7 @@ I-
 Text GLabel 2000 7300 2    60   Input ~ 0
 V+
 $Comp
-L GND #PWR08
+L power:GND #PWR08
 U 1 1 59B2F925
 P 2350 7150
 F 0 "#PWR08" H 2350 6900 50  0001 C CNN
@@ -189,7 +88,7 @@ F 3 "" H 2350 7150 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR06
+L power:+5V #PWR06
 U 1 1 59B2F92B
 P 2050 6150
 F 0 "#PWR06" H 2050 6000 50  0001 C CNN
@@ -200,7 +99,7 @@ F 3 "" H 2050 6150 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR07
+L power:+3V3 #PWR07
 U 1 1 59B2F931
 P 2200 6150
 F 0 "#PWR07" H 2200 6000 50  0001 C CNN
@@ -225,7 +124,7 @@ I+
 Text GLabel 10450 1150 1    60   Input ~ 0
 V+
 $Comp
-L GREY@CHRISTOFORO.NET L1
+L myParts:GREY@CHRISTOFORO.NET L1
 U 1 1 59B41702
 P 8950 7250
 F 0 "L1" H 8950 7125 60  0001 C CNN
@@ -236,7 +135,7 @@ F 3 "" H 8950 7250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x14_Odd_Even J3
+L Connector:Conn_02x14_Odd_Even J3
 U 1 1 59C14E89
 P 1800 6800
 F 0 "J3" H 1850 7617 50  0000 C CNN
@@ -253,7 +152,7 @@ MOSI
 Text GLabel 1500 7000 0    60   Input ~ 0
 SCK
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 59C150C5
 P 700 7150
 F 0 "#PWR01" H 700 6900 50  0001 C CNN
@@ -264,7 +163,7 @@ F 3 "" H 700 7150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR03
+L power:+5V #PWR03
 U 1 1 59C150CB
 P 1450 6150
 F 0 "#PWR03" H 1450 6000 50  0001 C CNN
@@ -275,7 +174,7 @@ F 3 "" H 1450 6150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR02
+L power:+3V3 #PWR02
 U 1 1 59C150D1
 P 1300 6150
 F 0 "#PWR02" H 1300 6000 50  0001 C CNN
@@ -298,7 +197,7 @@ MOSI
 Text GLabel 10250 5650 2    60   Input ~ 0
 SCK
 $Comp
-L GND #PWR030
+L power:GND #PWR030
 U 1 1 59C14E5D
 P 11150 5800
 F 0 "#PWR030" H 11150 5550 50  0001 C CNN
@@ -309,7 +208,7 @@ F 3 "" H 11150 5800 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR028
+L power:+5V #PWR028
 U 1 1 59C14E63
 P 10300 4800
 F 0 "#PWR028" H 10300 4650 50  0001 C CNN
@@ -320,7 +219,7 @@ F 3 "" H 10300 4800 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR029
+L power:+3V3 #PWR029
 U 1 1 59C14E69
 P 10450 4800
 F 0 "#PWR029" H 10450 4650 50  0001 C CNN
@@ -337,7 +236,7 @@ SDA
 Text GLabel 10250 5050 2    60   Input ~ 0
 V_D
 $Comp
-L Conn_02x14_Odd_Even J6
+L Connector:Conn_02x14_Odd_Even J6
 U 1 1 59C14E79
 P 10050 5450
 F 0 "J6" H 10100 6267 50  0000 C CNN
@@ -364,7 +263,7 @@ I-
 Text GLabel 9750 5950 0    60   Input ~ 0
 V+
 $Comp
-L GND #PWR025
+L power:GND #PWR025
 U 1 1 59C14E87
 P 9400 5800
 F 0 "#PWR025" H 9400 5550 50  0001 C CNN
@@ -375,7 +274,7 @@ F 3 "" H 9400 5800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR027
+L power:+5V #PWR027
 U 1 1 59C14E8D
 P 9700 4800
 F 0 "#PWR027" H 9700 4650 50  0001 C CNN
@@ -386,7 +285,7 @@ F 3 "" H 9700 4800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR026
+L power:+3V3 #PWR026
 U 1 1 59C14E93
 P 9550 4800
 F 0 "#PWR026" H 9550 4650 50  0001 C CNN
@@ -411,7 +310,7 @@ MISO
 Text GLabel 1050 3250 0    60   Input ~ 0
 SCK
 $Comp
-L +5V #PWR04
+L power:+5V #PWR04
 U 1 1 59C3BD5E
 P 1700 3150
 F 0 "#PWR04" H 1700 3000 50  0001 C CNN
@@ -422,7 +321,7 @@ F 3 "" H 1700 3150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L power:GND #PWR05
 U 1 1 59C3BD64
 P 1950 3350
 F 0 "#PWR05" H 1950 3100 50  0001 C CNN
@@ -447,7 +346,7 @@ Vin
 Text Notes 9300 950  0    60   ~ 0
 External Power
 $Comp
-L Mounting_Hole_PAD MK1
+L Mechanical:Mounting_Hole_PAD MK1
 U 1 1 59C916FE
 P 3300 6100
 F 0 "MK1" H 3400 6151 50  0000 L CNN
@@ -458,7 +357,7 @@ F 3 "" H 3300 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mounting_Hole_PAD MK2
+L Mechanical:Mounting_Hole_PAD MK2
 U 1 1 59C91760
 P 3300 6450
 F 0 "MK2" H 3400 6501 50  0000 L CNN
@@ -469,7 +368,7 @@ F 3 "" H 3300 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR010
+L power:GND #PWR010
 U 1 1 59C92CEC
 P 3300 6650
 F 0 "#PWR010" H 3300 6400 50  0001 C CNN
@@ -538,7 +437,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 1150 9850 1000
 Wire Wire Line
-	3300 6550 3300 6650
+	3300 6550 3300 6600
 Wire Wire Line
 	3150 6600 3300 6600
 Wire Wire Line
@@ -547,7 +446,7 @@ Connection ~ 3300 6600
 Text Label 5050 7450 2    60   ~ 0
 Vin
 $Comp
-L +5V #PWR015
+L power:+5V #PWR015
 U 1 1 59C9F562
 P 4100 7450
 F 0 "#PWR015" H 4100 7300 50  0001 C CNN
@@ -562,7 +461,7 @@ Wire Wire Line
 Wire Wire Line
 	5050 7450 4650 7450
 $Comp
-L Jumper_NO_Small JP6
+L device:Jumper_NO_Small JP6
 U 1 1 59C9EEB4
 P 4550 7450
 F 0 "JP6" H 4550 7635 50  0000 C CNN
@@ -575,67 +474,67 @@ $EndComp
 Wire Wire Line
 	2350 7100 2350 7150
 $Comp
-L Screw_Terminal_01x06 J5
+L Connector:Screw_Terminal_01x06 J5
 U 1 1 59DCB366
-P 10900 1850
-F 0 "J5" V 10773 2130 50  0000 L CNN
-F 1 "Screw_Terminal_01x06" V 10864 2130 50  0000 L CNN
-F 2 "Connectors_Phoenix:PhoenixContact_MC-GF_06x3.50mm_Angled_ThreadedFlange_MountHole" H 10900 1850 50  0001 C CNN
-F 3 "" H 10900 1850 50  0001 C CNN
-F 4 "2776336+1793013" V 10900 1850 60  0001 C CNN "farnellCode"
-	1    10900 1850
+P 1450 1000
+F 0 "J5" V 1323 1280 50  0000 L CNN
+F 1 "Screw_Terminal_01x06" V 1414 1280 50  0000 L CNN
+F 2 "Connectors_Phoenix:PhoenixContact_MC-GF_06x3.50mm_Angled_ThreadedFlange_MountHole" H 1450 1000 50  0001 C CNN
+F 3 "" H 1450 1000 50  0001 C CNN
+F 4 "2776336+1793013" V 1450 1000 60  0001 C CNN "farnellCode"
+	1    1450 1000
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	3150 6200 3150 6600
 $Comp
-L Conn_02x06_Counter_Clockwise J7
+L Connector:Conn_02x06_Odd_Even J7
 U 1 1 59F46AAD
-P 5250 5150
-F 0 "J7" H 5300 5567 50  0000 C CNN
-F 1 "Conn_02x06_Counter_Clockwise" H 5300 5476 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x06_Pitch2.54mm" H 5250 5150 50  0001 C CNN
-F 3 "" H 5250 5150 50  0001 C CNN
-	1    5250 5150
-	1    0    0    -1  
+P 6000 5350
+F 0 "J7" V 6050 5650 50  0000 C CNN
+F 1 "Conn_02x06_Counter_Clockwise" H 6050 5676 50  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x06_Pitch2.54mm" H 6000 5350 50  0001 C CNN
+F 3 "" H 6000 5350 50  0001 C CNN
+	1    6000 5350
+	0    1    -1   0   
 $EndComp
 $Comp
-L Conn_02x06_Counter_Clockwise J8
+L Connector:Conn_02x06_Odd_Even J8
 U 1 1 59F46B55
-P 6500 5150
-F 0 "J8" H 6550 5567 50  0000 C CNN
-F 1 "Conn_02x06_Counter_Clockwise" H 6550 5476 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x06_Pitch2.54mm" H 6500 5150 50  0001 C CNN
-F 3 "" H 6500 5150 50  0001 C CNN
-	1    6500 5150
-	1    0    0    -1  
+P 6000 4700
+F 0 "J8" V 6050 5000 50  0000 C CNN
+F 1 "Conn_02x06_Counter_Clockwise" H 6050 5026 50  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x06_Pitch2.54mm" H 6000 4700 50  0001 C CNN
+F 3 "" H 6000 4700 50  0001 C CNN
+	1    6000 4700
+	0    1    -1   0   
 $EndComp
-NoConn ~ 6300 4950
-NoConn ~ 6300 5050
-NoConn ~ 6300 5150
-NoConn ~ 6300 5250
-NoConn ~ 6300 5350
-NoConn ~ 6300 5450
-NoConn ~ 6800 5450
-NoConn ~ 6800 5350
-NoConn ~ 6800 5250
-NoConn ~ 6800 5150
-NoConn ~ 6800 5050
-NoConn ~ 6800 4950
-NoConn ~ 5550 4950
-NoConn ~ 5550 5050
-NoConn ~ 5550 5150
-NoConn ~ 5550 5250
-NoConn ~ 5550 5350
-NoConn ~ 5550 5450
-NoConn ~ 5050 5450
-NoConn ~ 5050 5350
-NoConn ~ 5050 5250
-NoConn ~ 5050 5150
-NoConn ~ 5050 5050
-NoConn ~ 5050 4950
+NoConn ~ 6200 4900
+NoConn ~ 6100 4900
+NoConn ~ 6000 4900
+NoConn ~ 5900 4900
+NoConn ~ 5800 4900
+NoConn ~ 5700 4900
+NoConn ~ 5700 4400
+NoConn ~ 5800 4400
+NoConn ~ 5900 4400
+NoConn ~ 6000 4400
+NoConn ~ 6100 4400
+NoConn ~ 6200 4400
+NoConn ~ 6200 5050
+NoConn ~ 6100 5050
+NoConn ~ 6000 5050
+NoConn ~ 5900 5050
+NoConn ~ 5800 5050
+NoConn ~ 5700 5050
+NoConn ~ 5700 5550
+NoConn ~ 5800 5550
+NoConn ~ 5900 5550
+NoConn ~ 6000 5550
+NoConn ~ 6100 5550
+NoConn ~ 6200 5550
 $Comp
-L Conn_02x05_Odd_Even J1
+L Connector:Conn_02x05_Odd_Even J1
 U 1 1 59F717B4
 P 1250 3350
 F 0 "J1" H 1300 3767 50  0000 C CNN
@@ -646,7 +545,7 @@ F 3 "" H 1250 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR024
+L power:GND #PWR024
 U 1 1 59F71C15
 P 9550 1250
 F 0 "#PWR024" H 9550 1000 50  0001 C CNN
@@ -665,7 +564,7 @@ Wire Wire Line
 Text Label 700  3550 2    60   ~ 0
 Vin
 $Comp
-L ADS1115 U1
+L myParts:ADS1115 U1
 U 1 1 59F73110
 P 6000 2350
 F 0 "U1" H 5450 2800 50  0000 C CNN
@@ -677,7 +576,7 @@ F 4 "1762981" H 6000 2350 60  0001 C CNN "farnellCode"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR020
+L power:GND #PWR020
 U 1 1 59F7332E
 P 6000 2850
 F 0 "#PWR020" H 6000 2600 50  0001 C CNN
@@ -688,7 +587,7 @@ F 3 "" H 6000 2850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR019
+L power:+5V #PWR019
 U 1 1 59F733BD
 P 6000 1300
 F 0 "#PWR019" H 6000 1150 50  0001 C CNN
@@ -699,9 +598,9 @@ F 3 "" H 6000 1300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6000 1300 6000 1850
+	6000 1300 6000 1500
 $Comp
-L C_Small C1
+L device:C_Small C1
 U 1 1 59F73A1F
 P 5600 1600
 F 0 "C1" H 5692 1646 50  0000 L CNN
@@ -712,7 +611,7 @@ F 3 "" H 5600 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR018
+L power:GND #PWR018
 U 1 1 59F73A65
 P 5600 1700
 F 0 "#PWR018" H 5600 1450 50  0001 C CNN
@@ -726,7 +625,7 @@ Wire Wire Line
 	5600 1500 6000 1500
 Connection ~ 6000 1500
 $Comp
-L R_Small R4
+L device:R_Small R4
 U 1 1 59F73C2B
 P 7150 2050
 F 0 "R4" V 6954 2050 50  0000 C CNN
@@ -741,7 +640,7 @@ SCL
 Text GLabel 6700 2250 2    60   Input ~ 0
 SDA
 $Comp
-L R_Small R3
+L device:R_Small R3
 U 1 1 59F73F0B
 P 7000 2350
 F 0 "R3" V 7196 2350 50  0000 C CNN
@@ -752,7 +651,7 @@ F 3 "" H 7000 2350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +5V #PWR021
+L power:+5V #PWR021
 U 1 1 59F73FA3
 P 7200 2350
 F 0 "#PWR021" H 7200 2200 50  0001 C CNN
@@ -767,7 +666,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 2350 7200 2350
 $Comp
-L GS3 J4
+L Connector:GS3 J4
 U 1 1 59F747BE
 P 7650 2050
 F 0 "J4" H 7650 1725 50  0000 C CNN
@@ -778,7 +677,7 @@ F 3 "" H 7650 2050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR023
+L power:GND #PWR023
 U 1 1 59F74876
 P 7900 2200
 F 0 "#PWR023" H 7900 1950 50  0001 C CNN
@@ -797,7 +696,7 @@ Wire Wire Line
 Wire Wire Line
 	7900 2150 7800 2150
 $Comp
-L +5V #PWR022
+L power:+5V #PWR022
 U 1 1 59F74B1E
 P 7900 1900
 F 0 "#PWR022" H 7900 1750 50  0001 C CNN
@@ -812,7 +711,7 @@ Wire Wire Line
 Wire Wire Line
 	7900 1950 7800 1950
 $Comp
-L D_Photo D1
+L device:D_Photo D1
 U 1 1 59F7456C
 P 3750 2700
 F 0 "D1" V 3700 2900 50  0000 L CNN
@@ -823,7 +722,7 @@ F 3 "" H 3700 2700 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +5V #PWR013
+L power:+5V #PWR013
 U 1 1 59F74573
 P 3750 1800
 F 0 "#PWR013" H 3750 1650 50  0001 C CNN
@@ -834,7 +733,7 @@ F 3 "" H 3750 1800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR014
+L power:GND #PWR014
 U 1 1 59F7459B
 P 3750 3100
 F 0 "#PWR014" H 3750 2850 50  0001 C CNN
@@ -847,7 +746,7 @@ $EndComp
 Wire Wire Line
 	3750 1800 3750 1900
 $Comp
-L R_Small R1
+L device:R_Small R1
 U 1 1 59F761B7
 P 3750 2000
 F 0 "R1" V 3554 2000 50  0000 C CNN
@@ -862,7 +761,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 2450 5300 2450
 $Comp
-L Jumper_NO_Small JP2
+L device:Jumper_NO_Small JP2
 U 1 1 59F7708F
 P 3750 2300
 F 0 "JP2" V 3750 2348 50  0000 L CNN
@@ -875,12 +774,12 @@ $EndComp
 Wire Wire Line
 	3750 2400 3750 2500
 Wire Wire Line
-	3750 2100 3750 2200
+	3750 2100 3750 2150
 Wire Wire Line
-	4450 2150 3750 2150
+	4450 2150 4250 2150
 Connection ~ 3750 2150
 $Comp
-L Jumper_NO_Small JP3
+L device:Jumper_NO_Small JP3
 U 1 1 59F77572
 P 3750 2950
 F 0 "JP3" V 3750 2998 50  0000 L CNN
@@ -895,7 +794,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 3050 3750 3100
 $Comp
-L D_Photo D2
+L device:D_Photo D2
 U 1 1 59F77B1E
 P 4300 3350
 F 0 "D2" V 4250 3550 50  0000 L CNN
@@ -906,7 +805,7 @@ F 3 "" H 4250 3350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +5V #PWR016
+L power:+5V #PWR016
 U 1 1 59F77B25
 P 4300 2450
 F 0 "#PWR016" H 4300 2300 50  0001 C CNN
@@ -917,7 +816,7 @@ F 3 "" H 4300 2450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
+L power:GND #PWR017
 U 1 1 59F77B2B
 P 4300 3750
 F 0 "#PWR017" H 4300 3500 50  0001 C CNN
@@ -930,7 +829,7 @@ $EndComp
 Wire Wire Line
 	4300 2450 4300 2550
 $Comp
-L R_Small R2
+L device:R_Small R2
 U 1 1 59F77B34
 P 4300 2650
 F 0 "R2" V 4104 2650 50  0000 C CNN
@@ -941,7 +840,7 @@ F 3 "" H 4300 2650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper_NO_Small JP4
+L device:Jumper_NO_Small JP4
 U 1 1 59F77B3B
 P 4300 2950
 F 0 "JP4" V 4300 2998 50  0000 L CNN
@@ -954,7 +853,7 @@ $EndComp
 Wire Wire Line
 	4300 3050 4300 3150
 Wire Wire Line
-	4300 2750 4300 2850
+	4300 2750 4300 2800
 Wire Wire Line
 	5000 2800 4300 2800
 Connection ~ 4300 2800
@@ -963,11 +862,11 @@ Wire Wire Line
 Wire Wire Line
 	4300 3700 4300 3750
 Wire Wire Line
-	5000 2550 5000 2850
+	5000 2550 5000 2800
 Wire Wire Line
 	5000 2550 5300 2550
 $Comp
-L GS3 J2
+L Connector:GS3 J2
 U 1 1 59F7BE39
 P 1050 4550
 F 0 "J2" H 1050 4225 50  0000 C CNN
@@ -986,7 +885,7 @@ V_D_EXT
 Text GLabel 1050 3350 0    60   Input ~ 0
 V_D_EXT
 $Comp
-L Test_Point TP1
+L Connector:Test_Point TP1
 U 1 1 5A00C70E
 P 5650 6300
 F 0 "TP1" H 5708 6420 50  0000 L CNN
@@ -997,7 +896,7 @@ F 3 "" H 5850 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR031
+L power:GND #PWR031
 U 1 1 5A00C7AE
 P 5650 6300
 F 0 "#PWR031" H 5650 6050 50  0001 C CNN
@@ -1010,7 +909,7 @@ $EndComp
 Text GLabel 1550 3550 2    60   Input ~ 0
 ~CS0
 $Comp
-L Test_Point TP2
+L Connector:Test_Point TP2
 U 1 1 5A00C0AD
 P 4700 1850
 F 0 "TP2" H 4758 1970 50  0000 L CNN
@@ -1075,7 +974,7 @@ V-R
 Text Label 10550 6150 0    60   ~ 0
 I-R
 $Comp
-L Mounting_Hole MK3
+L Mechanical:Mounting_Hole MK3
 U 1 1 5A00CBDC
 P 8800 1700
 F 0 "MK3" H 8900 1746 50  0000 L CNN
@@ -1086,7 +985,7 @@ F 3 "" H 8800 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mounting_Hole MK4
+L Mechanical:Mounting_Hole MK4
 U 1 1 5A00CCA4
 P 8800 2050
 F 0 "MK4" H 8900 2096 50  0000 L CNN
@@ -1097,7 +996,7 @@ F 3 "" H 8800 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mounting_Hole MK5
+L Mechanical:Mounting_Hole MK5
 U 1 1 5A00CCFE
 P 8800 2350
 F 0 "MK5" H 8900 2396 50  0000 L CNN
@@ -1108,7 +1007,7 @@ F 3 "" H 8800 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mounting_Hole MK6
+L Mechanical:Mounting_Hole MK6
 U 1 1 5A00CD58
 P 8800 2650
 F 0 "MK6" H 8900 2696 50  0000 L CNN
@@ -1119,7 +1018,7 @@ F 3 "" H 8800 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mounting_Hole MK7
+L Mechanical:Mounting_Hole MK7
 U 1 1 5A00CDAE
 P 8800 3000
 F 0 "MK7" H 8900 3046 50  0000 L CNN
@@ -1130,7 +1029,7 @@ F 3 "" H 8800 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mounting_Hole MK8
+L Mechanical:Mounting_Hole MK8
 U 1 1 5A00CE0E
 P 8800 3300
 F 0 "MK8" H 8900 3346 50  0000 L CNN
@@ -1141,7 +1040,7 @@ F 3 "" H 8800 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR032
+L power:+5V #PWR032
 U 1 1 5A00C450
 P 4700 6450
 F 0 "#PWR032" H 4700 6300 50  0001 C CNN
@@ -1152,7 +1051,7 @@ F 3 "" H 4700 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG04
+L power:PWR_FLAG #FLG04
 U 1 1 5A00C545
 P 4700 6750
 F 0 "#FLG04" H 4700 6825 50  0001 C CNN
@@ -1165,7 +1064,7 @@ $EndComp
 Wire Wire Line
 	4700 6750 4700 6450
 $Comp
-L Screw_Terminal_01x08 J9
+L Connector:Screw_Terminal_01x08 J9
 U 1 1 5A36A6E7
 P 10250 1350
 F 0 "J9" V 10374 1296 50  0000 C CNN
@@ -1183,7 +1082,7 @@ I_sense
 Text Label 10150 1150 1    60   ~ 0
 I_sense
 $Comp
-L R R5
+L device:R R5
 U 1 1 5A36BE72
 P 10350 3050
 F 0 "R5" H 10420 3096 50  0000 L CNN
@@ -1195,7 +1094,7 @@ F 4 "2663692" H 10350 3050 60  0001 C CNN "farnellCode"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x02 P4
+L Connector:Conn_01x02 P4
 U 1 1 5A36C25C
 P 9950 3000
 F 0 "P4" H 9950 3150 50  0000 C CNN
@@ -1218,7 +1117,7 @@ I-
 Text GLabel 10250 2900 1    60   Input ~ 0
 I-_EXT
 $Comp
-L Conn_01x02 P3
+L Connector:Conn_01x02 P3
 U 1 1 5A36D44F
 P 9900 2000
 F 0 "P3" H 9900 2150 50  0000 C CNN
@@ -1233,7 +1132,7 @@ I-_EXT
 Wire Wire Line
 	10100 2000 10200 2000
 $Comp
-L GND #PWR033
+L power:GND #PWR033
 U 1 1 5A36D756
 P 10200 2250
 F 0 "#PWR033" H 10200 2000 50  0001 C CNN
@@ -1250,14 +1149,8 @@ Wire Wire Line
 Wire Wire Line
 	10350 3200 10350 3350
 NoConn ~ 10050 1150
-NoConn ~ 10600 1650
-NoConn ~ 10700 1650
-NoConn ~ 10800 1650
-NoConn ~ 10900 1650
-NoConn ~ 11000 1650
-NoConn ~ 11100 1650
 $Comp
-L Test_Point TP3
+L Connector:Test_Point TP3
 U 1 1 5A3700D5
 P 4250 2100
 F 0 "TP3" H 4308 2220 50  0000 L CNN
@@ -1268,7 +1161,7 @@ F 3 "" H 4450 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Test_Point TP4
+L Connector:Test_Point TP4
 U 1 1 5A370173
 P 5000 2850
 F 0 "TP4" H 5058 2970 50  0000 L CNN
@@ -1287,7 +1180,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 1200 4650 1200
 $Comp
-L Test_Point TP5
+L Connector:Test_Point TP5
 U 1 1 5A371768
 P 5150 1200
 F 0 "TP5" H 5208 1320 50  0000 L CNN
@@ -1300,7 +1193,7 @@ $EndComp
 Text Notes 5000 3350 0    60   ~ 0
 This ADC will become ADS122C04 when it comes\nout to support analog inputs more negative than GND\nand I_sense will connect to AIN1
 $Comp
-L Test_Point TP6
+L Connector:Test_Point TP6
 U 1 1 5A58BDB1
 P 10100 3850
 F 0 "TP6" H 10158 3970 50  0000 L CNN
@@ -1317,7 +1210,7 @@ Wire Wire Line
 Text Label 10300 4100 0    60   ~ 0
 I_sense
 $Comp
-L Jumper_NO_Small JP5
+L device:Jumper_NO_Small JP5
 U 1 1 59F77B46
 P 4300 3600
 F 0 "JP5" V 4300 3648 50  0000 L CNN
@@ -1331,4 +1224,26 @@ Wire Wire Line
 	4250 2100 4250 2150
 Connection ~ 4250 2150
 Connection ~ 5000 2800
+Wire Wire Line
+	3300 6600 3300 6650
+Wire Wire Line
+	6000 1500 6000 1850
+Wire Wire Line
+	3750 2150 3750 2200
+Wire Wire Line
+	4300 2800 4300 2850
+Wire Wire Line
+	4250 2150 3750 2150
+Wire Wire Line
+	5000 2800 5000 2850
+NoConn ~ 1150 800 
+NoConn ~ 1250 800 
+NoConn ~ 1350 800 
+NoConn ~ 1450 800 
+NoConn ~ 1550 800 
+NoConn ~ 1650 800 
+Text Notes 900  1200 0    50   ~ 0
+Legacy connector for posterity
+Text Notes 10600 3050 0    50   ~ 0
+Current Sense Resistor
 $EndSCHEMATC
