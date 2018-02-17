@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.56)
+    (last_trace_width 0.25)
     (user_trace_width 0.2)
     (user_trace_width 0.56)
     (trace_clearance 0.153)
@@ -151,9 +151,45 @@
   )
 
   (module myParts:S25-022+P25-4023 (layer F.Cu) (tedit 5A01F89E) (tstamp 58E52FE7)
-    (at 13.335 -3.81)
-    (path /58E4CA77)
+    (at 13.335 6.35)
+    (path /5A65CAC6)
     (fp_text reference TP16 (at 0 1.778) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value TEST (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.6) (layers *.Cu *.Mask)
+      (net 9 /I1))
+    (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/S25-022+P25-4023.step
+      (at (xyz 0 0 0.2165354330708661))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
+  )
+
+  (module myParts:S25-022+P25-4023 (layer F.Cu) (tedit 5A01F898) (tstamp 58E52FE3)
+    (at 13.335 3.81)
+    (path /5A65CA8E)
+    (fp_text reference TP15 (at 0 1.778) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value TEST (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.6) (layers *.Cu *.Mask)
+      (net 10 /V1))
+    (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/S25-022+P25-4023.step
+      (at (xyz 0 0 0.2165354330708661))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
+  )
+
+  (module myParts:S25-022+P25-4023 (layer F.Cu) (tedit 5A01F949) (tstamp 58E52FD7)
+    (at 13.335 -3.81)
+    (path /5A65CA0A)
+    (fp_text reference TP12 (at 0 1.778) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value TEST (at 0 -0.5) (layer F.Fab) hide
@@ -168,10 +204,10 @@
     )
   )
 
-  (module myParts:S25-022+P25-4023 (layer F.Cu) (tedit 5A01F898) (tstamp 58E52FE3)
+  (module myParts:S25-022+P25-4023 (layer F.Cu) (tedit 5A01F91C) (tstamp 58E52FD3)
     (at 13.335 -6.35)
-    (path /58E4CA7D)
-    (fp_text reference TP15 (at 0 1.778) (layer F.SilkS) hide
+    (path /5A65C9A7)
+    (fp_text reference TP11 (at 0 1.778) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value TEST (at 0 -0.5) (layer F.Fab) hide
@@ -186,45 +222,9 @@
     )
   )
 
-  (module myParts:S25-022+P25-4023 (layer F.Cu) (tedit 5A01F949) (tstamp 58E52FD7)
-    (at 1.27 13.335)
-    (path /58E4C3ED)
-    (fp_text reference TP12 (at 0 1.778) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value TEST (at 0 -0.5) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.6) (layers *.Cu *.Mask)
-      (net 17 /VB))
-    (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/S25-022+P25-4023.step
-      (at (xyz 0 0 0.2165354330708661))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 0))
-    )
-  )
-
-  (module myParts:S25-022+P25-4023 (layer F.Cu) (tedit 5A01F91C) (tstamp 58E52FD3)
-    (at 1.27 -13.335)
-    (path /58E4CC49)
-    (fp_text reference TP11 (at 0 1.778) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value TEST (at 0 -0.5) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.6) (layers *.Cu *.Mask)
-      (net 4 /VT))
-    (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/S25-022+P25-4023.step
-      (at (xyz 0 0 0.2165354330708661))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 0))
-    )
-  )
-
   (module myParts:S25-022+P25-4023 (layer F.Cu) (tedit 5A01F92F) (tstamp 58E52FCF)
-    (at -1.27 13.335)
-    (path /58E4C4C8)
+    (at 1.27 13.335)
+    (path /5A65CAF2)
     (fp_text reference TP10 (at 0 1.778) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -232,7 +232,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.6) (layers *.Cu *.Mask)
-      (net 18 /IB))
+      (net 17 /VB))
     (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/S25-022+P25-4023.step
       (at (xyz 0 0 0.2165354330708661))
       (scale (xyz 1 1 1))
@@ -259,9 +259,45 @@
   )
 
   (module myParts:S25-022+P25-4023 (layer F.Cu) (tedit 5A01F857) (tstamp 58E52FC7)
-    (at -13.335 6.35)
-    (path /58E4C6B7)
+    (at 1.27 -13.335)
+    (path /5A65C96D)
     (fp_text reference TP8 (at 0 1.778) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value TEST (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.6) (layers *.Cu *.Mask)
+      (net 4 /VT))
+    (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/S25-022+P25-4023.step
+      (at (xyz 0 0 0.2165354330708661))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
+  )
+
+  (module myParts:S25-022+P25-4023 (layer F.Cu) (tedit 5A01F7B3) (tstamp 58E52FC3)
+    (at -1.27 13.335)
+    (path /5A65CB55)
+    (fp_text reference TP7 (at 0 1.778) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value TEST (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.6) (layers *.Cu *.Mask)
+      (net 18 /IB))
+    (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/S25-022+P25-4023.step
+      (at (xyz 0 0 0.2165354330708661))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
+  )
+
+  (module myParts:S25-022+P25-4023 (layer F.Cu) (tedit 5A01F78C) (tstamp 58E52FBF)
+    (at -13.335 6.35)
+    (path /5A65CC03)
+    (fp_text reference TP6 (at 0 1.778) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value TEST (at 0 -0.5) (layer F.Fab) hide
@@ -276,10 +312,10 @@
     )
   )
 
-  (module myParts:S25-022+P25-4023 (layer F.Cu) (tedit 5A01F7B3) (tstamp 58E52FC3)
+  (module myParts:S25-022+P25-4023 (layer F.Cu) (tedit 5A01F79C) (tstamp 58E52FBB)
     (at -13.335 3.81)
-    (path /58E4C6BD)
-    (fp_text reference TP7 (at 0 1.778) (layer F.SilkS) hide
+    (path /5A65CC8C)
+    (fp_text reference TP5 (at 0 1.778) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value TEST (at 0 -0.5) (layer F.Fab) hide
@@ -294,10 +330,10 @@
     )
   )
 
-  (module myParts:S25-022+P25-4023 (layer F.Cu) (tedit 5A01F78C) (tstamp 58E52FBF)
+  (module myParts:S25-022+P25-4023 (layer F.Cu) (tedit 5A01F7A7) (tstamp 58E52FB7)
     (at -13.335 1.27)
-    (path /58E4C4F2)
-    (fp_text reference TP6 (at 0 1.778) (layer F.SilkS) hide
+    (path /5A65CCC0)
+    (fp_text reference TP4 (at 0 1.778) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value TEST (at 0 -0.5) (layer F.Fab) hide
@@ -312,45 +348,9 @@
     )
   )
 
-  (module myParts:S25-022+P25-4023 (layer F.Cu) (tedit 5A01F79C) (tstamp 58E52FBB)
-    (at -13.335 -1.27)
-    (path /58E4C553)
-    (fp_text reference TP5 (at 0 1.778) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value TEST (at 0 -0.5) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.6) (layers *.Cu *.Mask)
-      (net 5 /V4))
-    (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/S25-022+P25-4023.step
-      (at (xyz 0 0 0.2165354330708661))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 0))
-    )
-  )
-
-  (module myParts:S25-022+P25-4023 (layer F.Cu) (tedit 5A01F7A7) (tstamp 58E52FB7)
-    (at -13.335 -3.81)
-    (path /58E4C747)
-    (fp_text reference TP4 (at 0 1.778) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value TEST (at 0 -0.5) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.6) (layers *.Cu *.Mask)
-      (net 7 /I6))
-    (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/S25-022+P25-4023.step
-      (at (xyz 0 0 0.2165354330708661))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 0))
-    )
-  )
-
   (module myParts:S25-022+P25-4023 (layer F.Cu) (tedit 5A01F7AD) (tstamp 58E52FB3)
-    (at -13.335 -6.35)
-    (path /58E4C74D)
+    (at -13.335 -1.27)
+    (path /5A65CCFE)
     (fp_text reference TP3 (at 0 1.778) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -358,79 +358,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.6) (layers *.Cu *.Mask)
-      (net 8 /V6))
-    (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/S25-022+P25-4023.step
-      (at (xyz 0 0 0.2165354330708661))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 0))
-    )
-  )
-
-  (module myParts:S25-022+P25-4023 (layer F.Cu) (tedit 5A01F8D9) (tstamp 599D8D18)
-    (at 13.335 -1.27)
-    (path /58E4CA65)
-    (fp_text reference TP17 (at 0 1.778) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value TEST (at 0 -0.5) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.6) (layers *.Cu *.Mask)
-      (net 12 /V3))
-    (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/S25-022+P25-4023.step
-      (at (xyz 0 0 0.2165354330708661))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 0))
-    )
-  )
-
-  (module myParts:S25-022+P25-4023 (layer F.Cu) (tedit 5A01F8E2) (tstamp 599D8D1D)
-    (at 13.335 1.27)
-    (path /58E4CA5F)
-    (fp_text reference TP18 (at 0 1.778) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value TEST (at 0 -0.5) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.6) (layers *.Cu *.Mask)
-      (net 11 /I3))
-    (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/S25-022+P25-4023.step
-      (at (xyz 0 0 0.2165354330708661))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 0))
-    )
-  )
-
-  (module myParts:S25-022+P25-4023 (layer F.Cu) (tedit 5A01F8E8) (tstamp 599D8D22)
-    (at 13.335 3.81)
-    (path /58E4CA71)
-    (fp_text reference TP19 (at 0 1.778) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value TEST (at 0 -0.5) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.6) (layers *.Cu *.Mask)
-      (net 10 /V1))
-    (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/S25-022+P25-4023.step
-      (at (xyz 0 0 0.2165354330708661))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 0))
-    )
-  )
-
-  (module myParts:S25-022+P25-4023 (layer F.Cu) (tedit 5A01F8EB) (tstamp 599D8D27)
-    (at 13.335 6.35)
-    (path /58E4CA6B)
-    (fp_text reference TP20 (at 0 1.778) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value TEST (at 0 -0.5) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.6) (layers *.Cu *.Mask)
-      (net 9 /I1))
+      (net 5 /V4))
     (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/S25-022+P25-4023.step
       (at (xyz 0 0 0.2165354330708661))
       (scale (xyz 1 1 1))
@@ -792,6 +720,78 @@
       (net 21 /FCu))
   )
 
+  (module myParts:S25-022+P25-4023 (layer F.Cu) (tedit 5A32CA03) (tstamp 5A65C7A2)
+    (at -13.335 -6.35)
+    (path /5A65CD7A)
+    (fp_text reference TP1 (at 0 1.778) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value TEST (at 0 -0.5) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.6) (layers *.Cu *.Mask)
+      (net 8 /V6))
+    (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/S25-022+P25-4023.step
+      (at (xyz 0 0 0.2165354330708661))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
+  )
+
+  (module myParts:S25-022+P25-4023 (layer F.Cu) (tedit 5A32CA03) (tstamp 5A65C7A7)
+    (at -13.335 -3.81)
+    (path /5A65CD36)
+    (fp_text reference TP2 (at 0 1.778) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value TEST (at 0 -0.5) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.6) (layers *.Cu *.Mask)
+      (net 7 /I6))
+    (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/S25-022+P25-4023.step
+      (at (xyz 0 0 0.2165354330708661))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
+  )
+
+  (module myParts:S25-022+P25-4023 (layer F.Cu) (tedit 5A32CA03) (tstamp 5A65C7AC)
+    (at 13.335 -1.27)
+    (path /5A65CA32)
+    (fp_text reference TP13 (at 0 1.778) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value TEST (at 0 -0.5) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.6) (layers *.Cu *.Mask)
+      (net 12 /V3))
+    (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/S25-022+P25-4023.step
+      (at (xyz 0 0 0.2165354330708661))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
+  )
+
+  (module myParts:S25-022+P25-4023 (layer F.Cu) (tedit 5A32CA03) (tstamp 5A65C7B1)
+    (at 13.335 1.27)
+    (path /5A65CA62)
+    (fp_text reference TP14 (at 0 1.778) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value TEST (at 0 -0.5) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.6) (layers *.Cu *.Mask)
+      (net 11 /I3))
+    (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/S25-022+P25-4023.step
+      (at (xyz 0 0 0.2165354330708661))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
+  )
+
   (gr_text 4I (at -8.285 1.3) (layer F.SilkS) (tstamp 599ECEB5)
     (effects (font (size 0.5 0.5) (thickness 0.125)))
   )
@@ -969,13 +969,13 @@
   (gr_text 6 (at -11.135 -5.405 270) (layer F.SilkS) (tstamp 599DB8A6)
     (effects (font (size 1 1) (thickness 0.25)))
   )
-  (gr_text T (at 0 -13) (layer F.SilkS) (tstamp 599D9DF8)
+  (gr_text T (at 0 -11.43) (layer F.SilkS) (tstamp 599D9DF8)
     (effects (font (size 1 1) (thickness 0.25)))
   )
   (gr_text c75b306 (at 9.906 -12.7) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.175)))
   )
-  (gr_text B (at 0 13) (layer F.SilkS)
+  (gr_text B (at 0 11.43) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.25)))
   )
   (gr_text 4 (at -11.135 -0.31 270) (layer F.SilkS)
