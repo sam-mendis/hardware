@@ -1,4 +1,4 @@
-(kicad_pcb (version 20170123) (host pcbnew "(2017-09-19 revision 0083ce1bd)-master")
+(kicad_pcb (version 20171130) (host pcbnew "(5.0-dev-4060-g28f1209ce)")
 
   (general
     (thickness 1.6)
@@ -6,7 +6,7 @@
     (tracks 31)
     (zones 0)
     (modules 22)
-    (nets 25)
+    (nets 21)
   )
 
   (page A4)
@@ -110,12 +110,8 @@
   (net 16 /RL)
   (net 17 /VB)
   (net 18 /IB)
-  (net 19 "Net-(J1-Pad10)")
-  (net 20 "Net-(J1-Pad12)")
-  (net 21 /FCu)
-  (net 22 /BCu)
-  (net 23 "Net-(J2-Pad9)")
-  (net 24 "Net-(J2-Pad11)")
+  (net 19 /FCu)
+  (net 20 /BCu)
 
   (net_class Default "This is the default net class."
     (clearance 0.153)
@@ -144,10 +140,6 @@
     (add_net /V6)
     (add_net /VB)
     (add_net /VT)
-    (add_net "Net-(J1-Pad10)")
-    (add_net "Net-(J1-Pad12)")
-    (add_net "Net-(J2-Pad11)")
-    (add_net "Net-(J2-Pad9)")
   )
 
   (module myParts:S25-022+P25-4023 (layer F.Cu) (tedit 5A01F89E) (tstamp 58E52FE7)
@@ -162,7 +154,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.6) (layers *.Cu *.Mask)
       (net 13 /I5))
     (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/S25-022+P25-4023.step
-      (at (xyz 0 0 0.2165354330708661))
+      (offset (xyz 0 0 5.499999917398286))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -180,7 +172,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.6) (layers *.Cu *.Mask)
       (net 14 /V5))
     (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/S25-022+P25-4023.step
-      (at (xyz 0 0 0.2165354330708661))
+      (offset (xyz 0 0 5.499999917398286))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -198,7 +190,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.6) (layers *.Cu *.Mask)
       (net 17 /VB))
     (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/S25-022+P25-4023.step
-      (at (xyz 0 0 0.2165354330708661))
+      (offset (xyz 0 0 5.499999917398286))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -216,7 +208,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.6) (layers *.Cu *.Mask)
       (net 4 /VT))
     (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/S25-022+P25-4023.step
-      (at (xyz 0 0 0.2165354330708661))
+      (offset (xyz 0 0 5.499999917398286))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -234,7 +226,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.6) (layers *.Cu *.Mask)
       (net 18 /IB))
     (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/S25-022+P25-4023.step
-      (at (xyz 0 0 0.2165354330708661))
+      (offset (xyz 0 0 5.499999917398286))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -252,7 +244,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.6) (layers *.Cu *.Mask)
       (net 6 /IT))
     (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/S25-022+P25-4023.step
-      (at (xyz 0 0 0.2165354330708661))
+      (offset (xyz 0 0 5.499999917398286))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -270,7 +262,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.6) (layers *.Cu *.Mask)
       (net 1 /I2))
     (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/S25-022+P25-4023.step
-      (at (xyz 0 0 0.2165354330708661))
+      (offset (xyz 0 0 5.499999917398286))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -288,7 +280,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.6) (layers *.Cu *.Mask)
       (net 2 /V2))
     (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/S25-022+P25-4023.step
-      (at (xyz 0 0 0.2165354330708661))
+      (offset (xyz 0 0 5.499999917398286))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -306,7 +298,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.6) (layers *.Cu *.Mask)
       (net 3 /I4))
     (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/S25-022+P25-4023.step
-      (at (xyz 0 0 0.2165354330708661))
+      (offset (xyz 0 0 5.499999917398286))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -324,7 +316,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.6) (layers *.Cu *.Mask)
       (net 5 /V4))
     (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/S25-022+P25-4023.step
-      (at (xyz 0 0 0.2165354330708661))
+      (offset (xyz 0 0 5.499999917398286))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -342,7 +334,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.6) (layers *.Cu *.Mask)
       (net 7 /I6))
     (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/S25-022+P25-4023.step
-      (at (xyz 0 0 0.2165354330708661))
+      (offset (xyz 0 0 5.499999917398286))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -360,7 +352,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.6) (layers *.Cu *.Mask)
       (net 8 /V6))
     (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/S25-022+P25-4023.step
-      (at (xyz 0 0 0.2165354330708661))
+      (offset (xyz 0 0 5.499999917398286))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -378,7 +370,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.6) (layers *.Cu *.Mask)
       (net 12 /V3))
     (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/S25-022+P25-4023.step
-      (at (xyz 0 0 0.2165354330708661))
+      (offset (xyz 0 0 5.499999917398286))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -396,7 +388,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.6) (layers *.Cu *.Mask)
       (net 11 /I3))
     (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/S25-022+P25-4023.step
-      (at (xyz 0 0 0.2165354330708661))
+      (offset (xyz 0 0 5.499999917398286))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -414,7 +406,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.6) (layers *.Cu *.Mask)
       (net 10 /V1))
     (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/S25-022+P25-4023.step
-      (at (xyz 0 0 0.2165354330708661))
+      (offset (xyz 0 0 5.499999917398286))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -432,7 +424,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.6) (layers *.Cu *.Mask)
       (net 9 /I1))
     (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/S25-022+P25-4023.step
-      (at (xyz 0 0 0.2165354330708661))
+      (offset (xyz 0 0 5.499999917398286))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -442,10 +434,10 @@
     (at 0 0 90)
     (path /59BFB10C)
     (fp_text reference L1 (at 0 4 90) (layer B.SilkS) hide
-      (effects (font (thickness 0.2)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.2)) (justify mirror))
     )
     (fp_text value GREY@CHRISTOFORO.NET (at 0 -4 90) (layer B.SilkS) hide
-      (effects (font (thickness 0.2)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.2)) (justify mirror))
     )
     (fp_poly (pts (xy -0.030446 0.410336) (xy -0.128951 0.511719) (xy -0.828528 0.511719) (xy -0.927058 0.410336)
       (xy -0.927058 -0.017886) (xy -0.828528 -0.089278) (xy -0.228894 -0.089278) (xy -0.228894 -0.28842)
@@ -554,11 +546,11 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
-      (net 21 /FCu))
+      (net 19 /FCu))
     (pad 2 thru_hole oval (at 2.54 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 9 /I1))
     (pad 3 thru_hole oval (at 0 -2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
-      (net 22 /BCu))
+      (net 20 /BCu))
     (pad 4 thru_hole oval (at 2.54 -2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 10 /V1))
     (pad 5 thru_hole oval (at 0 -5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
@@ -569,12 +561,10 @@
       (net 18 /IB))
     (pad 8 thru_hole oval (at 2.54 -7.62) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 12 /V3))
-    (pad 9 thru_hole oval (at 0 -10.16) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
-      (net 23 "Net-(J2-Pad9)"))
+    (pad 9 thru_hole oval (at 0 -10.16) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
     (pad 10 thru_hole oval (at 2.54 -10.16) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 13 /I5))
-    (pad 11 thru_hole oval (at 0 -12.7) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
-      (net 24 "Net-(J2-Pad11)"))
+    (pad 11 thru_hole oval (at 0 -12.7) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
     (pad 12 thru_hole oval (at 2.54 -12.7) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 14 /V5))
     (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_2x06_Pitch2.54mm.wrl
@@ -633,12 +623,10 @@
       (net 6 /IT))
     (pad 9 thru_hole oval (at 0 -10.16) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 7 /I6))
-    (pad 10 thru_hole oval (at 2.54 -10.16) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
-      (net 19 "Net-(J1-Pad10)"))
+    (pad 10 thru_hole oval (at 2.54 -10.16) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
     (pad 11 thru_hole oval (at 0 -12.7) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 8 /V6))
-    (pad 12 thru_hole oval (at 2.54 -12.7) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
-      (net 20 "Net-(J1-Pad12)"))
+    (pad 12 thru_hole oval (at 2.54 -12.7) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_2x06_Pitch2.54mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -686,10 +674,10 @@
     (at 0 0 90)
     (path /59BFB10C)
     (fp_text reference L1 (at 0 -4 90) (layer F.SilkS) hide
-      (effects (font (thickness 0.2)))
+      (effects (font (size 1.524 1.524) (thickness 0.2)))
     )
     (fp_text value GREY@CHRISTOFORO.NET (at 0 4 90) (layer F.SilkS) hide
-      (effects (font (thickness 0.2)))
+      (effects (font (size 1.524 1.524) (thickness 0.2)))
     )
     (fp_poly (pts (xy -0.030446 -0.410336) (xy -0.128951 -0.511719) (xy -0.828528 -0.511719) (xy -0.927058 -0.410336)
       (xy -0.927058 0.017886) (xy -0.828528 0.089278) (xy -0.228894 0.089278) (xy -0.228894 0.28842)
@@ -787,9 +775,9 @@
     (fp_line (start 0.89 -1.27) (end -0.89 -1.27) (layer B.SilkS) (width 0.12))
     (fp_line (start -0.89 1.27) (end 0.89 1.27) (layer B.SilkS) (width 0.12))
     (pad 1 smd rect (at 0 0.64) (size 1.27 0.97) (layers B.Cu B.Paste B.Mask)
-      (net 22 /BCu))
+      (net 20 /BCu))
     (pad 2 smd rect (at 0 -0.64) (size 1.27 0.97) (layers B.Cu B.Paste B.Mask)
-      (net 21 /FCu))
+      (net 19 /FCu))
   )
 
   (gr_text 4I (at -8.285 1.3) (layer F.SilkS) (tstamp 599ECEB5)
@@ -1028,9 +1016,9 @@
   (segment (start -1.27 13.335) (end -1.27 2.54) (width 0.56) (layer F.Cu) (net 18))
   (segment (start -1.27 2.54) (end 2.54 -1.27) (width 0.56) (layer F.Cu) (net 18))
   (segment (start 2.54 -1.27) (end 3.81 -1.27) (width 0.56) (layer F.Cu) (net 18))
-  (segment (start 3.81 9.393) (end 3.81 6.35) (width 0.56) (layer B.Cu) (net 21))
+  (segment (start 3.81 9.393) (end 3.81 6.35) (width 0.56) (layer B.Cu) (net 19))
 
-  (zone (net 22) (net_name /BCu) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 20) (net_name /BCu) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
     (connect_pads (clearance 0.2))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -1190,7 +1178,7 @@
       )
     )
   )
-  (zone (net 21) (net_name /FCu) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 19) (net_name /FCu) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
     (connect_pads (clearance 0.2))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))

@@ -1,34 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:myParts
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:springPins30x30NoWindow-cache
 EELAYER 26 0
 EELAYER END
@@ -45,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L TEST TP10
+L Connector:Test_Point TP10
 U 1 1 58E4C4C8
 P 5100 5550
 F 0 "TP10" H 5100 5850 50  0000 C BNN
@@ -56,7 +26,7 @@ F 3 "" H 5100 5550 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L TEST TP6
+L Connector:Test_Point TP6
 U 1 1 58E4C4F2
 P 3750 4250
 F 0 "TP6" H 3750 4550 50  0000 C BNN
@@ -67,7 +37,7 @@ F 3 "" H 3750 4250 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP5
+L Connector:Test_Point TP5
 U 1 1 58E4C553
 P 3750 4100
 F 0 "TP5" H 3750 4400 50  0000 C BNN
@@ -78,7 +48,7 @@ F 3 "" H 3750 4100 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP8
+L Connector:Test_Point TP8
 U 1 1 58E4C6B7
 P 3750 4800
 F 0 "TP8" H 3750 5100 50  0000 C BNN
@@ -89,7 +59,7 @@ F 3 "" H 3750 4800 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP7
+L Connector:Test_Point TP7
 U 1 1 58E4C6BD
 P 3750 4650
 F 0 "TP7" H 3750 4950 50  0000 C BNN
@@ -100,7 +70,7 @@ F 3 "" H 3750 4650 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP4
+L Connector:Test_Point TP4
 U 1 1 58E4C747
 P 3750 3700
 F 0 "TP4" H 3750 4000 50  0000 C BNN
@@ -111,7 +81,7 @@ F 3 "" H 3750 3700 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP3
+L Connector:Test_Point TP3
 U 1 1 58E4C74D
 P 3750 3550
 F 0 "TP3" H 3750 3850 50  0000 C BNN
@@ -122,7 +92,7 @@ F 3 "" H 3750 3550 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP18
+L Connector:Test_Point TP18
 U 1 1 58E4CA5F
 P 6650 4250
 F 0 "TP18" H 6650 4550 50  0000 C BNN
@@ -133,7 +103,7 @@ F 3 "" H 6650 4250 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L TEST TP17
+L Connector:Test_Point TP17
 U 1 1 58E4CA65
 P 6650 4100
 F 0 "TP17" H 6650 4400 50  0000 C BNN
@@ -144,7 +114,7 @@ F 3 "" H 6650 4100 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L TEST TP20
+L Connector:Test_Point TP20
 U 1 1 58E4CA6B
 P 6650 4800
 F 0 "TP20" H 6650 5100 50  0000 C BNN
@@ -155,7 +125,7 @@ F 3 "" H 6650 4800 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L TEST TP19
+L Connector:Test_Point TP19
 U 1 1 58E4CA71
 P 6650 4650
 F 0 "TP19" H 6650 4950 50  0000 C BNN
@@ -166,7 +136,7 @@ F 3 "" H 6650 4650 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L TEST TP16
+L Connector:Test_Point TP16
 U 1 1 58E4CA77
 P 6650 3700
 F 0 "TP16" H 6650 4000 50  0000 C BNN
@@ -177,7 +147,7 @@ F 3 "" H 6650 3700 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L TEST TP15
+L Connector:Test_Point TP15
 U 1 1 58E4CA7D
 P 6650 3550
 F 0 "TP15" H 6650 3850 50  0000 C BNN
@@ -188,7 +158,7 @@ F 3 "" H 6650 3550 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L TEST TP9
+L Connector:Test_Point TP9
 U 1 1 58E4CC43
 P 4950 2300
 F 0 "TP9" H 4950 2600 50  0000 C BNN
@@ -199,7 +169,7 @@ F 3 "" H 4950 2300 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L TEST TP11
+L Connector:Test_Point TP11
 U 1 1 58E4CC49
 P 5150 2300
 F 0 "TP11" H 5150 2600 50  0000 C BNN
@@ -234,29 +204,29 @@ Text Notes 2950 4300 0    160  ~ 0
 Text Notes 2950 3700 0    160  ~ 0
 6
 $Comp
-L CONN_02X06 J1
+L Connector:Conn_02x06_Odd_Even J1
 U 1 1 599DB107
-P 4600 3900
-F 0 "J1" H 4600 4250 50  0000 C CNN
-F 1 "CONN_02X06" H 4600 3550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x06_Pitch2.54mm" H 4600 2700 50  0001 C CNN
-F 3 "" H 4600 2700 50  0001 C CNN
-	1    4600 3900
+P 4550 3950
+F 0 "J1" H 4450 4250 50  0000 C CNN
+F 1 "CONN_02X06" H 4550 3500 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x06_Pitch2.54mm" H 4550 2750 50  0001 C CNN
+F 3 "" H 4550 2750 50  0001 C CNN
+	1    4550 3950
 	1    0    0    1   
 $EndComp
 $Comp
-L CONN_02X06 J2
+L Connector:Conn_02x06_Odd_Even J2
 U 1 1 599DB1BB
-P 5750 3900
-F 0 "J2" H 5750 4250 50  0000 C CNN
-F 1 "CONN_02X06" H 5750 3550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x06_Pitch2.54mm" H 5750 2700 50  0001 C CNN
-F 3 "" H 5750 2700 50  0001 C CNN
-	1    5750 3900
+P 5700 3950
+F 0 "J2" H 5600 4250 50  0000 C CNN
+F 1 "CONN_02X06" H 5700 3500 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x06_Pitch2.54mm" H 5700 2750 50  0001 C CNN
+F 3 "" H 5700 2750 50  0001 C CNN
+	1    5700 3950
 	1    0    0    1   
 $EndComp
 $Comp
-L R R1
+L device:R R1
 U 1 1 599DBDE1
 P 4850 4400
 F 0 "R1" V 4930 4400 50  0000 C CNN
@@ -335,7 +305,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 3550 3750 3550
 $Comp
-L TEST TP12
+L Connector:Test_Point TP12
 U 1 1 58E4C3ED
 P 5250 5550
 F 0 "TP12" H 5250 5850 50  0000 C BNN
@@ -424,7 +394,7 @@ NoConn ~ 5500 3650
 NoConn ~ 5500 3750
 NoConn ~ 4850 3750
 $Comp
-L GREY@CHRISTOFORO.NET L1
+L myParts:GREY@CHRISTOFORO.NET L1
 U 1 1 59BFB10C
 P 7950 6950
 F 0 "L1" H 7950 6825 60  0001 C CNN
@@ -435,7 +405,7 @@ F 3 "" H 7950 6950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NO_Small JP1
+L device:Jumper_NO_Small JP1
 U 1 1 59F4B423
 P 5600 4550
 F 0 "JP1" H 5600 4735 50  0000 C CNN

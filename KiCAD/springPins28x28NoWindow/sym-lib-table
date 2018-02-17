@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name springPins28x28NoWindow-rescue)(type Legacy)(uri ${KIPRJMOD}/springPins28x28NoWindow-rescue.lib)(options "")(descr ""))
+  (lib (name myParts)(type Legacy)(uri ${KIPRJMOD}/sharedLibs/myParts.lib)(options "")(descr ""))
+)
