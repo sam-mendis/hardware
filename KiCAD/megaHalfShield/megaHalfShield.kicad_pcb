@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 11)
+    (drawings 12)
     (tracks 66)
     (zones 0)
     (modules 10)
@@ -67,7 +67,7 @@
     (aux_axis_origin 103.378 121.666)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
+      (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
       (usegerberattributes true)
       (usegerberadvancedattributes true)
@@ -90,9 +90,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory output/))
   )
 
   (net 0 "")
@@ -295,7 +295,7 @@
   )
 
   (module myparts:logo (layer F.Cu) (tedit 0) (tstamp 5AA1D69E)
-    (at 173.99 95.885 90)
+    (at 173.99 100.33 90)
     (path /5A893AFD)
     (fp_text reference L1 (at 0 -4 90) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.2)))
@@ -559,6 +559,9 @@
     (pad 1 thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask F.SilkS))
   )
 
+  (gr_text 3ec2e93 (at 176.53 86.36 90) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_line (start 172.466 76.2) (end 169.926 73.66) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 172.466 121.666) (end 172.466 76.2) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 202.438 121.666) (end 172.466 121.666) (angle 90) (layer Edge.Cuts) (width 0.15))
