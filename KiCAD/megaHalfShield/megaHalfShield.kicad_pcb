@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.0-dev-4060-g28f1209ce)")
+(kicad_pcb (version 20171130) (host pcbnew "(5.0-dev-4085-g9241a399a)")
 
   (general
     (thickness 1.6)
@@ -68,7 +68,7 @@
     (visible_elements FFFFFF7F)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
-      (usegerberextensions false)
+      (usegerberextensions true)
       (usegerberattributes true)
       (usegerberadvancedattributes true)
       (creategerberjobfile true)
@@ -559,7 +559,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (gr_text 3ec2e93 (at 176.53 86.36 90) (layer F.SilkS)
+  (gr_text 627f30f (at 176.53 86.36 90) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_line (start 172.466 76.2) (end 169.926 73.66) (layer Edge.Cuts) (width 0.15))
