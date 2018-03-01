@@ -1771,7 +1771,7 @@
       (xy 18.001028 -0.623664) (xy 18.001028 -1.023438) (xy 16.304893 -1.023438) (xy 16.304893 0.976563)) (layer F.SilkS) (width 0.001))
   )
 
-  (gr_text 627f30f (at 13.335 43.18) (layer F.SilkS)
+  (gr_text 20b2bb8 (at 13.335 43.18) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text GND (at 30.48 53.34) (layer F.SilkS)

@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.0-dev-4085-g9241a399a)")
+(kicad_pcb (version 20171130) (host pcbnew "(5.0.0-rc2-dev-44-gde6b32d23)")
 
   (general
     (thickness 1.6)
@@ -36,7 +36,7 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.25)
     (user_trace_width 0.43)
     (user_trace_width 0.5)
     (user_trace_width 1)
@@ -71,7 +71,7 @@
       (usegerberextensions true)
       (usegerberattributes true)
       (usegerberadvancedattributes true)
-      (creategerberjobfile true)
+      (creategerberjobfile false)
       (excludeedgelayer true)
       (linewidth 0.150000)
       (plotframeref false)
@@ -2217,7 +2217,7 @@
     )
   )
 
-  (gr_text 627f30f (at -18.415 -22.225 90) (layer F.SilkS)
+  (gr_text 20b2bb8 (at -18.415 -22.225 90) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text "GND\n" (at -11.176 8.128) (layer F.SilkS)
