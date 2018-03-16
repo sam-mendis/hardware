@@ -164,6 +164,7 @@ F 0 "U8" H 1650 4850 50  0000 L CNN
 F 1 "ASSR-1611" H 1850 4850 50  0000 L CNN
 F 2 "Housings_DIP:DIP-6_W7.62mm" H 1650 4450 50  0001 L CIN
 F 3 "" H 1800 4700 50  0001 L CNN
+F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	1    1850 4650
 	-1   0    0    -1  
 $EndComp
@@ -175,6 +176,7 @@ F 0 "U22" H 9850 3125 50  0000 R CNN
 F 1 "MCP23S17" H 9850 3050 50  0000 R CNN
 F 2 "Housings_DIP:DIP-28_W7.62mm" H 10000 1150 50  0001 L CNN
 F 3 "" H 10200 3100 50  0001 C CNN
+F 4 "1292238" H 0   0   50  0001 C CNN "farnellCode"
 	1    9950 2100
 	1    0    0    -1  
 $EndComp
@@ -186,6 +188,7 @@ F 0 "U7" H 1650 4400 50  0000 L CNN
 F 1 "ASSR-1611" H 1850 4400 50  0000 L CNN
 F 2 "Housings_DIP:DIP-6_W7.62mm" H 1650 4000 50  0001 L CIN
 F 3 "" H 1800 4250 50  0001 L CNN
+F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	1    1850 4200
 	-1   0    0    -1  
 $EndComp
@@ -197,6 +200,7 @@ F 0 "U10" H 1650 5750 50  0000 L CNN
 F 1 "ASSR-1611" H 1850 5750 50  0000 L CNN
 F 2 "Housings_DIP:DIP-6_W7.62mm" H 1650 5350 50  0001 L CIN
 F 3 "" H 1800 5600 50  0001 L CNN
+F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	1    1850 5550
 	-1   0    0    -1  
 $EndComp
@@ -208,6 +212,7 @@ F 0 "U9" H 1650 5300 50  0000 L CNN
 F 1 "ASSR-1611" H 1850 5300 50  0000 L CNN
 F 2 "Housings_DIP:DIP-6_W7.62mm" H 1650 4900 50  0001 L CIN
 F 3 "" H 1800 5150 50  0001 L CNN
+F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	1    1850 5100
 	-1   0    0    -1  
 $EndComp
@@ -219,6 +224,7 @@ F 0 "U6" H 1650 3950 50  0000 L CNN
 F 1 "ASSR-1611" H 1850 3950 50  0000 L CNN
 F 2 "Housings_DIP:DIP-6_W7.62mm" H 1650 3550 50  0001 L CIN
 F 3 "" H 1800 3800 50  0001 L CNN
+F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	1    1850 3750
 	-1   0    0    -1  
 $EndComp
@@ -230,6 +236,7 @@ F 0 "U3" H 1650 2600 50  0000 L CNN
 F 1 "ASSR-1611" H 1850 2600 50  0000 L CNN
 F 2 "Housings_DIP:DIP-6_W7.62mm" H 1650 2200 50  0001 L CIN
 F 3 "" H 1800 2450 50  0001 L CNN
+F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	1    1850 2400
 	-1   0    0    -1  
 $EndComp
@@ -241,6 +248,7 @@ F 0 "U2" H 1650 2150 50  0000 L CNN
 F 1 "ASSR-1611" H 1850 2150 50  0000 L CNN
 F 2 "Housings_DIP:DIP-6_W7.62mm" H 1650 1750 50  0001 L CIN
 F 3 "" H 1800 2000 50  0001 L CNN
+F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	1    1850 1950
 	-1   0    0    -1  
 $EndComp
@@ -252,6 +260,7 @@ F 0 "U5" H 1650 3500 50  0000 L CNN
 F 1 "ASSR-1611" H 1850 3500 50  0000 L CNN
 F 2 "Housings_DIP:DIP-6_W7.62mm" H 1650 3100 50  0001 L CIN
 F 3 "" H 1800 3350 50  0001 L CNN
+F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	1    1850 3300
 	-1   0    0    -1  
 $EndComp
@@ -263,6 +272,7 @@ F 0 "U4" H 1650 3050 50  0000 L CNN
 F 1 "ASSR-1611" H 1850 3050 50  0000 L CNN
 F 2 "Housings_DIP:DIP-6_W7.62mm" H 1650 2650 50  0001 L CIN
 F 3 "" H 1800 2900 50  0001 L CNN
+F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	1    1850 2850
 	-1   0    0    -1  
 $EndComp
@@ -274,6 +284,7 @@ F 0 "U1" H 1650 1700 50  0000 L CNN
 F 1 "ASSR-1611" H 1850 1700 50  0000 L CNN
 F 2 "Housings_DIP:DIP-6_W7.62mm" H 1650 1300 50  0001 L CIN
 F 3 "" H 1800 1550 50  0001 L CNN
+F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	1    1850 1500
 	-1   0    0    -1  
 $EndComp
@@ -285,6 +296,7 @@ F 0 "U18" H 3850 4850 50  0000 L CNN
 F 1 "ASSR-1611" H 4050 4850 50  0000 L CNN
 F 2 "Housings_DIP:DIP-6_W7.62mm" H 3850 4450 50  0001 L CIN
 F 3 "" H 4000 4700 50  0001 L CNN
+F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	1    4050 4650
 	1    0    0    -1  
 $EndComp
@@ -296,6 +308,7 @@ F 0 "U17" H 3850 4400 50  0000 L CNN
 F 1 "ASSR-1611" H 4050 4400 50  0000 L CNN
 F 2 "Housings_DIP:DIP-6_W7.62mm" H 3850 4000 50  0001 L CIN
 F 3 "" H 4000 4250 50  0001 L CNN
+F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	1    4050 4200
 	1    0    0    -1  
 $EndComp
@@ -307,6 +320,7 @@ F 0 "U20" H 3850 5750 50  0000 L CNN
 F 1 "ASSR-1611" H 4050 5750 50  0000 L CNN
 F 2 "Housings_DIP:DIP-6_W7.62mm" H 3850 5350 50  0001 L CIN
 F 3 "" H 4000 5600 50  0001 L CNN
+F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	1    4050 5550
 	1    0    0    -1  
 $EndComp
@@ -318,6 +332,7 @@ F 0 "U19" H 3850 5300 50  0000 L CNN
 F 1 "ASSR-1611" H 4050 5300 50  0000 L CNN
 F 2 "Housings_DIP:DIP-6_W7.62mm" H 3850 4900 50  0001 L CIN
 F 3 "" H 4000 5150 50  0001 L CNN
+F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	1    4050 5100
 	1    0    0    -1  
 $EndComp
@@ -329,6 +344,7 @@ F 0 "U16" H 3850 3950 50  0000 L CNN
 F 1 "ASSR-1611" H 4050 3950 50  0000 L CNN
 F 2 "Housings_DIP:DIP-6_W7.62mm" H 3850 3550 50  0001 L CIN
 F 3 "" H 4000 3800 50  0001 L CNN
+F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	1    4050 3750
 	1    0    0    -1  
 $EndComp
@@ -340,6 +356,7 @@ F 0 "U13" H 3850 2600 50  0000 L CNN
 F 1 "ASSR-1611" H 4050 2600 50  0000 L CNN
 F 2 "Housings_DIP:DIP-6_W7.62mm" H 3850 2200 50  0001 L CIN
 F 3 "" H 4000 2450 50  0001 L CNN
+F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	1    4050 2400
 	1    0    0    -1  
 $EndComp
@@ -351,6 +368,7 @@ F 0 "U12" H 3850 2150 50  0000 L CNN
 F 1 "ASSR-1611" H 4050 2150 50  0000 L CNN
 F 2 "Housings_DIP:DIP-6_W7.62mm" H 3850 1750 50  0001 L CIN
 F 3 "" H 4000 2000 50  0001 L CNN
+F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	1    4050 1950
 	1    0    0    -1  
 $EndComp
@@ -362,6 +380,7 @@ F 0 "U15" H 3850 3500 50  0000 L CNN
 F 1 "ASSR-1611" H 4050 3500 50  0000 L CNN
 F 2 "Housings_DIP:DIP-6_W7.62mm" H 3850 3100 50  0001 L CIN
 F 3 "" H 4000 3350 50  0001 L CNN
+F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	1    4050 3300
 	1    0    0    -1  
 $EndComp
@@ -373,6 +392,7 @@ F 0 "U14" H 3850 3050 50  0000 L CNN
 F 1 "ASSR-1611" H 4050 3050 50  0000 L CNN
 F 2 "Housings_DIP:DIP-6_W7.62mm" H 3850 2650 50  0001 L CIN
 F 3 "" H 4000 2900 50  0001 L CNN
+F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	1    4050 2850
 	1    0    0    -1  
 $EndComp
@@ -384,6 +404,7 @@ F 0 "U11" H 3850 1700 50  0000 L CNN
 F 1 "ASSR-1611" H 4050 1700 50  0000 L CNN
 F 2 "Housings_DIP:DIP-6_W7.62mm" H 3850 1300 50  0001 L CIN
 F 3 "" H 4000 1550 50  0001 L CNN
+F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	1    4050 1500
 	1    0    0    -1  
 $EndComp
@@ -395,6 +416,7 @@ F 0 "J2" H 7900 4700 50  0000 C CNN
 F 1 "Conn_02x06_Odd_Even" H 7900 4000 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_2x06_Pitch2.54mm" H 7850 4400 50  0001 C CNN
 F 3 "" H 7850 4400 50  0001 C CNN
+F 4 "1930232" H 0   0   50  0001 C CNN "farnellCode"
 	1    7850 4400
 	0    1    -1   0   
 $EndComp
@@ -406,6 +428,7 @@ F 0 "J3" H 7900 3350 50  0000 C CNN
 F 1 "Conn_02x06_Odd_Even" H 7900 2650 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_2x06_Pitch2.54mm" H 7850 3050 50  0001 C CNN
 F 3 "" H 7850 3050 50  0001 C CNN
+F 4 "1930232" H 0   0   50  0001 C CNN "farnellCode"
 	1    7850 3050
 	0    1    -1   0   
 $EndComp
@@ -507,6 +530,7 @@ F 0 "C1" H 10925 1050 50  0000 L CNN
 F 1 "0.1uF" H 10925 850 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10938 800 50  0001 C CNN
 F 3 "" H 10900 950 50  0001 C CNN
+F 4 "1759143" H 0   0   50  0001 C CNN "farnellCode"
 	1    10900 950 
 	1    0    0    -1  
 $EndComp
@@ -627,6 +651,7 @@ F 0 "R1" V 5380 1350 50  0000 C CNN
 F 1 "470R" V 5300 1350 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 5230 1350 50  0001 C CNN
 F 3 "" H 5300 1350 50  0000 C CNN
+F 4 "2073783" H 0   0   50  0001 C CNN "farnellCode"
 	1    5300 1350
 	-1   0    0    1   
 $EndComp
@@ -909,6 +934,7 @@ F 0 "J4" H 10900 6150 50  0000 C CNN
 F 1 "Conn_01x14" H 10900 4650 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x14_Pitch2.54mm" H 10900 5450 50  0001 C CNN
 F 3 "" H 10900 5450 50  0001 C CNN
+F 4 "2037821" H 0   0   50  0001 C CNN "farnellCode"
 	1    10900 5450
 	1    0    0    -1  
 $EndComp
@@ -991,6 +1017,7 @@ F 0 "J1" H 750 7600 50  0000 C CNN
 F 1 "Conn_01x14" H 750 6100 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x14_Pitch2.54mm" H 750 6900 50  0001 C CNN
 F 3 "" H 750 6900 50  0001 C CNN
+F 4 "2037821" H 0   0   50  0001 C CNN "farnellCode"
 	1    750  6900
 	-1   0    0    -1  
 $EndComp
@@ -1004,6 +1031,7 @@ F 0 "U21" H 5850 1300 50  0000 L CNN
 F 1 "ASSR-1611" H 6050 1300 50  0000 L CNN
 F 2 "Housings_DIP:DIP-6_W7.62mm" H 5850 900 50  0001 L CIN
 F 3 "" H 6000 1150 50  0001 L CNN
+F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	1    6050 1100
 	1    0    0    -1  
 $EndComp
@@ -1035,6 +1063,7 @@ F 0 "R2" V 6680 1350 50  0000 C CNN
 F 1 "500K" V 6600 1350 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 6530 1350 50  0001 C CNN
 F 3 "" H 6600 1350 50  0000 C CNN
+F 4 "2073790" H 0   0   50  0001 C CNN "farnellCode"
 	1    6600 1350
 	1    0    0    -1  
 $EndComp
@@ -1252,6 +1281,7 @@ F 0 "R3" V 10680 1000 50  0000 C CNN
 F 1 "10K" V 10600 1000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 10530 1000 50  0001 C CNN
 F 3 "" H 10600 1000 50  0000 C CNN
+F 4 "2073607" H 0   0   50  0001 C CNN "farnellCode"
 	1    10600 1000
 	1    0    0    -1  
 $EndComp

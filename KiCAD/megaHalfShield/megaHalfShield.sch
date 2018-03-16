@@ -146,6 +146,7 @@ F 0 "P4" H 9350 1600 50  0000 C CNN
 F 1 "Analog" V 9450 1150 50  0000 C CNN
 F 2 "myparts:Socket_Strip_Arduino_1x08" H 9350 1150 50  0001 C CNN
 F 3 "" H 9350 1150 50  0000 C CNN
+F 4 "2505051" H 0   0   50  0001 C CNN "farnellcode"
 	1    9350 1150
 	1    0    0    -1  
 $EndComp
@@ -157,6 +158,7 @@ F 0 "P7" H 9750 1600 50  0000 C CNN
 F 1 "Communication" V 9850 1150 50  0000 C CNN
 F 2 "myparts:Socket_Strip_Arduino_1x08" H 9750 1150 50  0001 C CNN
 F 3 "" H 9750 1150 50  0000 C CNN
+F 4 "2505051" H 0   0   50  0001 C CNN "farnellcode"
 	1    9750 1150
 	-1   0    0    -1  
 $EndComp
@@ -168,6 +170,7 @@ F 0 "P1" H 9500 3450 50  0000 C CNN
 F 1 "Digital" V 9550 2450 50  0000 C CNN
 F 2 "myparts:Socket_Strip_Arduino_2x18" H 9500 1450 50  0001 C CNN
 F 3 "" H 9500 1450 50  0000 C CNN
+F 4 "SSQ-118-03-T-D" H 9500 2500 50  0001 C CNN "farnellcode"
 	1    9500 2500
 	0    -1   1    0   
 $EndComp
@@ -358,6 +361,7 @@ F 0 "R1" V 6554 4750 50  0000 C CNN
 F 1 "100K" V 6645 4750 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 6750 4750 50  0001 C CNN
 F 3 "" H 6750 4750 50  0001 C CNN
+F 4 "2447551" H 0   0   50  0001 C CNN "farnellcode"
 	1    6750 4750
 	-1   0    0    1   
 $EndComp
@@ -369,6 +373,7 @@ F 0 "R2" V 6954 4750 50  0000 C CNN
 F 1 "100K" V 7045 4750 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 7150 4750 50  0001 C CNN
 F 3 "" H 7150 4750 50  0001 C CNN
+F 4 "2447551" H 0   0   50  0001 C CNN "farnellcode"
 	1    7150 4750
 	-1   0    0    1   
 $EndComp

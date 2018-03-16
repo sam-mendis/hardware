@@ -541,6 +541,7 @@ F 0 "J1" H 1300 3767 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 1300 3676 50  0001 C CNN
 F 2 "Pin_Headers:Pin_Header_Angled_2x05_Pitch2.54mm" H 1250 3350 50  0001 C CNN
 F 3 "" H 1250 3350 50  0001 C CNN
+F 4 "2055711" H 0   0   50  0001 C CNN "farnellCode"
 	1    1250 3350
 	1    0    0    -1  
 $EndComp
@@ -632,6 +633,7 @@ F 0 "R4" V 6954 2050 50  0000 C CNN
 F 1 "10K" V 7045 2050 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 7150 2050 50  0001 C CNN
 F 3 "" H 7150 2050 50  0001 C CNN
+F 4 "2073607" H 0   0   50  0001 C CNN "farnellCode"
 	1    7150 2050
 	0    1    1    0   
 $EndComp
@@ -647,6 +649,7 @@ F 0 "R3" V 7196 2350 50  0000 C CNN
 F 1 "10K" V 7105 2350 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 7000 2350 50  0001 C CNN
 F 3 "" H 7000 2350 50  0001 C CNN
+F 4 "2073607" H 0   0   50  0001 C CNN "farnellCode"
 	1    7000 2350
 	0    -1   -1   0   
 $EndComp
@@ -718,6 +721,7 @@ F 0 "D1" V 3700 2900 50  0000 L CNN
 F 1 "BPW21" H 3710 2590 50  0000 C CNN
 F 2 "myParts:BPW21" H 3700 2700 50  0001 C CNN
 F 3 "" H 3700 2700 50  0000 C CNN
+F 4 "1045427" H 0   0   50  0001 C CNN "farnellCode"
 	1    3750 2700
 	0    1    1    0   
 $EndComp
@@ -753,6 +757,7 @@ F 0 "R1" V 3554 2000 50  0000 C CNN
 F 1 "1.2K" V 3645 2000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 3750 2000 50  0001 C CNN
 F 3 "" H 3750 2000 50  0001 C CNN
+F 4 "2073370" H 0   0   50  0001 C CNN "farnellCode"
 	1    3750 2000
 	-1   0    0    1   
 $EndComp
@@ -801,6 +806,7 @@ F 0 "D2" V 4250 3550 50  0000 L CNN
 F 1 "BPW21" H 4260 3240 50  0000 C CNN
 F 2 "myParts:BPW21" H 4250 3350 50  0001 C CNN
 F 3 "" H 4250 3350 50  0000 C CNN
+F 4 "1045427" H 0   0   50  0001 C CNN "farnellCode"
 	1    4300 3350
 	0    1    1    0   
 $EndComp
@@ -836,6 +842,7 @@ F 0 "R2" V 4104 2650 50  0000 C CNN
 F 1 "1.2K" V 4195 2650 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 4300 2650 50  0001 C CNN
 F 3 "" H 4300 2650 50  0001 C CNN
+F 4 "2073370" H 0   0   50  0001 C CNN "farnellCode"
 	1    4300 2650
 	-1   0    0    1   
 $EndComp
@@ -892,6 +899,7 @@ F 0 "TP1" H 5708 6420 50  0000 L CNN
 F 1 "Test_Point" H 5708 6329 50  0000 L CNN
 F 2 "myParts:Test_Point_S1751-46R" H 5850 6300 50  0001 C CNN
 F 3 "" H 5850 6300 50  0001 C CNN
+F 4 "2293786" H 0   0   50  0001 C CNN "farnellCode"
 	1    5650 6300
 	1    0    0    -1  
 $EndComp
@@ -916,6 +924,7 @@ F 0 "TP2" H 4758 1970 50  0000 L CNN
 F 1 "Test_Point" H 4758 1879 50  0000 L CNN
 F 2 "myParts:Test_Point_S1751-46R" H 4900 1850 50  0001 C CNN
 F 3 "" H 4900 1850 50  0001 C CNN
+F 4 "2293786" H 0   0   50  0001 C CNN "farnellCode"
 	1    4700 1850
 	1    0    0    -1  
 $EndComp
@@ -1157,6 +1166,7 @@ F 0 "TP3" H 4308 2220 50  0000 L CNN
 F 1 "Test_Point" H 4308 2129 50  0000 L CNN
 F 2 "myParts:Test_Point_S1751-46R" H 4450 2100 50  0001 C CNN
 F 3 "" H 4450 2100 50  0001 C CNN
+F 4 "2293786" H 0   0   50  0001 C CNN "farnellCode"
 	1    4250 2100
 	1    0    0    -1  
 $EndComp
@@ -1168,6 +1178,7 @@ F 0 "TP4" H 5058 2970 50  0000 L CNN
 F 1 "Test_Point" H 5058 2879 50  0000 L CNN
 F 2 "myParts:Test_Point_S1751-46R" H 5200 2850 50  0001 C CNN
 F 3 "" H 5200 2850 50  0001 C CNN
+F 4 "2293786" H 0   0   50  0001 C CNN "farnellCode"
 	1    5000 2850
 	-1   0    0    1   
 $EndComp
@@ -1187,6 +1198,7 @@ F 0 "TP5" H 5208 1320 50  0000 L CNN
 F 1 "Test_Point" H 5208 1229 50  0000 L CNN
 F 2 "myParts:Test_Point_S1751-46R" H 5350 1200 50  0001 C CNN
 F 3 "" H 5350 1200 50  0001 C CNN
+F 4 "2293786" H 0   0   50  0001 C CNN "farnellCode"
 	1    5150 1200
 	1    0    0    -1  
 $EndComp
@@ -1200,6 +1212,7 @@ F 0 "TP6" H 10158 3970 50  0000 L CNN
 F 1 "Test_Point" H 10158 3879 50  0000 L CNN
 F 2 "myParts:Test_Point_S1751-46R" H 10300 3850 50  0001 C CNN
 F 3 "" H 10300 3850 50  0001 C CNN
+F 4 "2293786" H 0   0   50  0001 C CNN "farnellCode"
 	1    10100 3850
 	1    0    0    -1  
 $EndComp
