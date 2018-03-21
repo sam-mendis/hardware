@@ -1,20 +1,15 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector:Conn_01x01
+# Connector_Generic:Conn_01x01
 #
-DEF Connector:Conn_01x01 J 0 40 Y N 1 F N
+DEF Connector_Generic:Conn_01x01 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Connector:Conn_01x01" 0 -100 50 H V C CNN
+F1 "Connector_Generic:Conn_01x01" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Pin?Header?Straight?1X*
- Pin?Header?Angled?1X*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
+ Connector*:*
 $ENDFPLIST
 DRAW
 S -50 5 0 -5 1 1 6 N
@@ -23,20 +18,15 @@ X Pin_1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector:Conn_01x08
+# Connector_Generic:Conn_01x08
 #
-DEF Connector:Conn_01x08 J 0 40 Y N 1 F N
+DEF Connector_Generic:Conn_01x08 J 0 40 Y N 1 F N
 F0 "J" 0 400 50 H V C CNN
-F1 "Connector:Conn_01x08" 0 -500 50 H V C CNN
+F1 "Connector_Generic:Conn_01x08" 0 -500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Pin?Header?Straight?1X*
- Pin?Header?Angled?1X*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
+ Connector*:*_1x??_*
 $ENDFPLIST
 DRAW
 S -50 -395 0 -405 1 1 6 N
@@ -59,20 +49,15 @@ X Pin_8 8 -200 -400 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector:Conn_02x05_Odd_Even
+# Connector_Generic:Conn_02x05_Odd_Even
 #
-DEF Connector:Conn_02x05_Odd_Even J 0 40 Y N 1 F N
+DEF Connector_Generic:Conn_02x05_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 300 50 H V C CNN
-F1 "Connector:Conn_02x05_Odd_Even" 50 -300 50 H V C CNN
+F1 "Connector_Generic:Conn_02x05_Odd_Even" 50 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*2x??x*mm*
- Connector*:*2x???Pitch*
- Pin_Header_Straight_2X*
- Pin_Header_Angled_2X*
- Socket_Strip_Straight_2X*
- Socket_Strip_Angled_2X*
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -195 0 -205 1 1 6 N
@@ -99,20 +84,15 @@ X Pin_9 9 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector:Conn_02x18_Odd_Even
+# Connector_Generic:Conn_02x18_Odd_Even
 #
-DEF Connector:Conn_02x18_Odd_Even J 0 40 Y N 1 F N
+DEF Connector_Generic:Conn_02x18_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 900 50 H V C CNN
-F1 "Connector:Conn_02x18_Odd_Even" 50 -1000 50 H V C CNN
+F1 "Connector_Generic:Conn_02x18_Odd_Even" 50 -1000 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*2x??x*mm*
- Connector*:*2x???Pitch*
- Pin_Header_Straight_2X*
- Pin_Header_Angled_2X*
- Socket_Strip_Straight_2X*
- Socket_Strip_Angled_2X*
+ Connector*:*_2x??_*
 $ENDFPLIST
 DRAW
 S -50 -895 0 -905 1 1 6 N
@@ -191,11 +171,11 @@ X Pin_9 9 -200 400 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:R_Small
+# Device:R_Small
 #
-DEF device:R_Small R 0 10 N N 1 F N
+DEF Device:R_Small R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "device:R_Small" 30 -40 50 H V L CNN
+F1 "Device:R_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST

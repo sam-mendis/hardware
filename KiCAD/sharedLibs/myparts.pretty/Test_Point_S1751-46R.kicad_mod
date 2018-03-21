@@ -21,7 +21,7 @@
   (fp_line (start 2.4 1.6) (end -2.4 1.6) (layer F.CrtYd) (width 0.05))
   (pad 1 smd rect (at 0 0) (size 3.45 1.85) (layers F.Cu F.Mask))
   (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/s1751-46r.stp
-    (at (xyz 0 0.03248031496062992 0.07874015748031496))
+    (offset (xyz 0 0.824999987609743 1.999999969963014))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )

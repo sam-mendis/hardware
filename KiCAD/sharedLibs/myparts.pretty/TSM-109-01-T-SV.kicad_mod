@@ -22,7 +22,7 @@
   (pad 3 smd rect (at 5.08 -1.46) (size 1.27 3.43) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at 0 -1.46) (size 1.27 3.43) (layers F.Cu F.Paste F.Mask))
   (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/TSM-109-01-T-SV.wrl
-    (at (xyz 0.4 0 0.05))
+    (offset (xyz 10.15999984741211 0 1.269999980926514))
     (scale (xyz 0.393701 0.393701 0.393701))
     (rotate (xyz -90 0 180))
   )

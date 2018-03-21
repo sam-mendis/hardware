@@ -15,7 +15,7 @@
   (pad 3 smd rect (at 1.27 0) (size 0.64 3.2) (layers B.Cu B.Paste B.Mask))
   (pad 5 smd rect (at 2.54 0) (size 0.64 3.2) (layers B.Cu B.Paste B.Mask))
   (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/TMS-103-01-L-D.stp
-    (at (xyz 0.05 0.05118110236220473 -0.04))
+    (offset (xyz 1.269999980926514 1.299999980475959 -1.015999984741211))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

@@ -1,9 +1,9 @@
 (module logo_small (layer F.Cu) (tedit 0)
   (fp_text reference G*** (at 0 -4) (layer F.SilkS) hide
-    (effects (font (thickness 0.2)))
+    (effects (font (size 1.524 1.524) (thickness 0.2)))
   )
   (fp_text value value (at 0 4) (layer F.SilkS) hide
-    (effects (font (thickness 0.2)))
+    (effects (font (size 1.524 1.524) (thickness 0.2)))
   )
   (fp_poly (pts (xy -0.030446 -0.410336) (xy -0.128951 -0.511719) (xy -0.828528 -0.511719) (xy -0.927058 -0.410336)
     (xy -0.927058 0.017886) (xy -0.828528 0.089278) (xy -0.228894 0.089278) (xy -0.228894 0.28842)

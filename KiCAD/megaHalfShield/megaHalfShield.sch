@@ -115,7 +115,7 @@ Half Shield for Arduino Mega Rev 3
 Text Notes 10950 1000 0    60   ~ 0
 Holes
 $Comp
-L Connector:Conn_01x01 P10
+L Connector_Generic:Conn_01x01 P10
 U 1 1 56D70CE6
 P 11000 650
 F 0 "P10" V 11100 650 31  0000 C CNN
@@ -126,7 +126,7 @@ F 3 "" H 11000 650 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Conn_01x01 P13
+L Connector_Generic:Conn_01x01 P13
 U 1 1 56D711F0
 P 11100 650
 F 0 "P13" V 11200 650 31  0000 C CNN
@@ -139,7 +139,7 @@ $EndComp
 NoConn ~ 11000 850 
 NoConn ~ 11100 850 
 $Comp
-L Connector:Conn_01x08 P4
+L Connector_Generic:Conn_01x08 P4
 U 1 1 56D73A0E
 P 9350 1150
 F 0 "P4" H 9350 1600 50  0000 C CNN
@@ -151,7 +151,7 @@ F 4 "2505051" H 0   0   50  0001 C CNN "farnellcode"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x08 P7
+L Connector_Generic:Conn_01x08 P7
 U 1 1 56D73F2C
 P 9750 1150
 F 0 "P7" H 9750 1600 50  0000 C CNN
@@ -163,7 +163,7 @@ F 4 "2505051" H 0   0   50  0001 C CNN "farnellcode"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_02x18_Odd_Even P1
+L Connector_Generic:Conn_02x18_Odd_Even P1
 U 1 1 56D743B5
 P 9500 2500
 F 0 "P1" H 9500 3450 50  0000 C CNN
@@ -335,13 +335,14 @@ Wire Wire Line
 Wire Wire Line
 	5550 4300 5950 4300
 $Comp
-L Connector:Conn_02x05_Odd_Even J1
+L Connector_Generic:Conn_02x05_Odd_Even J1
 U 1 1 5A444940
 P 5250 4300
 F 0 "J1" H 5300 4717 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 5300 4626 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm" H 5250 4300 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 5250 4300 50  0001 C CNN
 F 3 "" H 5250 4300 50  0001 C CNN
+F 4 "2215304" H 5250 4300 50  0001 C CNN "farnellcode"
 	1    5250 4300
 	1    0    0    -1  
 $EndComp
@@ -354,24 +355,24 @@ V_D_EXT
 Text GLabel 5550 4500 2    60   Input ~ 0
 ~CS0
 $Comp
-L device:R_Small R1
+L Device:R_Small R1
 U 1 1 5A445572
 P 6750 4750
 F 0 "R1" V 6554 4750 50  0000 C CNN
 F 1 "100K" V 6645 4750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 6750 4750 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 6750 4750 50  0001 C CNN
 F 3 "" H 6750 4750 50  0001 C CNN
 F 4 "2447551" H 0   0   50  0001 C CNN "farnellcode"
 	1    6750 4750
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R_Small R2
+L Device:R_Small R2
 U 1 1 5A44577C
 P 7150 4750
 F 0 "R2" V 6954 4750 50  0000 C CNN
 F 1 "100K" V 7045 4750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 7150 4750 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 7150 4750 50  0001 C CNN
 F 3 "" H 7150 4750 50  0001 C CNN
 F 4 "2447551" H 0   0   50  0001 C CNN "farnellcode"
 	1    7150 4750
@@ -431,12 +432,12 @@ Text Label 7250 3050 0    60   ~ 0
 Text Label 7250 2850 0    60   ~ 0
 48
 $Comp
-L Connector:Conn_01x01 J2
+L Connector_Generic:Conn_01x01 J2
 U 1 1 5A446B3B
 P 7450 2450
 F 0 "J2" H 7530 2492 50  0000 L CNN
 F 1 "Conn_01x01" H 7530 2401 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 7450 2450 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 7450 2450 50  0001 C CNN
 F 3 "" H 7450 2450 50  0001 C CNN
 	1    7450 2450
 	1    0    0    -1  

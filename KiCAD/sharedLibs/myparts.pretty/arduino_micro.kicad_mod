@@ -35,7 +35,7 @@
   (pad 3 thru_hole circle (at 15.24 45.72 180) (size 2.032 2.032) (drill 1.27) (layers *.Cu *.Mask F.SilkS))
   (pad 4 thru_hole circle (at 0 45.72 180) (size 2.032 2.032) (drill 1.27) (layers *.Cu *.Mask F.SilkS))
   (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/microBoard.wrl
-    (at (xyz 0 -0.1 0.3))
+    (offset (xyz 0 -2.539999961853027 7.619999885559082))
     (scale (xyz 0.394 0.394 0.394))
     (rotate (xyz -90 0 90))
   )

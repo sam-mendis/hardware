@@ -20,7 +20,7 @@
   (pad 1 smd circle (at 0 0) (size 2.0828 2.0828) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd circle (at 2.54 0) (size 2.0828 2.0828) (layers F.Cu F.Paste F.Mask))
   (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/mill-max-812-22-002-30-007101.wrl
-    (at (xyz -0.038 -0.05 0.126))
+    (offset (xyz -0.9651999855041503 -1.269999980926514 3.200399951934815))
     (scale (xyz 393.7008 393.7008 393.7008))
     (rotate (xyz -90 0 0))
   )

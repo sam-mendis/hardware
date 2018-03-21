@@ -1,4 +1,4 @@
-(module VISHAY_CRA12E (layer F.Cu) (tedit 5A3510AC)
+(module VISHAY_CRA12E (layer F.Cu) (tedit 5AB28969)
   (descr "VISHAY CRA12E")
   (tags "resistor array")
   (attr smd)
@@ -29,7 +29,7 @@
   (pad 8 smd rect (at 1.625 -1.905) (size 1.05 0.71) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd rect (at 1.625 0.635) (size 1.05 0.71) (layers F.Cu F.Paste F.Mask))
   (pad 6 smd rect (at 1.625 1.905) (size 1.05 0.71) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_Array_Convex_4x1206.wrl
+  (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_Array_Convex_4x1206.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

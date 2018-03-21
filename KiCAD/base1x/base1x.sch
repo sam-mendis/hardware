@@ -135,12 +135,12 @@ F 3 "" H 8950 7250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_02x14_Odd_Even J3
+L Connector_Generic:Conn_02x14_Odd_Even J3
 U 1 1 59C14E89
 P 1800 6800
 F 0 "J3" H 1850 7617 50  0000 C CNN
 F 1 "Conn_02x14_Counter_Clockwise" H 1850 7526 50  0001 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x14_Pitch2.54mm" H 1800 6800 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x14_P2.54mm_Vertical" H 1800 6800 50  0001 C CNN
 F 3 "" H 1800 6800 50  0001 C CNN
 	1    1800 6800
 	-1   0    0    -1  
@@ -236,12 +236,12 @@ SDA
 Text GLabel 10250 5050 2    60   Input ~ 0
 V_D
 $Comp
-L Connector:Conn_02x14_Odd_Even J6
+L Connector_Generic:Conn_02x14_Odd_Even J6
 U 1 1 59C14E79
 P 10050 5450
 F 0 "J6" H 10100 6267 50  0000 C CNN
 F 1 "Conn_02x14_Counter_Clockwise" H 10100 6176 50  0001 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x14_Pitch2.54mm" H 10050 5450 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x14_P2.54mm_Vertical" H 10050 5450 50  0001 C CNN
 F 3 "" H 10050 5450 50  0001 C CNN
 	1    10050 5450
 	-1   0    0    -1  
@@ -351,7 +351,7 @@ U 1 1 59C916FE
 P 3300 6100
 F 0 "MK1" H 3400 6151 50  0000 L CNN
 F 1 "Mounting_Hole_PAD" H 3400 6060 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_2.2mm_M2_Pad" H 3300 6100 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 3300 6100 50  0001 C CNN
 F 3 "" H 3300 6100 50  0001 C CNN
 	1    3300 6100
 	1    0    0    -1  
@@ -362,7 +362,7 @@ U 1 1 59C91760
 P 3300 6450
 F 0 "MK2" H 3400 6501 50  0000 L CNN
 F 1 "Mounting_Hole_PAD" H 3400 6410 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_2.2mm_M2_Pad" H 3300 6450 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 3300 6450 50  0001 C CNN
 F 3 "" H 3300 6450 50  0001 C CNN
 	1    3300 6450
 	1    0    0    -1  
@@ -461,50 +461,38 @@ Wire Wire Line
 Wire Wire Line
 	5050 7450 4650 7450
 $Comp
-L device:Jumper_NO_Small JP6
+L Device:Jumper_NO_Small JP6
 U 1 1 59C9EEB4
 P 4550 7450
 F 0 "JP6" H 4550 7635 50  0000 C CNN
 F 1 "Jumper_NO_Small" H 4550 7544 50  0000 C CNN
-F 2 "Connectors:GS2" H 4550 7450 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 4550 7450 50  0001 C CNN
 F 3 "" H 4550 7450 50  0001 C CNN
 	1    4550 7450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2350 7100 2350 7150
-$Comp
-L Connector:Screw_Terminal_01x06 J5
-U 1 1 59DCB366
-P 1450 1000
-F 0 "J5" V 1323 1280 50  0000 L CNN
-F 1 "Screw_Terminal_01x06" V 1414 1280 50  0000 L CNN
-F 2 "Connectors_Phoenix:PhoenixContact_MC-GF_06x3.50mm_Angled_ThreadedFlange_MountHole" H 1450 1000 50  0001 C CNN
-F 3 "" H 1450 1000 50  0001 C CNN
-F 4 "2776336+1793013" V 1450 1000 60  0001 C CNN "farnellCode"
-	1    1450 1000
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3150 6200 3150 6600
 $Comp
-L Connector:Conn_02x06_Odd_Even J7
+L Connector_Generic:Conn_02x06_Odd_Even J7
 U 1 1 59F46AAD
 P 6000 5350
 F 0 "J7" V 6050 5650 50  0000 C CNN
 F 1 "Conn_02x06_Counter_Clockwise" H 6050 5676 50  0001 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x06_Pitch2.54mm" H 6000 5350 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 6000 5350 50  0001 C CNN
 F 3 "" H 6000 5350 50  0001 C CNN
 	1    6000 5350
 	0    1    -1   0   
 $EndComp
 $Comp
-L Connector:Conn_02x06_Odd_Even J8
+L Connector_Generic:Conn_02x06_Odd_Even J8
 U 1 1 59F46B55
 P 6000 4700
 F 0 "J8" V 6050 5000 50  0000 C CNN
 F 1 "Conn_02x06_Counter_Clockwise" H 6050 5026 50  0001 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x06_Pitch2.54mm" H 6000 4700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 6000 4700 50  0001 C CNN
 F 3 "" H 6000 4700 50  0001 C CNN
 	1    6000 4700
 	0    1    -1   0   
@@ -534,14 +522,14 @@ NoConn ~ 6000 5550
 NoConn ~ 6100 5550
 NoConn ~ 6200 5550
 $Comp
-L Connector:Conn_02x05_Odd_Even J1
+L Connector_Generic:Conn_02x05_Odd_Even J1
 U 1 1 59F717B4
 P 1250 3350
 F 0 "J1" H 1300 3767 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 1300 3676 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_2x05_Pitch2.54mm" H 1250 3350 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Horizontal" H 1250 3350 50  0001 C CNN
 F 3 "" H 1250 3350 50  0001 C CNN
-F 4 "2055711" H 0   0   50  0001 C CNN "farnellCode"
+F 4 "2215290" H 0   0   50  0001 C CNN "farnellCode"
 	1    1250 3350
 	1    0    0    -1  
 $EndComp
@@ -570,7 +558,7 @@ U 1 1 59F73110
 P 6000 2350
 F 0 "U1" H 5450 2800 50  0000 C CNN
 F 1 "ADS1115" H 6450 2800 50  0000 C CNN
-F 2 "Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm" H 5950 2300 50  0001 C CNN
+F 2 "Package_SO:MSOP-10_3x3mm_P0.5mm" H 5950 2300 50  0001 C CNN
 F 3 "" H 5100 2750 50  0001 C CNN
 F 4 "1762981" H 6000 2350 60  0001 C CNN "farnellCode"
 	1    6000 2350
@@ -601,12 +589,12 @@ $EndComp
 Wire Wire Line
 	6000 1300 6000 1500
 $Comp
-L device:C_Small C1
+L Device:C_Small C1
 U 1 1 59F73A1F
 P 5600 1600
 F 0 "C1" H 5692 1646 50  0000 L CNN
 F 1 "1uF" H 5692 1555 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5600 1600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5600 1600 50  0001 C CNN
 F 3 "" H 5600 1600 50  0001 C CNN
 	1    5600 1600
 	1    0    0    -1  
@@ -626,12 +614,12 @@ Wire Wire Line
 	5600 1500 6000 1500
 Connection ~ 6000 1500
 $Comp
-L device:R_Small R4
+L Device:R_Small R4
 U 1 1 59F73C2B
 P 7150 2050
 F 0 "R4" V 6954 2050 50  0000 C CNN
 F 1 "10K" V 7045 2050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 7150 2050 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 7150 2050 50  0001 C CNN
 F 3 "" H 7150 2050 50  0001 C CNN
 F 4 "2073607" H 0   0   50  0001 C CNN "farnellCode"
 	1    7150 2050
@@ -642,12 +630,12 @@ SCL
 Text GLabel 6700 2250 2    60   Input ~ 0
 SDA
 $Comp
-L device:R_Small R3
+L Device:R_Small R3
 U 1 1 59F73F0B
 P 7000 2350
 F 0 "R3" V 7196 2350 50  0000 C CNN
 F 1 "10K" V 7105 2350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 7000 2350 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 7000 2350 50  0001 C CNN
 F 3 "" H 7000 2350 50  0001 C CNN
 F 4 "2073607" H 0   0   50  0001 C CNN "farnellCode"
 	1    7000 2350
@@ -669,52 +657,50 @@ Wire Wire Line
 Wire Wire Line
 	7100 2350 7200 2350
 $Comp
-L Connector:GS3 J4
+L Jumper:SolderJumper_3_Open J4
 U 1 1 59F747BE
 P 7650 2050
 F 0 "J4" H 7650 1725 50  0000 C CNN
 F 1 "GS3" H 7650 1816 50  0000 C CNN
-F 2 "Connectors:GS3" V 7738 1976 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" V 7738 1976 50  0001 C CNN
 F 3 "" H 7650 2050 50  0001 C CNN
 	1    7650 2050
-	-1   0    0    1   
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR023
 U 1 1 59F74876
-P 7900 2200
-F 0 "#PWR023" H 7900 1950 50  0001 C CNN
-F 1 "GND" H 7900 2050 50  0000 C CNN
-F 2 "" H 7900 2200 50  0000 C CNN
-F 3 "" H 7900 2200 50  0000 C CNN
-	1    7900 2200
+P 7750 2300
+F 0 "#PWR023" H 7750 2050 50  0001 C CNN
+F 1 "GND" H 7750 2150 50  0000 C CNN
+F 2 "" H 7750 2300 50  0000 C CNN
+F 3 "" H 7750 2300 50  0000 C CNN
+	1    7750 2300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7500 2050 7250 2050
 Wire Wire Line
 	7050 2050 6700 2050
 Wire Wire Line
-	7900 2200 7900 2150
+	7750 2300 7750 2250
 Wire Wire Line
-	7900 2150 7800 2150
+	7750 2250 7650 2250
 $Comp
 L power:+5V #PWR022
 U 1 1 59F74B1E
-P 7900 1900
-F 0 "#PWR022" H 7900 1750 50  0001 C CNN
-F 1 "+5V" H 7900 2040 28  0000 C CNN
-F 2 "" H 7900 1900 50  0000 C CNN
-F 3 "" H 7900 1900 50  0000 C CNN
-	1    7900 1900
+P 7750 1800
+F 0 "#PWR022" H 7750 1650 50  0001 C CNN
+F 1 "+5V" H 7750 1940 28  0000 C CNN
+F 2 "" H 7750 1800 50  0000 C CNN
+F 3 "" H 7750 1800 50  0000 C CNN
+	1    7750 1800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7900 1900 7900 1950
+	7750 1800 7750 1850
 Wire Wire Line
-	7900 1950 7800 1950
+	7750 1850 7650 1850
 $Comp
-L device:D_Photo D1
+L Device:D_Photo D1
 U 1 1 59F7456C
 P 3750 2700
 F 0 "D1" V 3700 2900 50  0000 L CNN
@@ -750,12 +736,12 @@ $EndComp
 Wire Wire Line
 	3750 1800 3750 1900
 $Comp
-L device:R_Small R1
+L Device:R_Small R1
 U 1 1 59F761B7
 P 3750 2000
 F 0 "R1" V 3554 2000 50  0000 C CNN
 F 1 "1.2K" V 3645 2000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 3750 2000 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 3750 2000 50  0001 C CNN
 F 3 "" H 3750 2000 50  0001 C CNN
 F 4 "2073370" H 0   0   50  0001 C CNN "farnellCode"
 	1    3750 2000
@@ -766,12 +752,12 @@ Wire Wire Line
 Wire Wire Line
 	4450 2450 5300 2450
 $Comp
-L device:Jumper_NO_Small JP2
+L Device:Jumper_NO_Small JP2
 U 1 1 59F7708F
 P 3750 2300
 F 0 "JP2" V 3750 2348 50  0000 L CNN
 F 1 "Jumper_NO_Small" V 3795 2348 50  0001 L CNN
-F 2 "Connectors:GS2" H 3750 2300 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3750 2300 50  0001 C CNN
 F 3 "" H 3750 2300 50  0001 C CNN
 	1    3750 2300
 	0    1    1    0   
@@ -784,12 +770,12 @@ Wire Wire Line
 	4450 2150 4250 2150
 Connection ~ 3750 2150
 $Comp
-L device:Jumper_NO_Small JP3
+L Device:Jumper_NO_Small JP3
 U 1 1 59F77572
 P 3750 2950
 F 0 "JP3" V 3750 2998 50  0000 L CNN
 F 1 "Jumper_NO_Small" V 3795 2998 50  0001 L CNN
-F 2 "Connectors:GS2" H 3750 2950 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3750 2950 50  0001 C CNN
 F 3 "" H 3750 2950 50  0001 C CNN
 	1    3750 2950
 	0    1    1    0   
@@ -799,7 +785,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 3050 3750 3100
 $Comp
-L device:D_Photo D2
+L Device:D_Photo D2
 U 1 1 59F77B1E
 P 4300 3350
 F 0 "D2" V 4250 3550 50  0000 L CNN
@@ -835,24 +821,24 @@ $EndComp
 Wire Wire Line
 	4300 2450 4300 2550
 $Comp
-L device:R_Small R2
+L Device:R_Small R2
 U 1 1 59F77B34
 P 4300 2650
 F 0 "R2" V 4104 2650 50  0000 C CNN
 F 1 "1.2K" V 4195 2650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 4300 2650 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 4300 2650 50  0001 C CNN
 F 3 "" H 4300 2650 50  0001 C CNN
 F 4 "2073370" H 0   0   50  0001 C CNN "farnellCode"
 	1    4300 2650
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:Jumper_NO_Small JP4
+L Device:Jumper_NO_Small JP4
 U 1 1 59F77B3B
 P 4300 2950
 F 0 "JP4" V 4300 2998 50  0000 L CNN
 F 1 "Jumper_NO_Small" V 4345 2998 50  0001 L CNN
-F 2 "Connectors:GS2" H 4300 2950 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 4300 2950 50  0001 C CNN
 F 3 "" H 4300 2950 50  0001 C CNN
 	1    4300 2950
 	0    1    1    0   
@@ -873,26 +859,26 @@ Wire Wire Line
 Wire Wire Line
 	5000 2550 5300 2550
 $Comp
-L Connector:GS3 J2
+L Jumper:SolderJumper_3_Open J2
 U 1 1 59F7BE39
 P 1050 4550
-F 0 "J2" H 1050 4225 50  0000 C CNN
-F 1 "GS3" H 1050 4316 50  0000 C CNN
-F 2 "Connectors:GS3" V 1138 4476 50  0001 C CNN
+F 0 "J2" H 1200 4300 50  0000 C CNN
+F 1 "GS3" H 1200 4400 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" V 1138 4476 50  0001 C CNN
 F 3 "" H 1050 4550 50  0001 C CNN
 	1    1050 4550
 	-1   0    0    1   
 $EndComp
-Text GLabel 900  4550 0    60   Input ~ 0
+Text GLabel 1050 4400 1    60   Input ~ 0
 V_D
-Text GLabel 1200 4450 2    60   Input ~ 0
+Text GLabel 1250 4550 3    60   Input ~ 0
 V_D_LOC
-Text GLabel 1200 4650 2    60   Input ~ 0
+Text GLabel 850  4550 3    60   Input ~ 0
 V_D_EXT
 Text GLabel 1050 3350 0    60   Input ~ 0
 V_D_EXT
 $Comp
-L Connector:Test_Point TP1
+L Connector_Specialized:Test_Point TP1
 U 1 1 5A00C70E
 P 5650 6300
 F 0 "TP1" H 5708 6420 50  0000 L CNN
@@ -917,7 +903,7 @@ $EndComp
 Text GLabel 1550 3550 2    60   Input ~ 0
 ~CS0
 $Comp
-L Connector:Test_Point TP2
+L Connector_Specialized:Test_Point TP2
 U 1 1 5A00C0AD
 P 4700 1850
 F 0 "TP2" H 4758 1970 50  0000 L CNN
@@ -988,7 +974,7 @@ U 1 1 5A00CBDC
 P 8800 1700
 F 0 "MK3" H 8900 1746 50  0000 L CNN
 F 1 "Mounting_Hole" H 8900 1655 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_6mm" H 8800 1700 50  0001 C CNN
+F 2 "MountingHole:MountingHole_6mm" H 8800 1700 50  0001 C CNN
 F 3 "" H 8800 1700 50  0001 C CNN
 	1    8800 1700
 	1    0    0    -1  
@@ -999,7 +985,7 @@ U 1 1 5A00CCA4
 P 8800 2050
 F 0 "MK4" H 8900 2096 50  0000 L CNN
 F 1 "Mounting_Hole" H 8900 2005 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_6mm" H 8800 2050 50  0001 C CNN
+F 2 "MountingHole:MountingHole_6mm" H 8800 2050 50  0001 C CNN
 F 3 "" H 8800 2050 50  0001 C CNN
 	1    8800 2050
 	1    0    0    -1  
@@ -1010,7 +996,7 @@ U 1 1 5A00CCFE
 P 8800 2350
 F 0 "MK5" H 8900 2396 50  0000 L CNN
 F 1 "Mounting_Hole" H 8900 2305 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 8800 2350 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 8800 2350 50  0001 C CNN
 F 3 "" H 8800 2350 50  0001 C CNN
 	1    8800 2350
 	1    0    0    -1  
@@ -1021,7 +1007,7 @@ U 1 1 5A00CD58
 P 8800 2650
 F 0 "MK6" H 8900 2696 50  0000 L CNN
 F 1 "Mounting_Hole" H 8900 2605 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_4.3mm_M4" H 8800 2650 50  0001 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 8800 2650 50  0001 C CNN
 F 3 "" H 8800 2650 50  0001 C CNN
 	1    8800 2650
 	1    0    0    -1  
@@ -1032,7 +1018,7 @@ U 1 1 5A00CDAE
 P 8800 3000
 F 0 "MK7" H 8900 3046 50  0000 L CNN
 F 1 "Mounting_Hole" H 8900 2955 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 8800 3000 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 8800 3000 50  0001 C CNN
 F 3 "" H 8800 3000 50  0001 C CNN
 	1    8800 3000
 	1    0    0    -1  
@@ -1043,7 +1029,7 @@ U 1 1 5A00CE0E
 P 8800 3300
 F 0 "MK8" H 8900 3346 50  0000 L CNN
 F 1 "Mounting_Hole" H 8900 3255 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 8800 3300 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 8800 3300 50  0001 C CNN
 F 3 "" H 8800 3300 50  0001 C CNN
 	1    8800 3300
 	1    0    0    -1  
@@ -1073,16 +1059,16 @@ $EndComp
 Wire Wire Line
 	4700 6750 4700 6450
 $Comp
-L Connector:Screw_Terminal_01x08 J9
+L Connector_Specialized:Screw_Terminal_01x08 J9
 U 1 1 5A36A6E7
-P 10250 1350
-F 0 "J9" V 10374 1296 50  0000 C CNN
-F 1 "Screw_Terminal_01x08" V 10465 1296 50  0000 C CNN
-F 2 "Connectors_Phoenix:PhoenixContact_MC-GF_08x3.50mm_Angled_ThreadedFlange_MountHole" H 10250 1350 50  0001 C CNN
-F 3 "" H 10250 1350 50  0001 C CNN
-F 4 "2776340+1793014" V 10250 1350 60  0001 C CNN "farnellCode"
-	1    10250 1350
-	0    1    1    0   
+P 10150 1350
+F 0 "J9" V 10274 1296 50  0000 C CNN
+F 1 "Screw_Terminal_01x08" V 10365 1296 50  0000 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_8-GF-3.5_1x08_P3.50mm_Horizontal_ThreadedFlange_MountHole" H 10150 1350 50  0001 C CNN
+F 3 "" H 10150 1350 50  0001 C CNN
+F 4 "2776340+1793014" V 10150 1350 60  0001 C CNN "farnellCode"
+	1    10150 1350
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	10150 1150 10150 1000
@@ -1091,24 +1077,24 @@ I_sense
 Text Label 10150 1150 1    60   ~ 0
 I_sense
 $Comp
-L device:R R5
+L Device:R R5
 U 1 1 5A36BE72
 P 10350 3050
 F 0 "R5" H 10420 3096 50  0000 L CNN
 F 1 "1" H 10420 3005 50  0000 L CNN
-F 2 "Resistors_SMD:R_2512_HandSoldering" V 10280 3050 50  0001 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric" V 10280 3050 50  0001 C CNN
 F 3 "" H 10350 3050 50  0001 C CNN
 F 4 "2663692" H 10350 3050 60  0001 C CNN "farnellCode"
 	1    10350 3050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02 P4
+L Connector_Generic:Conn_01x02 P4
 U 1 1 5A36C25C
 P 9950 3000
 F 0 "P4" H 9950 3150 50  0000 C CNN
 F 1 "CONN_01X02" V 10050 3000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 9950 3000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9950 3000 50  0001 C CNN
 F 3 "" H 9950 3000 50  0000 C CNN
 	1    9950 3000
 	-1   0    0    -1  
@@ -1126,12 +1112,12 @@ I-
 Text GLabel 10250 2900 1    60   Input ~ 0
 I-_EXT
 $Comp
-L Connector:Conn_01x02 P3
+L Connector_Generic:Conn_01x02 P3
 U 1 1 5A36D44F
 P 9900 2000
 F 0 "P3" H 9900 2150 50  0000 C CNN
 F 1 "CONN_01X02" V 10000 2000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 9900 2000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9900 2000 50  0001 C CNN
 F 3 "" H 9900 2000 50  0000 C CNN
 	1    9900 2000
 	-1   0    0    -1  
@@ -1159,7 +1145,7 @@ Wire Wire Line
 	10350 3200 10350 3350
 NoConn ~ 10050 1150
 $Comp
-L Connector:Test_Point TP3
+L Connector_Specialized:Test_Point TP3
 U 1 1 5A3700D5
 P 4250 2100
 F 0 "TP3" H 4308 2220 50  0000 L CNN
@@ -1171,7 +1157,7 @@ F 4 "2293786" H 0   0   50  0001 C CNN "farnellCode"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Test_Point TP4
+L Connector_Specialized:Test_Point TP4
 U 1 1 5A370173
 P 5000 2850
 F 0 "TP4" H 5058 2970 50  0000 L CNN
@@ -1191,7 +1177,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 1200 4650 1200
 $Comp
-L Connector:Test_Point TP5
+L Connector_Specialized:Test_Point TP5
 U 1 1 5A371768
 P 5150 1200
 F 0 "TP5" H 5208 1320 50  0000 L CNN
@@ -1205,7 +1191,7 @@ $EndComp
 Text Notes 5000 3350 0    60   ~ 0
 This ADC will become ADS122C04 when it comes\nout to support analog inputs more negative than GND\nand I_sense will connect to AIN1
 $Comp
-L Connector:Test_Point TP6
+L Connector_Specialized:Test_Point TP6
 U 1 1 5A58BDB1
 P 10100 3850
 F 0 "TP6" H 10158 3970 50  0000 L CNN
@@ -1223,12 +1209,12 @@ Wire Wire Line
 Text Label 10300 4100 0    60   ~ 0
 I_sense
 $Comp
-L device:Jumper_NO_Small JP5
+L Device:Jumper_NO_Small JP5
 U 1 1 59F77B46
 P 4300 3600
 F 0 "JP5" V 4300 3648 50  0000 L CNN
 F 1 "Jumper_NO_Small" V 4345 3648 50  0001 L CNN
-F 2 "Connectors:GS2" H 4300 3600 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 4300 3600 50  0001 C CNN
 F 3 "" H 4300 3600 50  0001 C CNN
 	1    4300 3600
 	0    1    1    0   
@@ -1249,14 +1235,8 @@ Wire Wire Line
 	4250 2150 3750 2150
 Wire Wire Line
 	5000 2800 5000 2850
-NoConn ~ 1150 800 
-NoConn ~ 1250 800 
-NoConn ~ 1350 800 
-NoConn ~ 1450 800 
-NoConn ~ 1550 800 
-NoConn ~ 1650 800 
-Text Notes 900  1200 0    50   ~ 0
-Legacy connector for posterity
 Text Notes 10600 3050 0    50   ~ 0
 Current Sense Resistor
+Wire Wire Line
+	7250 2050 7500 2050
 $EndSCHEMATC

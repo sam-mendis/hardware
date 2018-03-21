@@ -7,7 +7,7 @@
   )
   (pad 1 thru_hole oval (at 0 0) (size 1.7272 2.032) (drill 1.09) (layers *.Cu *.Mask))
   (model ${KIPRJMOD}/sharedLibs/myparts.3dshapes/mill-max-4994-0-15-15-11-27-10-0.wrl
-    (at (xyz 0 0 0.03))
+    (offset (xyz 0 0 0.7619999885559082))
     (scale (xyz 393.7008 393.7008 393.7008))
     (rotate (xyz 0 -90 0))
   )
