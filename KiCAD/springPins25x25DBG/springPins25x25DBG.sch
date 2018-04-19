@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:springPins30x30NoWindow-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -14,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector_Specialized:Test_Point TP10
-U 1 1 58E4C4C8
-P 5100 5550
-F 0 "TP10" H 5100 5850 50  0000 C BNN
-F 1 "TEST" H 5100 5800 50  0000 C CNN
-F 2 "myParts:S25-022+P25-4023" H 5100 5550 50  0001 C CNN
-F 3 "" H 5100 5550 50  0000 C CNN
-	1    5100 5550
-	-1   0    0    1   
-$EndComp
 $Comp
 L Connector_Specialized:Test_Point TP6
 U 1 1 58E4C4F2
@@ -157,28 +145,6 @@ F 3 "" H 6650 3550 50  0000 C CNN
 	1    6650 3550
 	0    1    -1   0   
 $EndComp
-$Comp
-L Connector_Specialized:Test_Point TP9
-U 1 1 58E4CC43
-P 4950 2300
-F 0 "TP9" H 4950 2600 50  0000 C BNN
-F 1 "TEST" H 4950 2550 50  0000 C CNN
-F 2 "myParts:S25-022+P25-4023" H 4950 2300 50  0001 C CNN
-F 3 "" H 4950 2300 50  0000 C CNN
-	1    4950 2300
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector_Specialized:Test_Point TP11
-U 1 1 58E4CC49
-P 5150 2300
-F 0 "TP11" H 5150 2600 50  0000 C BNN
-F 1 "TEST" H 5150 2550 50  0000 C CNN
-F 2 "myParts:S25-022+P25-4023" H 5150 2300 50  0001 C CNN
-F 3 "" H 5150 2300 50  0000 C CNN
-	1    5150 2300
-	-1   0    0    -1  
-$EndComp
 Text Notes 6550 5900 0    600  ~ 0
 +
 Text Notes 3200 2300 0    600  ~ 0
@@ -304,37 +270,6 @@ Wire Wire Line
 	4000 3650 4000 3550
 Wire Wire Line
 	4000 3550 3750 3550
-$Comp
-L Connector_Specialized:Test_Point TP12
-U 1 1 58E4C3ED
-P 5250 5550
-F 0 "TP12" H 5250 5850 50  0000 C BNN
-F 1 "TEST" H 5250 5800 50  0000 C CNN
-F 2 "myParts:S25-022+P25-4023" H 5250 5550 50  0001 C CNN
-F 3 "" H 5250 5550 50  0000 C CNN
-	1    5250 5550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4950 2300 4950 3850
-Wire Wire Line
-	5150 2300 5150 2600
-Wire Wire Line
-	5100 3850 5100 5550
-Wire Wire Line
-	5500 3950 5250 3950
-Wire Wire Line
-	5250 3950 5250 5550
-Wire Wire Line
-	5100 3850 5500 3850
-Wire Wire Line
-	4950 3850 4850 3850
-Wire Wire Line
-	5150 2600 5000 2600
-Wire Wire Line
-	5000 2600 5000 3950
-Wire Wire Line
-	5000 3950 4850 3950
 Wire Wire Line
 	4700 4400 4700 4250
 Wire Wire Line
@@ -346,37 +281,29 @@ Wire Wire Line
 Wire Wire Line
 	5000 4050 4850 4050
 Text Label 3850 4800 0    60   ~ 0
-I2
+L6
 Text Label 3850 4650 0    60   ~ 0
-V2
+L5
 Text Label 3850 4250 0    60   ~ 0
-I4
+L4
 Text Label 3850 4100 0    60   ~ 0
-V4
+L3
 Text Label 3850 3750 0    60   ~ 0
-I6
+L2
 Text Label 3850 3550 0    60   ~ 0
-V6
-Text Label 4950 2500 1    60   ~ 0
-IT
-Text Label 5150 2500 1    60   ~ 0
-VT
+L1
 Text Label 6500 4800 0    60   ~ 0
-I1
+R6
 Text Label 6500 4650 0    60   ~ 0
-V1
+R5
 Text Label 6500 4250 0    60   ~ 0
-I3
+R4
 Text Label 6500 4100 0    60   ~ 0
-V3
+R3
 Text Label 6500 3750 0    60   ~ 0
-I5
+R2
 Text Label 6500 3550 0    60   ~ 0
-V5
-Text Label 5100 5450 1    60   ~ 0
-IB
-Text Label 5250 5450 1    60   ~ 0
-VB
+R1
 Text Label 5000 4300 1    60   ~ 0
 RL
 Text Label 4700 4350 1    60   ~ 0
@@ -427,4 +354,8 @@ Wire Wire Line
 	5800 4300 5800 4550
 Wire Wire Line
 	5800 4550 5700 4550
+NoConn ~ 5500 3850
+NoConn ~ 5500 3950
+NoConn ~ 4850 3850
+NoConn ~ 4850 3950
 $EndSCHEMATC
