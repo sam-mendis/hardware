@@ -3093,7 +3093,7 @@
   (gr_text I+ (at 12.25 44.5 90) (layer F.SilkS) (tstamp 5AAEF9FE)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
-  (gr_text 20b2bb8 (at 25.5 47) (layer F.SilkS)
+  (gr_text 629bf0f (at 25.5 47) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text GND (at 30.48 53.34) (layer F.SilkS)
