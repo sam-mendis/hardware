@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 75)
+    (drawings 77)
     (tracks 90)
     (zones 0)
     (modules 25)
@@ -64,10 +64,10 @@
     (visible_elements FFFFFF7F)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
-      (usegerberextensions true)
+      (usegerberextensions false)
       (usegerberattributes true)
       (usegerberadvancedattributes true)
-      (creategerberjobfile false)
+      (creategerberjobfile true)
       (excludeedgelayer true)
       (linewidth 0.150000)
       (plotframeref false)
@@ -788,6 +788,12 @@
     )
   )
 
+  (gr_text "MRG\n~    " (at 13.75 9.75 90) (layer B.SilkS) (tstamp 5ADA2CFD)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
+  (gr_text "MRG\n~    " (at 13.75 9.75 90) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text 4I (at 1.3 8.285 90) (layer F.SilkS) (tstamp 599ECEB5)
     (effects (font (size 0.5 0.5) (thickness 0.125)))
   )

@@ -69,10 +69,10 @@
     (visible_elements FFFFFF7F)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
-      (usegerberextensions true)
+      (usegerberextensions false)
       (usegerberattributes true)
       (usegerberadvancedattributes true)
-      (creategerberjobfile false)
+      (creategerberjobfile true)
       (excludeedgelayer true)
       (linewidth 0.150000)
       (plotframeref false)
