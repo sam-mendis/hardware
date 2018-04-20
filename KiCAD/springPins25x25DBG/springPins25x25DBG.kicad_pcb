@@ -842,7 +842,7 @@
   (gr_text + (at 11.5 -7.25 90) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text b2b8b2c (at -11.5 -5.25 90) (layer F.SilkS) (tstamp 5ADA1D5C)
+  (gr_text 779dfac (at -11.5 -5.25 90) (layer F.SilkS) (tstamp 5ADA1D5C)
     (effects (font (size 1 1) (thickness 0.175)))
   )
   (gr_line (start 12.5 -12.5) (end 12.5 12.5) (layer Edge.Cuts) (width 0.15))
