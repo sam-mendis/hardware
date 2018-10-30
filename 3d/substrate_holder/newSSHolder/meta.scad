@@ -8,6 +8,8 @@ PCBShelfW=0.6;//mm, the pcb sits on this
 belowPBC=1;//mm extension below PCB
 crownFraction=0.55;//fraction of each side length to subtract to make extension corners
 
+capT = 5; //mm cap thickness
+
 solidHeight=pinsHeight;//mm above pcb for solid wall
 crownHeight=maxSubstrateThickness+0.5;//mm, corners extension above pin ends
 totalHeight=belowPBC+PCBThickness+solidHeight+crownHeight;
