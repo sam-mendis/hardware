@@ -11,3 +11,5 @@ output/
 *.ses
 *.dsn
 *.rules
+*.gcode
+*.stl
