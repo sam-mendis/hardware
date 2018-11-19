@@ -9,4 +9,4 @@ base(deviceDim);
 translate([+(deviceDim+deviceFudge)/2+wallT,0,0]) rotate([0,-90,0]) clip(deviceDim);
 translate([-(deviceDim+deviceFudge)/2-wallT,0,0]) rotate([0, 90,0]) clip(deviceDim);
 
-translate([0,0,totalHeight/2+capT-crownHeight+0.1]) rotate([180,0,0]) cap(deviceDim);
+translate([0,0,totalHeight/2+capT-crownHeight+0.1]) rotate([180,0,0]) cap(deviceDim,springs=true);
