@@ -124,14 +124,14 @@ I+
 Text GLabel 10450 1150 1    60   Input ~ 0
 V+
 $Comp
-L myParts:GREY@CHRISTOFORO.NET L1
+L logo:logo_text L1
 U 1 1 59B41702
-P 8950 7250
-F 0 "L1" H 8950 7125 60  0001 C CNN
-F 1 "GREY@CHRISTOFORO.NET" H 8950 7250 100 0000 C CNB
-F 2 "myParts:logo" H 8950 7250 60  0001 C CNN
-F 3 "" H 8950 7250 60  0001 C CNN
-	1    8950 7250
+P 9050 6800
+F 0 "L1" H 9050 6675 60  0001 C CNN
+F 1 "grey@mutovis.com" H 9000 6550 100 0000 C CNN
+F 2 "logo:logo_and_text" H 9050 6800 60  0001 C CNN
+F 3 "" H 9050 6800 60  0001 C CNN
+	1    9050 6800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -346,7 +346,7 @@ Vin
 Text Notes 9300 950  0    60   ~ 0
 External Power
 $Comp
-L Mechanical:Mounting_Hole_PAD MK1
+L Mechanical:MountingHole_Pad MK1
 U 1 1 59C916FE
 P 3300 6100
 F 0 "MK1" H 3400 6151 50  0000 L CNN
@@ -357,7 +357,7 @@ F 3 "" H 3300 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole_PAD MK2
+L Mechanical:MountingHole_Pad MK2
 U 1 1 59C91760
 P 3300 6450
 F 0 "MK2" H 3400 6501 50  0000 L CNN
@@ -878,7 +878,7 @@ V_D_EXT
 Text GLabel 1050 3350 0    60   Input ~ 0
 V_D_EXT
 $Comp
-L Connector_Specialized:Test_Point TP1
+L Connector:TestPoint TP1
 U 1 1 5A00C70E
 P 5650 6300
 F 0 "TP1" H 5708 6420 50  0000 L CNN
@@ -903,7 +903,7 @@ $EndComp
 Text GLabel 1550 3550 2    60   Input ~ 0
 ~CS0
 $Comp
-L Connector_Specialized:Test_Point TP2
+L Connector:TestPoint TP2
 U 1 1 5A00C0AD
 P 4700 1850
 F 0 "TP2" H 4758 1970 50  0000 L CNN
@@ -969,7 +969,7 @@ V-R
 Text Label 10550 6150 0    60   ~ 0
 I-R
 $Comp
-L Mechanical:Mounting_Hole MK3
+L Mechanical:MountingHole_Pad MK3
 U 1 1 5A00CBDC
 P 8800 1700
 F 0 "MK3" H 8900 1746 50  0000 L CNN
@@ -980,7 +980,7 @@ F 3 "" H 8800 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK4
+L Mechanical:MountingHole_Pad MK4
 U 1 1 5A00CCA4
 P 8800 2050
 F 0 "MK4" H 8900 2096 50  0000 L CNN
@@ -991,7 +991,7 @@ F 3 "" H 8800 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK5
+L Mechanical:MountingHole_Pad MK5
 U 1 1 5A00CCFE
 P 8800 2350
 F 0 "MK5" H 8900 2396 50  0000 L CNN
@@ -1002,7 +1002,7 @@ F 3 "" H 8800 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK6
+L Mechanical:MountingHole_Pad MK6
 U 1 1 5A00CD58
 P 8800 2650
 F 0 "MK6" H 8900 2696 50  0000 L CNN
@@ -1013,7 +1013,7 @@ F 3 "" H 8800 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK7
+L Mechanical:MountingHole_Pad MK7
 U 1 1 5A00CDAE
 P 8800 3000
 F 0 "MK7" H 8900 3046 50  0000 L CNN
@@ -1024,7 +1024,7 @@ F 3 "" H 8800 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK8
+L Mechanical:MountingHole_Pad MK8
 U 1 1 5A00CE0E
 P 8800 3300
 F 0 "MK8" H 8900 3346 50  0000 L CNN
@@ -1059,7 +1059,7 @@ $EndComp
 Wire Wire Line
 	4700 6750 4700 6450
 $Comp
-L Connector_Specialized:Screw_Terminal_01x08 J9
+L Connector:Screw_Terminal_01x08 J9
 U 1 1 5A36A6E7
 P 10150 1350
 F 0 "J9" V 10274 1296 50  0000 C CNN
@@ -1145,7 +1145,7 @@ Wire Wire Line
 	10350 3200 10350 3350
 NoConn ~ 10050 1150
 $Comp
-L Connector_Specialized:Test_Point TP3
+L Connector:TestPoint TP3
 U 1 1 5A3700D5
 P 4250 2100
 F 0 "TP3" H 4308 2220 50  0000 L CNN
@@ -1157,7 +1157,7 @@ F 4 "2293786" H 0   0   50  0001 C CNN "farnellCode"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Specialized:Test_Point TP4
+L Connector:TestPoint TP4
 U 1 1 5A370173
 P 5000 2850
 F 0 "TP4" H 5058 2970 50  0000 L CNN
@@ -1177,7 +1177,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 1200 4650 1200
 $Comp
-L Connector_Specialized:Test_Point TP5
+L Connector:TestPoint TP5
 U 1 1 5A371768
 P 5150 1200
 F 0 "TP5" H 5208 1320 50  0000 L CNN
@@ -1191,7 +1191,7 @@ $EndComp
 Text Notes 5000 3350 0    60   ~ 0
 This ADC will become ADS122C04 when it comes\nout to support analog inputs more negative than GND\nand I_sense will connect to AIN1
 $Comp
-L Connector_Specialized:Test_Point TP6
+L Connector:TestPoint TP6
 U 1 1 5A58BDB1
 P 10100 3850
 F 0 "TP6" H 10158 3970 50  0000 L CNN
@@ -1239,4 +1239,10 @@ Text Notes 10600 3050 0    50   ~ 0
 Current Sense Resistor
 Wire Wire Line
 	7250 2050 7500 2050
+NoConn ~ 8800 3400
+NoConn ~ 8800 3100
+NoConn ~ 8800 2750
+NoConn ~ 8800 2450
+NoConn ~ 8800 2150
+NoConn ~ 8800 1800
 $EndSCHEMATC

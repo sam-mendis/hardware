@@ -12,11 +12,6 @@ K MOSFET Output Photorelay 1-Form-A
 F https://www.broadcom.com/products/optocouplers/industrial-plastic/other/solid-state-relay/assr-1611-001e
 $ENDCMP
 #
-$CMP GREY@CHRISTOFORO.NET
-D Logo
-K logo
-$ENDCMP
-#
 $CMP R_Network15
 D 15 Resistor network, star topology, bussed resistors, small symbol
 K R Network star-topology
