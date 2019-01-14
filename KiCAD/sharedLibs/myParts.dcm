@@ -23,4 +23,10 @@ D Rotary switch, 4-bit encoding, grayhill 94H series
 K rotary hex
 $ENDCMP
 #
+$CMP ads122c04
+D 24-Bit, 4-Channel, 2-kSPS, Delta-Sigma ADC With I2C Interface TSSOP-16
+K ADC 24bit Sensors
+F http://www.ti.com/lit/ds/symlink/ads122c04.pdf
+$ENDCMP
+#
 #End Doc Library
