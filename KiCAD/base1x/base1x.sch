@@ -165,7 +165,7 @@ SDA
 Text GLabel 950  6600 0    60   Input ~ 0
 V_D
 $Comp
-L Connector_Generic:Conn_02x14_Odd_Even J6
+L Connector_Generic:Conn_01x14 J6
 U 1 1 59C14E79
 P 10900 5650
 F 0 "J6" H 10950 6350 50  0000 C CNN
@@ -2440,20 +2440,6 @@ NoConn ~ 11100 5350
 NoConn ~ 11100 5250
 NoConn ~ 11100 5150
 NoConn ~ 11100 5050
-NoConn ~ 10600 6350
-NoConn ~ 10600 6250
-NoConn ~ 10600 6150
-NoConn ~ 10600 6050
-NoConn ~ 10600 5950
-NoConn ~ 10600 5850
-NoConn ~ 10600 5750
-NoConn ~ 10600 5650
-NoConn ~ 10600 5550
-NoConn ~ 10600 5450
-NoConn ~ 10600 5350
-NoConn ~ 10600 5250
-NoConn ~ 10600 5150
-NoConn ~ 10600 5050
 Connection ~ 6700 6000
 Wire Wire Line
 	6300 5750 6300 5800
