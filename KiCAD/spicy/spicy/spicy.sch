@@ -1,0 +1,215 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L pspice:0 #GND01
+U 1 1 5C40D5F1
+P 3850 4300
+F 0 "#GND01" H 3850 4200 50  0001 C CNN
+F 1 "0" H 3850 4387 50  0000 C CNN
+F 2 "" H 3850 4300 50  0001 C CNN
+F 3 "~" H 3850 4300 50  0001 C CNN
+	1    3850 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:OPAMP U1
+U 1 1 5C40D75C
+P 4000 3300
+F 0 "U1" H 4341 3346 50  0000 L CNN
+F 1 "OPAMP" H 4341 3255 50  0000 L CNN
+F 2 "" H 4000 3300 50  0001 C CNN
+F 3 "~" H 4000 3300 50  0001 C CNN
+F 4 "X" H 4000 3300 50  0001 C CNN "Spice_Primitive"
+F 5 "OPAMP" H 4000 3300 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 4000 3300 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "/usr/share/kicad/library/pspice.lib" H 4000 3300 50  0001 C CNN "Spice_Lib_File"
+	1    4000 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:VSOURCE V1
+U 1 1 5C40DAB9
+P 3250 2100
+F 0 "V1" H 3478 2146 50  0000 L CNN
+F 1 "2.5" H 3478 2055 50  0000 L CNN
+F 2 "" H 3250 2100 50  0001 C CNN
+F 3 "~" H 3250 2100 50  0001 C CNN
+F 4 "V" H 3250 2100 50  0001 C CNN "Spice_Primitive"
+F 5 "dc 2.5" H 3250 2100 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 3250 2100 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    3250 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:R R2
+U 1 1 5C40DB9A
+P 5150 3550
+F 0 "R2" H 5218 3596 50  0000 L CNN
+F 1 "100k" H 5218 3505 50  0000 L CNN
+F 2 "" H 5150 3550 50  0001 C CNN
+F 3 "~" H 5150 3550 50  0001 C CNN
+F 4 "R" H 5150 3550 50  0001 C CNN "Spice_Primitive"
+F 5 "100k" H 5150 3550 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 5150 3550 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    5150 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:R R1
+U 1 1 5C40DC27
+P 4000 2650
+F 0 "R1" V 3795 2650 50  0000 C CNN
+F 1 "20" V 3886 2650 50  0000 C CNN
+F 2 "" H 4000 2650 50  0001 C CNN
+F 3 "~" H 4000 2650 50  0001 C CNN
+F 4 "R" H 4000 2650 50  0001 C CNN "Spice_Primitive"
+F 5 "20" H 4000 2650 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 4000 2650 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    4000 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 3400 3400 3400
+Wire Wire Line
+	3400 3400 3400 3350
+Wire Wire Line
+	3400 2650 3700 2650
+Wire Wire Line
+	4250 2650 4600 2650
+Wire Wire Line
+	4650 2650 4650 3300
+Wire Wire Line
+	4650 3300 4300 3300
+$Comp
+L pspice:VSOURCE V2
+U 1 1 5C40DD13
+P 4250 3950
+F 0 "V2" H 3884 3904 50  0000 R CNN
+F 1 "2.5" H 3884 3995 50  0000 R CNN
+F 2 "" H 4250 3950 50  0001 C CNN
+F 3 "~" H 4250 3950 50  0001 C CNN
+F 4 "V" H 4250 3950 50  0001 C CNN "Spice_Primitive"
+F 5 "dc 2.5" H 4250 3950 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 4250 3950 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    4250 3950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3250 1800 3650 1800
+Wire Wire Line
+	3900 2850 3900 3000
+Wire Wire Line
+	3250 2400 3250 3950
+Wire Wire Line
+	3250 3950 3850 3950
+Wire Wire Line
+	3850 3950 3850 4150
+Wire Wire Line
+	4250 4250 4250 4400
+Wire Wire Line
+	4250 4400 4000 4400
+Wire Wire Line
+	4000 4400 4000 4150
+Wire Wire Line
+	4000 4150 3850 4150
+Connection ~ 3850 4150
+Wire Wire Line
+	3850 4150 3850 4300
+Wire Wire Line
+	3900 3600 3900 3650
+Wire Wire Line
+	3900 3650 4050 3650
+Wire Wire Line
+	4050 3650 4050 3550
+Wire Wire Line
+	4050 3550 4250 3550
+Wire Wire Line
+	4250 3550 4250 3650
+Wire Wire Line
+	5150 3300 4650 3300
+Connection ~ 4650 3300
+Wire Wire Line
+	5150 3800 5150 4400
+Wire Wire Line
+	5150 4400 4250 4400
+Connection ~ 4250 4400
+$Comp
+L pspice:CAP C1
+U 1 1 5C40E9DE
+P 4350 2250
+F 0 "C1" V 4035 2250 50  0000 C CNN
+F 1 "1000p" V 4126 2250 50  0000 C CNN
+F 2 "" H 4350 2250 50  0001 C CNN
+F 3 "~" H 4350 2250 50  0001 C CNN
+F 4 "C" H 4350 2250 50  0001 C CNN "Spice_Primitive"
+F 5 "1000p" H 4350 2250 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 4350 2250 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    4350 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 1800 3650 2850
+Wire Wire Line
+	3650 2850 3900 2850
+Wire Wire Line
+	3700 2650 3700 2250
+Wire Wire Line
+	3700 2250 4100 2250
+Connection ~ 3700 2650
+Wire Wire Line
+	3700 2650 3750 2650
+Wire Wire Line
+	4600 2250 4600 2650
+Connection ~ 4600 2650
+Wire Wire Line
+	4600 2650 4650 2650
+Wire Wire Line
+	3700 3200 3050 3200
+Wire Wire Line
+	3050 3200 3050 3750
+Wire Wire Line
+	3050 3750 2800 3750
+Wire Wire Line
+	4250 4400 4250 4750
+Wire Wire Line
+	4250 4750 2800 4750
+Wire Wire Line
+	2800 3750 2800 4750
+$Comp
+L pspice:ISOURCE I1
+U 1 1 5C410A7C
+P 2100 3750
+F 0 "I1" H 2330 3796 50  0000 L CNN
+F 1 "20m" H 2330 3705 50  0000 L CNN
+F 2 "" H 2100 3750 50  0001 C CNN
+F 3 "~" H 2100 3750 50  0001 C CNN
+F 4 "I" H 2100 3750 50  0001 C CNN "Spice_Primitive"
+F 5 "dc 20m" H 2100 3750 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 2100 3750 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    2100 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 3350 3400 3350
+Connection ~ 3400 3350
+Wire Wire Line
+	3400 3350 3400 2650
+Wire Wire Line
+	2100 4150 2100 4750
+Wire Wire Line
+	2100 4750 2800 4750
+Connection ~ 2800 4750
+$EndSCHEMATC
