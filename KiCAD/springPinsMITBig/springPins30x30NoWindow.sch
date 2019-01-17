@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Specialized:Test_Point TP10
+L Connector:TestPoint TP10
 U 1 1 58E4C4C8
 P 5100 5550
 F 0 "TP10" H 5100 5850 50  0000 C BNN
@@ -26,7 +26,7 @@ F 3 "" H 5100 5550 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Specialized:Test_Point TP6
+L Connector:TestPoint TP6
 U 1 1 58E4C4F2
 P 3750 4250
 F 0 "TP6" H 3750 4550 50  0000 C BNN
@@ -37,7 +37,7 @@ F 3 "" H 3750 4250 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Specialized:Test_Point TP5
+L Connector:TestPoint TP5
 U 1 1 58E4C553
 P 3750 4100
 F 0 "TP5" H 3750 4400 50  0000 C BNN
@@ -48,7 +48,7 @@ F 3 "" H 3750 4100 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Specialized:Test_Point TP8
+L Connector:TestPoint TP8
 U 1 1 58E4C6B7
 P 3750 4800
 F 0 "TP8" H 3750 5100 50  0000 C BNN
@@ -59,7 +59,7 @@ F 3 "" H 3750 4800 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Specialized:Test_Point TP7
+L Connector:TestPoint TP7
 U 1 1 58E4C6BD
 P 3750 4650
 F 0 "TP7" H 3750 4950 50  0000 C BNN
@@ -70,7 +70,7 @@ F 3 "" H 3750 4650 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Specialized:Test_Point TP4
+L Connector:TestPoint TP4
 U 1 1 58E4C747
 P 3750 3700
 F 0 "TP4" H 3750 4000 50  0000 C BNN
@@ -81,7 +81,7 @@ F 3 "" H 3750 3700 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Specialized:Test_Point TP3
+L Connector:TestPoint TP3
 U 1 1 58E4C74D
 P 3750 3550
 F 0 "TP3" H 3750 3850 50  0000 C BNN
@@ -92,7 +92,7 @@ F 3 "" H 3750 3550 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Specialized:Test_Point TP18
+L Connector:TestPoint TP18
 U 1 1 58E4CA5F
 P 6650 4250
 F 0 "TP18" H 6650 4550 50  0000 C BNN
@@ -103,7 +103,7 @@ F 3 "" H 6650 4250 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Connector_Specialized:Test_Point TP17
+L Connector:TestPoint TP17
 U 1 1 58E4CA65
 P 6650 4100
 F 0 "TP17" H 6650 4400 50  0000 C BNN
@@ -114,7 +114,7 @@ F 3 "" H 6650 4100 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Connector_Specialized:Test_Point TP20
+L Connector:TestPoint TP20
 U 1 1 58E4CA6B
 P 6650 4800
 F 0 "TP20" H 6650 5100 50  0000 C BNN
@@ -125,7 +125,7 @@ F 3 "" H 6650 4800 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Connector_Specialized:Test_Point TP19
+L Connector:TestPoint TP19
 U 1 1 58E4CA71
 P 6650 4650
 F 0 "TP19" H 6650 4950 50  0000 C BNN
@@ -136,7 +136,7 @@ F 3 "" H 6650 4650 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Connector_Specialized:Test_Point TP16
+L Connector:TestPoint TP16
 U 1 1 58E4CA77
 P 6650 3700
 F 0 "TP16" H 6650 4000 50  0000 C BNN
@@ -147,7 +147,7 @@ F 3 "" H 6650 3700 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Connector_Specialized:Test_Point TP15
+L Connector:TestPoint TP15
 U 1 1 58E4CA7D
 P 6650 3550
 F 0 "TP15" H 6650 3850 50  0000 C BNN
@@ -158,7 +158,7 @@ F 3 "" H 6650 3550 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Connector_Specialized:Test_Point TP9
+L Connector:TestPoint TP9
 U 1 1 58E4CC43
 P 4950 2300
 F 0 "TP9" H 4950 2600 50  0000 C BNN
@@ -169,7 +169,7 @@ F 3 "" H 4950 2300 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Specialized:Test_Point TP11
+L Connector:TestPoint TP11
 U 1 1 58E4CC49
 P 5150 2300
 F 0 "TP11" H 5150 2600 50  0000 C BNN
@@ -228,15 +228,15 @@ $EndComp
 $Comp
 L Device:R R1
 U 1 1 599DBDE1
-P 4850 4400
-F 0 "R1" V 4930 4400 50  0000 C CNN
-F 1 "200k" V 4850 4400 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 4780 4400 50  0001 C CNN
-F 3 "" H 4850 4400 50  0001 C CNN
-	1    4850 4400
-	0    1    1    0   
+P 4950 4350
+F 0 "R1" V 5030 4350 50  0000 C CNN
+F 1 "200k" V 4950 4350 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4880 4350 50  0001 C CNN
+F 3 "" H 4950 4350 50  0001 C CNN
+	1    4950 4350
+	-1   0    0    1   
 $EndComp
-Text Notes 4300 4700 0    60   ~ 0
+Text Notes 4250 5000 0    60   ~ 0
 Board Type\nEncoding Resistor
 Wire Wire Line
 	6650 4800 6000 4800
@@ -305,7 +305,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 3550 3750 3550
 $Comp
-L Connector_Specialized:Test_Point TP12
+L Connector:TestPoint TP12
 U 1 1 58E4C3ED
 P 5250 5550
 F 0 "TP12" H 5250 5850 50  0000 C BNN
@@ -335,16 +335,6 @@ Wire Wire Line
 	5000 2600 5000 3950
 Wire Wire Line
 	5000 3950 4850 3950
-Wire Wire Line
-	4700 4400 4700 4250
-Wire Wire Line
-	4700 4250 4850 4250
-Wire Wire Line
-	4850 4250 4850 4150
-Wire Wire Line
-	5000 4400 5000 4050
-Wire Wire Line
-	5000 4050 4850 4050
 Text Label 3850 4800 0    60   ~ 0
 I2
 Text Label 3850 4650 0    60   ~ 0
@@ -377,9 +367,7 @@ Text Label 5100 5450 1    60   ~ 0
 IB
 Text Label 5250 5450 1    60   ~ 0
 VB
-Text Label 5000 4300 1    60   ~ 0
-RL
-Text Label 4700 4350 1    60   ~ 0
+Text Label 4950 4150 2    60   ~ 0
 RH
 Wire Wire Line
 	5350 4150 5500 4150
@@ -394,14 +382,14 @@ NoConn ~ 5500 3650
 NoConn ~ 5500 3750
 NoConn ~ 4850 3750
 $Comp
-L myParts:GREY@CHRISTOFORO.NET L1
+L logo:logo_text L1
 U 1 1 59BFB10C
-P 7950 6950
-F 0 "L1" H 7950 6825 60  0001 C CNN
-F 1 "GREY@CHRISTOFORO.NET" H 7950 6950 100 0000 C CNB
-F 2 "myParts:logo_small" H 7950 6950 60  0001 C CNN
-F 3 "" H 7950 6950 60  0001 C CNN
-	1    7950 6950
+P 8950 6750
+F 0 "L1" H 8950 6625 60  0001 C CNN
+F 1 "grey@mutovis.com" H 8950 6450 100 0000 C CNB
+F 2 "logo:text" H 8950 6750 60  0001 C CNN
+F 3 "" H 8950 6750 60  0001 C CNN
+	1    8950 6750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -418,7 +406,7 @@ $EndComp
 Wire Wire Line
 	5300 4050 5300 4550
 Wire Wire Line
-	5300 4550 5500 4550
+	5300 4550 5400 4550
 Wire Wire Line
 	5350 4150 5350 4300
 Wire Wire Line
@@ -427,4 +415,62 @@ Wire Wire Line
 	5800 4300 5800 4550
 Wire Wire Line
 	5800 4550 5700 4550
+$Comp
+L power:GND #PWR0101
+U 1 1 5C405530
+P 5400 4750
+F 0 "#PWR0101" H 5400 4500 50  0001 C CNN
+F 1 "GND" H 5405 4577 50  0000 C CNN
+F 2 "" H 5400 4750 50  0001 C CNN
+F 3 "" H 5400 4750 50  0001 C CNN
+	1    5400 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 4750 5400 4550
+Connection ~ 5400 4550
+Wire Wire Line
+	5400 4550 5500 4550
+NoConn ~ 4850 4050
+Wire Wire Line
+	4850 4150 4950 4150
+Wire Wire Line
+	4950 4150 4950 4200
+$Comp
+L power:GND #PWR0102
+U 1 1 5C4084FF
+P 4950 4600
+F 0 "#PWR0102" H 4950 4350 50  0001 C CNN
+F 1 "GND" H 4955 4427 50  0000 C CNN
+F 2 "" H 4950 4600 50  0001 C CNN
+F 3 "" H 4950 4600 50  0001 C CNN
+	1    4950 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 4500 4950 4600
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5C409C62
+P 6450 5600
+F 0 "#FLG0101" H 6450 5675 50  0001 C CNN
+F 1 "PWR_FLAG" H 6450 5774 50  0000 C CNN
+F 2 "" H 6450 5600 50  0001 C CNN
+F 3 "~" H 6450 5600 50  0001 C CNN
+	1    6450 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5C409CEC
+P 6450 5650
+F 0 "#PWR0103" H 6450 5400 50  0001 C CNN
+F 1 "GND" H 6455 5477 50  0000 C CNN
+F 2 "" H 6450 5650 50  0001 C CNN
+F 3 "" H 6450 5650 50  0001 C CNN
+	1    6450 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 5600 6450 5650
 $EndSCHEMATC
