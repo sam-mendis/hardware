@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/grey/git/mutovis/hardware/KiCAD/base1x/base1x.sch)
-    (date "Wed 16 Jan 2019 08:14:07 PM GMT")
+    (date "Thu 17 Jan 2019 07:27:23 AM GMT")
     (tool "Eeschema 5.0.2")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref L1)
       (value grey@mutovis.com)
-      (footprint logo:logo_and_text)
+      (footprint logo:text)
       (libsource (lib logo) (part logo_text) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 59B41702))
@@ -31,7 +31,7 @@
       (tstamp 59C14E89))
     (comp (ref J6)
       (value Conn_01x14_Counter_Clockwise)
-      (footprint Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical)
+      (footprint Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical)
       (fields
         (field (name farnellCode) 1593466))
       (libsource (lib Connector_Generic) (part Conn_01x14) (description "Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"))
@@ -189,7 +189,7 @@
       (tstamp 5C4B00EF))
     (comp (ref C9)
       (value 10uF)
-      (footprint Capacitor_SMD:C_1206_3216Metric)
+      (footprint Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (fields
         (field (name "farnell code") 1759453))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
@@ -197,7 +197,7 @@
       (tstamp 5C4EDB6D))
     (comp (ref C10)
       (value 10uF)
-      (footprint Capacitor_SMD:C_1206_3216Metric)
+      (footprint Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (fields
         (field (name "farnell code") 1759453))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
@@ -583,7 +583,7 @@
       (tstamp 5C67DDAF))
     (comp (ref R1)
       (value 20R)
-      (footprint Resistor_SMD:R_2010_5025Metric_Pad1.52x2.65mm_HandSolder)
+      (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (fields
         (field (name farnellCode) 1887405))
       (libsource (lib Device) (part R_Small) (description "Resistor, small symbol"))
@@ -599,7 +599,7 @@
       (tstamp 5C76645D))
     (comp (ref C15)
       (value 0.1uF)
-      (footprint Capacitor_SMD:C_1206_3216Metric)
+      (footprint Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (fields
         (field (name "farnell code") 1759297))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
@@ -607,7 +607,7 @@
       (tstamp 5CAC28A1))
     (comp (ref C18)
       (value 0.1uF)
-      (footprint Capacitor_SMD:C_1206_3216Metric)
+      (footprint Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (fields
         (field (name "farnell code") 1759297))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
@@ -615,7 +615,7 @@
       (tstamp 5CAC2D0B))
     (comp (ref C16)
       (value 0.1uF)
-      (footprint Capacitor_SMD:C_1206_3216Metric)
+      (footprint Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (fields
         (field (name "farnell code") 1759297))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
@@ -623,7 +623,7 @@
       (tstamp 5CAC2EBE))
     (comp (ref C17)
       (value 0.1uF)
-      (footprint Capacitor_SMD:C_1206_3216Metric)
+      (footprint Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (fields
         (field (name "farnell code") 1759297))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
@@ -631,7 +631,7 @@
       (tstamp 5CAC2FA2))
     (comp (ref C2)
       (value 0.1uF)
-      (footprint Capacitor_SMD:C_1206_3216Metric)
+      (footprint Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (fields
         (field (name "farnell code") 1759297))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
@@ -639,7 +639,7 @@
       (tstamp 5CAC37C9))
     (comp (ref C3)
       (value 0.1uF)
-      (footprint Capacitor_SMD:C_1206_3216Metric)
+      (footprint Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (fields
         (field (name "farnell code") 1759297))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
@@ -647,7 +647,7 @@
       (tstamp 5CAC396B))
     (comp (ref C6)
       (value 0.1uF)
-      (footprint Capacitor_SMD:C_1206_3216Metric)
+      (footprint Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (fields
         (field (name "farnell code") 1759297))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
@@ -655,7 +655,7 @@
       (tstamp 5CAC3FD3))
     (comp (ref C11)
       (value 0.1uF)
-      (footprint Capacitor_SMD:C_1206_3216Metric)
+      (footprint Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (fields
         (field (name "farnell code") 1759297))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
@@ -663,7 +663,7 @@
       (tstamp 5CAC4A07))
     (comp (ref C14)
       (value 0.1uF)
-      (footprint Capacitor_SMD:C_1206_3216Metric)
+      (footprint Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (fields
         (field (name "farnell code") 1759297))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
@@ -671,7 +671,7 @@
       (tstamp 5CAC4FC4))
     (comp (ref C8)
       (value 0.1uF)
-      (footprint Capacitor_SMD:C_1206_3216Metric)
+      (footprint Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (fields
         (field (name "farnell code") 1759297))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
@@ -679,7 +679,7 @@
       (tstamp 5CAC50BC))
     (comp (ref C7)
       (value 0.1uF)
-      (footprint Capacitor_SMD:C_1206_3216Metric)
+      (footprint Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (fields
         (field (name "farnell code") 1759297))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
@@ -687,7 +687,7 @@
       (tstamp 5CAC5275))
     (comp (ref C1)
       (value 0.1uF)
-      (footprint Capacitor_SMD:C_1206_3216Metric)
+      (footprint Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (fields
         (field (name "farnell code") 1759297))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
@@ -695,7 +695,7 @@
       (tstamp 5CAC5365))
     (comp (ref C4)
       (value 0.1uF)
-      (footprint Capacitor_SMD:C_1206_3216Metric)
+      (footprint Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (fields
         (field (name "farnell code") 1759297))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
@@ -703,7 +703,7 @@
       (tstamp 5CAC6B4E))
     (comp (ref C5)
       (value 0.1uF)
-      (footprint Capacitor_SMD:C_1206_3216Metric)
+      (footprint Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (fields
         (field (name "farnell code") 1759297))
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
