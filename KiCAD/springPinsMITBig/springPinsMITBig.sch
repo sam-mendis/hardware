@@ -392,45 +392,21 @@ F 3 "" H 8950 6750 60  0001 C CNN
 	1    8950 6750
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Jumper_NO_Small JP1
-U 1 1 59F4B423
-P 5600 4550
-F 0 "JP1" H 5600 4735 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 5600 4644 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5600 4550 50  0001 C CNN
-F 3 "" H 5600 4550 50  0001 C CNN
-	1    5600 4550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5300 4050 5300 4550
-Wire Wire Line
-	5300 4550 5400 4550
 Wire Wire Line
 	5350 4150 5350 4300
 Wire Wire Line
 	5350 4300 5800 4300
-Wire Wire Line
-	5800 4300 5800 4550
-Wire Wire Line
-	5800 4550 5700 4550
 $Comp
 L power:GND #PWR0101
 U 1 1 5C405530
-P 5400 4750
-F 0 "#PWR0101" H 5400 4500 50  0001 C CNN
-F 1 "GND" H 5405 4577 50  0000 C CNN
-F 2 "" H 5400 4750 50  0001 C CNN
-F 3 "" H 5400 4750 50  0001 C CNN
-	1    5400 4750
+P 5650 5100
+F 0 "#PWR0101" H 5650 4850 50  0001 C CNN
+F 1 "GND" H 5655 4927 50  0000 C CNN
+F 2 "" H 5650 5100 50  0001 C CNN
+F 3 "" H 5650 5100 50  0001 C CNN
+	1    5650 5100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5400 4750 5400 4550
-Connection ~ 5400 4550
-Wire Wire Line
-	5400 4550 5500 4550
 NoConn ~ 4850 4050
 Wire Wire Line
 	4850 4150 4950 4150
@@ -473,4 +449,27 @@ F 3 "" H 6450 5650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6450 5600 6450 5650
+$Comp
+L Jumper:Jumper_3_Open JP1
+U 1 1 5C41BB41
+P 5650 4950
+F 0 "JP1" H 5650 5174 50  0000 C CNN
+F 1 "Jumper_3_Open" H 5650 5083 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 5650 4950 50  0001 C CNN
+F 3 "~" H 5650 4950 50  0001 C CNN
+	1    5650 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 4950 5300 4950
+Wire Wire Line
+	5300 4050 5300 4950
+Wire Wire Line
+	5800 4700 5950 4700
+Wire Wire Line
+	5950 4700 5950 4950
+Wire Wire Line
+	5950 4950 5900 4950
+Wire Wire Line
+	5800 4300 5800 4700
 $EndSCHEMATC
