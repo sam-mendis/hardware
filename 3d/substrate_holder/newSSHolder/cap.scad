@@ -2,8 +2,8 @@ include <meta.scad>;
 
 $fn=50;
 capFit=0.4; //mm, trace a circle of this radius around the crown pieces to define the cap cutouts
-springs_length = 10; //mm
-springs_thickness = 0.6; //mm
+springs_length = 15; //mm
+springs_thickness = 1; //mm
 
 module cap(deviceDim, springs=false, clips=false){
     vDeviceDim=deviceDim+deviceFudge;
@@ -37,4 +37,4 @@ module cap(deviceDim, springs=false, clips=false){
     }
 }
 
-//rotate([180,0,0]) cap(30, springs=true);
+rotate([180,0,0]) cap(25.146, springs=false);

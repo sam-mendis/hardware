@@ -13,4 +13,4 @@ module clip ( deviceDim ) { //mm, x,y dimension of substrate, pcb
         translate([0,-clipThickness,0]) cube([innerClipLength,clipThickness+wallT,clipLength],center=true);
     }
 }
-//clip ( 28 );
+clip ( 25.146 );

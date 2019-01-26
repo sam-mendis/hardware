@@ -19,7 +19,16 @@ module base ( xyDev ) {
     xyLen=vDeviceDim+wallT*2;
     difference(){
         cube([xyLen,xyLen,totalHeight],center = true);
-        translate([0,0,belowPBC]) cube([vDeviceDim,vDeviceDim,totalHeight],center = true);
+        difference(){
+            translate([0,0,belowPBC]) cube([vDeviceDim,vDeviceDim,totalHeight],center = true);
+            chunk_width = 2;
+            chunk_outdent = 0.2;
+            chunk_height = 0.5;
+            //these parts clip in the PCB
+            translate([vDeviceDim/2-chunk_outdent,-chunk_width/2,-totalHeight/2+belowPBC+PCBThickness]) cube([xyLen,chunk_width,chunk_height],center = false);
+            rotate([0,0,180]) translate([vDeviceDim/2-chunk_outdent,-chunk_width/2,-totalHeight/2+belowPBC+PCBThickness]) cube([xyLen,chunk_width,chunk_height],center = false);
+            
+        }
         cube([vDeviceDim-2*PCBShelfW,vDeviceDim-2*PCBShelfW,totalHeight+1],center = true);
         
         translate([0,xyLen/2,totalHeight/2+(crownHeight+1)/2-crownHeight]) cube([xyLen*crownFraction,xyLen,crownHeight+1],center = true);

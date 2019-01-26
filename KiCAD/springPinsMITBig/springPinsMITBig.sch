@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:springPins30x30NoWindow-cache
+LIBS:springPinsMITBig-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -208,9 +208,10 @@ L Connector_Generic:Conn_02x06_Odd_Even J1
 U 1 1 599DB107
 P 4550 3950
 F 0 "J1" H 4450 4250 50  0000 C CNN
-F 1 "CONN_02X06" H 4550 3500 50  0000 C CNN
+F 1 "CONN_02X06" H 4550 3500 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 4550 2750 50  0001 C CNN
 F 3 "" H 4550 2750 50  0001 C CNN
+F 4 "2215306" H 4550 3950 50  0001 C CNN "Farnell code"
 	1    4550 3950
 	1    0    0    1   
 $EndComp
@@ -219,9 +220,10 @@ L Connector_Generic:Conn_02x06_Odd_Even J2
 U 1 1 599DB1BB
 P 5700 3950
 F 0 "J2" H 5600 4250 50  0000 C CNN
-F 1 "CONN_02X06" H 5700 3500 50  0000 C CNN
+F 1 "CONN_02X06" H 5700 3500 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 5700 2750 50  0001 C CNN
-F 3 "" H 5700 2750 50  0001 C CNN
+F 3 "Farnell code" H 5700 2750 50  0001 C CNN
+F 4 "2215306" H 5700 3950 50  0001 C CNN "farnell code"
 	1    5700 3950
 	1    0    0    1   
 $EndComp

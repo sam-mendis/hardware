@@ -631,7 +631,7 @@ L Regulator_Linear:LT3015xQ-2.5 U9
 U 1 1 5C46A701
 P 7950 1350
 F 0 "U9" H 7950 1717 50  0000 C CNN
-F 1 "LT3015EQ-2.5" H 7950 1626 50  0000 C CNN
+F 1 "LT3015EQ-2.5#PBF" H 7950 1626 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 7950 1000 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3015fb.pdf" H 7950 1350 50  0001 C CNN
 F 4 "584-LT3015EQ-2.5#PBF" H 0   0   50  0001 C CNN "Farnell Code"
@@ -643,7 +643,7 @@ L Regulator_Linear:LT1963AxQ-2.5 U8
 U 1 1 5C46A8FD
 P 7850 2550
 F 0 "U8" H 7850 2917 50  0000 C CNN
-F 1 "LT1963EQ-2.5" H 7850 2826 50  0000 C CNN
+F 1 "LT1963AEQ-2.5#PBF" H 7850 2826 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 7850 2100 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf" H 7850 2000 50  0001 C CNN
 F 4 "LT1963EQ-2.5#PBF-ND" H 0   0   50  0001 C CNN "Farnell Code"
@@ -1231,7 +1231,7 @@ F 0 "J17" H 3050 6350 50  0000 C CNN
 F 1 "Conn_01x03" H 2850 5950 50  0001 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 3050 6150 50  0001 C CNN
 F 3 "~" H 3050 6150 50  0001 C CNN
-F 4 "	2578712+2505013" H 0   0   50  0001 C CNN "farnell code"
+F 4 "2856616+2505013" H 0   0   50  0001 C CNN "farnell code"
 	1    3050 6150
 	0    -1   -1   0   
 $EndComp
@@ -1244,7 +1244,7 @@ F 0 "J4" H 750 5700 50  0000 C CNN
 F 1 "Conn_01x03" H 500 5250 50  0001 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 750 5450 50  0001 C CNN
 F 3 "~" H 750 5450 50  0001 C CNN
-F 4 "	2578712+2505013" H 0   0   50  0001 C CNN "farnell code"
+F 4 "2856616+2505013" H 0   0   50  0001 C CNN "farnell code"
 	1    750  5450
 	-1   0    0    1   
 $EndComp
@@ -1256,7 +1256,7 @@ F 0 "J14" V 2123 6330 50  0000 L CNN
 F 1 "Conn_01x03" V 2214 6330 50  0001 L CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 2250 6150 50  0001 C CNN
 F 3 "~" H 2250 6150 50  0001 C CNN
-F 4 "	2578712+2505013" H 0   0   50  0001 C CNN "farnell code"
+F 4 "2856616+2505013" H 0   0   50  0001 C CNN "farnell code"
 	1    2250 6150
 	0    -1   -1   0   
 $EndComp
@@ -1326,7 +1326,7 @@ F 0 "J2" V 800 4400 50  0000 C CNN
 F 1 "Conn_01x03" H 720 3966 50  0001 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 800 4200 50  0001 C CNN
 F 3 "~" H 800 4200 50  0001 C CNN
-F 4 "	2578712+2505013" H 0   0   50  0001 C CNN "farnell code"
+F 4 "2856616+2505013" H 0   0   50  0001 C CNN "farnell code"
 	1    800  4200
 	0    -1   -1   0   
 $EndComp
@@ -1480,7 +1480,7 @@ F 0 "J13" V 3766 5962 50  0000 R CNN
 F 1 "Conn_01x03" V 3675 5962 50  0001 R CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 3800 6150 50  0001 C CNN
 F 3 "~" H 3800 6150 50  0001 C CNN
-F 4 "	2578712+2505013" H 0   0   50  0001 C CNN "farnell code"
+F 4 "2856616+2505013" H 0   0   50  0001 C CNN "farnell code"
 	1    3800 6150
 	0    -1   -1   0   
 $EndComp
@@ -1496,7 +1496,7 @@ F 0 "J5" V 4000 3300 50  0000 C CNN
 F 1 "Conn_01x03" H 3920 2866 50  0001 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 4000 3100 50  0001 C CNN
 F 3 "~" H 4000 3100 50  0001 C CNN
-F 4 "	2578712+2505013" H 0   0   50  0001 C CNN "farnell code"
+F 4 "2856616+2505013" H 0   0   50  0001 C CNN "farnell code"
 	1    4000 3100
 	0    1    1    0   
 $EndComp
@@ -1508,7 +1508,7 @@ F 0 "J10" V 3600 2650 50  0000 C CNN
 F 1 "Conn_01x03" H 3520 2666 50  0001 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 3600 2900 50  0001 C CNN
 F 3 "~" H 3600 2900 50  0001 C CNN
-F 4 "	2578712+2505013" H 0   0   50  0001 C CNN "farnell code"
+F 4 "2856616+2505013" H 0   0   50  0001 C CNN "farnell code"
 	1    3600 2900
 	0    1    1    0   
 $EndComp
@@ -1520,7 +1520,7 @@ F 0 "J11" H 3920 1475 50  0000 C CNN
 F 1 "Conn_01x03" H 3920 1566 50  0001 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 4000 1800 50  0001 C CNN
 F 3 "~" H 4000 1800 50  0001 C CNN
-F 4 "	2578712+2505013" H 0   0   50  0001 C CNN "farnell code"
+F 4 "2856616+2505013" H 0   0   50  0001 C CNN "farnell code"
 	1    4000 1800
 	0    -1   -1   0   
 $EndComp
@@ -1532,7 +1532,7 @@ F 0 "J12" H 3400 2400 50  0000 C CNN
 F 1 "Conn_01x03" H 3370 1966 50  0001 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 3450 2200 50  0001 C CNN
 F 3 "~" H 3450 2200 50  0001 C CNN
-F 4 "	2578712+2505013" H 0   0   50  0001 C CNN "farnell code"
+F 4 "2856616+2505013" H 0   0   50  0001 C CNN "farnell code"
 	1    3450 2200
 	-1   0    0    1   
 $EndComp
@@ -1767,7 +1767,7 @@ F 0 "J18" H 3520 4717 50  0000 C CNN
 F 1 "Conn_01x03" H 3520 4716 50  0001 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 3600 4950 50  0001 C CNN
 F 3 "~" H 3600 4950 50  0001 C CNN
-F 4 "	2578712+2505013" H 0   0   50  0001 C CNN "farnell code"
+F 4 "2856616+2505013" H 0   0   50  0001 C CNN "farnell code"
 	1    3600 4950
 	-1   0    0    1   
 $EndComp
@@ -1781,7 +1781,7 @@ F 0 "J19" H 3520 5267 50  0000 C CNN
 F 1 "Conn_01x03" H 3520 5266 50  0001 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 3600 5500 50  0001 C CNN
 F 3 "~" H 3600 5500 50  0001 C CNN
-F 4 "	2578712+2505013" H 0   0   50  0001 C CNN "farnell code"
+F 4 "2856616+2505013" H 0   0   50  0001 C CNN "farnell code"
 	1    3600 5500
 	-1   0    0    1   
 $EndComp
@@ -2404,7 +2404,7 @@ F 0 "J20" H 2300 4150 50  0000 C CNN
 F 1 "Conn_01x03" H 2220 3716 50  0001 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 2300 3950 50  0001 C CNN
 F 3 "~" H 2300 3950 50  0001 C CNN
-F 4 "	2578712+2505013" H 0   0   50  0001 C CNN "farnell code"
+F 4 "2856616+2505013" H 0   0   50  0001 C CNN "farnell code"
 	1    2300 3950
 	0    -1   -1   0   
 $EndComp
@@ -2571,7 +2571,7 @@ F 0 "C15" V 7150 4950 50  0000 L CNN
 F 1 "0.1uF" V 7100 4700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7050 4950 50  0001 C CNN
 F 3 "" H 7050 4950 50  0001 C CNN
-F 4 "1759297" V 7050 4950 50  0001 C CNN "farnell code"
+F 4 "1759312" V 7050 4950 50  0001 C CNN "farnell code"
 	1    7050 4950
 	0    -1   -1   0   
 $EndComp
@@ -2583,7 +2583,7 @@ F 0 "C18" V 9700 4900 50  0000 L CNN
 F 1 "0.1uF" V 9650 4650 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 9600 4900 50  0001 C CNN
 F 3 "" H 9600 4900 50  0001 C CNN
-F 4 "1759297" V 9600 4900 50  0001 C CNN "farnell code"
+F 4 "1759312" V 9600 4900 50  0001 C CNN "farnell code"
 	1    9600 4900
 	0    -1   -1   0   
 $EndComp
@@ -2595,7 +2595,7 @@ F 0 "C16" V 8600 5100 50  0000 L CNN
 F 1 "0.1uF" V 8550 4850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8500 5100 50  0001 C CNN
 F 3 "" H 8500 5100 50  0001 C CNN
-F 4 "1759297" V 8500 5100 50  0001 C CNN "farnell code"
+F 4 "1759312" V 8500 5100 50  0001 C CNN "farnell code"
 	1    8500 5100
 	0    -1   -1   0   
 $EndComp
@@ -2607,7 +2607,7 @@ F 0 "C17" V 8600 5800 50  0000 L CNN
 F 1 "0.1uF" V 8550 5550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8500 5800 50  0001 C CNN
 F 3 "" H 8500 5800 50  0001 C CNN
-F 4 "1759297" V 8500 5800 50  0001 C CNN "farnell code"
+F 4 "1759312" V 8500 5800 50  0001 C CNN "farnell code"
 	1    8500 5800
 	0    -1   -1   0   
 $EndComp
@@ -2619,7 +2619,7 @@ F 0 "C2" V 1850 3300 50  0000 L CNN
 F 1 "0.1uF" V 1800 3050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1750 3300 50  0001 C CNN
 F 3 "" H 1750 3300 50  0001 C CNN
-F 4 "1759297" V 1750 3300 50  0001 C CNN "farnell code"
+F 4 "1759312" V 1750 3300 50  0001 C CNN "farnell code"
 	1    1750 3300
 	1    0    0    -1  
 $EndComp
@@ -2631,7 +2631,7 @@ F 0 "C3" V 1650 4200 50  0000 L CNN
 F 1 "0.1uF" V 1850 4200 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1750 4300 50  0001 C CNN
 F 3 "" H 1750 4300 50  0001 C CNN
-F 4 "1759297" V 1750 4300 50  0001 C CNN "farnell code"
+F 4 "1759312" V 1750 4300 50  0001 C CNN "farnell code"
 	1    1750 4300
 	1    0    0    -1  
 $EndComp
@@ -2643,7 +2643,7 @@ F 0 "C6" V 2400 4200 50  0000 L CNN
 F 1 "0.1uF" V 2600 4200 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2500 4300 50  0001 C CNN
 F 3 "" H 2500 4300 50  0001 C CNN
-F 4 "1759297" V 2500 4300 50  0001 C CNN "farnell code"
+F 4 "1759312" V 2500 4300 50  0001 C CNN "farnell code"
 	1    2500 4300
 	1    0    0    -1  
 $EndComp
@@ -2655,7 +2655,7 @@ F 0 "C11" V 4650 3800 50  0000 L CNN
 F 1 "0.1uF" V 4600 3550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4550 3800 50  0001 C CNN
 F 3 "" H 4550 3800 50  0001 C CNN
-F 4 "1759297" V 4550 3800 50  0001 C CNN "farnell code"
+F 4 "1759312" V 4550 3800 50  0001 C CNN "farnell code"
 	1    4550 3800
 	1    0    0    -1  
 $EndComp
@@ -2667,7 +2667,7 @@ F 0 "C14" H 5800 1200 50  0000 L CNN
 F 1 "0.1uF" H 5750 950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5700 1200 50  0001 C CNN
 F 3 "" H 5700 1200 50  0001 C CNN
-F 4 "1759297" V 5700 1200 50  0001 C CNN "farnell code"
+F 4 "1759312" V 5700 1200 50  0001 C CNN "farnell code"
 	1    5700 1200
 	1    0    0    -1  
 $EndComp
@@ -2679,7 +2679,7 @@ F 0 "C8" H 4200 1150 50  0000 L CNN
 F 1 "0.1uF" H 4150 1050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4100 1150 50  0001 C CNN
 F 3 "" H 4100 1150 50  0001 C CNN
-F 4 "1759297" V 4100 1150 50  0001 C CNN "farnell code"
+F 4 "1759312" V 4100 1150 50  0001 C CNN "farnell code"
 	1    4100 1150
 	1    0    0    -1  
 $EndComp
@@ -2691,7 +2691,7 @@ F 0 "C7" V 2700 1000 50  0000 L CNN
 F 1 "0.1uF" V 2650 750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2600 1000 50  0001 C CNN
 F 3 "" H 2600 1000 50  0001 C CNN
-F 4 "1759297" V 2600 1000 50  0001 C CNN "farnell code"
+F 4 "1759312" V 2600 1000 50  0001 C CNN "farnell code"
 	1    2600 1000
 	1    0    0    -1  
 $EndComp
@@ -2703,7 +2703,7 @@ F 0 "C1" V 1100 900 50  0000 L CNN
 F 1 "0.1uF" V 1050 650 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1000 900 50  0001 C CNN
 F 3 "" H 1000 900 50  0001 C CNN
-F 4 "1759297" V 1000 900 50  0001 C CNN "farnell code"
+F 4 "1759312" V 1000 900 50  0001 C CNN "farnell code"
 	1    1000 900 
 	1    0    0    -1  
 $EndComp
@@ -2715,7 +2715,7 @@ F 0 "C4" V 2000 4800 50  0000 L CNN
 F 1 "0.1uF" V 1950 4550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1900 4800 50  0001 C CNN
 F 3 "" H 1900 4800 50  0001 C CNN
-F 4 "1759297" V 1900 4800 50  0001 C CNN "farnell code"
+F 4 "1759312" V 1900 4800 50  0001 C CNN "farnell code"
 	1    1900 4800
 	0    1    1    0   
 $EndComp
@@ -2727,7 +2727,7 @@ F 0 "C5" V 2000 5600 50  0000 L CNN
 F 1 "0.1uF" V 1950 5350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1900 5600 50  0001 C CNN
 F 3 "" H 1900 5600 50  0001 C CNN
-F 4 "1759297" V 1900 5600 50  0001 C CNN "farnell code"
+F 4 "1759312" V 1900 5600 50  0001 C CNN "farnell code"
 	1    1900 5600
 	0    1    1    0   
 $EndComp

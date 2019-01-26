@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/grey/git/mutovis/hardware/KiCAD/springPinsMITBig/springPinsMITBig.sch)
-    (date "Fri 18 Jan 2019 10:43:07 AM GMT")
+    (date "Sun 20 Jan 2019 04:40:01 PM GMT")
     (tool "Eeschema 5.0.2")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -108,12 +108,17 @@
     (comp (ref J1)
       (value CONN_02X06)
       (footprint Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical)
+      (fields
+        (field (name "Farnell code") 1056021))
       (libsource (lib Connector_Generic) (part Conn_02x06_Odd_Even) (description "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
       (tstamp 599DB107))
     (comp (ref J2)
       (value CONN_02X06)
       (footprint Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical)
+      (datasheet "Farnell code")
+      (fields
+        (field (name "farnell code") 1056021))
       (libsource (lib Connector_Generic) (part Conn_02x06_Odd_Even) (description "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
       (tstamp 599DB1BB))
