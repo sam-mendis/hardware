@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/grey/git/mutovis/hardware/KiCAD/newMUX/newMUX.sch)
-    (date "Sun 27 Jan 2019 06:47:33 PM GMT")
+    (date "Sun 27 Jan 2019 08:55:36 PM GMT")
     (tool "Eeschema 5.0.2")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -201,7 +201,7 @@
       (tstamp 59B18DF3))
     (comp (ref C1)
       (value 0.1uF)
-      (footprint Capacitor_SMD:C_0805_2012Metric)
+      (footprint Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (fields
         (field (name farnellCode) 1759312))
       (libsource (lib Device) (part C) (description "Unpolarized capacitor"))
