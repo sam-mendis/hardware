@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/grey/git/mutovis/hardware/KiCAD/newMUX/newMUX.sch)
-    (date "Thu 17 Jan 2019 12:30:15 AM GMT")
+    (date "Sun 27 Jan 2019 06:47:33 PM GMT")
     (tool "Eeschema 5.0.2")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -185,17 +185,17 @@
       (tstamp 59B16E35))
     (comp (ref J2)
       (value Conn_02x06_Odd_Even)
-      (footprint Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Vertical)
+      (footprint myParts:ESQ-106-44-G-D-004)
       (fields
-        (field (name farnellCode) 1930232))
+        (field (name samtec) ESQ-106-44-G-D-004))
       (libsource (lib Connector_Generic) (part Conn_02x06_Odd_Even) (description "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
       (tstamp 59B181A3))
     (comp (ref J3)
       (value Conn_02x06_Odd_Even)
-      (footprint Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Vertical)
+      (footprint myParts:ESQ-106-44-G-D)
       (fields
-        (field (name farnellCode) 1930232))
+        (field (name FarnellPart) 1930232))
       (libsource (lib Connector_Generic) (part Conn_02x06_Odd_Even) (description "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
       (tstamp 59B18DF3))
@@ -203,7 +203,7 @@
       (value 0.1uF)
       (footprint Capacitor_SMD:C_0805_2012Metric)
       (fields
-        (field (name farnellCode) 1759143))
+        (field (name farnellCode) 1759312))
       (libsource (lib Device) (part C) (description "Unpolarized capacitor"))
       (sheetpath (names /) (tstamps /))
       (tstamp 59B1BF3F))
@@ -277,7 +277,7 @@
       (value 10K)
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (fields
-        (field (name farnellCode) 2073607))
+        (field (name farnellCode) 2826357))
       (libsource (lib Device) (part R) (description Resistor))
       (sheetpath (names /) (tstamps /))
       (tstamp 59F34C74))
@@ -285,13 +285,15 @@
       (value 330R)
       (footprint Resistor_SMD:R_Array_Convex_4x1206)
       (fields
-        (field (name farnellCode) 2352777))
+        (field (name digikey) 744C083331JPCT-ND))
       (libsource (lib Device) (part R_Pack04) (description "4 resistor network, parallel topology, DIP package"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A00668D))
     (comp (ref TP1)
       (value Test_Point)
       (footprint myParts:Test_Point_S1751-46R)
+      (fields
+        (field (name "farnell code") 2293786))
       (libsource (lib Connector) (part TestPoint) (description "test point"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A007B84))
@@ -299,7 +301,7 @@
       (value 330R)
       (footprint Resistor_SMD:R_Array_Convex_4x1206)
       (fields
-        (field (name farnellCode) 2352777))
+        (field (name digikey) 744C083331JPCT-ND))
       (libsource (lib Device) (part R_Pack04) (description "4 resistor network, parallel topology, DIP package"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5C453849))
@@ -320,10 +322,10 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5C6E9834))
     (comp (ref R4)
-      (value 660R)
+      (value 680R)
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder)
       (fields
-        (field (name farnellCode) 2073607))
+        (field (name farnellCode) 2694489))
       (libsource (lib Device) (part R) (description Resistor))
       (sheetpath (names /) (tstamps /))
       (tstamp 5C6E98BB)))

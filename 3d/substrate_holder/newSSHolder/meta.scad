@@ -1,5 +1,5 @@
 deviceFudge=0.5;//mm, fudge factor to account for printing inaccuracy, shrinkage
-PCBThickness=1.6; //mm
+PCBThickness=1.6*2; //mm
 pinRecepticalTop=5.5;//mm above pcb that the pin receptical extends
 pinsHeight=pinRecepticalTop+4.2+2;//mm above pcb, fully extended
 maxSubstrateThickness=3;//mm
