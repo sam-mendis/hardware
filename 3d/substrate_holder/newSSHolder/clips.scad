@@ -2,7 +2,7 @@ include <meta.scad>;
 
 innerClipLength = totalHeight-crownHeight+capT+deviceFudge;
 
-module clip ( deviceDim ) { //mm, x,y dimension of substrate, pcb
+module clip ( ) {
     
     clipLength=15;
     clipThickness=3;
@@ -13,4 +13,4 @@ module clip ( deviceDim ) { //mm, x,y dimension of substrate, pcb
         translate([0,-clipThickness,0]) cube([innerClipLength,clipThickness+wallT,clipLength],center=true);
     }
 }
-clip ( 25.146 );
+clip ( );
