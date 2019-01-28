@@ -7,12 +7,12 @@ $fn = 25; // circles have this many segments
 //deviceDim=25; //mm, x,y dimension of substrate, pcb, DBG
 deviceDim=25.146 - 0.146; //mm, x,y dimension of substrate, pcb, MIT, 
 
-base_thickness = 5.75; //mm
+base_thickness = 5.0; //mm
 shroud_thickness = 1.1; //mm
 shroud_height= 11; //mm from _base_ of PCB (not top)
 
 hole_d = 2;// pin hole diameter, accounting for ingress
-hole_d2 = 2.75; // pin hole diameter at base to make room for solder
+hole_d2 = 3; // pin hole diameter at base to make room for solder
 s = 1.27; //unit step
 apo = 10.573; //typical pin offset from center of board
 
