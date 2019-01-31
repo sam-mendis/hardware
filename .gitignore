@@ -13,3 +13,5 @@ output/
 *.rules
 *.gcode
 *.stl
+*-rescue.dcm
+*-rescue.lib

@@ -2,10 +2,10 @@ include <meta.scad>;
 
 $fn = 25; // circles have this many segments
 
-//deviceDim=28; //mm, x,y dimension of substrate, pcb
+deviceDim=28 - 0.146; //mm, x,y dimension of substrate, pcb, MRG
 //deviceDim=30; //mm, x,y dimension of substrate, pcb
 //deviceDim=25; //mm, x,y dimension of substrate, pcb, DBG
-deviceDim=25.146 - 0.146; //mm, x,y dimension of substrate, pcb, MIT, 
+//deviceDim=25.146 - 0.146; //mm, x,y dimension of substrate, pcb, MIT, 
 
 base_thickness = 5.0; //mm
 shroud_thickness = 1.1; //mm
@@ -14,7 +14,9 @@ shroud_height= 11; //mm from _base_ of PCB (not top)
 hole_d = 2;// pin hole diameter, accounting for ingress
 hole_d2 = 3; // pin hole diameter at base to make room for solder
 s = 1.27; //unit step
-apo = 10.573; //typical pin offset from center of board
+
+apo = 12.625; //typical pin offset from center of board, MRG
+//apo = 10.573; //typical pin offset from center of board, MIT
 
 module pin_cut(){
     cylinder(d=hole_d, h=25, center=true); translate([0,0,-base_thickness/2]) cylinder(d1=hole_d2, d2=hole_d, h=base_thickness/2);
@@ -48,37 +50,49 @@ difference(){
     translate([-apo,-s,0]) pin_cut();
         
     // pixel 1 contact pin holes
-    translate([-6,apo,0]){
+    translate([-9,apo,0]){
         translate([-s,0,0])pin_cut();
         translate([s,0,0])pin_cut();
     }
     
     // pixel 2 contact pin holes
-    translate([-6,-apo,0]){
+    translate([-9,-apo,0]){
         translate([-s,0,0])pin_cut();
         translate([s,0,0])pin_cut();
     }
     
     // pixel 3 contact pin holes
-    translate([0,apo,0]){
+    translate([-3,apo,0]){
         translate([-s,0,0]) pin_cut();
         translate([s,0,0]) pin_cut();
     }
     
     // pixel 4 contact pin holes
-    translate([0,-apo,0]){
+    translate([-3,-apo,0]){
         translate([-s,0,0]) pin_cut();
         translate([s,0,0]) pin_cut();
     }
     
     // pixel 5 contact pin holes
-    translate([6,apo,0]){
+    translate([3,apo,0]){
         translate([-s,0,0]) pin_cut();
         translate([s,0,0]) pin_cut();
     }
     
     // pixel 6 contact pin holes
-    translate([6,-apo,0]){
+    translate([3,-apo,0]){
+        translate([-s,0,0]) pin_cut();
+        translate([s,0,0]) pin_cut();
+    }
+        
+    // pixel 7 contact pin holes
+    translate([9,apo,0]){
+        translate([-s,0,0]) pin_cut();
+        translate([s,0,0]) pin_cut();
+    }
+    
+    // pixel 8 contact pin holes
+    translate([9,-apo,0]){
         translate([-s,0,0]) pin_cut();
         translate([s,0,0]) pin_cut();
     }
