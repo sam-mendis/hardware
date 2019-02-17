@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name myParts)(type KiCad)(uri "$(KIPRJMOD)/sharedLibs/myparts.pretty")(options "")(descr ""))
+  (lib (name logo)(type KiCad)(uri ${KIPRJMOD}/sharedLibs/logo.pretty)(options "")(descr ""))
+)

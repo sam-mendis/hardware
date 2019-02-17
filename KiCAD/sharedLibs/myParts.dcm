@@ -12,6 +12,12 @@ K MOSFET Output Photorelay 1-Form-A
 F https://www.broadcom.com/products/optocouplers/industrial-plastic/other/solid-state-relay/assr-1611-001e
 $ENDCMP
 #
+$CMP RJ45_LED_Shielded
+D RJ connector, 8P8C (8 positions 8 connected), two LEDs, Shielded
+K 8P8C RJ female connector led
+F ~
+$ENDCMP
+#
 $CMP R_Network15
 D 15 Resistor network, star topology, bussed resistors, small symbol
 K R Network star-topology
@@ -21,6 +27,12 @@ $ENDCMP
 $CMP SW_Grayhill_94H_Coded
 D Rotary switch, 4-bit encoding, grayhill 94H series
 K rotary hex
+$ENDCMP
+#
+$CMP UDE_PoE
+D RJ connector, 8P8C (8 positions 8 connected), two LEDs, RJ45, Shielded
+K 8P8C RJ female connector led
+F ~
 $ENDCMP
 #
 $CMP ads122c04
