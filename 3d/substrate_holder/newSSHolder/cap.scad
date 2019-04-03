@@ -38,4 +38,5 @@ module cap(deviceDim, springs=false, clips=false){
 }
 
 //rotate([180,0,0]) cap(25.146, springs=false);
-rotate([180,0,0]) cap(28, springs=false);
+//rotate([180,0,0]) cap(28, springs=false);
+rotate([180,0,0]) cap(30, springs=false);

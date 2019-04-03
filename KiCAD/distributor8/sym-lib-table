@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name distributor8-rescue)(type Legacy)(uri ${KIPRJMOD}/distributor8-rescue.lib)(options "")(descr ""))
+)
