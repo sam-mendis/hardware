@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name myParts)(type Legacy)(uri ${KIPRJMOD}/sharedLibs/myParts.lib)(options "")(descr "my parts"))
   (lib (name logo)(type Legacy)(uri ${KIPRJMOD}/sharedLibs/logo.lib)(options "")(descr logo))
+  (lib (name base1x-rescue)(type Legacy)(uri ${KIPRJMOD}/base1x-rescue.lib)(options "")(descr ""))
 )

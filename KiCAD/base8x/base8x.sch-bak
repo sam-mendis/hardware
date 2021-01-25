@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:base8x-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -123,7 +124,7 @@ A_I+
 Text GLabel 10450 1150 1    60   Input ~ 0
 A_V+
 $Comp
-L base8x-rescue:GREY@CHRISTOFORO.NET-myParts L1
+L myParts:GREY@CHRISTOFORO.NET L1
 U 1 1 59B41702
 P 8950 7250
 F 0 "L1" H 8950 7125 60  0001 C CNN
@@ -255,7 +256,7 @@ Vin
 Text Notes 9300 950  0    60   ~ 0
 External Power
 $Comp
-L base8x-rescue:Mounting_Hole_PAD-Mechanical MK1
+L Mechanical:Mounting_Hole_PAD MK1
 U 1 1 59C916FE
 P 3300 6100
 F 0 "MK1" H 3400 6151 50  0000 L CNN
@@ -266,7 +267,7 @@ F 3 "" H 3300 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base8x-rescue:Mounting_Hole_PAD-Mechanical MK2
+L Mechanical:Mounting_Hole_PAD MK2
 U 1 1 59C91760
 P 3300 6450
 F 0 "MK2" H 3400 6501 50  0000 L CNN
@@ -763,7 +764,7 @@ A_V_D_EXT
 Text GLabel 1050 3350 0    60   Input ~ 0
 A_V_D_EXT
 $Comp
-L base8x-rescue:Test_Point-Connector_Specialized TP1
+L Connector_Specialized:Test_Point TP1
 U 1 1 5A00C70E
 P 5650 6300
 F 0 "TP1" H 5708 6420 50  0000 L CNN
@@ -788,7 +789,7 @@ $EndComp
 Text GLabel 1550 3550 2    60   Input ~ 0
 ~A_CS
 $Comp
-L base8x-rescue:Test_Point-Connector_Specialized TP2
+L Connector_Specialized:Test_Point TP2
 U 1 1 5A00C0AD
 P 4700 1850
 F 0 "TP2" H 4758 1970 50  0000 L CNN
@@ -804,7 +805,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 2250 5300 2250
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK3
+L Mechanical:Mounting_Hole MK3
 U 1 1 5A00CBDC
 P 8800 1700
 F 0 "MK3" H 8900 1746 50  0000 L CNN
@@ -815,7 +816,7 @@ F 3 "" H 8800 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK4
+L Mechanical:Mounting_Hole MK4
 U 1 1 5A00CCA4
 P 8800 2050
 F 0 "MK4" H 8900 2096 50  0000 L CNN
@@ -826,7 +827,7 @@ F 3 "" H 8800 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK5
+L Mechanical:Mounting_Hole MK5
 U 1 1 5A00CCFE
 P 8800 2350
 F 0 "MK5" H 8900 2396 50  0000 L CNN
@@ -837,7 +838,7 @@ F 3 "" H 8800 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK6
+L Mechanical:Mounting_Hole MK6
 U 1 1 5A00CD58
 P 8800 2650
 F 0 "MK6" H 8900 2696 50  0000 L CNN
@@ -848,7 +849,7 @@ F 3 "" H 8800 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK7
+L Mechanical:Mounting_Hole MK7
 U 1 1 5A00CDAE
 P 8800 3000
 F 0 "MK7" H 8900 3046 50  0000 L CNN
@@ -859,7 +860,7 @@ F 3 "" H 8800 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK8
+L Mechanical:Mounting_Hole MK8
 U 1 1 5A00CE0E
 P 8800 3300
 F 0 "MK8" H 8900 3346 50  0000 L CNN
@@ -894,7 +895,7 @@ $EndComp
 Wire Wire Line
 	4700 6750 4700 6450
 $Comp
-L base8x-rescue:Screw_Terminal_01x08-Connector_Specialized J9
+L Connector_Specialized:Screw_Terminal_01x08 J9
 U 1 1 5A36A6E7
 P 10150 1350
 F 0 "J9" V 10274 1296 50  0000 C CNN
@@ -980,7 +981,7 @@ Wire Wire Line
 	10350 3200 10350 3350
 NoConn ~ 10050 1150
 $Comp
-L base8x-rescue:Test_Point-Connector_Specialized TP3
+L Connector_Specialized:Test_Point TP3
 U 1 1 5A3700D5
 P 4250 2100
 F 0 "TP3" H 4308 2220 50  0000 L CNN
@@ -992,7 +993,7 @@ F 4 "2293786" H 0   0   50  0001 C CNN "farnellCode"
 	1    0    0    -1  
 $EndComp
 $Comp
-L base8x-rescue:Test_Point-Connector_Specialized TP4
+L Connector_Specialized:Test_Point TP4
 U 1 1 5A370173
 P 5000 2850
 F 0 "TP4" H 5058 2970 50  0000 L CNN
@@ -1012,7 +1013,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 1200 4650 1200
 $Comp
-L base8x-rescue:Test_Point-Connector_Specialized TP5
+L Connector_Specialized:Test_Point TP5
 U 1 1 5A371768
 P 5150 1200
 F 0 "TP5" H 5208 1320 50  0000 L CNN
@@ -1026,7 +1027,7 @@ $EndComp
 Text Notes 5000 3350 0    60   ~ 0
 This ADC will become ADS122C04 when it comes\nout to support analog inputs more negative than GND\nand I_sense will connect to AIN1
 $Comp
-L base8x-rescue:Test_Point-Connector_Specialized TP6
+L Connector_Specialized:Test_Point TP6
 U 1 1 5A58BDB1
 P 10100 3850
 F 0 "TP6" H 10158 3970 50  0000 L CNN
@@ -1365,7 +1366,7 @@ H-G
 Text Notes -4750 5700 2    60   ~ 0
 X-H
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK10
+L Mechanical:Mounting_Hole MK10
 U 1 1 5AD7C02F
 P 900 1850
 F 0 "MK10" H 1000 1896 50  0000 L CNN
@@ -1376,7 +1377,7 @@ F 3 "" H 900 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK9
+L Mechanical:Mounting_Hole MK9
 U 1 1 5AD7C3D3
 P 900 1500
 F 0 "MK9" H 1000 1546 50  0000 L CNN
@@ -1387,7 +1388,7 @@ F 3 "" H 900 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK11
+L Mechanical:Mounting_Hole MK11
 U 1 1 5AD7C6CB
 P 900 2250
 F 0 "MK11" H 1000 2296 50  0000 L CNN
@@ -1499,7 +1500,7 @@ Connection ~ -2500 7650
 Wire Wire Line
 	-2500 7650 -2250 7650
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK12
+L Mechanical:Mounting_Hole MK12
 U 1 1 5ADAFD8A
 P 7500 4050
 F 0 "MK12" H 7600 4096 50  0000 L CNN
@@ -1510,7 +1511,7 @@ F 3 "" H 7500 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK13
+L Mechanical:Mounting_Hole MK13
 U 1 1 5ADAFF5E
 P 7500 4250
 F 0 "MK13" H 7600 4296 50  0000 L CNN
@@ -1521,7 +1522,7 @@ F 3 "" H 7500 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK14
+L Mechanical:Mounting_Hole MK14
 U 1 1 5ADAFFE2
 P 7500 4450
 F 0 "MK14" H 7600 4496 50  0000 L CNN
@@ -1532,7 +1533,7 @@ F 3 "" H 7500 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK15
+L Mechanical:Mounting_Hole MK15
 U 1 1 5ADB005C
 P 7500 4650
 F 0 "MK15" H 7600 4696 50  0000 L CNN
@@ -1543,7 +1544,7 @@ F 3 "" H 7500 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK16
+L Mechanical:Mounting_Hole MK16
 U 1 1 5ADB00DC
 P 7500 4850
 F 0 "MK16" H 7600 4896 50  0000 L CNN
@@ -1554,7 +1555,7 @@ F 3 "" H 7500 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK17
+L Mechanical:Mounting_Hole MK17
 U 1 1 5ADB015E
 P 7500 5050
 F 0 "MK17" H 7600 5096 50  0000 L CNN
@@ -1565,7 +1566,7 @@ F 3 "" H 7500 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK18
+L Mechanical:Mounting_Hole MK18
 U 1 1 5ADB01E2
 P 7500 5250
 F 0 "MK18" H 7600 5296 50  0000 L CNN
@@ -1576,7 +1577,7 @@ F 3 "" H 7500 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK19
+L Mechanical:Mounting_Hole MK19
 U 1 1 5ADB0264
 P 7500 5450
 F 0 "MK19" H 7600 5496 50  0000 L CNN
@@ -1587,7 +1588,7 @@ F 3 "" H 7500 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK20
+L Mechanical:Mounting_Hole MK20
 U 1 1 5ADB02EA
 P 7500 5650
 F 0 "MK20" H 7600 5696 50  0000 L CNN
@@ -1597,116 +1598,4 @@ F 3 "" H 7500 5650 50  0001 C CNN
 	1    7500 5650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3000 4000 3525 4000
-$Comp
-L power:GND #PWR?
-U 1 1 6011D9C9
-P 3525 4000
-F 0 "#PWR?" H 3525 3750 50  0001 C CNN
-F 1 "GND" V 3530 3872 50  0000 R CNN
-F 2 "" H 3525 4000 50  0001 C CNN
-F 3 "" H 3525 4000 50  0001 C CNN
-	1    3525 4000
-	0    -1   -1   0   
-$EndComp
-Text GLabel 2500 3900 0    50   Input ~ 0
-SDA
-$Comp
-L Connector_Generic:Conn_02x20_Odd_Even J10
-U 1 1 6010EC25
-P 2700 4700
-F 0 "J10" H 2750 5817 50  0000 C CNN
-F 1 "Conn_02x20_Odd_Even" H 2750 5726 50  0000 C CNN
-F 2 "" H 2700 4700 50  0001 C CNN
-F 3 "~" H 2700 4700 50  0001 C CNN
-	1    2700 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 60141491
-P 3200 3800
-F 0 "#PWR?" H 3200 3650 50  0001 C CNN
-F 1 "+5V" H 3215 3973 50  0000 C CNN
-F 2 "" H 3200 3800 50  0001 C CNN
-F 3 "" H 3200 3800 50  0001 C CNN
-	1    3200 3800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3000 3800 3200 3800
-Text GLabel 2500 4700 0    50   Input ~ 0
-MOSI
-Text GLabel 2500 4000 0    50   Input ~ 0
-SCL
-Text GLabel 2500 4800 0    50   Input ~ 0
-MISO
-$Comp
-L power:+3V3 #PWR?
-U 1 1 6014ED2D
-P 2250 3800
-F 0 "#PWR?" H 2250 3650 50  0001 C CNN
-F 1 "+3V3" H 2265 3973 50  0000 C CNN
-F 2 "" H 2250 3800 50  0001 C CNN
-F 3 "" H 2250 3800 50  0001 C CNN
-	1    2250 3800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2500 3800 2250 3800
-$Comp
-L power:+5V #PWR?
-U 1 1 6015FCDC
-P 3325 3900
-F 0 "#PWR?" H 3325 3750 50  0001 C CNN
-F 1 "+5V" H 3340 4073 50  0000 C CNN
-F 2 "" H 3325 3900 50  0001 C CNN
-F 3 "" H 3325 3900 50  0001 C CNN
-	1    3325 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3000 3900 3325 3900
-$Comp
-L power:GND #PWR?
-U 1 1 60165C82
-P 2250 4200
-F 0 "#PWR?" H 2250 3950 50  0001 C CNN
-F 1 "GND" V 2255 4072 50  0000 R CNN
-F 2 "" H 2250 4200 50  0001 C CNN
-F 3 "" H 2250 4200 50  0001 C CNN
-	1    2250 4200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2250 4200 2500 4200
-$Comp
-L power:GND #PWR?
-U 1 1 601731DD
-P 2375 5700
-F 0 "#PWR?" H 2375 5450 50  0001 C CNN
-F 1 "GND" V 2380 5572 50  0000 R CNN
-F 2 "" H 2375 5700 50  0001 C CNN
-F 3 "" H 2375 5700 50  0001 C CNN
-	1    2375 5700
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2500 5700 2375 5700
-$Comp
-L power:GND #PWR?
-U 1 1 60178129
-P 3200 5400
-F 0 "#PWR?" H 3200 5150 50  0001 C CNN
-F 1 "GND" V 3205 5272 50  0000 R CNN
-F 2 "" H 3200 5400 50  0001 C CNN
-F 3 "" H 3200 5400 50  0001 C CNN
-	1    3200 5400
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3000 5400 3200 5400
-Text GLabel 2500 4900 0    50   Input ~ 0
-SCLK
 $EndSCHEMATC
