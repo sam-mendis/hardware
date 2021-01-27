@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name myParts)(type Legacy)(uri ${KIPRJMOD}/sharedLibs/myParts.lib)(options "")(descr ""))
+  (lib (name logo)(type Legacy)(uri ${KIPRJMOD}/sharedLibs/logo.lib)(options "")(descr ""))
+  (lib (name newMUX-rescue)(type Legacy)(uri ${KIPRJMOD}/newMUX-rescue.lib)(options "")(descr ""))
+)
