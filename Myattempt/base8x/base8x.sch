@@ -123,7 +123,7 @@ A_I+
 Text GLabel 10450 1150 1    60   Input ~ 0
 A_V+
 $Comp
-L base8x-rescue:GREY@CHRISTOFORO.NET-myParts L1
+L base8x-rescue:GREY@CHRISTOFORO.NET-myParts-base8x-rescue L1
 U 1 1 59B41702
 P 8950 7250
 F 0 "L1" H 8950 7125 60  0001 C CNN
@@ -255,7 +255,7 @@ Vin
 Text Notes 9300 950  0    60   ~ 0
 External Power
 $Comp
-L base8x-rescue:Mounting_Hole_PAD-Mechanical MK1
+L base8x-rescue:Mounting_Hole_PAD-Mechanical-base8x-rescue MK1
 U 1 1 59C916FE
 P 3300 6100
 F 0 "MK1" H 3400 6151 50  0000 L CNN
@@ -266,7 +266,7 @@ F 3 "" H 3300 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base8x-rescue:Mounting_Hole_PAD-Mechanical MK2
+L base8x-rescue:Mounting_Hole_PAD-Mechanical-base8x-rescue MK2
 U 1 1 59C91760
 P 3300 6450
 F 0 "MK2" H 3400 6501 50  0000 L CNN
@@ -438,7 +438,7 @@ Wire Wire Line
 Text Label 700  3550 2    60   ~ 0
 Vin
 $Comp
-L myParts:ADS1115 U1
+L base8x-rescue:ADS1115-myParts U1
 U 1 1 59F73110
 P 6000 2350
 F 0 "U1" H 5450 2800 50  0000 C CNN
@@ -763,7 +763,7 @@ A_V_D_EXT
 Text GLabel 1050 3350 0    60   Input ~ 0
 A_V_D_EXT
 $Comp
-L base8x-rescue:Test_Point-Connector_Specialized TP1
+L base8x-rescue:Test_Point-Connector_Specialized-base8x-rescue TP1
 U 1 1 5A00C70E
 P 5650 6300
 F 0 "TP1" H 5708 6420 50  0000 L CNN
@@ -788,7 +788,7 @@ $EndComp
 Text GLabel 1550 3550 2    60   Input ~ 0
 ~A_CS
 $Comp
-L base8x-rescue:Test_Point-Connector_Specialized TP2
+L base8x-rescue:Test_Point-Connector_Specialized-base8x-rescue TP2
 U 1 1 5A00C0AD
 P 4700 1850
 F 0 "TP2" H 4758 1970 50  0000 L CNN
@@ -804,7 +804,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 2250 5300 2250
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK3
+L base8x-rescue:Mounting_Hole-Mechanical-base8x-rescue MK3
 U 1 1 5A00CBDC
 P 8800 1700
 F 0 "MK3" H 8900 1746 50  0000 L CNN
@@ -815,7 +815,7 @@ F 3 "" H 8800 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK4
+L base8x-rescue:Mounting_Hole-Mechanical-base8x-rescue MK4
 U 1 1 5A00CCA4
 P 8800 2050
 F 0 "MK4" H 8900 2096 50  0000 L CNN
@@ -826,7 +826,7 @@ F 3 "" H 8800 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK5
+L base8x-rescue:Mounting_Hole-Mechanical-base8x-rescue MK5
 U 1 1 5A00CCFE
 P 8800 2350
 F 0 "MK5" H 8900 2396 50  0000 L CNN
@@ -837,7 +837,7 @@ F 3 "" H 8800 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK6
+L base8x-rescue:Mounting_Hole-Mechanical-base8x-rescue MK6
 U 1 1 5A00CD58
 P 8800 2650
 F 0 "MK6" H 8900 2696 50  0000 L CNN
@@ -848,7 +848,7 @@ F 3 "" H 8800 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK7
+L base8x-rescue:Mounting_Hole-Mechanical-base8x-rescue MK7
 U 1 1 5A00CDAE
 P 8800 3000
 F 0 "MK7" H 8900 3046 50  0000 L CNN
@@ -859,7 +859,7 @@ F 3 "" H 8800 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK8
+L base8x-rescue:Mounting_Hole-Mechanical-base8x-rescue MK8
 U 1 1 5A00CE0E
 P 8800 3300
 F 0 "MK8" H 8900 3346 50  0000 L CNN
@@ -894,7 +894,7 @@ $EndComp
 Wire Wire Line
 	4700 6750 4700 6450
 $Comp
-L base8x-rescue:Screw_Terminal_01x08-Connector_Specialized J9
+L base8x-rescue:Screw_Terminal_01x08-Connector_Specialized-base8x-rescue J9
 U 1 1 5A36A6E7
 P 10150 1350
 F 0 "J9" V 10274 1296 50  0000 C CNN
@@ -980,7 +980,7 @@ Wire Wire Line
 	10350 3200 10350 3350
 NoConn ~ 10050 1150
 $Comp
-L base8x-rescue:Test_Point-Connector_Specialized TP3
+L base8x-rescue:Test_Point-Connector_Specialized-base8x-rescue TP3
 U 1 1 5A3700D5
 P 4250 2100
 F 0 "TP3" H 4308 2220 50  0000 L CNN
@@ -992,7 +992,7 @@ F 4 "2293786" H 0   0   50  0001 C CNN "farnellCode"
 	1    0    0    -1  
 $EndComp
 $Comp
-L base8x-rescue:Test_Point-Connector_Specialized TP4
+L base8x-rescue:Test_Point-Connector_Specialized-base8x-rescue TP4
 U 1 1 5A370173
 P 5000 2850
 F 0 "TP4" H 5058 2970 50  0000 L CNN
@@ -1012,7 +1012,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 1200 4650 1200
 $Comp
-L base8x-rescue:Test_Point-Connector_Specialized TP5
+L base8x-rescue:Test_Point-Connector_Specialized-base8x-rescue TP5
 U 1 1 5A371768
 P 5150 1200
 F 0 "TP5" H 5208 1320 50  0000 L CNN
@@ -1026,7 +1026,7 @@ $EndComp
 Text Notes 5000 3350 0    60   ~ 0
 This ADC will become ADS122C04 when it comes\nout to support analog inputs more negative than GND\nand I_sense will connect to AIN1
 $Comp
-L base8x-rescue:Test_Point-Connector_Specialized TP6
+L base8x-rescue:Test_Point-Connector_Specialized-base8x-rescue TP6
 U 1 1 5A58BDB1
 P 10100 3850
 F 0 "TP6" H 10158 3970 50  0000 L CNN
@@ -1074,255 +1074,6 @@ Text Notes 10600 3050 0    50   ~ 0
 Current Sense Resistor
 Wire Wire Line
 	7250 2050 7500 2050
-$Comp
-L Connector_Generic:Conn_02x14_Odd_Even J15
-U 1 1 5AD64B57
-P -400 6600
-F 0 "J15" H -350 7417 50  0000 C CNN
-F 1 "Conn_02x14_Counter_Clockwise" H -350 7326 50  0001 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x14_P2.54mm_Vertical" H -400 6600 50  0001 C CNN
-F 3 "" H -400 6600 50  0001 C CNN
-	1    -400 6600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x14_Odd_Even J14
-U 1 1 5AD64D4A
-P -1100 6600
-F 0 "J14" H -1050 7417 50  0000 C CNN
-F 1 "Conn_02x14_Counter_Clockwise" H -1050 7326 50  0001 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x14_P2.54mm_Vertical" H -1100 6600 50  0001 C CNN
-F 3 "" H -1100 6600 50  0001 C CNN
-	1    -1100 6600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x14_Odd_Even J13
-U 1 1 5AD64DC4
-P -1850 6600
-F 0 "J13" H -1800 7417 50  0000 C CNN
-F 1 "Conn_02x14_Counter_Clockwise" H -1800 7326 50  0001 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x14_P2.54mm_Vertical" H -1850 6600 50  0001 C CNN
-F 3 "" H -1850 6600 50  0001 C CNN
-	1    -1850 6600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x14_Odd_Even J12
-U 1 1 5AD64E3C
-P -2550 6600
-F 0 "J12" H -2500 7417 50  0000 C CNN
-F 1 "Conn_02x14_Counter_Clockwise" H -2500 7326 50  0001 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x14_P2.54mm_Vertical" H -2550 6600 50  0001 C CNN
-F 3 "" H -2550 6600 50  0001 C CNN
-	1    -2550 6600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x14_Odd_Even J11
-U 1 1 5AD65410
-P -3250 6600
-F 0 "J11" H -3200 7417 50  0000 C CNN
-F 1 "Conn_02x14_Counter_Clockwise" H -3200 7326 50  0001 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x14_P2.54mm_Vertical" H -3250 6600 50  0001 C CNN
-F 3 "" H -3250 6600 50  0001 C CNN
-	1    -3250 6600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x14_Odd_Even J10
-U 1 1 5AD6548A
-P -4050 6600
-F 0 "J10" H -4000 7417 50  0000 C CNN
-F 1 "Conn_02x14_Counter_Clockwise" H -4000 7326 50  0001 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x14_P2.54mm_Vertical" H -4050 6600 50  0001 C CNN
-F 3 "" H -4050 6600 50  0001 C CNN
-	1    -4050 6600
-	-1   0    0    -1  
-$EndComp
-Text Notes 0    7450 0    50   ~ 0
-B
-Text Notes -800 7450 0    50   ~ 0
-C
-Text Notes -1500 7450 0    50   ~ 0
-D
-Text Notes -2300 7450 0    50   ~ 0
-E
-Text Notes -3000 7450 0    50   ~ 0
-F
-Text Notes -3750 7450 0    50   ~ 0
-G
-Text Notes -4500 7400 0    50   ~ 0
-H
-NoConn ~ -200 6000
-NoConn ~ -200 6100
-NoConn ~ -200 6200
-NoConn ~ -200 6300
-NoConn ~ -200 6400
-NoConn ~ -200 6500
-NoConn ~ -200 6600
-NoConn ~ -200 6700
-NoConn ~ -200 6800
-NoConn ~ -200 7000
-NoConn ~ -200 7100
-NoConn ~ -200 7200
-NoConn ~ -200 7300
-NoConn ~ -700 6000
-NoConn ~ -700 6100
-NoConn ~ -700 6200
-NoConn ~ -700 6300
-NoConn ~ -700 6400
-NoConn ~ -700 6500
-NoConn ~ -700 6600
-NoConn ~ -700 6700
-NoConn ~ -700 6800
-NoConn ~ -700 7000
-NoConn ~ -700 7100
-NoConn ~ -700 7200
-NoConn ~ -700 7300
-NoConn ~ -900 6000
-NoConn ~ -900 6100
-NoConn ~ -900 6200
-NoConn ~ -900 6300
-NoConn ~ -900 6400
-NoConn ~ -900 6500
-NoConn ~ -900 6600
-NoConn ~ -900 6700
-NoConn ~ -900 6800
-NoConn ~ -900 7000
-NoConn ~ -900 7100
-NoConn ~ -900 7200
-NoConn ~ -900 7300
-NoConn ~ -1400 6000
-NoConn ~ -1400 6100
-NoConn ~ -1400 6200
-NoConn ~ -1400 6300
-NoConn ~ -1400 6400
-NoConn ~ -1400 6500
-NoConn ~ -1400 6600
-NoConn ~ -1400 6700
-NoConn ~ -1400 6800
-NoConn ~ -1400 7000
-NoConn ~ -1400 7100
-NoConn ~ -1400 7200
-NoConn ~ -1400 7300
-NoConn ~ -1650 6000
-NoConn ~ -1650 6100
-NoConn ~ -1650 6200
-NoConn ~ -1650 6300
-NoConn ~ -1650 6400
-NoConn ~ -1650 6500
-NoConn ~ -1650 6600
-NoConn ~ -1650 6700
-NoConn ~ -1650 6800
-NoConn ~ -1650 7000
-NoConn ~ -1650 7100
-NoConn ~ -1650 7200
-NoConn ~ -1650 7300
-NoConn ~ -2150 6000
-NoConn ~ -2150 6100
-NoConn ~ -2150 6200
-NoConn ~ -2150 6300
-NoConn ~ -2150 6400
-NoConn ~ -2150 6500
-NoConn ~ -2150 6600
-NoConn ~ -2150 6700
-NoConn ~ -2150 6800
-NoConn ~ -2150 7000
-NoConn ~ -2150 7100
-NoConn ~ -2150 7200
-NoConn ~ -2150 7300
-NoConn ~ -2350 6000
-NoConn ~ -2350 6100
-NoConn ~ -2350 6200
-NoConn ~ -2350 6300
-NoConn ~ -2350 6400
-NoConn ~ -2350 6500
-NoConn ~ -2350 6600
-NoConn ~ -2350 6700
-NoConn ~ -2350 6800
-NoConn ~ -2350 7000
-NoConn ~ -2350 7100
-NoConn ~ -2350 7200
-NoConn ~ -2350 7300
-NoConn ~ -2850 6000
-NoConn ~ -2850 6100
-NoConn ~ -2850 6200
-NoConn ~ -2850 6300
-NoConn ~ -2850 6400
-NoConn ~ -2850 6500
-NoConn ~ -2850 6600
-NoConn ~ -2850 6700
-NoConn ~ -2850 6800
-NoConn ~ -2850 7000
-NoConn ~ -2850 7100
-NoConn ~ -2850 7200
-NoConn ~ -2850 7300
-NoConn ~ -3050 6000
-NoConn ~ -3050 6100
-NoConn ~ -3050 6200
-NoConn ~ -3050 6300
-NoConn ~ -3050 6400
-NoConn ~ -3050 6500
-NoConn ~ -3050 6600
-NoConn ~ -3050 6700
-NoConn ~ -3050 6800
-NoConn ~ -3050 7000
-NoConn ~ -3050 7100
-NoConn ~ -3050 7200
-NoConn ~ -3050 7300
-NoConn ~ -3550 6000
-NoConn ~ -3550 6100
-NoConn ~ -3550 6200
-NoConn ~ -3550 6300
-NoConn ~ -3550 6400
-NoConn ~ -3550 6500
-NoConn ~ -3550 6600
-NoConn ~ -3550 6700
-NoConn ~ -3550 6800
-NoConn ~ -3550 7000
-NoConn ~ -3550 7100
-NoConn ~ -3550 7200
-NoConn ~ -3550 7300
-NoConn ~ -3850 6000
-NoConn ~ -3850 6100
-NoConn ~ -3850 6200
-NoConn ~ -3850 6300
-NoConn ~ -3850 6400
-NoConn ~ -3850 6500
-NoConn ~ -3850 6600
-NoConn ~ -3850 6700
-NoConn ~ -3850 6800
-NoConn ~ -3850 7000
-NoConn ~ -3850 7100
-NoConn ~ -3850 7200
-NoConn ~ -3850 7300
-NoConn ~ -4350 6000
-NoConn ~ -4350 6100
-NoConn ~ -4350 6200
-NoConn ~ -4350 6300
-NoConn ~ -4350 6400
-NoConn ~ -4350 6500
-NoConn ~ -4350 6600
-NoConn ~ -4350 6700
-NoConn ~ -4350 6800
-NoConn ~ -4350 7000
-NoConn ~ -4350 7100
-NoConn ~ -4350 7200
-NoConn ~ -4350 7300
-NoConn ~ -4600 6000
-NoConn ~ -4600 6100
-NoConn ~ -4600 6200
-NoConn ~ -4600 6300
-NoConn ~ -4600 6400
-NoConn ~ -4600 6500
-NoConn ~ -4600 6600
-NoConn ~ -4600 6700
-NoConn ~ -4600 6800
-NoConn ~ -4600 7000
-NoConn ~ -4600 7100
-NoConn ~ -4600 7200
-NoConn ~ -4600 7300
 NoConn ~ 10250 4850
 NoConn ~ 10250 4950
 NoConn ~ 10250 5050
@@ -1343,29 +1094,11 @@ NoConn ~ 1500 7300
 NoConn ~ 1500 7200
 NoConn ~ 1500 6700
 NoConn ~ 1500 7000
-NoConn ~ 1500 6900
-NoConn ~ 1500 6800
-NoConn ~ 1500 6600
-NoConn ~ 1500 6500
 NoConn ~ 1500 6400
 NoConn ~ 1500 6300
 NoConn ~ 1500 6200
-Text Notes -350 5700 2    60   ~ 0
-C-B
-Text Notes -1050 5700 2    60   ~ 0
-D-C
-Text Notes -1800 5700 2    60   ~ 0
-E-D
-Text Notes -2500 5700 2    60   ~ 0
-F-E
-Text Notes -3200 5700 2    60   ~ 0
-G-F
-Text Notes -4000 5700 2    60   ~ 0
-H-G
-Text Notes -4750 5700 2    60   ~ 0
-X-H
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK10
+L base8x-rescue:Mounting_Hole-Mechanical-base8x-rescue MK10
 U 1 1 5AD7C02F
 P 900 1850
 F 0 "MK10" H 1000 1896 50  0000 L CNN
@@ -1376,7 +1109,7 @@ F 3 "" H 900 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK9
+L base8x-rescue:Mounting_Hole-Mechanical-base8x-rescue MK9
 U 1 1 5AD7C3D3
 P 900 1500
 F 0 "MK9" H 1000 1546 50  0000 L CNN
@@ -1387,7 +1120,7 @@ F 3 "" H 900 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK11
+L base8x-rescue:Mounting_Hole-Mechanical-base8x-rescue MK11
 U 1 1 5AD7C6CB
 P 900 2250
 F 0 "MK11" H 1000 2296 50  0000 L CNN
@@ -1397,89 +1130,6 @@ F 3 "" H 900 2250 50  0001 C CNN
 	1    900  2250
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x14 J16
-U 1 1 5AD7D192
-P -4800 6600
-F 0 "J16" H -4720 6592 50  0000 L CNN
-F 1 "Conn_01x14" H -4720 6501 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical" H -4800 6600 50  0001 C CNN
-F 3 "~" H -4800 6600 50  0001 C CNN
-	1    -4800 6600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0101
-U 1 1 5AD87CB4
-P -2500 7850
-F 0 "#PWR0101" H -2500 7600 50  0001 C CNN
-F 1 "GND" H -2500 7700 50  0000 C CNN
-F 2 "" H -2500 7850 50  0000 C CNN
-F 3 "" H -2500 7850 50  0000 C CNN
-	1    -2500 7850
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	-4500 7650 -4500 6900
-Wire Wire Line
-	-4500 6900 -4600 6900
-Wire Wire Line
-	-4500 6900 -4350 6900
-Connection ~ -4500 6900
-Wire Wire Line
-	-3550 6900 -3700 6900
-Wire Wire Line
-	-3700 6900 -3700 7650
-Connection ~ -3700 7650
-Wire Wire Line
-	-3700 7650 -4500 7650
-Wire Wire Line
-	-3850 6900 -3700 6900
-Connection ~ -3700 6900
-Wire Wire Line
-	-3050 6900 -2950 6900
-Connection ~ -2950 6900
-Wire Wire Line
-	-2950 6900 -2850 6900
-Wire Wire Line
-	-2950 6900 -2950 7650
-Connection ~ -2950 7650
-Wire Wire Line
-	-2950 7650 -3700 7650
-Wire Wire Line
-	-2350 6900 -2250 6900
-Wire Wire Line
-	-100 7650 -100 6900
-Wire Wire Line
-	-100 6900 -200 6900
-Wire Wire Line
-	-700 6900 -800 6900
-Wire Wire Line
-	-800 6900 -800 7650
-Connection ~ -800 6900
-Wire Wire Line
-	-800 6900 -900 6900
-Connection ~ -800 7650
-Wire Wire Line
-	-800 7650 -100 7650
-Wire Wire Line
-	-1400 6900 -1500 6900
-Wire Wire Line
-	-1500 6900 -1500 7650
-Connection ~ -1500 6900
-Wire Wire Line
-	-1500 6900 -1650 6900
-Connection ~ -1500 7650
-Wire Wire Line
-	-1500 7650 -800 7650
-Wire Wire Line
-	-2250 6900 -2250 7650
-Connection ~ -2250 6900
-Wire Wire Line
-	-2250 6900 -2150 6900
-Connection ~ -2250 7650
-Wire Wire Line
-	-2250 7650 -1500 7650
 Wire Wire Line
 	1500 7100 1300 7100
 Wire Wire Line
@@ -1491,15 +1141,8 @@ Wire Wire Line
 Wire Wire Line
 	2500 7100 2350 7100
 Connection ~ 2350 7100
-Wire Wire Line
-	-2950 7650 -2500 7650
-Wire Wire Line
-	-2500 7850 -2500 7650
-Connection ~ -2500 7650
-Wire Wire Line
-	-2500 7650 -2250 7650
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK12
+L base8x-rescue:Mounting_Hole-Mechanical-base8x-rescue MK12
 U 1 1 5ADAFD8A
 P 7500 4050
 F 0 "MK12" H 7600 4096 50  0000 L CNN
@@ -1510,7 +1153,7 @@ F 3 "" H 7500 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK13
+L base8x-rescue:Mounting_Hole-Mechanical-base8x-rescue MK13
 U 1 1 5ADAFF5E
 P 7500 4250
 F 0 "MK13" H 7600 4296 50  0000 L CNN
@@ -1521,7 +1164,7 @@ F 3 "" H 7500 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK14
+L base8x-rescue:Mounting_Hole-Mechanical-base8x-rescue MK14
 U 1 1 5ADAFFE2
 P 7500 4450
 F 0 "MK14" H 7600 4496 50  0000 L CNN
@@ -1532,7 +1175,7 @@ F 3 "" H 7500 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK15
+L base8x-rescue:Mounting_Hole-Mechanical-base8x-rescue MK15
 U 1 1 5ADB005C
 P 7500 4650
 F 0 "MK15" H 7600 4696 50  0000 L CNN
@@ -1543,7 +1186,7 @@ F 3 "" H 7500 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK16
+L base8x-rescue:Mounting_Hole-Mechanical-base8x-rescue MK16
 U 1 1 5ADB00DC
 P 7500 4850
 F 0 "MK16" H 7600 4896 50  0000 L CNN
@@ -1554,7 +1197,7 @@ F 3 "" H 7500 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK17
+L base8x-rescue:Mounting_Hole-Mechanical-base8x-rescue MK17
 U 1 1 5ADB015E
 P 7500 5050
 F 0 "MK17" H 7600 5096 50  0000 L CNN
@@ -1565,7 +1208,7 @@ F 3 "" H 7500 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK18
+L base8x-rescue:Mounting_Hole-Mechanical-base8x-rescue MK18
 U 1 1 5ADB01E2
 P 7500 5250
 F 0 "MK18" H 7600 5296 50  0000 L CNN
@@ -1576,7 +1219,7 @@ F 3 "" H 7500 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK19
+L base8x-rescue:Mounting_Hole-Mechanical-base8x-rescue MK19
 U 1 1 5ADB0264
 P 7500 5450
 F 0 "MK19" H 7600 5496 50  0000 L CNN
@@ -1587,7 +1230,7 @@ F 3 "" H 7500 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L base8x-rescue:Mounting_Hole-Mechanical MK20
+L base8x-rescue:Mounting_Hole-Mechanical-base8x-rescue MK20
 U 1 1 5ADB02EA
 P 7500 5650
 F 0 "MK20" H 7600 5696 50  0000 L CNN
@@ -1598,36 +1241,36 @@ F 3 "" H 7500 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 4000 3525 4000
+	3050 4000 3525 4000
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0102
 U 1 1 6011D9C9
 P 3525 4000
-F 0 "#PWR?" H 3525 3750 50  0001 C CNN
+F 0 "#PWR0102" H 3525 3750 50  0001 C CNN
 F 1 "GND" V 3530 3872 50  0000 R CNN
 F 2 "" H 3525 4000 50  0001 C CNN
 F 3 "" H 3525 4000 50  0001 C CNN
 	1    3525 4000
 	0    -1   -1   0   
 $EndComp
-Text GLabel 2500 3900 0    50   Input ~ 0
+Text GLabel 2550 3900 0    50   Input ~ 0
 SDA
 $Comp
-L Connector_Generic:Conn_02x20_Odd_Even J10
+L Connector_Generic:Conn_02x20_Odd_Even Raspberry_header1
 U 1 1 6010EC25
-P 2700 4700
-F 0 "J10" H 2750 5817 50  0000 C CNN
-F 1 "Conn_02x20_Odd_Even" H 2750 5726 50  0000 C CNN
-F 2 "" H 2700 4700 50  0001 C CNN
-F 3 "~" H 2700 4700 50  0001 C CNN
-	1    2700 4700
+P 2750 4700
+F 0 "Raspberry_header1" H 2800 5817 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 2800 5726 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 2750 4700 50  0001 C CNN
+F 3 "~" H 2750 4700 50  0001 C CNN
+	1    2750 4700
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0103
 U 1 1 60141491
 P 3200 3800
-F 0 "#PWR?" H 3200 3650 50  0001 C CNN
+F 0 "#PWR0103" H 3200 3650 50  0001 C CNN
 F 1 "+5V" H 3215 3973 50  0000 C CNN
 F 2 "" H 3200 3800 50  0001 C CNN
 F 3 "" H 3200 3800 50  0001 C CNN
@@ -1635,18 +1278,18 @@ F 3 "" H 3200 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 3800 3200 3800
-Text GLabel 2500 4700 0    50   Input ~ 0
+	3050 3800 3200 3800
+Text GLabel 2550 4700 0    50   Input ~ 0
 MOSI
-Text GLabel 2500 4000 0    50   Input ~ 0
+Text GLabel 2550 4000 0    50   Input ~ 0
 SCL
-Text GLabel 2500 4800 0    50   Input ~ 0
+Text GLabel 2550 4800 0    50   Input ~ 0
 MISO
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0104
 U 1 1 6014ED2D
 P 2250 3800
-F 0 "#PWR?" H 2250 3650 50  0001 C CNN
+F 0 "#PWR0104" H 2250 3650 50  0001 C CNN
 F 1 "+3V3" H 2265 3973 50  0000 C CNN
 F 2 "" H 2250 3800 50  0001 C CNN
 F 3 "" H 2250 3800 50  0001 C CNN
@@ -1654,38 +1297,12 @@ F 3 "" H 2250 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2500 3800 2250 3800
+	2550 3800 2250 3800
 $Comp
-L power:+5V #PWR?
-U 1 1 6015FCDC
-P 3325 3900
-F 0 "#PWR?" H 3325 3750 50  0001 C CNN
-F 1 "+5V" H 3340 4073 50  0000 C CNN
-F 2 "" H 3325 3900 50  0001 C CNN
-F 3 "" H 3325 3900 50  0001 C CNN
-	1    3325 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3000 3900 3325 3900
-$Comp
-L power:GND #PWR?
-U 1 1 60165C82
-P 2250 4200
-F 0 "#PWR?" H 2250 3950 50  0001 C CNN
-F 1 "GND" V 2255 4072 50  0000 R CNN
-F 2 "" H 2250 4200 50  0001 C CNN
-F 3 "" H 2250 4200 50  0001 C CNN
-	1    2250 4200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2250 4200 2500 4200
-$Comp
-L power:GND #PWR?
+L power:GND #PWR0105
 U 1 1 601731DD
 P 2375 5700
-F 0 "#PWR?" H 2375 5450 50  0001 C CNN
+F 0 "#PWR0105" H 2375 5450 50  0001 C CNN
 F 1 "GND" V 2380 5572 50  0000 R CNN
 F 2 "" H 2375 5700 50  0001 C CNN
 F 3 "" H 2375 5700 50  0001 C CNN
@@ -1693,20 +1310,123 @@ F 3 "" H 2375 5700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2500 5700 2375 5700
+	2550 5700 2375 5700
+Text GLabel 2550 4900 0    50   Input ~ 0
+SCLK
+NoConn ~ 3050 3900
+NoConn ~ 3050 4100
+NoConn ~ 2550 4200
+NoConn ~ 2550 4300
+NoConn ~ 2550 4400
+NoConn ~ 2550 4500
+NoConn ~ 2550 4600
+NoConn ~ 2550 5000
+NoConn ~ 2550 5100
+NoConn ~ 2550 5200
+NoConn ~ 2550 5300
+NoConn ~ 2550 5400
+NoConn ~ 2550 5500
+NoConn ~ 2550 5600
+NoConn ~ 3050 4200
+NoConn ~ 3050 4300
+NoConn ~ 3050 4400
+NoConn ~ 3050 4500
+NoConn ~ 3050 4600
+NoConn ~ 3050 4700
+NoConn ~ 3050 4800
+NoConn ~ 3050 4900
+NoConn ~ 3050 5000
+NoConn ~ 3050 5100
+NoConn ~ 3050 5200
+NoConn ~ 3050 5300
+NoConn ~ 3050 5400
+NoConn ~ 3050 5500
+NoConn ~ 3050 5600
+NoConn ~ 3050 5700
+Text GLabel 1500 6500 0    50   Input ~ 0
+SDA
+Text GLabel 1500 6600 0    50   Input ~ 0
+SCL
+Text GLabel 1500 6800 0    50   Input ~ 0
+MISO
+Text GLabel 1500 6900 0    50   Input ~ 0
+MOSI
 $Comp
-L power:GND #PWR?
-U 1 1 60178129
-P 3200 5400
-F 0 "#PWR?" H 3200 5150 50  0001 C CNN
-F 1 "GND" V 3205 5272 50  0000 R CNN
-F 2 "" H 3200 5400 50  0001 C CNN
-F 3 "" H 3200 5400 50  0001 C CNN
-	1    3200 5400
-	0    -1   -1   0   
+L Connector:Conn_01x03_Female Temp_sensor1
+U 1 1 601F0A05
+P 4775 4550
+F 0 "Temp_sensor1" H 4803 4576 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 4803 4485 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 4775 4550 50  0001 C CNN
+F 3 "~" H 4775 4550 50  0001 C CNN
+	1    4775 4550
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 5400 3200 5400
-Text GLabel 2500 4900 0    50   Input ~ 0
-SCLK
+	4575 4650 4500 4650
+Wire Wire Line
+	4500 4650 4500 4825
+Wire Wire Line
+	4500 4825 4475 4825
+$Comp
+L power:GND #PWR0101
+U 1 1 601FA335
+P 4475 4825
+F 0 "#PWR0101" H 4475 4575 50  0001 C CNN
+F 1 "GND" H 4480 4652 50  0000 C CNN
+F 2 "" H 4475 4825 50  0001 C CNN
+F 3 "" H 4475 4825 50  0001 C CNN
+	1    4475 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0106
+U 1 1 601FDC1A
+P 4300 4275
+F 0 "#PWR0106" H 4300 4125 50  0001 C CNN
+F 1 "+3V3" H 4315 4448 50  0000 C CNN
+F 2 "" H 4300 4275 50  0001 C CNN
+F 3 "" H 4300 4275 50  0001 C CNN
+	1    4300 4275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R Resistor1
+U 1 1 60201E60
+P 4175 4550
+F 0 "Resistor1" H 4105 4504 50  0000 R CNN
+F 1 "4.7k" H 4105 4595 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal" V 4105 4550 50  0001 C CNN
+F 3 "~" H 4175 4550 50  0001 C CNN
+	1    4175 4550
+	-1   0    0    1   
+$EndComp
+Text GLabel 2550 4100 0    50   Input ~ 0
+CLK0
+Wire Wire Line
+	4175 4275 4300 4275
+Wire Wire Line
+	4400 4275 4400 4450
+Wire Wire Line
+	4575 4450 4400 4450
+Wire Wire Line
+	4025 4550 3850 4550
+Text GLabel 3850 4550 0    50   Input ~ 0
+CLK0
+Connection ~ 4300 4275
+Wire Wire Line
+	4300 4275 4400 4275
+Wire Wire Line
+	4175 4275 4175 4400
+Wire Wire Line
+	4575 4550 4450 4550
+Wire Wire Line
+	4450 4550 4450 4700
+Wire Wire Line
+	4450 4700 4175 4700
+Wire Wire Line
+	4175 4700 4025 4700
+Wire Wire Line
+	4025 4700 4025 4550
+Connection ~ 4175 4700
 $EndSCHEMATC
