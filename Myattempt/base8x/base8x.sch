@@ -123,17 +123,6 @@ A_I+
 Text GLabel 10450 1150 1    60   Input ~ 0
 A_V+
 $Comp
-L base8x-rescue:GREY@CHRISTOFORO.NET-myParts-base8x-rescue L1
-U 1 1 59B41702
-P 8950 7250
-F 0 "L1" H 8950 7125 60  0001 C CNN
-F 1 "GREY@CHRISTOFORO.NET" H 8950 7250 100 0000 C CNB
-F 2 "myParts:logo" H 8950 7250 60  0001 C CNN
-F 3 "" H 8950 7250 60  0001 C CNN
-	1    8950 7250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_02x14_Odd_Even J3
 U 1 1 59C14E89
 P 1800 6800
@@ -361,51 +350,40 @@ Wire Wire Line
 Wire Wire Line
 	3150 6200 3150 6600
 $Comp
-L Connector_Generic:Conn_02x06_Odd_Even J7
-U 1 1 59F46AAD
-P 6000 5350
-F 0 "J7" V 6050 5650 50  0000 C CNN
-F 1 "Conn_02x06_Counter_Clockwise" H 6050 5676 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 6000 5350 50  0001 C CNN
-F 3 "" H 6000 5350 50  0001 C CNN
-	1    6000 5350
-	0    1    -1   0   
-$EndComp
-$Comp
 L Connector_Generic:Conn_02x06_Odd_Even J8
 U 1 1 59F46B55
-P 6000 4700
-F 0 "J8" V 6050 5000 50  0000 C CNN
-F 1 "Conn_02x06_Counter_Clockwise" H 6050 5026 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 6000 4700 50  0001 C CNN
-F 3 "" H 6000 4700 50  0001 C CNN
-	1    6000 4700
+P 6525 4650
+F 0 "J8" V 6575 4950 50  0000 C CNN
+F 1 "Conn_02x06_Counter_Clockwise" H 6575 4976 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 6525 4650 50  0001 C CNN
+F 3 "" H 6525 4650 50  0001 C CNN
+	1    6525 4650
 	0    1    -1   0   
 $EndComp
-NoConn ~ 6200 4900
-NoConn ~ 6100 4900
-NoConn ~ 6000 4900
-NoConn ~ 5900 4900
-NoConn ~ 5800 4900
-NoConn ~ 5700 4900
-NoConn ~ 5700 4400
-NoConn ~ 5800 4400
-NoConn ~ 5900 4400
-NoConn ~ 6000 4400
-NoConn ~ 6100 4400
-NoConn ~ 6200 4400
-NoConn ~ 6200 5050
-NoConn ~ 6100 5050
-NoConn ~ 6000 5050
-NoConn ~ 5900 5050
-NoConn ~ 5800 5050
-NoConn ~ 5700 5050
-NoConn ~ 5700 5550
-NoConn ~ 5800 5550
-NoConn ~ 5900 5550
-NoConn ~ 6000 5550
-NoConn ~ 6100 5550
-NoConn ~ 6200 5550
+NoConn ~ 6725 4850
+NoConn ~ 6625 4850
+NoConn ~ 6525 4850
+NoConn ~ 6425 4850
+NoConn ~ 6325 4850
+NoConn ~ 6225 4850
+NoConn ~ 6225 4350
+NoConn ~ 6325 4350
+NoConn ~ 6425 4350
+NoConn ~ 6525 4350
+NoConn ~ 6625 4350
+NoConn ~ 6725 4350
+NoConn ~ 6750 5050
+NoConn ~ 6650 5050
+NoConn ~ 6550 5050
+NoConn ~ 6450 5050
+NoConn ~ 6350 5050
+NoConn ~ 6250 5050
+NoConn ~ 6250 5550
+NoConn ~ 6350 5550
+NoConn ~ 6450 5550
+NoConn ~ 6550 5550
+NoConn ~ 6650 5550
+NoConn ~ 6750 5550
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J1
 U 1 1 59F717B4
@@ -1323,7 +1301,6 @@ NoConn ~ 2550 4600
 NoConn ~ 2550 5000
 NoConn ~ 2550 5100
 NoConn ~ 2550 5200
-NoConn ~ 2550 5300
 NoConn ~ 2550 5400
 NoConn ~ 2550 5500
 NoConn ~ 2550 5600
@@ -1429,4 +1406,83 @@ Wire Wire Line
 Wire Wire Line
 	4025 4700 4025 4550
 Connection ~ 4175 4700
+$Comp
+L Relay_SolidState:34.81-7048 SSR-Ithink1
+U 1 1 6011EB5B
+P 4300 5475
+F 0 "SSR-Ithink1" H 4300 5800 50  0000 C CNN
+F 1 "34.81-7048" H 4300 5709 50  0000 C CNN
+F 2 "OptoDevice:Finder_34.81" H 4100 5275 50  0001 L CIN
+F 3 "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF" H 4300 5475 50  0001 L CNN
+	1    4300 5475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female SSR_connector1
+U 1 1 60124448
+P 5125 5375
+F 0 "SSR_connector1" H 5153 5351 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 5153 5260 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 5125 5375 50  0001 C CNN
+F 3 "~" H 5125 5375 50  0001 C CNN
+	1    5125 5375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 5575 4800 5575
+Wire Wire Line
+	4800 5575 4800 5475
+Wire Wire Line
+	4800 5475 4925 5475
+Wire Wire Line
+	4000 5575 3750 5575
+Wire Wire Line
+	3750 5575 3750 5775
+$Comp
+L power:GND #PWR0107
+U 1 1 6012CB70
+P 3750 5775
+F 0 "#PWR0107" H 3750 5525 50  0001 C CNN
+F 1 "GND" H 3755 5602 50  0000 C CNN
+F 2 "" H 3750 5775 50  0001 C CNN
+F 3 "" H 3750 5775 50  0001 C CNN
+	1    3750 5775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 5375 3875 5375
+Wire Wire Line
+	3875 5375 3875 5275
+Wire Wire Line
+	3875 5275 3800 5275
+$Comp
+L Device:R Resistor_SSR1
+U 1 1 60130DA5
+P 3650 5275
+F 0 "Resistor_SSR1" H 3580 5229 50  0000 R CNN
+F 1 "?" H 3580 5320 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal" V 3580 5275 50  0001 C CNN
+F 3 "~" H 3650 5275 50  0001 C CNN
+	1    3650 5275
+	0    1    1    0   
+$EndComp
+Text GLabel 2550 5300 0    50   Input ~ 0
+GPIO6
+Text GLabel 3450 5275 0    50   Input ~ 0
+GPIO6
+Wire Wire Line
+	3450 5275 3500 5275
+$Comp
+L Connector_Generic:Conn_02x06_Odd_Even J7
+U 1 1 59F46AAD
+P 6550 5350
+F 0 "J7" V 6600 5650 50  0000 C CNN
+F 1 "Conn_02x06_Counter_Clockwise" H 6600 5676 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 6550 5350 50  0001 C CNN
+F 3 "" H 6550 5350 50  0001 C CNN
+	1    6550 5350
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4600 5375 4925 5375
 $EndSCHEMATC

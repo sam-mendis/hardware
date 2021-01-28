@@ -1,6 +1,26 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Connector_Conn_01x02_Female
+#
+DEF Connector_Conn_01x02_Female J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Conn_01x02_Female" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
+A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
+P 2 1 1 6 -50 -100 -20 -100 N
+P 2 1 1 6 -50 0 -20 0 N
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connector_Conn_01x03_Female
 #
 DEF Connector_Conn_01x03_Female J 0 40 Y N 1 F N
@@ -402,6 +422,34 @@ X B 3 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Relay_SolidState_34.81-7048
+#
+DEF Relay_SolidState_34.81-7048 U 0 20 Y Y 1 F N
+F0 "U" -200 200 50 H V L CNN
+F1 "Relay_SolidState_34.81-7048" 0 200 50 H V L CNN
+F2 "OptoDevice:Finder_34.81" -200 -200 50 H I L CIN
+F3 "" 0 0 50 H I L CNN
+ALIAS 34.81-7048
+$FPLIST
+ Finder*34.81*
+$ENDFPLIST
+DRAW
+S -200 150 200 -150 0 1 10 f
+P 2 0 1 0 -125 -25 -75 -25 N
+P 3 0 1 20 100 75 100 -75 100 -75 N
+P 4 0 1 0 -200 100 -100 100 -100 -100 -200 -100 N
+P 4 0 1 0 -100 -25 -125 25 -75 25 -100 -25 N
+P 5 0 1 0 -20 -20 30 -20 15 -25 15 -15 30 -20 N
+P 5 0 1 0 -20 20 30 20 15 15 15 25 30 20 N
+P 5 0 1 0 120 -65 140 -45 160 -85 120 -65 120 -65 F
+P 6 0 1 0 200 100 175 100 100 25 100 -25 175 -100 200 -100 N
+X ~ 11 300 100 100 L 50 50 1 1 P
+X ~ 14 300 -100 100 L 50 50 1 1 P
+X ~ A1 -300 100 100 R 50 50 1 1 P
+X ~ A2 -300 -100 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # base8x-rescue_ADS1115-myParts
 #
 DEF base8x-rescue_ADS1115-myParts U 0 40 Y Y 1 F N
@@ -425,20 +473,6 @@ X AIN2 6 -700 -100 100 R 50 50 1 1 I
 X AIN3 7 -700 -200 100 R 50 50 1 1 I
 X VDD 8 0 500 100 D 50 50 1 1 W
 X SDA 9 700 100 100 L 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
-# base8x-rescue_GREY@CHRISTOFORO.NET-myParts-base8x-rescue
-#
-DEF base8x-rescue_GREY@CHRISTOFORO.NET-myParts-base8x-rescue L 0 0 N N 1 F N
-F0 "L" 0 -125 60 H I C CNN
-F1 "base8x-rescue_GREY@CHRISTOFORO.NET-myParts-base8x-rescue" 0 0 100 H V C CNB
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-$FPLIST
- logo
-$ENDFPLIST
-DRAW
 ENDDRAW
 ENDDEF
 #

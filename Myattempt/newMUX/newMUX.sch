@@ -112,7 +112,7 @@ F 3 "" H 2600 7500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L myParts:ASSR-1611 U8
+L newMUX-rescue:ASSR-1611-myParts U8
 U 1 1 59B12693
 P 1850 4650
 F 0 "U8" H 1650 4850 50  0000 L CNN
@@ -136,7 +136,7 @@ F 4 "1292238" H -750 150 50  0001 C CNN "farnellCode"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L myParts:ASSR-1611 U7
+L newMUX-rescue:ASSR-1611-myParts U7
 U 1 1 59B14970
 P 1850 4200
 F 0 "U7" H 1650 4400 50  0000 L CNN
@@ -148,7 +148,7 @@ F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L myParts:ASSR-1611 U10
+L newMUX-rescue:ASSR-1611-myParts U10
 U 1 1 59B15747
 P 1850 5550
 F 0 "U10" H 1650 5750 50  0000 L CNN
@@ -160,7 +160,7 @@ F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L myParts:ASSR-1611 U9
+L newMUX-rescue:ASSR-1611-myParts U9
 U 1 1 59B1574D
 P 1850 5100
 F 0 "U9" H 1650 5300 50  0000 L CNN
@@ -172,7 +172,7 @@ F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L myParts:ASSR-1611 U6
+L newMUX-rescue:ASSR-1611-myParts U6
 U 1 1 59B15786
 P 1850 3750
 F 0 "U6" H 1650 3950 50  0000 L CNN
@@ -184,7 +184,7 @@ F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L myParts:ASSR-1611 U3
+L newMUX-rescue:ASSR-1611-myParts U3
 U 1 1 59B15ABC
 P 1850 2400
 F 0 "U3" H 1650 2600 50  0000 L CNN
@@ -196,7 +196,7 @@ F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L myParts:ASSR-1611 U2
+L newMUX-rescue:ASSR-1611-myParts U2
 U 1 1 59B15AC2
 P 1850 1950
 F 0 "U2" H 1650 2150 50  0000 L CNN
@@ -208,7 +208,7 @@ F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L myParts:ASSR-1611 U5
+L newMUX-rescue:ASSR-1611-myParts U5
 U 1 1 59B15AC8
 P 1850 3300
 F 0 "U5" H 1650 3500 50  0000 L CNN
@@ -220,7 +220,7 @@ F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L myParts:ASSR-1611 U4
+L newMUX-rescue:ASSR-1611-myParts U4
 U 1 1 59B15ACE
 P 1850 2850
 F 0 "U4" H 1650 3050 50  0000 L CNN
@@ -232,7 +232,7 @@ F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L myParts:ASSR-1611 U1
+L newMUX-rescue:ASSR-1611-myParts U1
 U 1 1 59B15AD4
 P 1850 1500
 F 0 "U1" H 1650 1700 50  0000 L CNN
@@ -244,7 +244,7 @@ F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L myParts:ASSR-1611 U18
+L newMUX-rescue:ASSR-1611-myParts U18
 U 1 1 59B16DFF
 P 4050 4650
 F 0 "U18" H 3850 4850 50  0000 L CNN
@@ -256,7 +256,7 @@ F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	1    0    0    -1  
 $EndComp
 $Comp
-L myParts:ASSR-1611 U17
+L newMUX-rescue:ASSR-1611-myParts U17
 U 1 1 59B16E05
 P 4050 4200
 F 0 "U17" H 3850 4400 50  0000 L CNN
@@ -268,7 +268,7 @@ F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	1    0    0    -1  
 $EndComp
 $Comp
-L myParts:ASSR-1611 U20
+L newMUX-rescue:ASSR-1611-myParts U20
 U 1 1 59B16E0B
 P 4050 5550
 F 0 "U20" H 3850 5750 50  0000 L CNN
@@ -280,7 +280,7 @@ F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	1    0    0    -1  
 $EndComp
 $Comp
-L myParts:ASSR-1611 U19
+L newMUX-rescue:ASSR-1611-myParts U19
 U 1 1 59B16E11
 P 4050 5100
 F 0 "U19" H 3850 5300 50  0000 L CNN
@@ -292,7 +292,7 @@ F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	1    0    0    -1  
 $EndComp
 $Comp
-L myParts:ASSR-1611 U16
+L newMUX-rescue:ASSR-1611-myParts U16
 U 1 1 59B16E17
 P 4050 3750
 F 0 "U16" H 3850 3950 50  0000 L CNN
@@ -304,7 +304,7 @@ F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	1    0    0    -1  
 $EndComp
 $Comp
-L myParts:ASSR-1611 U13
+L newMUX-rescue:ASSR-1611-myParts U13
 U 1 1 59B16E1D
 P 4050 2400
 F 0 "U13" H 3850 2600 50  0000 L CNN
@@ -316,7 +316,7 @@ F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	1    0    0    -1  
 $EndComp
 $Comp
-L myParts:ASSR-1611 U12
+L newMUX-rescue:ASSR-1611-myParts U12
 U 1 1 59B16E23
 P 4050 1950
 F 0 "U12" H 3850 2150 50  0000 L CNN
@@ -328,7 +328,7 @@ F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	1    0    0    -1  
 $EndComp
 $Comp
-L myParts:ASSR-1611 U15
+L newMUX-rescue:ASSR-1611-myParts U15
 U 1 1 59B16E29
 P 4050 3300
 F 0 "U15" H 3850 3500 50  0000 L CNN
@@ -340,7 +340,7 @@ F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	1    0    0    -1  
 $EndComp
 $Comp
-L myParts:ASSR-1611 U14
+L newMUX-rescue:ASSR-1611-myParts U14
 U 1 1 59B16E2F
 P 4050 2850
 F 0 "U14" H 3850 3050 50  0000 L CNN
@@ -352,7 +352,7 @@ F 4 "1708441" H 0   0   50  0001 C CNN "farnellCode"
 	1    0    0    -1  
 $EndComp
 $Comp
-L myParts:ASSR-1611 U11
+L newMUX-rescue:ASSR-1611-myParts U11
 U 1 1 59B16E35
 P 4050 1500
 F 0 "U11" H 3850 1700 50  0000 L CNN
@@ -901,7 +901,7 @@ $EndComp
 Text GLabel 950  6500 2    60   Input ~ 0
 V_D
 $Comp
-L myParts:ASSR-1611 U21
+L newMUX-rescue:ASSR-1611-myParts U21
 U 1 1 59B306AE
 P 6050 1100
 F 0 "U21" H 5850 1300 50  0000 L CNN
@@ -1089,17 +1089,6 @@ Text Label 4650 5450 0    60   ~ 0
 IB
 Text Label 1150 5450 0    60   ~ 0
 VB
-$Comp
-L newMUX-rescue:logo_text-logo L1
-U 1 1 59B41702
-P 9000 6750
-F 0 "L1" H 9000 6625 60  0001 C CNN
-F 1 "grey@mutovis.com" H 9000 6450 100 0000 C CNB
-F 2 "logo:text" H 9000 6750 60  0001 C CNN
-F 3 "" H 9000 6750 60  0001 C CNN
-	1    9000 6750
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R3
 U 1 1 59F34C74

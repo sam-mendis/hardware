@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:newMUX-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1091,7 +1090,7 @@ IB
 Text Label 1150 5450 0    60   ~ 0
 VB
 $Comp
-L logo:logo_text L1
+L newMUX-rescue:logo_text-logo L1
 U 1 1 59B41702
 P 9000 6750
 F 0 "L1" H 9000 6625 60  0001 C CNN
