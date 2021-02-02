@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "/Users/sam/Documents/work/Finals/4th-Year/4YP/Raspberry Pi Code/Greyscode/hardware/Myattempt/base8x/base8x.sch")
-    (date "Wednesday, 27 January 2021 at 16:49:23")
+    (date "Tuesday, 02 February 2021 at 15:08:33")
     (tool "Eeschema (5.1.8-0-10_14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -15,12 +15,6 @@
         (comment (number 3) (value ""))
         (comment (number 4) (value "")))))
   (components
-    (comp (ref L1)
-      (value GREY@CHRISTOFORO.NET)
-      (footprint myParts:logo)
-      (libsource (lib base8x-rescue) (part GREY@CHRISTOFORO.NET-myParts-base8x-rescue) (description ""))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 59B41702))
     (comp (ref J3)
       (value Conn_02x14_Counter_Clockwise)
       (footprint Connector_PinSocket_2.54mm:PinSocket_2x14_P2.54mm_Vertical)
@@ -658,12 +652,6 @@
         (pin (num 8) (name VDD) (type power_in))
         (pin (num 9) (name SDA) (type BiDi))
         (pin (num 10) (name SCL) (type input))))
-    (libpart (lib base8x-rescue) (part GREY@CHRISTOFORO.NET-myParts-base8x-rescue)
-      (footprints
-        (fp logo))
-      (fields
-        (field (name Reference) L)
-        (field (name Value) GREY@CHRISTOFORO.NET-myParts-base8x-rescue)))
     (libpart (lib base8x-rescue) (part Mounting_Hole-Mechanical-base8x-rescue)
       (footprints
         (fp Mounting?Hole*)
